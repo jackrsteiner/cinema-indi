@@ -9,3 +9,9 @@ Amélie
 Blade Runner 
 Scott Pilgrim vs the World
 Midnight in Paris
+War Games
+Terminator
+Ferris Buller
+Real Genius
+Big Short
+Pirates of Silicon Valley 
