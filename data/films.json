@@ -1200,6 +1200,40 @@
     "year": 1989,
     "year_end": null
   },
+  "Howl's Moving Castle": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T11:01:42Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0347149",
+    "imdb_rating": 8.2,
+    "imdb_votes": 507343,
+    "kind": "film",
+    "list_title": "Howl's Moving Castle",
+    "metascore": 82,
+    "omdb_fetched_at": "2026-09-03T11:01:42Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTY1OTg0MjE3MV5BMl5BanBnXkFtZTcwNTUxMTkyMQ@@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.",
+    "rated": "PG",
+    "runtime_min": 119,
+    "title": "Howl's Moving Castle",
+    "total_seasons": null,
+    "year": 2004,
+    "year_end": null
+  },
   "Idiocracy": {
     "genre": [
       "Adventure",
