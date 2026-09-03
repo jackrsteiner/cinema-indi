@@ -27,6 +27,7 @@ The Chipmunk Adventure
 A Christmas Carol (1951)
 The Darjeeling Limited
 The Dark Crystal
+David the Gnome (series)
 Demolition Man
 Detroit Rock City
 Easy Rider
@@ -103,4 +104,3 @@ The Witches (1990)
 The Wizard of Oz (1939)
 A Woman Under the Influence
 The Wonder Years (1988 series)
-The World of David the Gnome (series)
