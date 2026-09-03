@@ -80,7 +80,7 @@
       return `<li data-sev="${esc(v || "")}" title="${esc(data.categories[k])}: ${esc(v || "unknown")}" aria-label="${esc(data.categories[k])}: ${esc(v || "unknown")}"><span aria-hidden="true">${esc(data.icons[k] || "")}</span></li>`;
     }).join("");
     const watched = f.watched
-      ? `<span class="chip watched" title="Watched${f.watched_on ? " on " + esc(fmtDate(f.watched_on)) : ""}">✓ ${f.watched_on ? esc(fmtDate(f.watched_on)) : "watched"}</span>`
+      ? `<span class="chip watched" title="Watched${f.watched_on ? " on " + esc(fmtDate(f.watched_on)) : ""}">${f.watched_on ? "Watched " + esc(fmtDate(f.watched_on)) : "Watched"}</span>`
       : "";
     const poster = f.poster
       ? `<img class="poster" src="${esc(f.poster)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'poster placeholder',textContent:'🎞'}))">`
