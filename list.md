@@ -38,6 +38,7 @@ Fantasia (1940)
 Ferris Bueller's Day Off
 Forrest Gump
 Freaks and Geeks (series)
+From Up on Poppy Hill
 Glory (1989)
 The Good, the Bad and the Ugly
 The Goonies
@@ -85,6 +86,7 @@ Scott Pilgrim vs. the World
 Seinfeld (series)
 Silver Spoon (2013 series)
 The Social Network
+Spirited Away
 Star Wars: Episode IV - A New Hope
 Star Wars: Episode V - The Empire Strikes Back
 Star Wars: Episode VI - Return of the Jedi
