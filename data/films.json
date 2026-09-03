@@ -1,10 +1,18 @@
 {
   "Amélie": {
+    "genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:17Z",
     "imdb_certificate": "R",
     "imdb_id": "tt0211915",
+    "imdb_rating": 8.3,
+    "imdb_votes": 839094,
     "list_title": "Amélie",
-    "omdb_fetched_at": "2026-09-03T01:14:17Z",
+    "metascore": 70,
+    "omdb_fetched_at": "2026-09-03T01:38:51Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTNmYzY0MWQtZGZmNy00Y2Y4LWFmMDQtMTZjYTdiYzEwZGQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -15,15 +23,25 @@
     },
     "plot": "Despite being caught in her imaginative world, young waitress Amelie decides to help people find happiness. Her quest to spread joy leads her on a journey during which she finds true love.",
     "rated": "R",
+    "runtime_min": 122,
     "title": "Amélie",
     "year": 2002
   },
   "Back to the Future": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:18Z",
     "imdb_certificate": "PG",
     "imdb_id": "tt0088763",
+    "imdb_rating": 8.5,
+    "imdb_votes": 1450794,
     "list_title": "Back to the Future",
-    "omdb_fetched_at": "2026-09-03T01:14:17Z",
+    "metascore": 88,
+    "omdb_fetched_at": "2026-09-03T01:38:52Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -34,15 +52,25 @@
     },
     "plot": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
     "rated": "PG",
+    "runtime_min": 116,
     "title": "Back to the Future",
     "year": 1985
   },
   "Blade Runner": {
+    "genre": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:18Z",
     "imdb_certificate": "R",
     "imdb_id": "tt0083658",
+    "imdb_rating": 8.1,
+    "imdb_votes": 876371,
     "list_title": "Blade Runner",
-    "omdb_fetched_at": "2026-09-03T01:14:18Z",
+    "metascore": 84,
+    "omdb_fetched_at": "2026-09-03T01:38:52Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOWQ4YTBmNTQtMDYxMC00NGFjLTkwOGQtNzdhNmY1Nzc1MzUxXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -53,15 +81,23 @@
     },
     "plot": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator.",
     "rated": "R",
+    "runtime_min": 117,
     "title": "Blade Runner",
     "year": 1982
   },
   "Ferris Bueller's Day Off": {
+    "genre": [
+      "Comedy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:18Z",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0091042",
+    "imdb_rating": 7.8,
+    "imdb_votes": 413405,
     "list_title": "Ferris Bueller's Day Off",
-    "omdb_fetched_at": "2026-09-03T01:14:18Z",
+    "metascore": 61,
+    "omdb_fetched_at": "2026-09-03T01:38:53Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZWYwMjUxNjMtMzE0MC00NDM3LWIxMmQtYmEyNWVjNjdlZGZjXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -72,15 +108,24 @@
     },
     "plot": "A brash, cocky high school senior, tired of skipping school to spend a boring day at home, is determined to enjoy an epic day roaring around his favorite Chicago sites, enlisting his best friend and girlfriend to join him on the a...",
     "rated": "PG-13",
+    "runtime_min": 103,
     "title": "Ferris Bueller's Day Off",
     "year": 1986
   },
   "Indiana Jones and the Last Crusade": {
+    "genre": [
+      "Action",
+      "Adventure"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:19Z",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0097576",
+    "imdb_rating": 8.2,
+    "imdb_votes": 858909,
     "list_title": "Indiana Jones and the Last Crusade",
-    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "metascore": 65,
+    "omdb_fetched_at": "2026-09-03T01:38:53Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNGIxNzQ0YzYtMjNmYi00YjBlLWFjNzEtNGE3ZGFmYTczM2MwXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -91,15 +136,24 @@
     },
     "plot": "In 1938, after his father goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against the Nazis again to stop them from obtaining its powers.",
     "rated": "PG-13",
+    "runtime_min": 127,
     "title": "Indiana Jones and the Last Crusade",
     "year": 1989
   },
   "Indiana Jones and the Temple of Doom": {
+    "genre": [
+      "Action",
+      "Adventure"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:19Z",
     "imdb_certificate": "PG",
     "imdb_id": "tt0087469",
+    "imdb_rating": 7.5,
+    "imdb_votes": 564776,
     "list_title": "Indiana Jones and the Temple of Doom",
-    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "metascore": 57,
+    "omdb_fetched_at": "2026-09-03T01:38:53Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOGUwZjZiNWQtYzAzZi00NGI5LWE4YmUtN2Y4YWMwY2RlZDkyXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -110,15 +164,25 @@
     },
     "plot": "In 1935, Indiana Jones is tasked by Indian villagers with reclaiming a sacred stone stolen from them by a secret cult.",
     "rated": "PG",
+    "runtime_min": 118,
     "title": "Indiana Jones and the Temple of Doom",
     "year": 1984
   },
   "Kiki's Delivery Service": {
+    "genre": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:22:00Z",
     "imdb_certificate": "G",
     "imdb_id": "tt0097814",
+    "imdb_rating": 7.8,
+    "imdb_votes": 185670,
     "list_title": "Kiki's Delivery Service",
-    "omdb_fetched_at": "2026-09-03T01:22:00Z",
+    "metascore": 85,
+    "omdb_fetched_at": "2026-09-03T01:38:54Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTFhYWI1NGUtZWFhZS00MTdkLWIzZTItMDBhNWNiZDNlMjYyXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "None",
@@ -129,15 +193,25 @@
     },
     "plot": "Along with her black cat Jiji, Kiki settles in a seaside town and starts a high-flying delivery service. Here begins her magical encounter with independence and responsibility, making lifelong friends and finding her place in the ...",
     "rated": "G",
+    "runtime_min": 103,
     "title": "Kiki's Delivery Service",
     "year": 1989
   },
   "Midnight in Paris": {
+    "genre": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:19Z",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1605783",
+    "imdb_rating": 7.6,
+    "imdb_votes": 469474,
     "list_title": "Midnight in Paris",
-    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "metascore": 81,
+    "omdb_fetched_at": "2026-09-03T01:38:54Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTM4NjY1MDQwMl5BMl5BanBnXkFtZTcwNTI3Njg3NA@@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -148,15 +222,25 @@
     },
     "plot": "While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s every day at midnight.",
     "rated": "PG-13",
+    "runtime_min": 94,
     "title": "Midnight in Paris",
     "year": 2011
   },
   "Muppet Treasure Island": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:22:00Z",
     "imdb_certificate": "G",
     "imdb_id": "tt0117110",
+    "imdb_rating": 6.9,
+    "imdb_votes": 28855,
     "list_title": "Muppet Treasure Island",
-    "omdb_fetched_at": "2026-09-03T01:22:00Z",
+    "metascore": 64,
+    "omdb_fetched_at": "2026-09-03T01:38:55Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZmE3MmM4NTYtM2JhYS00ZjIwLWExOTItOTI3YjI4ZDQ2NjBhXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -167,15 +251,25 @@
     },
     "plot": "The Muppets set sail in search of treasure, with Jim Hawkins and Long John Silver.",
     "rated": "G",
+    "runtime_min": 99,
     "title": "Muppet Treasure Island",
     "year": 1996
   },
   "My Neighbor Totoro": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:19Z",
     "imdb_certificate": "G",
     "imdb_id": "tt0096283",
+    "imdb_rating": 8.1,
+    "imdb_votes": 425325,
     "list_title": "My Neighbor Totoro",
-    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "metascore": 87,
+    "omdb_fetched_at": "2026-09-03T01:38:55Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYWM3MDE3YjEtMzIzZC00ODE5LTgxNTItNmUyMTBkM2M2NmNiXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "None",
@@ -186,15 +280,25 @@
     },
     "plot": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
     "rated": "G",
+    "runtime_min": 86,
     "title": "My Neighbor Totoro",
     "year": 1988
   },
   "Pirates of Silicon Valley": {
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:20Z",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0168122",
+    "imdb_rating": 7.2,
+    "imdb_votes": 25705,
     "list_title": "Pirates of Silicon Valley",
-    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T01:38:56Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNDc2NTE0NzE4N15BMl5BanBnXkFtZTgwMDQ5MzgwMzE@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -205,15 +309,25 @@
     },
     "plot": "History of Apple and Microsoft.",
     "rated": "Not Rated",
+    "runtime_min": 95,
     "title": "Pirates of Silicon Valley",
     "year": 1999
   },
   "Ponyo": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:22:01Z",
     "imdb_certificate": "G",
     "imdb_id": "tt0876563",
+    "imdb_rating": 7.6,
+    "imdb_votes": 183104,
     "list_title": "Ponyo",
-    "omdb_fetched_at": "2026-09-03T01:22:01Z",
+    "metascore": 86,
+    "omdb_fetched_at": "2026-09-03T01:38:56Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZDkzMzQ5ZmQtOTA3MC00MjhiLTk5M2UtNzk0MjEzZmVjN2UxXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "None",
@@ -224,15 +338,24 @@
     },
     "plot": "A five-year-old boy develops a relationship with Ponyo, a young goldfish princess who longs to become a human after falling in love with him.",
     "rated": "G",
+    "runtime_min": 101,
     "title": "Ponyo",
     "year": 2008
   },
   "Raiders of the Lost Ark": {
+    "genre": [
+      "Action",
+      "Adventure"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:20Z",
     "imdb_certificate": "PG",
     "imdb_id": "tt0082971",
+    "imdb_rating": 8.4,
+    "imdb_votes": 1102713,
     "list_title": "Raiders of the Lost Ark",
-    "omdb_fetched_at": "2026-09-03T01:14:20Z",
+    "metascore": 86,
+    "omdb_fetched_at": "2026-09-03T01:38:56Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOGNhMjg2ZjgtYzk4Ni00MTViLTg1MmUtYzM2MDZiYjZlMmU3XkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -243,15 +366,25 @@
     },
     "plot": "In 1936, archaeologist Indiana Jones is tasked by Army Intelligence to help locate a legendary ancient power, the Ark of Covenant, before the Nazis get it first.",
     "rated": "PG",
+    "runtime_min": 115,
     "title": "Raiders of the Lost Ark",
     "year": 1981
   },
   "Real Genius": {
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:20Z",
     "imdb_certificate": "PG",
     "imdb_id": "tt0089886",
+    "imdb_rating": 6.9,
+    "imdb_votes": 41090,
     "list_title": "Real Genius",
-    "omdb_fetched_at": "2026-09-03T01:14:20Z",
+    "metascore": 71,
+    "omdb_fetched_at": "2026-09-03T01:38:56Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNTQ5MzU3ODg0OF5BMl5BanBnXkFtZTgwODM0MzQxMDE@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -262,15 +395,25 @@
     },
     "plot": "An uptight teenage prodigy enters a top engineering college, but feels awkward among the freewheeling students. When a professor aims to turn their laser project into a military weapon, he and his offbeat roommate plot to ruin the...",
     "rated": "PG",
+    "runtime_min": 108,
     "title": "Real Genius",
     "year": 1985
   },
   "Return of the Jedi": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:20Z",
     "imdb_certificate": "PG",
     "imdb_id": "tt0086190",
+    "imdb_rating": 8.3,
+    "imdb_votes": 1200333,
     "list_title": "Return of the Jedi",
-    "omdb_fetched_at": "2026-09-03T01:14:20Z",
+    "metascore": 58,
+    "omdb_fetched_at": "2026-09-03T01:38:57Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNWEwOTI0MmUtMGNmNy00ODViLTlkZDQtZTg1YmQ3MDgyNTUzXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -281,15 +424,25 @@
     },
     "plot": "After rescuing Han Solo from Jabba the Hutt, the Rebel Alliance attempts to destroy the second Death Star while Luke struggles to help Darth Vader back from the dark side.",
     "rated": "PG",
+    "runtime_min": 131,
     "title": "Star Wars: Episode VI - Return of the Jedi",
     "year": 1983
   },
   "Scott Pilgrim vs. the World": {
+    "genre": [
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:21Z",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0446029",
+    "imdb_rating": 7.5,
+    "imdb_votes": 495847,
     "list_title": "Scott Pilgrim vs. the World",
-    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "metascore": 69,
+    "omdb_fetched_at": "2026-09-03T01:38:57Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNTA5ZWMwNmYtNWI1ZS00NDRlLTkxNzktMzdhZDU2ZDhjNDJmXkEyXkFqcGc@._V1_QL75_UY562_CR10,0,380,562_.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -300,15 +453,25 @@
     },
     "plot": "A young man must defeat his new girlfriend's seven evil exes, who are willing to do anything to prevent her happiness with someone else.",
     "rated": "PG-13",
+    "runtime_min": 112,
     "title": "Scott Pilgrim vs. the World",
     "year": 2010
   },
   "Star Wars (1977)": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:21Z",
     "imdb_certificate": "PG",
     "imdb_id": "tt0076759",
+    "imdb_rating": 8.6,
+    "imdb_votes": 1555851,
     "list_title": "Star Wars",
-    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "metascore": 90,
+    "omdb_fetched_at": "2026-09-03T01:38:57Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -319,15 +482,25 @@
     },
     "plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth ...",
     "rated": "PG",
+    "runtime_min": 121,
     "title": "Star Wars: Episode IV - A New Hope",
     "year": 1977
   },
   "The Adventures of Prince Achmed": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:21:59Z",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0015532",
+    "imdb_rating": 7.8,
+    "imdb_votes": 7520,
     "list_title": "The Adventures of Prince Achmed",
-    "omdb_fetched_at": "2026-09-03T01:21:59Z",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T01:38:51Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMDM5MWJhNTctNGI1OC00NTJlLTllM2MtNzk4NTE1MzRjNzY0XkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "None",
@@ -338,15 +511,25 @@
     },
     "plot": "A handsome prince rides a flying horse to faraway lands and embarks on magical adventures, which include befriending a witch, meeting Aladdin, battling demons and falling in love with a princess.",
     "rated": "Not Rated",
+    "runtime_min": 80,
     "title": "The Adventures of Prince Achmed",
     "year": 1926
   },
   "The Big Short": {
+    "genre": [
+      "Biography",
+      "Comedy",
+      "Drama"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:18Z",
     "imdb_certificate": "R",
     "imdb_id": "tt1596363",
+    "imdb_rating": 7.8,
+    "imdb_votes": 532875,
     "list_title": "The Big Short",
-    "omdb_fetched_at": "2026-09-03T01:14:18Z",
+    "metascore": 81,
+    "omdb_fetched_at": "2026-09-03T01:38:52Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZDZkNDQ3YjktYjBlZC00YTY1LTgxOGYtY2RhMWFhZmNkZGY3XkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -357,15 +540,25 @@
     },
     "plot": "In 2006-2007 a group of investors bet against the United States mortgage market. In their research, they discover how flawed and corrupt the market is.",
     "rated": "R",
+    "runtime_min": 130,
     "title": "The Big Short",
     "year": 2015
   },
   "The Chipmunk Adventure": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:21:59Z",
     "imdb_certificate": "G",
     "imdb_id": "tt0092752",
+    "imdb_rating": 7.2,
+    "imdb_votes": 6096,
     "list_title": "The Chipmunk Adventure",
-    "omdb_fetched_at": "2026-09-03T01:21:59Z",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T01:38:52Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMWFmYjAzOWItMTc1OC00ZTY3LTkyY2YtN2NhOGQ5MWM3MTY2XkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -376,15 +569,25 @@
     },
     "plot": "The Chipmunks compete with the Chipettes in a round-the-world race.",
     "rated": "G",
+    "runtime_min": 77,
     "title": "The Chipmunk Adventure",
     "year": 1987
   },
   "The Empire Strikes Back": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:18Z",
     "imdb_certificate": "PG",
     "imdb_id": "tt0080684",
+    "imdb_rating": 8.7,
+    "imdb_votes": 1495152,
     "list_title": "The Empire Strikes Back",
-    "omdb_fetched_at": "2026-09-03T01:14:18Z",
+    "metascore": 82,
+    "omdb_fetched_at": "2026-09-03T01:38:53Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "None",
@@ -395,15 +598,25 @@
     },
     "plot": "After the Empire overpowers the Rebel Alliance, Luke Skywalker begins training with Jedi Master Yoda, while Darth Vader and bounty hunter Boba Fett pursue his friends across the galaxy.",
     "rated": "PG",
+    "runtime_min": 124,
     "title": "Star Wars: Episode V - The Empire Strikes Back",
     "year": 1980
   },
   "The Iron Giant": {
+    "genre": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:22:00Z",
     "imdb_certificate": "PG",
     "imdb_id": "tt0129167",
+    "imdb_rating": 8.1,
+    "imdb_votes": 257198,
     "list_title": "The Iron Giant",
-    "omdb_fetched_at": "2026-09-03T01:21:59Z",
+    "metascore": 85,
+    "omdb_fetched_at": "2026-09-03T01:38:54Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BODM4ZjZjMGEtYmFiMy00MThjLWIzZjUtMDU0ODg1NTI2MzIwXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -414,15 +627,25 @@
     },
     "plot": "A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.",
     "rated": "PG",
+    "runtime_min": 86,
     "title": "The Iron Giant",
     "year": 1999
   },
   "The Land Before Time": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:19Z",
     "imdb_certificate": "G",
     "imdb_id": "tt0095489",
+    "imdb_rating": 7.4,
+    "imdb_votes": 105330,
     "list_title": "The Land Before Time",
-    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "metascore": 66,
+    "omdb_fetched_at": "2026-09-03T01:38:54Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYThiYTJkZjAtZWE1OS00YjI3LWEyZjQtZWVmMmI3NjNkYTg4XkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "None",
@@ -433,15 +656,25 @@
     },
     "plot": "An orphaned brontosaurus teams up with other young dinosaurs in order to reunite with their families in a valley.",
     "rated": "G",
+    "runtime_min": 69,
     "title": "The Land Before Time",
     "year": 1988
   },
   "The Pirates of Penzance (1983)": {
+    "genre": [
+      "Comedy",
+      "Musical",
+      "Romance"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:22:01Z",
     "imdb_certificate": "G",
     "imdb_id": "tt0086112",
+    "imdb_rating": 7.1,
+    "imdb_votes": 4021,
     "list_title": "The Pirates of Penzance",
-    "omdb_fetched_at": "2026-09-03T01:22:00Z",
+    "metascore": 66,
+    "omdb_fetched_at": "2026-09-03T01:38:55Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTBkMjFiYjctZjE0NC00MWNkLWFhYTEtYWE4MWM4ZjQ1NzIzXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "None",
@@ -452,15 +685,25 @@
     },
     "plot": "After a young man leaves a band of pirates, hilarity ensues.",
     "rated": "G",
+    "runtime_min": 112,
     "title": "The Pirates of Penzance",
     "year": 1983
   },
   "The Princess Bride": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:20Z",
     "imdb_certificate": "PG",
     "imdb_id": "tt0093779",
+    "imdb_rating": 8.0,
+    "imdb_votes": 481984,
     "list_title": "The Princess Bride",
-    "omdb_fetched_at": "2026-09-03T01:14:20Z",
+    "metascore": 78,
+    "omdb_fetched_at": "2026-09-03T01:38:56Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjFiOTEyNGMtN2E4MC00ZjZlLTk3ZDQtNTU1ZGNiZTA1MzJlXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "None",
@@ -471,15 +714,24 @@
     },
     "plot": "A bedridden boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love.",
     "rated": "PG",
+    "runtime_min": 98,
     "title": "The Princess Bride",
     "year": 1987
   },
   "The Social Network": {
+    "genre": [
+      "Biography",
+      "Drama"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:21Z",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1285016",
+    "imdb_rating": 7.8,
+    "imdb_votes": 812001,
     "list_title": "The Social Network",
-    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "metascore": 95,
+    "omdb_fetched_at": "2026-09-03T01:38:57Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Moderate",
@@ -490,15 +742,25 @@
     },
     "plot": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business.",
     "rated": "PG-13",
+    "runtime_min": 120,
     "title": "The Social Network",
     "year": 2010
   },
   "The Terminator": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:21Z",
     "imdb_certificate": "R",
     "imdb_id": "tt0088247",
+    "imdb_rating": 8.1,
+    "imdb_votes": 996325,
     "list_title": "The Terminator",
-    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "metascore": 84,
+    "omdb_fetched_at": "2026-09-03T01:38:58Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -509,15 +771,24 @@
     },
     "plot": "A cyborg assassin from the future attempts to find and kill a young woman who is destined to give birth to a warrior that will lead a resistance to save humankind from extinction.",
     "rated": "R",
+    "runtime_min": 107,
     "title": "The Terminator",
     "year": 1984
   },
   "True Grit (2010)": {
+    "genre": [
+      "Drama",
+      "Western"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:21Z",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1403865",
+    "imdb_rating": 7.6,
+    "imdb_votes": 370062,
     "list_title": "True Grit",
-    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "metascore": 80,
+    "omdb_fetched_at": "2026-09-03T01:38:58Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTU5MjU3MTI4OF5BMl5BanBnXkFtZTcwMTQxOTAxNA@@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -528,15 +799,25 @@
     },
     "plot": "A stubborn teenager enlists the help of a tough U.S. Marshal to track down her father's murderer.",
     "rated": "PG-13",
+    "runtime_min": 110,
     "title": "True Grit",
     "year": 2010
   },
   "Up (2009)": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:22:01Z",
     "imdb_certificate": "PG",
     "imdb_id": "tt1049413",
+    "imdb_rating": 8.3,
+    "imdb_votes": 1225827,
     "list_title": "Up",
-    "omdb_fetched_at": "2026-09-03T01:22:01Z",
+    "metascore": 88,
+    "omdb_fetched_at": "2026-09-03T01:38:58Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNmI1ZTc5MWMtMDYyOS00ZDc2LTkzOTAtNjQ4NWIxNjYyNDgzXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "None",
@@ -547,15 +828,25 @@
     },
     "plot": "78-year-old Carl Fredricksen travels to South America in his house equipped with balloons, inadvertently taking a young stowaway.",
     "rated": "PG",
+    "runtime_min": 96,
     "title": "Up",
     "year": 2009
   },
   "WALL-E": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:22:02Z",
     "imdb_certificate": "G",
     "imdb_id": "tt0910970",
+    "imdb_rating": 8.4,
+    "imdb_votes": 1306354,
     "list_title": "WALL-E",
-    "omdb_fetched_at": "2026-09-03T01:22:01Z",
+    "metascore": 95,
+    "omdb_fetched_at": "2026-09-03T01:38:59Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "None",
@@ -566,15 +857,25 @@
     },
     "plot": "A robot who is responsible for cleaning a waste-covered Earth meets another robot and falls in love with her. Together, they set out on a journey that will alter the fate of mankind.",
     "rated": "G",
+    "runtime_min": 98,
     "title": "WALL·E",
     "year": 2008
   },
   "WarGames": {
+    "genre": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
     "guide_fetched_at": "2026-09-03T01:14:22Z",
     "imdb_certificate": "PG",
     "imdb_id": "tt0086567",
+    "imdb_rating": 7.1,
+    "imdb_votes": 120530,
     "list_title": "WarGames",
-    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "metascore": 77,
+    "omdb_fetched_at": "2026-09-03T01:38:59Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMmM5MDlmZWUtYTE1Mi00M2JiLTk1NzYtMTg0NTdlMzM2N2RkXkEyXkFqcGc@._V1_SX300.jpg",
     "parents_guide": {
       "drugs": "Mild",
@@ -585,6 +886,7 @@
     },
     "plot": "A young man finds a back door into a military central computer in which reality is confused with game-playing, possibly starting World War III.",
     "rated": "PG",
+    "runtime_min": 114,
     "title": "WarGames",
     "year": 1983
   }
