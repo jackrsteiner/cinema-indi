@@ -114,7 +114,7 @@ class LinearModel(unittest.TestCase):
         rules = {"model": "linear", "intercept": 3.4, "min_age": 3, "max_age": 18,
                  "category_weights": {"violence": 1.0}, "rating_offsets": {"PG": 0.5},
                  "genre_offsets": {"Animation": -0.6}, "numeric": {"runtime_min": {"weight": 0.01, "center": 100}}}
-        film = {"rated": "PG", "genre": ["Animation"], "runtime_min": 110, "parents_guide": {"violence": "Mild"}}
+        film = {"imdb_id": "tt1", "rated": "PG", "genre": ["Animation"], "runtime_min": 110, "parents_guide": {"violence": "Mild"}}
         r = m.compute_age(film, rules)
         # 3.4 + 1.0 + 0.5 - 0.6 + 0.1 = 4.4 -> 4
         self.assertEqual(r["age"], 4)
@@ -122,7 +122,7 @@ class LinearModel(unittest.TestCase):
 
     def test_rating_floor_applies(self):
         rules = {"model": "linear", "intercept": 3, "category_weights": {}, "rating_floor": {"R": 12}}
-        r = m.compute_age({"rated": "R", "parents_guide": {"violence": "None"}}, rules)
+        r = m.compute_age({"imdb_id": "tt1", "rated": "R", "parents_guide": {"violence": "None"}}, rules)
         self.assertEqual(r["age"], 12)
         self.assertIn("floor for R → 12+", r["reasons"])
 
