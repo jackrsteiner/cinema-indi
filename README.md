@@ -44,8 +44,7 @@ filter. Or tell an agent "mark *Title* as watched".
 - **Age** groups by a computed minimum age (see below).
 
 Each view has a sticky jump bar to any letter / year / age. Cards show the
-runtime (per-episode average and season count for a series) and a "Series"
-chip; films carry no chip. Each card shows the
+runtime, or the per-episode length and season count for a series. Each card shows the
 five IMDb Parents Guide categories as icons (💋 sex & nudity, 💥 violence,
 🤬 profanity, 🍺 alcohol/drugs, 👻 frightening scenes) coloured by severity.
 
