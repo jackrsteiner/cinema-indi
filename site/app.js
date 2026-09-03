@@ -86,9 +86,10 @@
       ? `<img class="poster" src="${esc(f.poster)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'poster placeholder',textContent:'🎞'}))">`
       : `<div class="poster placeholder" aria-hidden="true">🎞</div>`;
     const title = f.imdb_url ? `<a href="${esc(f.imdb_url)}" rel="noopener">${esc(f.title)}</a>` : esc(f.title);
+    const why = (f.age_reasons || []).join("\n");
     const ageChip = f.age == null
-      ? `<span class="chip age unknown">age ?</span>`
-      : `<span class="chip age">${f.age}+</span>`;
+      ? `<span class="chip age unknown" title="${esc(why)}">age ?</span>`
+      : `<span class="chip age" title="${esc(why)}" tabindex="0">${f.age}+</span>`;
     const series = f.series ? `<span class="chip">${esc(f.series)}${f.series_order ? " " + f.series_order : ""}</span>` : "";
     const links = [
       f.imdb_url ? `<a href="${esc(f.imdb_url)}" rel="noopener">IMDb</a>` : "",
@@ -104,7 +105,6 @@
         <p class="meta">${f.year ? `<span>${f.year}</span>` : ""}${f.rated ? `<span class="chip">${esc(f.rated)}</span>` : ""}${ageChip}${series}${watched}</p>
         ${f.synopsis ? `<p class="synopsis">${esc(f.synopsis)}</p>` : ""}
         <ul class="sev" aria-label="Parents Guide severities">${sev}</ul>
-        ${f.age_reasons && f.age_reasons.length ? `<p class="why">${esc(f.age_reasons.join(" · "))}</p>` : ""}
         <p class="links">${links}</p>
         ${warn}
       </div>
