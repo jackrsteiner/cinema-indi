@@ -297,6 +297,40 @@
     "year": 1983,
     "year_end": 1986
   },
+  "Band of Brothers (series)": {
+    "genre": [
+      "Action",
+      "Drama",
+      "History"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:36Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-MA",
+    "imdb_id": "tt0185906",
+    "imdb_rating": 9.4,
+    "imdb_votes": 587949,
+    "kind": "series",
+    "list_title": "Band of Brothers",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T08:52:36Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTQ3NTdmOTEtZTRmMi00NTg5LWI5NmUtYTNiOTc0ZmNkODU0XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Severe",
+      "sex": "Mild",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "The story of Easy Company of the U.S. Army 101st Airborne Division and their mission in World War II Europe, from Operation Overlord to V-J Day.",
+    "rated": "TV-MA",
+    "runtime_min": 594,
+    "title": "Band of Brothers",
+    "total_seasons": 1,
+    "year": 2001,
+    "year_end": null
+  },
   "Blade Runner": {
     "genre": [
       "Action",
@@ -360,6 +394,40 @@
     "title": "Blade Runner 2049",
     "total_seasons": null,
     "year": 2017,
+    "year_end": null
+  },
+  "Chinatown": {
+    "genre": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:37Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0071315",
+    "imdb_rating": 8.1,
+    "imdb_votes": 374788,
+    "kind": "film",
+    "list_title": "Chinatown",
+    "metascore": 92,
+    "omdb_fetched_at": "2026-09-03T08:52:37Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNmRmZTE0NmUtZjhiZi00MzQ3LTk3ZjctN2Q3ODYzY2U3MDk3XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder.",
+    "rated": "R",
+    "runtime_min": 130,
+    "title": "Chinatown",
+    "total_seasons": null,
+    "year": 1974,
     "year_end": null
   },
   "Easy Rider": {
@@ -523,6 +591,40 @@
     "total_seasons": 1,
     "year": 1999,
     "year_end": 2000
+  },
+  "Glory (1989)": {
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:38Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0097441",
+    "imdb_rating": 7.8,
+    "imdb_votes": 150916,
+    "kind": "film",
+    "list_title": "Glory",
+    "metascore": 78,
+    "omdb_fetched_at": "2026-09-03T08:52:38Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTA1NDcyOGMtYTc0Zi00OTQ0LTllZTEtMTIxZDcxMWYxZTVhXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Moderate",
+      "sex": "None",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "Robert Gould Shaw leads the U.S. Civil War's first all-black volunteer company, fighting prejudices from both his own Union Army, and the Confederates.",
+    "rated": "R",
+    "runtime_min": 122,
+    "title": "Glory",
+    "total_seasons": null,
+    "year": 1989,
+    "year_end": null
   },
   "Harvey (1950)": {
     "genre": [
@@ -781,6 +883,142 @@
     "title": "Kiki's Delivery Service",
     "year": 1989
   },
+  "Kill Bill: Vol. 1": {
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:38Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0266697",
+    "imdb_rating": 8.2,
+    "imdb_votes": 1305508,
+    "kind": "film",
+    "list_title": "Kill Bill: Vol. 1",
+    "metascore": 69,
+    "omdb_fetched_at": "2026-09-03T08:52:38Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZmMyYzJlZmYtY2I3NC00NjAyLTkyZWItZjdjZDI1YTYyYTEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Severe",
+      "sex": "Mild",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "After waking from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+    "rated": "R",
+    "runtime_min": 111,
+    "title": "Kill Bill: Vol. 1",
+    "total_seasons": null,
+    "year": 2003,
+    "year_end": null
+  },
+  "Kill Bill: Vol. 2": {
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:38Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0378194",
+    "imdb_rating": 8.0,
+    "imdb_votes": 869309,
+    "kind": "film",
+    "list_title": "Kill Bill: Vol. 2",
+    "metascore": 83,
+    "omdb_fetched_at": "2026-09-03T08:52:38Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BY2FiNzhiZTctNzU1Mi00NDkwLWExNDMtZTg0MjYyNzhkNWNkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Severe",
+      "sex": "Mild",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "The Bride continues her quest of vengeance against her former boss and lover Bill, the reclusive bouncer Budd, and the treacherous, one-eyed Elle.",
+    "rated": "R",
+    "runtime_min": 137,
+    "title": "Kill Bill: Vol. 2",
+    "total_seasons": null,
+    "year": 2004,
+    "year_end": null
+  },
+  "Labyrinth (1986)": {
+    "genre": [
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:39Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0091369",
+    "imdb_rating": 7.3,
+    "imdb_votes": 163150,
+    "kind": "film",
+    "list_title": "Labyrinth",
+    "metascore": 50,
+    "omdb_fetched_at": "2026-09-03T08:52:39Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDE4OTQwOV5BMl5BanBnXkFtZTgwNjgxMTg2NzE@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Teenage Sarah journeys through a maze to save her baby brother from the Goblin King.",
+    "rated": "PG",
+    "runtime_min": 101,
+    "title": "Labyrinth",
+    "total_seasons": null,
+    "year": 1986,
+    "year_end": null
+  },
+  "Letters from Iwo Jima": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:39Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0498380",
+    "imdb_rating": 7.8,
+    "imdb_votes": 175999,
+    "kind": "film",
+    "list_title": "Letters from Iwo Jima",
+    "metascore": 89,
+    "omdb_fetched_at": "2026-09-03T08:52:39Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjE0NzgwODI4M15BMl5BanBnXkFtZTcwNjg3OTA0MQ@@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "The story of the battle of Iwo Jima between the United States and Imperial Japan during World War II, as told from the perspective of the Japanese who fought it.",
+    "rated": "R",
+    "runtime_min": 141,
+    "title": "Letters from Iwo Jima",
+    "total_seasons": null,
+    "year": 2006,
+    "year_end": null
+  },
   "Midnight in Paris": {
     "genre": [
       "Comedy",
@@ -873,6 +1111,40 @@
     "runtime_min": 86,
     "title": "My Neighbor Totoro",
     "year": 1988
+  },
+  "Pan's Labyrinth": {
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "War"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:39Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0457430",
+    "imdb_rating": 8.2,
+    "imdb_votes": 745954,
+    "kind": "film",
+    "list_title": "Pan's Labyrinth",
+    "metascore": 98,
+    "omdb_fetched_at": "2026-09-03T08:52:39Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTc1NTAxMWItMWFlNy00MmU2LTkwMTMtNzMwOTg5OTQ5YTFiXkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Moderate",
+      "sex": "None",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "In 1944 Francoist Spain, an imaginative young girl meets a faun who tells her she's a princess and that she must prove her worthiness by completing three dangerous tasks.",
+    "rated": "R",
+    "runtime_min": 118,
+    "title": "Pan's Labyrinth",
+    "total_seasons": null,
+    "year": 2007,
+    "year_end": null
   },
   "Pirates of Silicon Valley": {
     "genre": [
@@ -1031,6 +1303,39 @@
     "runtime_min": 131,
     "title": "Star Wars: Episode VI - Return of the Jedi",
     "year": 1983
+  },
+  "Saving Private Ryan": {
+    "genre": [
+      "Drama",
+      "War"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:40Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0120815",
+    "imdb_rating": 8.6,
+    "imdb_votes": 1635552,
+    "kind": "film",
+    "list_title": "Saving Private Ryan",
+    "metascore": 91,
+    "omdb_fetched_at": "2026-09-03T08:52:39Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Moderate",
+      "sex": "None",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose comrades have been killed in action.",
+    "rated": "R",
+    "runtime_min": 169,
+    "title": "Saving Private Ryan",
+    "total_seasons": null,
+    "year": 1998,
+    "year_end": null
   },
   "Scott Pilgrim vs. the World": {
     "genre": [
@@ -1225,6 +1530,73 @@
     "title": "The Adventures of Prince Achmed",
     "year": 1926
   },
+  "The American Astronaut": {
+    "genre": [
+      "Musical",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:36Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "Not Rated",
+    "imdb_id": "tt0243759",
+    "imdb_rating": 6.9,
+    "imdb_votes": 3252,
+    "kind": "film",
+    "list_title": "The American Astronaut",
+    "metascore": 51,
+    "omdb_fetched_at": "2026-09-03T08:52:36Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNDMzMTExOTIxOV5BMl5BanBnXkFtZTcwNTUwNzcyMQ@@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Severe",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Samuel Curtis, an interplanetary trader, sets forth through a rustic and remote solar system, unaware that his old friend Professor Hess is trying to kill him.",
+    "rated": "Not Rated",
+    "runtime_min": 91,
+    "title": "The American Astronaut",
+    "total_seasons": null,
+    "year": 2001,
+    "year_end": null
+  },
+  "The Big Lebowski": {
+    "genre": [
+      "Comedy",
+      "Crime"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:37Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0118715",
+    "imdb_rating": 8.1,
+    "imdb_votes": 911908,
+    "kind": "film",
+    "list_title": "The Big Lebowski",
+    "metascore": 71,
+    "omdb_fetched_at": "2026-09-03T08:52:36Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BY2E3OWQ5OWYtYTRkMC00NjVjLWIzZDQtNmRmM2ZiYTIyYmYxXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Mild",
+      "profanity": "Severe",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Jeff \"The Dude\" Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
+    "rated": "R",
+    "runtime_min": 117,
+    "title": "The Big Lebowski",
+    "total_seasons": null,
+    "year": 1998,
+    "year_end": null
+  },
   "The Big Short": {
     "genre": [
       "Biography",
@@ -1286,6 +1658,40 @@
     "runtime_min": 77,
     "title": "The Chipmunk Adventure",
     "year": 1987
+  },
+  "The Dark Crystal": {
+    "genre": [
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-09-03T08:52:37Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0083791",
+    "imdb_rating": 7.1,
+    "imdb_votes": 75510,
+    "kind": "film",
+    "list_title": "The Dark Crystal",
+    "metascore": 66,
+    "omdb_fetched_at": "2026-09-03T08:52:37Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYTcxY2NiMDAtMjRmYi00ZTUwLTk2NDYtYjI1MDQ4ZDBiMTA5XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "On another planet in the distant past, the last of the Gelfling race embarks on a quest to find the missing shard of a magical crystal and to restore order to his world.",
+    "rated": "PG",
+    "runtime_min": 93,
+    "title": "The Dark Crystal",
+    "total_seasons": null,
+    "year": 1982,
+    "year_end": null
   },
   "The Empire Strikes Back": {
     "genre": [
