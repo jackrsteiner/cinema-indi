@@ -26,5 +26,9 @@
   "Indiana Jones and the Last Crusade": {
     "series": "Indiana Jones",
     "series_order": 3
+  },
+  "WALL-E": {
+    "imdb_id": "tt0910970",
+    "title": "WALL-E"
   }
 }
