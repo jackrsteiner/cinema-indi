@@ -46,6 +46,7 @@ The Grand Budapest Hotel
 Harold & Kumar Go to White Castle
 Harvey (1950)
 Honey, I Shrunk the Kids
+Howl's Moving Castle
 Idiocracy
 Indiana Jones and the Last Crusade
 Indiana Jones and the Raiders of the Lost Ark
