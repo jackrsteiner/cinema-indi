@@ -665,6 +665,40 @@
     "year": 1974,
     "year_end": null
   },
+  "David the Gnome (series)": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T10:58:12Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-Y",
+    "imdb_id": "tt0283721",
+    "imdb_rating": 7.4,
+    "imdb_votes": 2875,
+    "kind": "series",
+    "list_title": "David the Gnome",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T10:58:11Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNzAxNDliMGUtOTBmYi00MTYxLTk0NjYtNGQ2ZDRkNmFhNTMwXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "The fantastic adventures of David and his wife Lisa traveling around the world to save the animals and defeating the trolls.",
+    "rated": "TV-Y",
+    "runtime_min": 30,
+    "title": "David the Gnome",
+    "total_seasons": 1,
+    "year": 1985,
+    "year_end": 1987
+  },
   "Demolition Man": {
     "genre": [
       "Action",
@@ -3173,10 +3207,6 @@
     "total_seasons": 6,
     "year": 1988,
     "year_end": 1993
-  },
-  "The World of David the Gnome (series)": {
-    "error": "OMDb: no match for 'The World of David the Gnome (series)' (Series not found!)",
-    "list_title": "The World of David the Gnome"
   },
   "True Grit (2010)": {
     "genre": [
