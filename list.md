@@ -78,6 +78,7 @@ The Terminator
 Terminator 2: Judgment Day
 True Grit (2010)
 Up (2009)
+Wake in Fright (1971)
 WALL-E
 WarGames
 Who Framed Roger Rabbit
