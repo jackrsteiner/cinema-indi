@@ -6,10 +6,10 @@
   --line: #e2ded4;
   --accent: #b4432a;
   --chip: #efece4;
-  --sev-none: #8fb98a;
-  --sev-mild: #d9c25a;
-  --sev-moderate: #e39a3b;
-  --sev-severe: #c94c3a;
+  --sev-none: #3cc45a;
+  --sev-mild: #ffd60a;
+  --sev-moderate: #ff8c1a;
+  --sev-severe: #e5322d;
   --sev-unknown: #cfcbc2;
   --radius: 12px;
   color-scheme: light dark;
@@ -23,6 +23,10 @@
     --line: #34343a;
     --accent: #ef7a5c;
     --chip: #2e2e34;
+    --sev-none: #34b34f;
+    --sev-mild: #f2c800;
+    --sev-moderate: #f5801a;
+    --sev-severe: #d93a33;
     --sev-unknown: #4a4a52;
   }
 }
@@ -116,7 +120,7 @@ section.group h2 small { font-weight: 400; color: var(--muted); font-size: 0.85r
 .sev li {
   width: 26px; height: 26px; border-radius: 50%;
   display: grid; place-items: center;
-  font-size: 14px; line-height: 1;
+  font-size: 19px; line-height: 1;
   background: var(--sev-unknown);
   border: 2px solid transparent;
   cursor: default;
@@ -126,11 +130,9 @@ section.group h2 small { font-weight: 400; color: var(--muted); font-size: 0.85r
 .sev li[data-sev="Moderate"] { background: var(--sev-moderate); }
 .sev li[data-sev="Severe"] { background: var(--sev-severe); }
 .sev li > span { pointer-events: none; position: relative; z-index: 1; }
-/* Softer ring for "None" so the emoji stays fully legible on top of it. */
-.sev li[data-sev="None"] { background: color-mix(in srgb, var(--sev-none) 55%, var(--card)); }
 .legend { margin: 0 0 0.5rem; display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; align-items: center; }
 .legend .sev { display: inline-flex; margin: 0; gap: 0.2rem; vertical-align: middle; }
-.legend .sev li { width: 20px; height: 20px; font-size: 11px; }
+.legend .sev li { width: 20px; height: 20px; font-size: 14px; }
 .legend .swatch { display: inline-block; width: 12px; height: 12px; border-radius: 50%; vertical-align: -1px; margin-right: 0.25rem; }
 .chip.watched { background: color-mix(in srgb, var(--sev-none) 45%, var(--chip)); }
 .card.is-watched .poster { filter: saturate(0.6); }
