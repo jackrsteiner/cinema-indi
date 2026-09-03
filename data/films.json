@@ -2758,6 +2758,39 @@
     "title": "WALL·E",
     "year": 2008
   },
+  "Wake in Fright (1971)": {
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T10:07:58Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0067541",
+    "imdb_rating": 7.5,
+    "imdb_votes": 15272,
+    "kind": "film",
+    "list_title": "Wake in Fright",
+    "metascore": 85,
+    "omdb_fetched_at": "2026-09-03T10:07:58Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNjAwN2M2MjAtZDk2MS00MDQ2LTkxZWYtNTUyNTQ0YWI2NGJiXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Severe",
+      "frightening": "Severe",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "After a bad gambling bet, a schoolteacher is marooned in a town full of crazy, drunk, violent men who threaten to make him just as crazy, drunk, and violent.",
+    "rated": "R",
+    "runtime_min": 109,
+    "title": "Wake in Fright",
+    "total_seasons": null,
+    "year": 1971,
+    "year_end": null
+  },
   "WarGames": {
     "genre": [
       "Action",
