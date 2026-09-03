@@ -6,6 +6,7 @@ Back to the Future
 The Big Short
 Blade Runner
 The Chipmunk Adventure
+Edward Scissorhands
 The Empire Strikes Back
 Ferris Bueller's Day Off
 Forrest Gump
@@ -15,6 +16,7 @@ The Goonies
 Indiana Jones and the Last Crusade
 Indiana Jones and the Temple of Doom
 The Iron Giant
+James and the Giant Peach
 Jurassic Park
 Kiki's Delivery Service
 The Land Before Time
@@ -39,4 +41,6 @@ True Grit (2010)
 Up (2009)
 WALL-E
 WarGames
+Willy Wonka & the Chocolate Factory
+The Witches (1990)
 The Wonder Years (1988 series)
