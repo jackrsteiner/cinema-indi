@@ -1928,6 +1928,40 @@
     "year": 1993,
     "year_end": null
   },
+  "Lawrence of Arabia": {
+    "genre": [
+      "Adventure",
+      "Biography",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T19:16:52Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "Approved",
+    "imdb_id": "tt0056172",
+    "imdb_rating": 8.3,
+    "imdb_votes": 334419,
+    "kind": "film",
+    "list_title": "Lawrence of Arabia",
+    "metascore": 100,
+    "omdb_fetched_at": "2026-09-03T19:16:52Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYjY0YTQ1OTAtYjEyNy00NTQ4LThlMTQtM2QwYTVhYWFhNjU5XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks.",
+    "rated": "PG",
+    "runtime_min": 227,
+    "title": "Lawrence of Arabia",
+    "total_seasons": null,
+    "year": 1962,
+    "year_end": null
+  },
   "Letters from Iwo Jima": {
     "genre": [
       "Action",
