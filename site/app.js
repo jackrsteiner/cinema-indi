@@ -76,6 +76,8 @@
       ? `<img class="poster" src="${esc(f.poster)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'poster placeholder',textContent:'🎞'}))">`
       : `<div class="poster placeholder" aria-hidden="true">🎞</div>`;
     const title = f.imdb_url ? `<a href="${esc(f.imdb_url)}" rel="noopener">${esc(f.title)}</a>` : esc(f.title);
+    // Code-era certificates ("Approved", "Passed") carry no age information; show nothing.
+    const ratedChip = f.rated && !/^(approved|passed)$/i.test(f.rated) ? `<span class="chip">${esc(f.rated)}</span>` : "";
     const why = (f.age_reasons || []).join("\n");
     const ageChip = f.age == null
       ? `<span class="chip age unknown" title="${esc(why)}">age ?</span>`
@@ -88,10 +90,11 @@
       : (f.error ? `<p class="warn">${esc(f.error)}</p>` : "");
     return `<article class="card ${esc(f.status)}${f.watched ? " is-watched" : ""}">
       ${watched}
-      <div class="side">${poster}<p class="meta badges">${f.rated ? `<span class="chip">${esc(f.rated)}</span>` : ""}${ageChip}</p>${imdbLink}</div>
+      <div class="side">${poster}${imdbLink}</div>
       <div>
         <h3>${title}</h3>
         <p class="meta">${f.year_label ? `<span>${esc(f.year_label)}</span>` : ""}${runtime}</p>
+        <p class="meta badges">${ratedChip}${ageChip}</p>
         ${f.synopsis ? `<p class="synopsis">${esc(f.synopsis)}</p>` : ""}
         ${guideLink}
         <ul class="sev" aria-label="Parents Guide severities">${sev}</ul>
