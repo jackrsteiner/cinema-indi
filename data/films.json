@@ -644,6 +644,36 @@
     "title": "Star Wars: Episode V - The Empire Strikes Back",
     "year": 1980
   },
+  "The Goonies": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T02:11:10Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0089218",
+    "imdb_rating": 7.7,
+    "imdb_votes": 324418,
+    "list_title": "The Goonies",
+    "metascore": 62,
+    "omdb_fetched_at": "2026-09-03T02:11:10Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjE1OWU4ODEtZmEzMC00NTcwLWFlMWUtYjhlNzExOTIxYzVlXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A group of young misfits called The Goonies discover an ancient map and set out on an adventure to find a legendary pirate's long-lost treasure.",
+    "rated": "PG",
+    "runtime_min": 114,
+    "title": "The Goonies",
+    "year": 1985
+  },
   "The Iron Giant": {
     "genre": [
       "Animation",
@@ -705,6 +735,30 @@
     "runtime_min": 69,
     "title": "The Land Before Time",
     "year": 1988
+  },
+  "The Man Who Planted Trees (1987)": {
+    "genre": [
+      "Animation",
+      "Short",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T02:11:10Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": null,
+    "imdb_id": "tt0093488",
+    "imdb_rating": 8.5,
+    "imdb_votes": 6354,
+    "list_title": "The Man Who Planted Trees",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T02:11:10Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZjFjY2YzY2MtNjcyMC00YTI5LWE1OTctNzg5NGVjYjdiYTgzXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {},
+    "parents_guide_votes": {},
+    "plot": "The story of a shepherd's single handed quest to re-forest a barren valley.",
+    "rated": null,
+    "runtime_min": 30,
+    "title": "The Man Who Planted Trees",
+    "year": 1987
   },
   "The Pirates of Penzance (1983)": {
     "genre": [
