@@ -6,11 +6,13 @@ Blade Runner
 The Chipmunk Adventure
 The Empire Strikes Back
 Ferris Bueller's Day Off
+The Goonies
 Indiana Jones and the Last Crusade
 Indiana Jones and the Temple of Doom
 The Iron Giant
 Kiki's Delivery Service
 The Land Before Time
+The Man Who Planted Trees (1987)
 Midnight in Paris
 Muppet Treasure Island
 My Neighbor Totoro
