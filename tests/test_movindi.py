@@ -44,22 +44,26 @@ class AgeRules(unittest.TestCase):
 
     def test_rating_alone(self):
         r = m.compute_age({"rated": "PG"}, self.rules)
-        self.assertEqual(r["age"], 8)
+        self.assertEqual(r["age"], self.rules["rating_floor"]["PG"])
         self.assertFalse(r["unknown"])
 
     def test_guide_raises_above_rating(self):
         film = {"rated": "PG", "parents_guide": {"violence": "Moderate", "profanity": "Mild",
                                                  "sex": "None", "drugs": "None", "frightening": "Mild"}}
         r = m.compute_age(film, self.rules)
-        self.assertEqual(r["age"], 11)
-        self.assertEqual(r["reasons"], ["Violence & Gore: Moderate → 11+"])
+        expected = self.rules["category_floor"]["violence"]["Moderate"]
+        self.assertGreater(expected, self.rules["rating_floor"]["PG"])
+        self.assertEqual(r["age"], expected)
+        self.assertEqual(r["reasons"], [f"Violence & Gore: Moderate → {expected}+"])
 
     def test_stacking(self):
         film = {"rated": "R", "parents_guide": {"violence": "Severe", "profanity": "Severe",
                                                 "sex": "Moderate", "drugs": "Moderate", "frightening": "Moderate"}}
         r = m.compute_age(film, self.rules)
-        # max floor 15 (violence Severe / R) + 1 (>=3 moderate-or-worse) + 1 (>=2 severe)
-        self.assertEqual(r["age"], 17)
+        base = max(self.rules["rating_floor"]["R"], self.rules["category_floor"]["violence"]["Severe"],
+                   self.rules["category_floor"]["profanity"]["Severe"], self.rules["category_floor"]["sex"]["Moderate"])
+        # + 1 (>=3 moderate-or-worse) + 1 (>=2 severe)
+        self.assertEqual(r["age"], base + 2)
 
     def test_unknown(self):
         r = m.compute_age({"rated": None, "parents_guide": {}}, self.rules)
@@ -68,7 +72,7 @@ class AgeRules(unittest.TestCase):
 
     def test_unlisted_rating_defers_to_guide(self):
         r = m.compute_age({"rated": "Approved", "parents_guide": {"violence": "Mild"}}, self.rules)
-        self.assertEqual(r["age"], 7)
+        self.assertEqual(r["age"], self.rules["category_floor"]["violence"]["Mild"])
 
 
 if __name__ == "__main__":
