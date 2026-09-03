@@ -1,90 +1,420 @@
 {
   "Amélie": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Amélie"
+    "guide_fetched_at": "2026-09-03T01:14:17Z",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0211915",
+    "list_title": "Amélie",
+    "omdb_fetched_at": "2026-09-03T01:14:17Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTNmYzY0MWQtZGZmNy00Y2Y4LWFmMDQtMTZjYTdiYzEwZGQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "None",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "plot": "Despite being caught in her imaginative world, young waitress Amelie decides to help people find happiness. Her quest to spread joy leads her on a journey during which she finds true love.",
+    "rated": "R",
+    "title": "Amélie",
+    "year": 2002
   },
   "Back to the Future": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Back to the Future"
+    "guide_fetched_at": "2026-09-03T01:14:18Z",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0088763",
+    "list_title": "Back to the Future",
+    "omdb_fetched_at": "2026-09-03T01:14:17Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "plot": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+    "rated": "PG",
+    "title": "Back to the Future",
+    "year": 1985
   },
   "Blade Runner": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Blade Runner"
+    "guide_fetched_at": "2026-09-03T01:14:18Z",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0083658",
+    "list_title": "Blade Runner",
+    "omdb_fetched_at": "2026-09-03T01:14:18Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOWQ4YTBmNTQtMDYxMC00NGFjLTkwOGQtNzdhNmY1Nzc1MzUxXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "plot": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator.",
+    "rated": "R",
+    "title": "Blade Runner",
+    "year": 1982
   },
   "Ferris Bueller's Day Off": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Ferris Bueller's Day Off"
+    "guide_fetched_at": "2026-09-03T01:14:18Z",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0091042",
+    "list_title": "Ferris Bueller's Day Off",
+    "omdb_fetched_at": "2026-09-03T01:14:18Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZWYwMjUxNjMtMzE0MC00NDM3LWIxMmQtYmEyNWVjNjdlZGZjXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "plot": "A brash, cocky high school senior, tired of skipping school to spend a boring day at home, is determined to enjoy an epic day roaring around his favorite Chicago sites, enlisting his best friend and girlfriend to join him on the a...",
+    "rated": "PG-13",
+    "title": "Ferris Bueller's Day Off",
+    "year": 1986
   },
   "Indiana Jones and the Last Crusade": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Indiana Jones and the Last Crusade"
+    "guide_fetched_at": "2026-09-03T01:14:19Z",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0097576",
+    "list_title": "Indiana Jones and the Last Crusade",
+    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNGIxNzQ0YzYtMjNmYi00YjBlLWFjNzEtNGE3ZGFmYTczM2MwXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "plot": "In 1938, after his father goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against the Nazis again to stop them from obtaining its powers.",
+    "rated": "PG-13",
+    "title": "Indiana Jones and the Last Crusade",
+    "year": 1989
   },
   "Indiana Jones and the Temple of Doom": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Indiana Jones and the Temple of Doom"
+    "guide_fetched_at": "2026-09-03T01:14:19Z",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0087469",
+    "list_title": "Indiana Jones and the Temple of Doom",
+    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOGUwZjZiNWQtYzAzZi00NGI5LWE4YmUtN2Y4YWMwY2RlZDkyXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Severe"
+    },
+    "plot": "In 1935, Indiana Jones is tasked by Indian villagers with reclaiming a sacred stone stolen from them by a secret cult.",
+    "rated": "PG",
+    "title": "Indiana Jones and the Temple of Doom",
+    "year": 1984
   },
   "Midnight in Paris": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Midnight in Paris"
+    "guide_fetched_at": "2026-09-03T01:14:19Z",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt1605783",
+    "list_title": "Midnight in Paris",
+    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTM4NjY1MDQwMl5BMl5BanBnXkFtZTcwNTI3Njg3NA@@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "None"
+    },
+    "plot": "While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s every day at midnight.",
+    "rated": "PG-13",
+    "title": "Midnight in Paris",
+    "year": 2011
   },
   "My Neighbor Totoro": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "My Neighbor Totoro"
+    "guide_fetched_at": "2026-09-03T01:14:19Z",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0096283",
+    "list_title": "My Neighbor Totoro",
+    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYWM3MDE3YjEtMzIzZC00ODE5LTgxNTItNmUyMTBkM2M2NmNiXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "None",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "plot": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
+    "rated": "G",
+    "title": "My Neighbor Totoro",
+    "year": 1988
   },
   "Pirates of Silicon Valley": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Pirates of Silicon Valley"
+    "guide_fetched_at": "2026-09-03T01:14:20Z",
+    "imdb_certificate": "Not Rated",
+    "imdb_id": "tt0168122",
+    "list_title": "Pirates of Silicon Valley",
+    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNDc2NTE0NzE4N15BMl5BanBnXkFtZTgwMDQ5MzgwMzE@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "plot": "History of Apple and Microsoft.",
+    "rated": "Not Rated",
+    "title": "Pirates of Silicon Valley",
+    "year": 1999
   },
   "Raiders of the Lost Ark": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Raiders of the Lost Ark"
+    "guide_fetched_at": "2026-09-03T01:14:20Z",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0082971",
+    "list_title": "Raiders of the Lost Ark",
+    "omdb_fetched_at": "2026-09-03T01:14:20Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOGNhMjg2ZjgtYzk4Ni00MTViLTg1MmUtYzM2MDZiYjZlMmU3XkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "plot": "In 1936, archaeologist Indiana Jones is tasked by Army Intelligence to help locate a legendary ancient power, the Ark of Covenant, before the Nazis get it first.",
+    "rated": "PG",
+    "title": "Raiders of the Lost Ark",
+    "year": 1981
   },
   "Real Genius": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Real Genius"
+    "guide_fetched_at": "2026-09-03T01:14:20Z",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0089886",
+    "list_title": "Real Genius",
+    "omdb_fetched_at": "2026-09-03T01:14:20Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNTQ5MzU3ODg0OF5BMl5BanBnXkFtZTgwODM0MzQxMDE@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "plot": "An uptight teenage prodigy enters a top engineering college, but feels awkward among the freewheeling students. When a professor aims to turn their laser project into a military weapon, he and his offbeat roommate plot to ruin the...",
+    "rated": "PG",
+    "title": "Real Genius",
+    "year": 1985
   },
   "Return of the Jedi": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Return of the Jedi"
+    "guide_fetched_at": "2026-09-03T01:14:20Z",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0086190",
+    "list_title": "Return of the Jedi",
+    "omdb_fetched_at": "2026-09-03T01:14:20Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNWEwOTI0MmUtMGNmNy00ODViLTlkZDQtZTg1YmQ3MDgyNTUzXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "plot": "After rescuing Han Solo from Jabba the Hutt, the Rebel Alliance attempts to destroy the second Death Star while Luke struggles to help Darth Vader back from the dark side.",
+    "rated": "PG",
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "year": 1983
   },
   "Scott Pilgrim vs. the World": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Scott Pilgrim vs. the World"
+    "guide_fetched_at": "2026-09-03T01:14:21Z",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0446029",
+    "list_title": "Scott Pilgrim vs. the World",
+    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNTA5ZWMwNmYtNWI1ZS00NDRlLTkxNzktMzdhZDU2ZDhjNDJmXkEyXkFqcGc@._V1_QL75_UY562_CR10,0,380,562_.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "plot": "A young man must defeat his new girlfriend's seven evil exes, who are willing to do anything to prevent her happiness with someone else.",
+    "rated": "PG-13",
+    "title": "Scott Pilgrim vs. the World",
+    "year": 2010
   },
   "Star Wars (1977)": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "Star Wars"
+    "guide_fetched_at": "2026-09-03T01:14:21Z",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0076759",
+    "list_title": "Star Wars",
+    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth ...",
+    "rated": "PG",
+    "title": "Star Wars: Episode IV - A New Hope",
+    "year": 1977
   },
   "The Big Short": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "The Big Short"
+    "guide_fetched_at": "2026-09-03T01:14:18Z",
+    "imdb_certificate": "R",
+    "imdb_id": "tt1596363",
+    "list_title": "The Big Short",
+    "omdb_fetched_at": "2026-09-03T01:14:18Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZDZkNDQ3YjktYjBlZC00YTY1LTgxOGYtY2RhMWFhZmNkZGY3XkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Severe",
+      "sex": "Moderate",
+      "violence": "None"
+    },
+    "plot": "In 2006-2007 a group of investors bet against the United States mortgage market. In their research, they discover how flawed and corrupt the market is.",
+    "rated": "R",
+    "title": "The Big Short",
+    "year": 2015
   },
   "The Empire Strikes Back": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "The Empire Strikes Back"
+    "guide_fetched_at": "2026-09-03T01:14:18Z",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0080684",
+    "list_title": "The Empire Strikes Back",
+    "omdb_fetched_at": "2026-09-03T01:14:18Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "plot": "After the Empire overpowers the Rebel Alliance, Luke Skywalker begins training with Jedi Master Yoda, while Darth Vader and bounty hunter Boba Fett pursue his friends across the galaxy.",
+    "rated": "PG",
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "year": 1980
   },
   "The Land Before Time": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "The Land Before Time"
+    "guide_fetched_at": "2026-09-03T01:14:19Z",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0095489",
+    "list_title": "The Land Before Time",
+    "omdb_fetched_at": "2026-09-03T01:14:19Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYThiYTJkZjAtZWE1OS00YjI3LWEyZjQtZWVmMmI3NjNkYTg4XkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "plot": "An orphaned brontosaurus teams up with other young dinosaurs in order to reunite with their families in a valley.",
+    "rated": "G",
+    "title": "The Land Before Time",
+    "year": 1988
   },
   "The Princess Bride": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "The Princess Bride"
+    "guide_fetched_at": "2026-09-03T01:14:20Z",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0093779",
+    "list_title": "The Princess Bride",
+    "omdb_fetched_at": "2026-09-03T01:14:20Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjFiOTEyNGMtN2E4MC00ZjZlLTk3ZDQtNTU1ZGNiZTA1MzJlXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "plot": "A bedridden boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love.",
+    "rated": "PG",
+    "title": "The Princess Bride",
+    "year": 1987
   },
   "The Social Network": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "The Social Network"
+    "guide_fetched_at": "2026-09-03T01:14:21Z",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt1285016",
+    "list_title": "The Social Network",
+    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Moderate",
+      "violence": "None"
+    },
+    "plot": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business.",
+    "rated": "PG-13",
+    "title": "The Social Network",
+    "year": 2010
   },
   "The Terminator": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "The Terminator"
+    "guide_fetched_at": "2026-09-03T01:14:21Z",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0088247",
+    "list_title": "The Terminator",
+    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Moderate",
+      "violence": "Severe"
+    },
+    "plot": "A cyborg assassin from the future attempts to find and kill a young woman who is destined to give birth to a warrior that will lead a resistance to save humankind from extinction.",
+    "rated": "R",
+    "title": "The Terminator",
+    "year": 1984
   },
   "True Grit (2010)": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "True Grit"
+    "guide_fetched_at": "2026-09-03T01:14:21Z",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt1403865",
+    "list_title": "True Grit",
+    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTU5MjU3MTI4OF5BMl5BanBnXkFtZTcwMTQxOTAxNA@@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Moderate"
+    },
+    "plot": "A stubborn teenager enlists the help of a tough U.S. Marshal to track down her father's murderer.",
+    "rated": "PG-13",
+    "title": "True Grit",
+    "year": 2010
   },
   "WarGames": {
-    "error": "OMDb rejected the API key (HTTP 401). Check that OMDB_API_KEY is the activated key from the OMDb confirmation email.",
-    "list_title": "WarGames"
+    "guide_fetched_at": "2026-09-03T01:14:22Z",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0086567",
+    "list_title": "WarGames",
+    "omdb_fetched_at": "2026-09-03T01:14:21Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMmM5MDlmZWUtYTE1Mi00M2JiLTk1NzYtMTg0NTdlMzM2N2RkXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "None"
+    },
+    "plot": "A young man finds a back door into a military central computer in which reality is confused with game-playing, possibly starting World War III.",
+    "rated": "PG",
+    "title": "WarGames",
+    "year": 1983
   }
 }
