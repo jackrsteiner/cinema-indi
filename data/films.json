@@ -94,6 +94,74 @@
     "title": "Back to the Future",
     "year": 1985
   },
+  "Back to the Future Part II": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T08:37:58Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0096874",
+    "imdb_rating": 7.8,
+    "imdb_votes": 620762,
+    "kind": "film",
+    "list_title": "Back to the Future Part II",
+    "metascore": 57,
+    "omdb_fetched_at": "2026-09-03T08:37:58Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTNlOTRmOTEtMTAyMi00NjFiLTk3NDMtNWI0YzA3ZTZlYjZiXkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985, without interfering with his first trip.",
+    "rated": "PG",
+    "runtime_min": 108,
+    "title": "Back to the Future Part II",
+    "total_seasons": null,
+    "year": 1989,
+    "year_end": null
+  },
+  "Back to the Future Part III": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T08:37:58Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0099088",
+    "imdb_rating": 7.5,
+    "imdb_votes": 519424,
+    "kind": "film",
+    "list_title": "Back to the Future Part III",
+    "metascore": 55,
+    "omdb_fetched_at": "2026-09-03T08:37:58Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNTNkNzJmY2MtOGNjYi00NDJmLWIyZTQtNmFmMGQ5M2VlOTI0XkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Stranded in 1955, Marty McFly learns about the death of Doc Brown in 1885 and must travel back in time to save him. With no fuel readily available for the DeLorean, the two must figure how to escape the Old West before Emmett is m...",
+    "rated": "PG",
+    "runtime_min": 118,
+    "title": "Back to the Future Part III",
+    "total_seasons": null,
+    "year": 1990,
+    "year_end": null
+  },
   "Blade Runner": {
     "genre": [
       "Action",
@@ -124,6 +192,40 @@
     "runtime_min": 117,
     "title": "Blade Runner",
     "year": 1982
+  },
+  "Blade Runner 2049": {
+    "genre": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "guide_fetched_at": "2026-09-03T08:37:59Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt1856101",
+    "imdb_rating": 8.0,
+    "imdb_votes": 751317,
+    "kind": "film",
+    "list_title": "Blade Runner 2049",
+    "metascore": 81,
+    "omdb_fetched_at": "2026-09-03T08:37:58Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+    "rated": "R",
+    "runtime_min": 164,
+    "title": "Blade Runner 2049",
+    "total_seasons": null,
+    "year": 2017,
+    "year_end": null
   },
   "Edward Scissorhands": {
     "genre": [
@@ -296,7 +398,7 @@
     "imdb_id": "tt0082971",
     "imdb_rating": 8.4,
     "imdb_votes": 1102713,
-    "list_title": "Raiders of the Lost Ark",
+    "list_title": "Indiana Jones and the Raiders of the Lost Ark",
     "metascore": 86,
     "omdb_fetched_at": "2026-09-03T01:38:56Z",
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOGNhMjg2ZjgtYzk4Ni00MTViLTg1MmUtYzM2MDZiYjZlMmU3XkEyXkFqcGc@._V1_SX300.jpg",
@@ -1095,6 +1197,39 @@
     "runtime_min": 30,
     "title": "The Man Who Planted Trees",
     "year": 1987
+  },
+  "The Matrix": {
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T08:37:59Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0133093",
+    "imdb_rating": 8.7,
+    "imdb_votes": 2243093,
+    "kind": "film",
+    "list_title": "The Matrix",
+    "metascore": 73,
+    "omdb_fetched_at": "2026-09-03T08:37:59Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+    "rated": "R",
+    "runtime_min": 136,
+    "title": "The Matrix",
+    "total_seasons": null,
+    "year": 1999,
+    "year_end": null
   },
   "The Pirates of Penzance (1983)": {
     "genre": [
