@@ -15,10 +15,6 @@
     "series_order": 3,
     "title": "Return of the Jedi"
   },
-  "Raiders of the Lost Ark": {
-    "series": "Indiana Jones",
-    "series_order": 1
-  },
   "Indiana Jones and the Temple of Doom": {
     "series": "Indiana Jones",
     "series_order": 2
@@ -30,5 +26,22 @@
   "WALL-E": {
     "imdb_id": "tt0910970",
     "title": "WALL-E"
+  },
+  "Indiana Jones and the Raiders of the Lost Ark": {
+    "series": "Indiana Jones",
+    "series_order": 1,
+    "imdb_id": "tt0082971"
+  },
+  "Back to the Future": {
+    "series": "Back to the Future",
+    "series_order": 1
+  },
+  "Back to the Future Part II": {
+    "series": "Back to the Future",
+    "series_order": 2
+  },
+  "Back to the Future Part III": {
+    "series": "Back to the Future",
+    "series_order": 3
   }
 }

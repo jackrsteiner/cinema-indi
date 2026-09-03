@@ -284,6 +284,36 @@
     "title": "Indiana Jones and the Last Crusade",
     "year": 1989
   },
+  "Indiana Jones and the Raiders of the Lost Ark": {
+    "genre": [
+      "Action",
+      "Adventure"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
+    "guide_fetched_at": "2026-09-03T01:41:22Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0082971",
+    "imdb_rating": 8.4,
+    "imdb_votes": 1102713,
+    "list_title": "Raiders of the Lost Ark",
+    "metascore": 86,
+    "omdb_fetched_at": "2026-09-03T01:38:56Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOGNhMjg2ZjgtYzk4Ni00MTViLTg1MmUtYzM2MDZiYjZlMmU3XkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "In 1936, archaeologist Indiana Jones is tasked by Army Intelligence to help locate a legendary ancient power, the Ark of Covenant, before the Nazis get it first.",
+    "rated": "PG",
+    "runtime_min": 115,
+    "title": "Raiders of the Lost Ark",
+    "year": 1981
+  },
   "Indiana Jones and the Temple of Doom": {
     "genre": [
       "Action",
@@ -567,36 +597,6 @@
     "runtime_min": 101,
     "title": "Ponyo",
     "year": 2008
-  },
-  "Raiders of the Lost Ark": {
-    "genre": [
-      "Action",
-      "Adventure"
-    ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:22Z",
-    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
-    "imdb_certificate": "PG",
-    "imdb_id": "tt0082971",
-    "imdb_rating": 8.4,
-    "imdb_votes": 1102713,
-    "list_title": "Raiders of the Lost Ark",
-    "metascore": 86,
-    "omdb_fetched_at": "2026-09-03T01:38:56Z",
-    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOGNhMjg2ZjgtYzk4Ni00MTViLTg1MmUtYzM2MDZiYjZlMmU3XkEyXkFqcGc@._V1_SX300.jpg",
-    "parents_guide": {
-      "drugs": "Mild",
-      "frightening": "Moderate",
-      "profanity": "Mild",
-      "sex": "Mild",
-      "violence": "Moderate"
-    },
-    "parents_guide_votes": {},
-    "plot": "In 1936, archaeologist Indiana Jones is tasked by Army Intelligence to help locate a legendary ancient power, the Ark of Covenant, before the Nazis get it first.",
-    "rated": "PG",
-    "runtime_min": 115,
-    "title": "Raiders of the Lost Ark",
-    "year": 1981
   },
   "Real Genius": {
     "genre": [

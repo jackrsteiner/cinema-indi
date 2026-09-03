@@ -5,13 +5,13 @@
   "_missing_severity": "Score used for a Parents Guide category IMDb has no data for (0=None .. 3=Severe). Such titles are shown as estimates.",
   "min_age": 3,
   "max_age": 18,
-  "intercept": 3.6,
+  "intercept": 3.78,
   "category_weights": {
-    "sex": 0.76,
-    "violence": 0.8,
-    "profanity": 0.85,
-    "drugs": 0.44,
-    "frightening": 0.19
+    "sex": 0.22,
+    "violence": 0.45,
+    "profanity": 1.26,
+    "drugs": 0.33,
+    "frightening": 0.01
   },
   "rating_aliases": {
     "TV-Y": "G",
@@ -23,22 +23,16 @@
     "TV-MA": "R"
   },
   "rating_offsets": {
-    "PG": -0.05,
-    "PG-13": 2.59,
-    "R": 4.86,
-    "Not Rated": -1.01
+    "PG": -0.01,
+    "PG-13": 3.27,
+    "R": 5.12,
+    "Not Rated": -1.03
   },
   "kind_offsets": {
-    "series": 0.89
+    "series": 0.39
   },
   "genre_offsets": {},
-  "numeric": {
-    "imdb_rating": {
-      "weight": -0.2993,
-      "center": 7.5,
-      "label": "IMDb rating"
-    }
-  },
+  "numeric": {},
   "rating_floor": {
     "_comment": "Uncalibrated: no labelled NC-17 titles.",
     "NC-17": 17
