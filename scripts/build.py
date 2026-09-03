@@ -65,7 +65,7 @@ def build_records(entries, cache, overrides, rules) -> list[dict]:
             "age_reasons": age_info["reasons"],
             "age_unknown": age_info["unknown"],
             "status": status,
-            "error": raw.get("error") or raw.get("guide_error"),
+            "error": raw.get("error") or (raw.get("guide_error") if not raw.get("parents_guide") else None),
         })
     return records
 
