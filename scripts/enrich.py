@@ -47,8 +47,13 @@ query ParentsGuide($id: ID!) {
 }
 """
 
-# Same query plus the per-level vote counts behind each severity. Tried first;
-# if IMDb rejects the extra fields we fall back to PARENTS_GUIDE_QUERY.
+# IMDb also exposes the per-level vote counts behind each severity as
+# `severityBreakdown`, a list of `SeverityLevel` objects. The exact field names
+# are discovered once per run by introspection (see _vote_fields) so a schema
+# change degrades to "severities only" instead of breaking the run.
+INTROSPECT_QUERY = """
+query { severity: __type(name: "SeverityLevel") { fields { name } } }
+"""
 PARENTS_GUIDE_VOTES_QUERY = """
 query ParentsGuideVotes($id: ID!) {
   title(id: $id) {
@@ -59,12 +64,14 @@ query ParentsGuideVotes($id: ID!) {
         category { id text }
         severity { id text }
         totalSeverityVotes
-        severityBreakdown { severity { id text } voteCount }
+        severityBreakdown { %s }
       }
     }
   }
 }
 """
+IMDB_HEADERS = {"x-imdb-client-name": "imdb-web-next"}
+_VOTE_FIELDS = None  # cached: (level_fields, count_field) or False
 
 
 def http_json(url: str, data: dict | None = None, headers: dict | None = None, retries: int = 3):
@@ -84,7 +91,7 @@ def http_json(url: str, data: dict | None = None, headers: dict | None = None, r
         except urllib.error.HTTPError as e:
             detail = ""
             try:
-                detail = e.read().decode("utf-8", "replace")[:200]
+                detail = e.read().decode("utf-8", "replace")[:600]
             except Exception:
                 pass
             if 400 <= e.code < 500 and e.code != 429:
@@ -151,19 +158,33 @@ def omdb_lookup(entry: dict, api_key: str, imdb_id: str | None = None, fetch=htt
     }
 
 
-def imdb_parents_guide(imdb_id: str, fetch=http_json) -> dict:
+def imdb_parents_guide(imdb_id: str, fetch=http_json, log=print) -> dict:
     """Return {'parents_guide': {key: severity}, 'imdb_certificate': str|None}."""
-    headers = {"x-imdb-client-name": "imdb-web-next"}
-    title = {}
-    votes_supported = True
-    for query in (PARENTS_GUIDE_VOTES_QUERY, PARENTS_GUIDE_QUERY):
-        resp = fetch(IMDB_GRAPHQL_URL, data={"query": query, "variables": {"id": imdb_id}}, headers=headers)
+    vote_fields = _vote_fields(fetch, log)
+    queries = []
+    if vote_fields:
+        level_fields, count_field = vote_fields
+        queries.append(PARENTS_GUIDE_VOTES_QUERY % " ".join(level_fields + [count_field]))
+    queries.append(PARENTS_GUIDE_QUERY)
+
+    title, errors, votes_supported = {}, None, bool(vote_fields)
+    for i, query in enumerate(queries):
+        try:
+            resp = fetch(IMDB_GRAPHQL_URL, data={"query": query, "variables": {"id": imdb_id}}, headers=IMDB_HEADERS)
+        except ApiError as e:
+            if e.status == 400 and i < len(queries) - 1:
+                errors = str(e)
+                votes_supported = False
+                continue
+            raise
         title = (resp.get("data") or {}).get("title") or {}
         if title:
             break
+        errors = resp.get("errors")
         votes_supported = False
     if not title:
-        raise RuntimeError(f"IMDb GraphQL: no title data for {imdb_id}: {resp.get('errors')}")
+        raise RuntimeError(f"IMDb GraphQL: no title data for {imdb_id}: {errors}")
+
     guide, votes = {}, {}
     for cat in ((title.get("parentsGuide") or {}).get("categories") or []):
         key = _category_key(cat.get("category") or {})
@@ -172,19 +193,37 @@ def imdb_parents_guide(imdb_id: str, fetch=http_json) -> dict:
         if key and sev_text:
             guide[key] = sev_text
         breakdown = cat.get("severityBreakdown") or []
-        if key and breakdown:
+        if key and breakdown and vote_fields:
             votes[key] = {}
             for row in breakdown:
-                level = (row.get("severity") or {})
-                name = level.get("text") or (level.get("id") or "").title()
-                if name:
-                    votes[key][name] = int(row.get("voteCount") or 0)
+                name = row.get("text") or (row.get("id") or "").title()
+                count = row.get(vote_fields[1])
+                if name and isinstance(count, int):
+                    votes[key][name] = count
     cert = (title.get("certificate") or {}).get("rating")
     out = {"parents_guide": guide, "imdb_certificate": cert, "guide_fetched_at": _now(),
            "parents_guide_votes": votes}
     if not votes_supported:
-        out["guide_votes_note"] = "IMDb rejected the vote-breakdown query; severities only"
+        out["guide_votes_note"] = f"vote breakdown unavailable: {errors or 'schema has no vote field'}"
     return out
+
+
+def _vote_fields(fetch, log=print):
+    """Introspect SeverityLevel once and return (level_fields, count_field) or False."""
+    global _VOTE_FIELDS
+    if _VOTE_FIELDS is not None:
+        return _VOTE_FIELDS
+    try:
+        resp = fetch(IMDB_GRAPHQL_URL, data={"query": INTROSPECT_QUERY}, headers=IMDB_HEADERS)
+        fields = [f.get("name") for f in (((resp.get("data") or {}).get("severity") or {}).get("fields") or [])]
+        count = next((f for f in ("voteCount", "votes", "count", "total") if f in fields), None)
+        level = [f for f in ("id", "text") if f in fields]
+        _VOTE_FIELDS = (level, count) if (count and level) else False
+        log(f"  IMDb SeverityLevel fields: {fields} -> vote breakdown {'ON' if _VOTE_FIELDS else 'OFF'}")
+    except Exception as e:
+        _VOTE_FIELDS = False
+        log(f"  IMDb introspection failed ({e}); severities only")
+    return _VOTE_FIELDS
 
 
 def tmdb_poster(imdb_id: str, api_key: str, fetch=http_json) -> str | None:
@@ -275,7 +314,7 @@ def enrich(entries, cache, overrides, *, omdb_key, tmdb_key=None, refresh=False,
                 log(f"  OMDb    {key} -> {rec['imdb_id']} ({rec.get('title')}, {rec.get('year')})")
             if refresh or "parents_guide_votes" not in rec or _older_than(rec.get("guide_fetched_at"), max_age_days):
                 try:
-                    rec.update(imdb_parents_guide(rec["imdb_id"], fetch=fetch))
+                    rec.update(imdb_parents_guide(rec["imdb_id"], fetch=fetch, log=log))
                     log(f"  Guide   {key} -> {rec.get('parents_guide')}")
                 except Exception as e:  # keep metadata even if the guide fails
                     rec["guide_error"] = str(e)

@@ -11,10 +11,11 @@ OMDB_HIT = {"Title": "The Princess Bride", "Year": "1987", "Rated": "PG", "Plot"
 OMDB_MISS = {"Response": "False", "Error": "Movie not found!"}
 OMDB_SEARCH = {"Search": [{"Title": "WarGames", "Year": "1983", "imdbID": "tt0086567", "Type": "movie"}], "Response": "True"}
 OMDB_WARGAMES = {"Title": "WarGames", "Year": "1983", "Rated": "PG", "Plot": "A young computer whiz kid accidentally connects into a top secret super-computer.", "Poster": "N/A", "imdbID": "tt0086567", "Response": "True"}
+INTROSPECT = {"data": {"severity": {"fields": [{"name": "id"}, {"name": "text"}, {"name": "voteCount"}]}}}
 GRAPHQL = {"data": {"title": {"id": "tt0093779", "certificate": {"rating": "PG"}, "parentsGuide": {"categories": [
     {"category": {"id": "NUDITY", "text": "Sex & Nudity"}, "severity": {"id": "MILD", "text": "Mild"},
-     "totalSeverityVotes": 10, "severityBreakdown": [{"severity": {"id": "NONE", "text": "None"}, "voteCount": 4},
-                                                    {"severity": {"id": "MILD", "text": "Mild"}, "voteCount": 6}]},
+     "totalSeverityVotes": 10, "severityBreakdown": [{"id": "NONE", "text": "None", "voteCount": 4},
+                                                    {"id": "MILD", "text": "Mild", "voteCount": 6}]},
     {"category": {"id": "VIOLENCE", "text": "Violence & Gore"}, "severity": {"id": "MILD", "text": "Mild"}},
     {"category": {"id": "PROFANITY", "text": "Profanity"}, "severity": {"id": "MILD", "text": "Mild"}},
     {"category": {"id": "ALCOHOL", "text": "Alcohol, Drugs & Smoking"}, "severity": {"id": "MILD", "text": "Mild"}},
@@ -28,6 +29,9 @@ def fake_fetch(log):
         log.append(url)
         if url.startswith(enrich.IMDB_GRAPHQL_URL):
             assert headers and headers.get("x-imdb-client-name") == "imdb-web-next"
+            if "__type" in data["query"]:
+                return INTROSPECT
+            assert "severityBreakdown { id text voteCount }" in data["query"], data["query"]
             return GRAPHQL
         if url.startswith(enrich.OMDB_URL):
             if "t=The+Princess+Bride" in url:
@@ -48,6 +52,9 @@ def fake_fetch(log):
 
 
 class Enrich(unittest.TestCase):
+    def setUp(self):
+        enrich._VOTE_FIELDS = None
+
     def test_full_pipeline_with_fallback_search(self):
         log = []
         entries = parse_list("The Princess Bride\nWar Games\nNo Such Film (1901)\n")
@@ -93,14 +100,30 @@ class Enrich(unittest.TestCase):
             calls.append(data["query"] if data else url)
             if url.startswith(enrich.OMDB_URL):
                 return OMDB_HIT
+            if "__type" in data["query"]:
+                return INTROSPECT
             if "severityBreakdown" in data["query"]:
-                return {"errors": [{"message": "Cannot query field severityBreakdown"}], "data": None}
+                raise enrich.ApiError("HTTP 400: Cannot query field voteCount on type SeverityLevel", status=400)
             return GRAPHQL
         out = enrich.enrich(parse_list("The Princess Bride\n"), {}, {}, omdb_key="k", fetch=fetch, log=lambda *a: None)
         pb = out["The Princess Bride"]
         self.assertEqual(pb["parents_guide"]["frightening"], "Moderate")
         self.assertIn("guide_votes_note", pb)
         self.assertEqual(sum("severityBreakdown" in c for c in calls if isinstance(c, str)), 1)
+
+    def test_introspection_without_vote_field_skips_votes(self):
+        calls = []
+        def fetch(url, data=None, headers=None):
+            calls.append(data["query"] if data else url)
+            if url.startswith(enrich.OMDB_URL):
+                return OMDB_HIT
+            if "__type" in data["query"]:
+                return {"data": {"severity": {"fields": [{"name": "id"}, {"name": "text"}]}}}
+            assert "severityBreakdown" not in data["query"]
+            return GRAPHQL
+        out = enrich.enrich(parse_list("The Princess Bride\n"), {}, {}, omdb_key="k", fetch=fetch, log=lambda *a: None)
+        self.assertEqual(out["The Princess Bride"]["parents_guide_votes"], {})
+        self.assertIn("guide_votes_note", out["The Princess Bride"])
 
     def test_missing_key_records_error(self):
         out = enrich.enrich(parse_list("X\n"), {}, {}, omdb_key="", fetch=fake_fetch([]), log=lambda *a: None)

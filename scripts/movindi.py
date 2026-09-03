@@ -181,3 +181,75 @@ def compute_age(film: dict, rules: dict) -> dict:
 
     partial = rating_floor is None and known_categories < len(CATEGORY_LABELS)
     return {"age": age, "reasons": driving or reasons, "unknown": False, "partial": partial}
+
+
+# ---------------------------------------------------------------------------
+# Linear model (rules["model"] == "linear"): fitted to hand-labelled ages.
+# ---------------------------------------------------------------------------
+
+SEVERITY_INDEX = {s: i for i, s in enumerate(SEVERITIES)}
+
+
+def severity_scores(film: dict) -> dict:
+    """Continuous 0..3 score per category.
+
+    Uses the vote-weighted mean (None=0, Mild=1, Moderate=2, Severe=3) when the
+    per-level vote counts are cached, otherwise the index of the median level.
+    """
+    guide = film.get("parents_guide") or {}
+    votes = film.get("parents_guide_votes") or {}
+    scores = {}
+    for cat in CATEGORY_LABELS:
+        v = votes.get(cat) or {}
+        total = sum(n for n in v.values() if isinstance(n, int))
+        if total > 0:
+            scores[cat] = sum(SEVERITY_INDEX.get(level, 0) * n for level, n in v.items()) / total
+        elif guide.get(cat) in SEVERITY_INDEX:
+            scores[cat] = float(SEVERITY_INDEX[guide[cat]])
+    return scores
+
+
+def linear_terms(film: dict, rules: dict) -> list[tuple[str, float]]:
+    """(label, contribution) pairs for the linear model, intercept first."""
+    terms = [("base", float(rules.get("intercept", 0)))]
+    scores = severity_scores(film)
+    for cat, w in (rules.get("category_weights") or {}).items():
+        if cat in scores and w:
+            terms.append((CATEGORY_LABELS.get(cat, cat), w * scores[cat]))
+    rated = (film.get("rated") or "").strip()
+    off = (rules.get("rating_offsets") or {}).get(rated)
+    if off:
+        terms.append((f"Rated {rated}", float(off)))
+    for g in film.get("genre") or []:
+        off = (rules.get("genre_offsets") or {}).get(g)
+        if off:
+            terms.append((g, float(off)))
+    for field, spec in (rules.get("numeric") or {}).items():
+        val = film.get(field)
+        if isinstance(val, (int, float)) and spec.get("weight"):
+            terms.append((spec.get("label", field), spec["weight"] * (val - spec.get("center", 0))))
+    return terms
+
+
+def compute_age_linear(film: dict, rules: dict) -> dict:
+    scores = severity_scores(film)
+    if not scores and not film.get("rated"):
+        return {"age": None, "reasons": ["No rating or Parents Guide data yet"], "unknown": True}
+    terms = linear_terms(film, rules)
+    raw = sum(v for _, v in terms)
+    age = int(raw + 0.5)  # round half up
+    lo, hi = rules.get("min_age", 0), rules.get("max_age", 18)
+    age = max(lo, min(hi, age))
+    shown = [terms[0]] + sorted(terms[1:], key=lambda t: -abs(t[1]))
+    reasons = [f"{label} {val:+.1f}" if label != "base" else f"base {val:.1f}" for label, val in shown if abs(val) >= 0.05]
+    reasons.append(f"= {raw:.1f} → {age}+")
+    return {"age": age, "reasons": reasons, "unknown": False, "partial": len(scores) < len(CATEGORY_LABELS)}
+
+
+_compute_age_floors = compute_age
+
+
+def compute_age(film: dict, rules: dict) -> dict:  # noqa: F811
+    if rules.get("model") == "linear":
+        return compute_age_linear(film, rules)
+    return _compute_age_floors(film, rules)
