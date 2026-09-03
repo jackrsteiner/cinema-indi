@@ -84,19 +84,18 @@
       : `<span class="chip age${f.age_estimated ? " est" : ""}" title="${esc(why)}" tabindex="0">${f.age}+${f.age_estimated ? "<sup>~</sup>" : ""}</span>`;
     const runtime = f.runtime_label ? `<span class="runtime">${esc(f.runtime_label)}</span>` : "";
     const imdbLink = f.imdb_url ? `<a class="imdb-link" href="${esc(f.imdb_url)}" rel="noopener">IMDb</a>` : "";
-    const guideLink = f.parents_guide_url ? `<p class="links"><a href="${esc(f.parents_guide_url)}" rel="noopener">Parents Guide</a></p>` : "";
+    const guideLink = f.parents_guide_url ? `<a class="guide-link" href="${esc(f.parents_guide_url)}" rel="noopener">Parents Guide</a>` : "";
     const warn = f.status !== "ok"
       ? `<p class="warn">${f.status === "error" ? "Lookup failed: " + esc(f.error) : "Not fetched yet"}</p>`
       : (f.error ? `<p class="warn">${esc(f.error)}</p>` : "");
     return `<article class="card ${esc(f.status)}${f.watched ? " is-watched" : ""}">
       ${watched}
-      <div class="side">${poster}${imdbLink}</div>
+      <div class="side">${poster}${imdbLink}${guideLink}</div>
       <div>
         <h3>${title}</h3>
         <p class="meta">${f.year_label ? `<span>${esc(f.year_label)}</span>` : ""}${runtime}</p>
         <p class="meta badges">${ratedChip}${ageChip}</p>
         ${f.synopsis ? `<p class="synopsis">${esc(f.synopsis)}</p>` : ""}
-        ${guideLink}
         <ul class="sev" aria-label="Parents Guide severities">${sev}</ul>
         ${warn}
       </div>
