@@ -2485,6 +2485,40 @@
     "title": "Real Genius",
     "year": 1985
   },
+  "Repo! The Genetic Opera": {
+    "genre": [
+      "Horror",
+      "Musical",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T16:32:37Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0963194",
+    "imdb_rating": 6.4,
+    "imdb_votes": 27578,
+    "kind": "film",
+    "list_title": "Repo! The Genetic Opera",
+    "metascore": 32,
+    "omdb_fetched_at": "2026-09-03T16:32:36Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BODJiMzhmYWMtZDQ0Mi00NTc1LTg4ZjktYjhmOTNlOTM2NTg1XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Severe",
+      "profanity": "Moderate",
+      "sex": "Moderate",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "A worldwide epidemic encourages a biotech company to launch an organ-financing program similar in nature to a standard car loan. The repossession clause is a killer, however.",
+    "rated": "R",
+    "runtime_min": 98,
+    "title": "Repo! The Genetic Opera",
+    "total_seasons": null,
+    "year": 2008,
+    "year_end": null
+  },
   "Resident Evil (2002)": {
     "genre": [
       "Action",
