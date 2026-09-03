@@ -14,6 +14,16 @@ class ListParsing(unittest.TestCase):
         self.assertEqual(entries[2]["year"], 2010)
         self.assertIsNone(entries[0]["year"])
 
+    def test_series_marker(self):
+        entries = m.parse_list("Bluey (series)\nFargo (2014 series)\nFargo (1996)\nScott Pilgrim vs. the World\n")
+        self.assertEqual([e["kind"] for e in entries], ["series", "series", "film", "film"])
+        self.assertEqual(entries[0]["key"], "Bluey (series)")
+        self.assertEqual(entries[1], {"key": "Fargo (2014 series)", "title": "Fargo", "year": 2014, "kind": "series"})
+        # Unknown parentheticals stay part of the title.
+        self.assertEqual(m.parse_entry("Some Film (director's cut)"), ("Some Film (director's cut)", None, "film"))
+        # watched.md rows normalise the same way, whatever the token order.
+        self.assertEqual(m.parse_watched("Fargo (series 2014) 2026-01-02\n"), {"Fargo (2014 series)": "2026-01-02"})
+
     def test_sort_keys_ignore_articles_and_accents(self):
         self.assertEqual(m.sort_title("The Graduate"), "Graduate")
         self.assertEqual(m.sort_title("A Simple Favor"), "Simple Favor")
@@ -120,6 +130,21 @@ class LinearModel(unittest.TestCase):
         # 3.4 + 1.0 + 0.5 - 0.6 + 0.1 = 4.4 -> 4
         self.assertEqual(r["age"], 4)
         self.assertEqual(r["reasons"][-1], "= 4.4 → 4+")
+
+    def test_tv_ratings_alias_to_mpaa(self):
+        rules = {"model": "linear", "intercept": 3, "category_weights": {}, "rating_offsets": {"PG": 1.0},
+                 "rating_aliases": {"TV-PG": "PG"}, "rating_floor": {}}
+        r = m.compute_age({"imdb_id": "tt1", "rated": "TV-PG", "parents_guide": {}}, rules)
+        self.assertEqual(r["age"], 4)
+        self.assertTrue(any("Rated TV-PG (as PG)" in x for x in r["reasons"]))
+        self.assertEqual(m.effective_rating({"rated": "TV-14"}, self.rules), "PG-13")
+
+    def test_runtime_term_skipped_for_series(self):
+        rules = {"model": "linear", "intercept": 3, "category_weights": {},
+                 "numeric": {"runtime_min": {"weight": -0.1, "center": 100, "films_only": True}}}
+        film = {"imdb_id": "tt1", "runtime_min": 20, "parents_guide": {}}
+        self.assertEqual(m.compute_age(dict(film, kind="film"), rules)["age"], 11)
+        self.assertEqual(m.compute_age(dict(film, kind="series"), rules)["age"], 3)
 
     def test_rating_floor_applies(self):
         rules = {"model": "linear", "intercept": 3, "category_weights": {}, "rating_floor": {"R": 12}}

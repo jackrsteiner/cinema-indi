@@ -43,11 +43,33 @@ CATEGORY_LABELS = {
 }
 SEVERITIES = ("None", "Mild", "Moderate", "Severe")
 
-_ENTRY_RE = re.compile(r"^(?P<title>.+?)\s*(?:\((?P<year>\d{4})\))?\s*$")
+_PAREN_RE = re.compile(r"^(?P<title>.+?)\s*\((?P<extra>[^()]*)\)\s*$")
+KINDS = ("film", "series")
+
+
+def parse_entry(line: str) -> tuple[str, int | None, str]:
+    """Split 'Title (2005 series)' into (title, year, kind).
+
+    The parenthetical is only interpreted when it contains nothing but an
+    optional 4-digit year and/or the word 'series'; anything else stays part
+    of the title.
+    """
+    title, year, kind = line.strip(), None, "film"
+    m = _PAREN_RE.match(title)
+    if m:
+        tokens = m.group("extra").split()
+        years = [t for t in tokens if re.fullmatch(r"\d{4}", t)]
+        series = [t for t in tokens if t.lower() == "series"]
+        if tokens and len(years) + len(series) == len(tokens) and len(years) <= 1 and len(series) <= 1:
+            title = m.group("title").strip()
+            year = int(years[0]) if years else None
+            kind = "series" if series else "film"
+    return title, year, kind
 
 
 def parse_list(text: str) -> list[dict]:
-    """Parse list.md: one film per non-empty line, optional trailing (YEAR).
+    """Parse list.md: one title per non-empty line, optional trailing
+    '(YEAR)', '(series)' or '(YEAR series)'.
 
     Leading markdown bullets ("- ", "* ") are tolerated so the file still reads
     fine as markdown, but plain lines are the canonical format.
@@ -58,10 +80,8 @@ def parse_list(text: str) -> list[dict]:
         if not line or line.startswith("#"):
             continue
         line = re.sub(r"^[-*]\s+", "", line)
-        m = _ENTRY_RE.match(line)
-        title = m.group("title").strip()
-        year = int(m.group("year")) if m.group("year") else None
-        entries.append({"key": entry_key(title, year), "title": title, "year": year})
+        title, year, kind = parse_entry(line)
+        entries.append({"key": entry_key(title, year, kind), "title": title, "year": year, "kind": kind})
     return entries
 
 
@@ -69,9 +89,9 @@ _WATCHED_RE = re.compile(r"^(?P<key>.+?)(?:\s+(?P<date>\d{4}-\d{2}-\d{2}))?\s*$"
 
 
 def parse_watched(text: str) -> dict:
-    """Parse watched.md: one list.md key per line, optional trailing YYYY-MM-DD.
+    """Parse watched.md: one list.md line per row, optional trailing YYYY-MM-DD.
 
-    Returns {key: date_or_None}. Lines are normalised through entry_key so
+    Returns {key: date_or_None}. Rows are normalised through entry_key so
     'True Grit (2010)' matches the list entry of the same name.
     """
     out = {}
@@ -81,16 +101,15 @@ def parse_watched(text: str) -> dict:
             continue
         line = re.sub(r"^[-*]\s+", "", line)
         m = _WATCHED_RE.match(line)
-        key_text = m.group("key").strip()
-        e = _ENTRY_RE.match(key_text)
-        key = entry_key(e.group("title").strip(), int(e.group("year")) if e.group("year") else None)
-        out[key] = m.group("date")
+        title, year, kind = parse_entry(m.group("key"))
+        out[entry_key(title, year, kind)] = m.group("date")
     return out
 
 
-def entry_key(title: str, year: int | None) -> str:
+def entry_key(title: str, year: int | None, kind: str = "film") -> str:
     """Stable identifier for a list entry, used as the cache key in films.json."""
-    return f"{title} ({year})" if year else title
+    extra = ([str(year)] if year else []) + (["series"] if kind == "series" else [])
+    return f"{title} ({' '.join(extra)})" if extra else title
 
 
 def strip_accents(s: str) -> str:
@@ -240,6 +259,13 @@ def severity_scores(film: dict) -> dict:
     return scores
 
 
+def effective_rating(film: dict, rules: dict) -> str:
+    """The rating the model reasons about: TV ratings map onto MPAA ones via
+    rules["rating_aliases"] (TV-PG -> PG, TV-14 -> PG-13, ...)."""
+    rated = (film.get("rated") or "").strip()
+    return (rules.get("rating_aliases") or {}).get(rated, rated)
+
+
 def linear_terms(film: dict, rules: dict) -> list[tuple[str, float]]:
     """(label, contribution) pairs for the linear model, intercept first."""
     terms = [("base", float(rules.get("intercept", 0)))]
@@ -252,16 +278,19 @@ def linear_terms(film: dict, rules: dict) -> list[tuple[str, float]]:
             terms.append((CATEGORY_LABELS.get(cat, cat), w * scores[cat]))
         elif missing:
             terms.append((f"{CATEGORY_LABELS.get(cat, cat)} (assumed)", w * missing))
-    rated = (film.get("rated") or "").strip()
+    rated = effective_rating(film, rules)
     off = (rules.get("rating_offsets") or {}).get(rated)
     if off:
-        terms.append((f"Rated {rated}", float(off)))
+        shown = (film.get("rated") or "").strip()
+        terms.append((f"Rated {shown}" + (f" (as {rated})" if shown != rated else ""), float(off)))
     for g in film.get("genre") or []:
         off = (rules.get("genre_offsets") or {}).get(g)
         if off:
             terms.append((g, float(off)))
     for field, spec in (rules.get("numeric") or {}).items():
         val = film.get(field)
+        if spec.get("films_only") and film.get("kind") == "series":
+            continue
         if isinstance(val, (int, float)) and spec.get("weight"):
             terms.append((spec.get("label", field), spec["weight"] * (val - spec.get("center", 0))))
     return terms
@@ -280,7 +309,7 @@ def compute_age_linear(film: dict, rules: dict) -> dict:
     reasons = [f"{label} {val:+.1f}" if label != "base" else f"base {val:.1f}" for label, val in shown if abs(val) >= 0.05]
     reasons.append(f"= {raw:.1f} → {age}+")
     # Optional hard floors by rating for parts of the scale no label calibrates.
-    rated = (film.get("rated") or "").strip()
+    rated = effective_rating(film, rules)
     floor = (rules.get("rating_floor") or {}).get(rated)
     if floor is not None and floor > age:
         age = floor

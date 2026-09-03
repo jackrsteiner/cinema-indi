@@ -144,6 +144,8 @@ section.group h2 small { font-weight: 400; color: var(--muted); font-size: 0.85r
 .chip.watched { background: color-mix(in srgb, var(--sev-none) 45%, var(--chip)); }
 .card.is-watched .poster { filter: saturate(0.6); }
 .chip.age { cursor: help; }
+.chip.kind { background: var(--ink); color: var(--bg); }
+.runtime { color: var(--muted); }
 .chip.age.est { background: transparent; color: var(--accent); border: 2px dashed var(--accent); padding-top: 0; padding-bottom: 0; }
 .chip.age sup { font-size: 0.7em; line-height: 0; margin-left: 1px; }
 .warn { color: var(--accent); font-size: 0.8rem; margin: 0.25rem 0 0; }

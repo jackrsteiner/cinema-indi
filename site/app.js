@@ -81,6 +81,8 @@
       ? `<span class="chip age unknown" title="${esc(why)}">age ?</span>`
       : `<span class="chip age${f.age_estimated ? " est" : ""}" title="${esc(why)}" tabindex="0">${f.age}+${f.age_estimated ? "<sup>~</sup>" : ""}</span>`;
     const series = f.series ? `<span class="chip">${esc(f.series)}${f.series_order ? " " + f.series_order : ""}</span>` : "";
+    const kind = f.kind === "series" ? `<span class="chip kind">Series</span>` : "";
+    const runtime = f.runtime_label ? `<span class="runtime">${esc(f.runtime_label)}</span>` : "";
     const imdbLink = f.imdb_url ? `<a class="imdb-link" href="${esc(f.imdb_url)}" rel="noopener">IMDb</a>` : "";
     const guideLink = f.parents_guide_url ? `<p class="links"><a href="${esc(f.parents_guide_url)}" rel="noopener">Parents Guide</a></p>` : "";
     const warn = f.status !== "ok"
@@ -90,7 +92,7 @@
       <div class="side">${poster}${imdbLink}</div>
       <div>
         <h3>${title}</h3>
-        <p class="meta">${f.year ? `<span>${f.year}</span>` : ""}${f.rated ? `<span class="chip">${esc(f.rated)}</span>` : ""}${ageChip}${series}${watched}</p>
+        <p class="meta">${f.year_label ? `<span>${esc(f.year_label)}</span>` : ""}${runtime}${f.rated ? `<span class="chip">${esc(f.rated)}</span>` : ""}${ageChip}${kind}${series}${watched}</p>
         ${f.synopsis ? `<p class="synopsis">${esc(f.synopsis)}</p>` : ""}
         ${guideLink}
         <ul class="sev" aria-label="Parents Guide severities">${sev}</ul>

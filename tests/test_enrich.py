@@ -7,6 +7,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import enrich  # noqa: E402
 from movindi import parse_list  # noqa: E402
 
+OMDB_SERIES = {"Title": "Bluey", "Year": "2018–", "Rated": "TV-Y", "Plot": "A dog family.", "Poster": "N/A", "imdbID": "tt7678620", "Type": "series", "totalSeasons": "3", "Runtime": "7 min", "Genre": "Animation, Family", "Response": "True"}
 OMDB_HIT = {"Title": "The Princess Bride", "Year": "1987", "Rated": "PG", "Plot": "A bedridden boy's grandfather reads him the story of a farmboy-turned-pirate. He encounters numerous obstacles.", "Poster": "https://m.media-amazon.com/x.jpg", "imdbID": "tt0093779", "Response": "True"}
 OMDB_MISS = {"Response": "False", "Error": "Movie not found!"}
 OMDB_SEARCH = {"Search": [{"Title": "WarGames", "Year": "1983", "imdbID": "tt0086567", "Type": "movie"}], "Response": "True"}
@@ -44,6 +45,9 @@ def fake_fetch(log):
                 return OMDB_WARGAMES
             if "i=tt0093779" in url:
                 return OMDB_HIT
+            if "t=Bluey" in url:
+                assert "type=series" in url, url
+                return OMDB_SERIES
             return OMDB_MISS
         if "themoviedb.org" in url:
             return TMDB
@@ -114,6 +118,13 @@ class Enrich(unittest.TestCase):
         self.assertEqual(pb["parents_guide"]["frightening"], "Moderate")
         self.assertIn("guide_votes_note", pb)
         self.assertEqual(sum("severityBreakdown" in c for c in calls if isinstance(c, str)), 1)
+
+    def test_series_lookup(self):
+        out = enrich.enrich(parse_list("Bluey (series)\n"), {}, {}, omdb_key="k", fetch=fake_fetch([]), log=lambda *a: None)
+        rec = out["Bluey (series)"]
+        self.assertEqual((rec["kind"], rec["year"], rec["year_end"], rec["ongoing"], rec["total_seasons"], rec["runtime_min"]),
+                         ("series", 2018, None, True, 3, 7))
+        self.assertEqual(rec["rated"], "TV-Y")
 
     def test_votes_off_by_default(self):
         out = enrich.enrich(parse_list("The Princess Bride\n"), {}, {}, omdb_key="k", fetch=fake_fetch([]), log=lambda *a: None)

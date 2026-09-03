@@ -34,9 +34,10 @@ def build_records(entries, cache, overrides, rules, watched=None) -> list[dict]:
         raw = dict(cache.get(key, {}))
         ov = overrides.get(key, {})
         # Overrides win over fetched values for the fields they name.
-        for field in ("imdb_id", "title", "year", "rated", "series", "series_order"):
+        for field in ("imdb_id", "title", "year", "rated", "series", "series_order", "runtime_min", "total_seasons"):
             if field in ov:
                 raw[field] = ov[field]
+        raw.setdefault("kind", entry.get("kind", "film"))
         if "synopsis" in ov:
             raw["plot"] = ov["synopsis"]
 
@@ -53,7 +54,10 @@ def build_records(entries, cache, overrides, rules, watched=None) -> list[dict]:
             "sort_title": sort_title(title),
             "alpha_key": alpha_key(title),
             "letter": alpha_letter(title),
+            "kind": raw.get("kind", "film"),
             "year": raw.get("year") or entry.get("year"),
+            "year_label": year_label(raw, entry),
+            "runtime_label": runtime_label(raw),
             "rated": raw.get("rated") or raw.get("imdb_certificate"),
             "synopsis": first_sentence(raw.get("plot")),
             "poster": poster,
@@ -74,13 +78,38 @@ def build_records(entries, cache, overrides, rules, watched=None) -> list[dict]:
     return records
 
 
+def year_label(raw, entry) -> str:
+    start = raw.get("year") or entry.get("year")
+    if not start:
+        return ""
+    if raw.get("kind") == "series":
+        end = raw.get("year_end")
+        if end and end != start:
+            return f"{start}–{end}"
+        return f"{start}–" if raw.get("ongoing") else str(start)
+    return str(start)
+
+
+def runtime_label(raw) -> str:
+    mins = raw.get("runtime_min")
+    if raw.get("kind") == "series":
+        parts = []
+        if mins:
+            parts.append(f"≈{mins} min/ep")
+        if raw.get("total_seasons"):
+            n = raw["total_seasons"]
+            parts.append(f"{n} season{'' if n == 1 else 's'}")
+        return " · ".join(parts)
+    return f"{mins} min" if mins else ""
+
+
 def plain_list_html(entries, watched, version) -> str:
     """list.md as a bare page: one title per line, alphabetical, watched marked."""
     from html import escape
     items = []
     for e in entries:
         key = e["key"]
-        text = e["title"] + (f" ({e['year']})" if e.get("year") else "")
+        text = key
         mark = ' <span class="w">watched</span>' if key in watched else ""
         items.append(f"<li>{escape(text)}{mark}</li>")
     n = len(entries)

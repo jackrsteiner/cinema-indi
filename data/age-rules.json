@@ -13,6 +13,10 @@
     "drugs": 0.0,
     "frightening": 0.59
   },
+  "rating_aliases": {
+    "_comment": "TV ratings are scored as their MPAA equivalents until some series are labelled.",
+    "TV-Y": "G", "TV-G": "G", "TV-Y7": "PG", "TV-Y7-FV": "PG", "TV-PG": "PG", "TV-14": "PG-13", "TV-MA": "R"
+  },
   "rating_offsets": {
     "PG": 0.72,
     "PG-13": 0.1,
@@ -28,7 +32,9 @@
     "runtime_min": {
       "weight": -0.0113,
       "center": 100.0,
-      "label": "Runtime"
+      "label": "Runtime",
+      "films_only": true,
+      "_comment": "Per-episode runtime means nothing to a film-fitted term; skipped for series until refit."
     },
     "imdb_rating": {
       "weight": -0.5515,

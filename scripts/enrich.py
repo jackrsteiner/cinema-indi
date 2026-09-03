@@ -117,16 +117,17 @@ def omdb_lookup(entry: dict, api_key: str, imdb_id: str | None = None, fetch=htt
         params = {"apikey": api_key, "plot": "short", **params}
         return fetch(OMDB_URL + "?" + urllib.parse.urlencode(params))
 
+    omdb_type = "series" if entry.get("kind") == "series" else "movie"
     if imdb_id:
         rec = call({"i": imdb_id})
     else:
-        params = {"t": entry["title"], "type": "movie"}
+        params = {"t": entry["title"], "type": omdb_type}
         if entry.get("year"):
             params["y"] = str(entry["year"])
         rec = call(params)
         if rec.get("Response") != "True":
-            # Fall back to a search and take the first movie hit.
-            sparams = {"s": entry["title"], "type": "movie"}
+            # Fall back to a search and take the first hit of the right type.
+            sparams = {"s": entry["title"], "type": omdb_type}
             if entry.get("year"):
                 sparams["y"] = str(entry["year"])
             search = call(sparams)
@@ -137,11 +138,18 @@ def omdb_lookup(entry: dict, api_key: str, imdb_id: str | None = None, fetch=htt
     if rec.get("Response") != "True":
         raise RuntimeError(f"OMDb: {rec.get('Error', 'unknown error')} for {entry['key']!r}")
 
-    year_str = (rec.get("Year") or "").split("–")[0].strip()
+    year_raw = (rec.get("Year") or "").replace("-", "–")
+    year_parts = [p.strip() for p in year_raw.split("–")]
+    year_str = year_parts[0] if year_parts else ""
+    year_end = year_parts[1] if len(year_parts) > 1 else None
     return {
         "imdb_id": rec["imdbID"],
+        "kind": "series" if (rec.get("Type") == "series" or entry.get("kind") == "series") else "film",
         "title": rec.get("Title") or entry["title"],
         "year": int(year_str) if year_str.isdigit() else entry.get("year"),
+        "year_end": int(year_end) if (year_end or "").isdigit() else None,
+        "ongoing": bool(year_raw.endswith("–")),
+        "total_seasons": _int_prefix(_clean(rec.get("totalSeasons"))),
         "rated": _clean(rec.get("Rated")),
         "plot": _clean(rec.get("Plot")),
         "omdb_poster": _clean(rec.get("Poster")),

@@ -12,6 +12,8 @@ automatically by a GitHub Action and rendered as a static page.
 1. Add the title on its own line in `list.md`, in alphabetical order **ignoring a
    leading "The", "A" or "An"** (so *The Graduate* sorts under G).
 2. If the title is ambiguous, add the year in parentheses: `True Grit (2010)`.
+   A TV series gets `(series)`, or `(2014 series)` if the year is needed too.
+   Anything without the marker is looked up as a film.
 3. Commit to `main`. The Action looks the film up, updates `data/films.json`,
    rebuilds the site and deploys it. Takes a minute or two.
 
@@ -41,7 +43,9 @@ filter. Or tell an agent "mark *Title* as watched".
 - **Year** groups by release year.
 - **Age** groups by a computed minimum age (see below).
 
-Each view has a sticky jump bar to any letter / year / age. Each card shows the
+Each view has a sticky jump bar to any letter / year / age. Cards show the
+runtime (per-episode average and season count for a series) and a "Series"
+chip; films carry no chip. Each card shows the
 five IMDb Parents Guide categories as icons (💋 sex & nudity, 💥 violence,
 🤬 profanity, 🍺 alcohol/drugs, 👻 frightening scenes) coloured by severity.
 
@@ -66,6 +70,11 @@ Back to the Future, Raiders, Last Crusade, WarGames; 6: Empire, Real Genius,
 Return of the Jedi; 7: Temple of Doom). The fit reproduces 20 of them; Raiders
 comes out one year high because its data is identical to Last Crusade's.
 Nothing R-rated has been labelled yet, so `rating_floor` pins R at 12 until it is.
+
+TV ratings are scored as their MPAA equivalents (`rating_aliases`: TV-Y/TV-G as
+G, TV-Y7/TV-PG as PG, TV-14 as PG-13, TV-MA as R) and the runtime term is
+skipped for series, since OMDb reports per-episode length. Both are stopgaps
+until a few series have been labelled and the model refitted.
 
 A film IMDb has no Parents Guide for (shorts, obscure titles) is still scored
 from its other inputs, with the missing severities set to `missing_severity`

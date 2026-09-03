@@ -12,10 +12,13 @@ truth is `list.md`. A GitHub Action fetches everything else.
    leading "The", "A" or "An"**. Plain text, no bullets, no other fields.
 3. If a title is ambiguous (remakes, same-name films), append the year:
    `True Grit (2010)`.
-4. If the film belongs to a series the user cares about, add a `series` and
-   `series_order` entry for it in `data/overrides.json`, keyed by the exact
-   `list.md` line.
-5. Run `python -m unittest discover -s tests` (no network needed), commit with a
+4. A TV series is marked `(series)`, with the first-air year if ambiguous:
+   `Bluey (series)`, `Fargo (2014 series)`. Without the marker the lookup is
+   film-only. One line per series, never per season or episode.
+5. If the film belongs to a franchise the user cares about (Star Wars, Indiana
+   Jones), add a `series` and `series_order` entry for it in
+   `data/overrides.json`, keyed by the exact `list.md` line.
+6. Run `python -m unittest discover -s tests` (no network needed), commit with a
    message like `Add The Iron Giant`, and push to `main`. Do not edit
    `data/films.json`; the Action fills it in and commits it back.
 
