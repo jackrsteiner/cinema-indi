@@ -47,6 +47,25 @@ query ParentsGuide($id: ID!) {
 }
 """
 
+# Same query plus the per-level vote counts behind each severity. Tried first;
+# if IMDb rejects the extra fields we fall back to PARENTS_GUIDE_QUERY.
+PARENTS_GUIDE_VOTES_QUERY = """
+query ParentsGuideVotes($id: ID!) {
+  title(id: $id) {
+    id
+    certificate { rating }
+    parentsGuide {
+      categories {
+        category { id text }
+        severity { id text }
+        totalSeverityVotes
+        severityBreakdown { severity { id text } voteCount }
+      }
+    }
+  }
+}
+"""
+
 
 def http_json(url: str, data: dict | None = None, headers: dict | None = None, retries: int = 3):
     """GET (or POST json when data is given) and parse JSON, with backoff retries."""
@@ -123,26 +142,49 @@ def omdb_lookup(entry: dict, api_key: str, imdb_id: str | None = None, fetch=htt
         "rated": _clean(rec.get("Rated")),
         "plot": _clean(rec.get("Plot")),
         "omdb_poster": _clean(rec.get("Poster")),
+        "genre": [g.strip() for g in (_clean(rec.get("Genre")) or "").split(",") if g.strip()],
+        "runtime_min": _int_prefix(_clean(rec.get("Runtime"))),
+        "imdb_rating": _float(_clean(rec.get("imdbRating"))),
+        "imdb_votes": _int_prefix((_clean(rec.get("imdbVotes")) or "").replace(",", "")),
+        "metascore": _int_prefix(_clean(rec.get("Metascore"))),
         "omdb_fetched_at": _now(),
     }
 
 
 def imdb_parents_guide(imdb_id: str, fetch=http_json) -> dict:
     """Return {'parents_guide': {key: severity}, 'imdb_certificate': str|None}."""
-    payload = {"query": PARENTS_GUIDE_QUERY, "variables": {"id": imdb_id}}
-    resp = fetch(IMDB_GRAPHQL_URL, data=payload, headers={"x-imdb-client-name": "imdb-web-next"})
-    title = (resp.get("data") or {}).get("title") or {}
+    headers = {"x-imdb-client-name": "imdb-web-next"}
+    title = {}
+    votes_supported = True
+    for query in (PARENTS_GUIDE_VOTES_QUERY, PARENTS_GUIDE_QUERY):
+        resp = fetch(IMDB_GRAPHQL_URL, data={"query": query, "variables": {"id": imdb_id}}, headers=headers)
+        title = (resp.get("data") or {}).get("title") or {}
+        if title:
+            break
+        votes_supported = False
     if not title:
         raise RuntimeError(f"IMDb GraphQL: no title data for {imdb_id}: {resp.get('errors')}")
-    guide = {}
+    guide, votes = {}, {}
     for cat in ((title.get("parentsGuide") or {}).get("categories") or []):
         key = _category_key(cat.get("category") or {})
         sev = (cat.get("severity") or {})
         sev_text = sev.get("text") or (sev.get("id") or "").title()
         if key and sev_text:
             guide[key] = sev_text
+        breakdown = cat.get("severityBreakdown") or []
+        if key and breakdown:
+            votes[key] = {}
+            for row in breakdown:
+                level = (row.get("severity") or {})
+                name = level.get("text") or (level.get("id") or "").title()
+                if name:
+                    votes[key][name] = int(row.get("voteCount") or 0)
     cert = (title.get("certificate") or {}).get("rating")
-    return {"parents_guide": guide, "imdb_certificate": cert, "guide_fetched_at": _now()}
+    out = {"parents_guide": guide, "imdb_certificate": cert, "guide_fetched_at": _now(),
+           "parents_guide_votes": votes}
+    if not votes_supported:
+        out["guide_votes_note"] = "IMDb rejected the vote-breakdown query; severities only"
+    return out
 
 
 def tmdb_poster(imdb_id: str, api_key: str, fetch=http_json) -> str | None:
@@ -167,6 +209,26 @@ def _category_key(category: dict) -> str | None:
 
 def _clean(v):
     return None if v in (None, "", "N/A") else v
+
+
+def _int_prefix(v):
+    """'96 min' -> 96, '1,234' -> None (strip commas first), None -> None."""
+    if not v:
+        return None
+    digits = ""
+    for ch in str(v).strip():
+        if ch.isdigit():
+            digits += ch
+        else:
+            break
+    return int(digits) if digits else None
+
+
+def _float(v):
+    try:
+        return float(v) if v is not None else None
+    except (TypeError, ValueError):
+        return None
 
 
 def _now() -> str:
@@ -197,7 +259,7 @@ def enrich(entries, cache, overrides, *, omdb_key, tmdb_key=None, refresh=False,
         rec["list_title"] = entry["title"]
         rec.pop("error", None)
         try:
-            if refresh or not rec.get("imdb_id"):
+            if refresh or not rec.get("imdb_id") or "genre" not in rec:
                 if not omdb_key:
                     raise RuntimeError("OMDB_API_KEY is not set")
                 if omdb_down:
@@ -211,7 +273,7 @@ def enrich(entries, cache, overrides, *, omdb_key, tmdb_key=None, refresh=False,
                         raise RuntimeError(omdb_down)
                     raise
                 log(f"  OMDb    {key} -> {rec['imdb_id']} ({rec.get('title')}, {rec.get('year')})")
-            if refresh or _older_than(rec.get("guide_fetched_at"), max_age_days):
+            if refresh or "parents_guide_votes" not in rec or _older_than(rec.get("guide_fetched_at"), max_age_days):
                 try:
                     rec.update(imdb_parents_guide(rec["imdb_id"], fetch=fetch))
                     log(f"  Guide   {key} -> {rec.get('parents_guide')}")
