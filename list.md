@@ -67,6 +67,7 @@ Invasion of the Body Snatchers (1978)
 The Iron Giant
 It's a Wonderful Life
 James and the Giant Peach
+Juno (2007)
 Jurassic Park
 Kiki's Delivery Service
 Kill Bill: Vol. 1
