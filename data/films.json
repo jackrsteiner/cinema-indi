@@ -800,6 +800,40 @@
     "year": 1990,
     "year_end": null
   },
+  "Eternal Sunshine of the Spotless Mind": {
+    "genre": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:57Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0338013",
+    "imdb_rating": 8.3,
+    "imdb_votes": 1166070,
+    "kind": "film",
+    "list_title": "Eternal Sunshine of the Spotless Mind",
+    "metascore": 89,
+    "omdb_fetched_at": "2026-09-03T10:54:57Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories forever.",
+    "rated": "R",
+    "runtime_min": 108,
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "total_seasons": null,
+    "year": 2004,
+    "year_end": null
+  },
   "Fantasia (1940)": {
     "genre": [
       "Animation",
