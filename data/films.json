@@ -2937,6 +2937,39 @@
     "year": 1982,
     "year_end": null
   },
+  "The Truman Show": {
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T10:56:36Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0120382",
+    "imdb_rating": 8.2,
+    "imdb_votes": 1356843,
+    "kind": "film",
+    "list_title": "The Truman Show",
+    "metascore": 90,
+    "omdb_fetched_at": "2026-09-03T10:56:35Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNzA3ZjZlNzYtMTdjMy00NjMzLTk5ZGYtMTkyYzNiOGM1YmM3XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show.",
+    "rated": "PG",
+    "runtime_min": 103,
+    "title": "The Truman Show",
+    "total_seasons": null,
+    "year": 1998,
+    "year_end": null
+  },
   "The Witches (1990)": {
     "genre": [
       "Adventure",
