@@ -396,6 +396,40 @@
     "year": 1990,
     "year_end": null
   },
+  "Bad Santa": {
+    "genre": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:01Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0307987",
+    "imdb_rating": 7.0,
+    "imdb_votes": 166486,
+    "kind": "film",
+    "list_title": "Bad Santa",
+    "metascore": 70,
+    "omdb_fetched_at": "2026-09-03T16:18:00Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjA4Njg1MDcwN15BMl5BanBnXkFtZTYwMzAxNjM3._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Severe",
+      "frightening": "Moderate",
+      "profanity": "Severe",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A miserable conman and his partner pose as Santa and his Little Helper to rob department stores on Christmas Eve. But they run into problems when the conman befriends a troubled kid.",
+    "rated": "R",
+    "runtime_min": 92,
+    "title": "Bad Santa",
+    "total_seasons": null,
+    "year": 2003,
+    "year_end": null
+  },
   "Bananaman (series)": {
     "genre": [
       "Animation",
@@ -767,6 +801,39 @@
     "year": 1999,
     "year_end": null
   },
+  "Die Hard": {
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:01Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0095016",
+    "imdb_rating": 8.2,
+    "imdb_votes": 1021784,
+    "kind": "film",
+    "list_title": "Die Hard",
+    "metascore": 72,
+    "omdb_fetched_at": "2026-09-03T16:18:01Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMGNlYmM1NmQtYWExMS00NmRjLTg5ZmEtMmYyYzJkMzljYWMxXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Severe",
+      "sex": "Mild",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "A New York City cop, John McClane, tries to save his estranged wife and several others taken hostage by terrorists during a Christmas Eve party at the Nakatomi Plaza Skyscraper in Los Angeles, California.",
+    "rated": "R",
+    "runtime_min": 132,
+    "title": "Die Hard",
+    "total_seasons": null,
+    "year": 1988,
+    "year_end": null
+  },
   "Easy Rider": {
     "genre": [
       "Adventure",
@@ -1065,6 +1132,40 @@
     "year": 2011,
     "year_end": null
   },
+  "Gattaca": {
+    "genre": [
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:02Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0119177",
+    "imdb_rating": 7.7,
+    "imdb_votes": 344754,
+    "kind": "film",
+    "list_title": "Gattaca",
+    "metascore": 64,
+    "omdb_fetched_at": "2026-09-03T16:18:02Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZjQxNTc3YzQtZDA5ZC00MmM5LWE3NGYtMGE0Yjk3MDYwODVlXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Vincent, an \"In-Valid,\" assumes the identity of a member of the genetic elite to pursue his goal of traveling into space with the Gattaca Aerospace Corporation. However, a week before his mission, a murder marks Vincent as a suspect.",
+    "rated": "PG-13",
+    "runtime_min": 106,
+    "title": "Gattaca",
+    "total_seasons": null,
+    "year": 1997,
+    "year_end": null
+  },
   "Glory (1989)": {
     "genre": [
       "Biography",
@@ -1130,6 +1231,40 @@
     "title": "Harold & Kumar Go to White Castle",
     "total_seasons": null,
     "year": 2004,
+    "year_end": null
+  },
+  "Harold and Maude": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:02Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0067185",
+    "imdb_rating": 7.8,
+    "imdb_votes": 85774,
+    "kind": "film",
+    "list_title": "Harold and Maude",
+    "metascore": 62,
+    "omdb_fetched_at": "2026-09-03T16:18:02Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZWQ2YTQ4N2ItMzBmZC00ODIyLWIwNWEtODk2M2FjNjZhMDlmXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "Young, rich, and obsessed with death, Harold finds himself changed forever when he meets lively septuagenarian Maude at a funeral.",
+    "rated": "PG",
+    "runtime_min": 91,
+    "title": "Harold and Maude",
+    "total_seasons": null,
+    "year": 1971,
     "year_end": null
   },
   "Harvey (1950)": {
@@ -1762,6 +1897,74 @@
     "year": 1976,
     "year_end": null
   },
+  "Léon: The Professional": {
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:02Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0110413",
+    "imdb_rating": 8.5,
+    "imdb_votes": 1348574,
+    "kind": "film",
+    "list_title": "Léon: The Professional",
+    "metascore": 64,
+    "omdb_fetched_at": "2026-09-03T16:18:02Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNGRkYTNhOWQtYmI0Ni00MjZhLWJmMzAtMTA2Mjg4NGNiNDU0XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "When her family is murdered by a group of corrupt officers led by the tyrannical Norman Stansfield, a young 12-year-old girl enlists the help of an Italian-American hitman to seek revenge.",
+    "rated": "R",
+    "runtime_min": 110,
+    "title": "Léon: The Professional",
+    "total_seasons": null,
+    "year": 1994,
+    "year_end": null
+  },
+  "Mad Max 2: The Road Warrior": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:03Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0082694",
+    "imdb_rating": 7.6,
+    "imdb_votes": 211905,
+    "kind": "film",
+    "list_title": "Mad Max 2: The Road Warrior",
+    "metascore": 77,
+    "omdb_fetched_at": "2026-09-03T16:18:02Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYTAyNzBiZWUtMGY4YS00YzkzLWJhNGUtNTU5OThlZjZhZTYyXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "In the post-apocalyptic Australian wasteland, a cynical drifter agrees to help a small, gasoline-rich community get rid of a horde of bandits.",
+    "rated": "R",
+    "runtime_min": 96,
+    "title": "The Road Warrior",
+    "total_seasons": null,
+    "year": 1981,
+    "year_end": null
+  },
   "Midnight in Paris": {
     "genre": [
       "Comedy",
@@ -1855,6 +2058,39 @@
     "title": "My Neighbor Totoro",
     "year": 1988
   },
+  "Ocean's Eleven (2001)": {
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:03Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0240772",
+    "imdb_rating": 7.7,
+    "imdb_votes": 668514,
+    "kind": "film",
+    "list_title": "Ocean's Eleven",
+    "metascore": 74,
+    "omdb_fetched_at": "2026-09-03T16:18:03Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMmNhZDkxYTgtMDM3ZC00NTQ3LWFjZTUtNzc1Y2QyNWZjNDRmXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Danny Ocean, a gangster, rounds up a gang of associates to stage a sophisticated and elaborate casino heist which involves robbing three Las Vegas casinos simultaneously during a popular boxing event.",
+    "rated": "PG-13",
+    "runtime_min": 116,
+    "title": "Ocean's Eleven",
+    "total_seasons": null,
+    "year": 2001,
+    "year_end": null
+  },
   "Pan's Labyrinth": {
     "genre": [
       "Drama",
@@ -1889,6 +2125,39 @@
     "year": 2007,
     "year_end": null
   },
+  "Picnic at Hanging Rock (1975)": {
+    "genre": [
+      "Drama",
+      "Mystery"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:03Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0073540",
+    "imdb_rating": 7.4,
+    "imdb_votes": 43997,
+    "kind": "film",
+    "list_title": "Picnic at Hanging Rock",
+    "metascore": 81,
+    "omdb_fetched_at": "2026-09-03T16:18:03Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZDg0ZWUyMGYtMmY5NC00MmYzLTkyYjUtYWJmYmRiOTZhZjVkXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "During a rural summer picnic, a few students and a teacher from an Australian girls' school vanish without a trace. Their absence frustrates and haunts the people left behind.",
+    "rated": "PG",
+    "runtime_min": 115,
+    "title": "Picnic at Hanging Rock",
+    "total_seasons": null,
+    "year": 1975,
+    "year_end": null
+  },
   "Pirates of Silicon Valley": {
     "genre": [
       "Biography",
@@ -1919,6 +2188,73 @@
     "runtime_min": 95,
     "title": "Pirates of Silicon Valley",
     "year": 1999
+  },
+  "Pirates of the Caribbean: The Curse of the Black Pearl": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:03Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0325980",
+    "imdb_rating": 8.1,
+    "imdb_votes": 1323403,
+    "kind": "film",
+    "list_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "metascore": 63,
+    "omdb_fetched_at": "2026-09-03T16:18:03Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNDhlMzEyNzItMTA5Mi00YWRhLThlNTktYTQyMTA0MDIyNDEyXkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "An intrepid blacksmith teams up with an eccentric pirate captain to save his love from an undead pirate crew.",
+    "rated": "PG-13",
+    "runtime_min": 143,
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "total_seasons": null,
+    "year": 2003,
+    "year_end": null
+  },
+  "Planet of the Apes (1968)": {
+    "genre": [
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:04Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0063442",
+    "imdb_rating": 8.0,
+    "imdb_votes": 208875,
+    "kind": "film",
+    "list_title": "Planet of the Apes",
+    "metascore": 79,
+    "omdb_fetched_at": "2026-09-03T16:18:04Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjI2NzRkNmQtNTIwZi00ZWMxLThlOGQtMjQ1NjI3MzI5YmIzXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "After being kept in hypersleep during a long expedition into deep space, an astronaut crew crash-lands in the 40th century on a planet where highly intelligent non-human ape species are dominant and humans are enslaved.",
+    "rated": "G",
+    "runtime_min": 112,
+    "title": "Planet of the Apes",
+    "total_seasons": null,
+    "year": 1968,
+    "year_end": null
   },
   "Ponyo": {
     "genre": [
@@ -2179,6 +2515,39 @@
     "total_seasons": 9,
     "year": 1989,
     "year_end": 1998
+  },
+  "Shaun of the Dead": {
+    "genre": [
+      "Comedy",
+      "Horror"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:04Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0365748",
+    "imdb_rating": 7.8,
+    "imdb_votes": 630456,
+    "kind": "film",
+    "list_title": "Shaun of the Dead",
+    "metascore": 76,
+    "omdb_fetched_at": "2026-09-03T16:18:04Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNzNjZGE4YTUtOWU3OC00Mzg2LThjNWItMzUwYzEwMDgxYmVjXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Severe",
+      "sex": "Mild",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "The uneventful, aimless lives of a London electronics salesman and his layabout roommate are disrupted by the zombie apocalypse.",
+    "rated": "R",
+    "runtime_min": 99,
+    "title": "Shaun of the Dead",
+    "total_seasons": null,
+    "year": 2004,
+    "year_end": null
   },
   "Silver Spoon (2013 series)": {
     "genre": [
@@ -2702,6 +3071,40 @@
     "year": 1982,
     "year_end": null
   },
+  "The Fifth Element": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:01Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0119116",
+    "imdb_rating": 7.6,
+    "imdb_votes": 539521,
+    "kind": "film",
+    "list_title": "The Fifth Element",
+    "metascore": 52,
+    "omdb_fetched_at": "2026-09-03T16:18:01Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BODU4ZTE5MWYtNmY2MC00NDkyLTk0NDgtNTk5YjgzMzc4NmQwXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "In the colorful future, cabdriver Korben Dallas unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep the great evil and Jean-Baptiste Emmanuel Zorg at bay.",
+    "rated": "PG-13",
+    "runtime_min": 126,
+    "title": "The Fifth Element",
+    "total_seasons": null,
+    "year": 1997,
+    "year_end": null
+  },
   "The Good, the Bad and the Ugly": {
     "genre": [
       "Adventure",
@@ -3175,6 +3578,40 @@
     "year": 1982,
     "year_end": null
   },
+  "The Thomas Crown Affair (1999)": {
+    "genre": [
+      "Crime",
+      "Romance",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:04Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0155267",
+    "imdb_rating": 6.9,
+    "imdb_votes": 107944,
+    "kind": "film",
+    "list_title": "The Thomas Crown Affair",
+    "metascore": 72,
+    "omdb_fetched_at": "2026-09-03T16:18:04Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTEyMjkzYmYtMDJkNi00NjFiLTlmNDgtMWIzOTUyZDJkZmMxXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "A very rich and successful playboy amuses himself by stealing artwork, but may have met his match in a seductive detective.",
+    "rated": "R",
+    "runtime_min": 113,
+    "title": "The Thomas Crown Affair",
+    "total_seasons": null,
+    "year": 1999,
+    "year_end": null
+  },
   "The Truman Show": {
     "genre": [
       "Comedy",
@@ -3310,6 +3747,38 @@
     "year": 1988,
     "year_end": 1993
   },
+  "Three O'Clock High": {
+    "genre": [
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:05Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0094138",
+    "imdb_rating": 7.1,
+    "imdb_votes": 13968,
+    "kind": "film",
+    "list_title": "Three O'Clock High",
+    "metascore": 36,
+    "omdb_fetched_at": "2026-09-03T16:18:05Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMWExOTFhYjktYWU2OC00MjRmLWJmZGQtZjgyMTE3ZTljNzZmXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "Mild-mannered Jerry Mitchell gets into hot water with quiet bad boy Buddy Revell, who challenges Jerry to a fight on the grounds of their high school after the school day's end.",
+    "rated": "PG-13",
+    "runtime_min": 101,
+    "title": "Three O'Clock High",
+    "total_seasons": null,
+    "year": 1987,
+    "year_end": null
+  },
   "True Grit (2010)": {
     "genre": [
       "Drama",
@@ -3339,6 +3808,40 @@
     "runtime_min": 110,
     "title": "True Grit",
     "year": 2010
+  },
+  "Turbo Kid": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-09-03T16:18:05Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "Not Rated",
+    "imdb_id": "tt3672742",
+    "imdb_rating": 6.7,
+    "imdb_votes": 30736,
+    "kind": "film",
+    "list_title": "Turbo Kid",
+    "metascore": 60,
+    "omdb_fetched_at": "2026-09-03T16:18:05Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTY1NjkwNDQ0NF5BMl5BanBnXkFtZTgwMTkyOTE2NjE@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Moderate",
+      "sex": "None",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "In a post-apocalyptic wasteland in 1997, a comic book fan adopts the persona of his favourite hero to save his enthusiastic friend and fight a tyrannical overlord.",
+    "rated": "Not Rated",
+    "runtime_min": 93,
+    "title": "Turbo Kid",
+    "total_seasons": null,
+    "year": 2015,
+    "year_end": null
   },
   "Up (2009)": {
     "genre": [
