@@ -33,14 +33,19 @@
   let mode = readMode();
   let filter = readFilter();
 
-  function readFilter() {
-    try { const f = localStorage.getItem("movindi.filter"); if (["all", "unwatched", "watched"].includes(f)) return f; } catch (e) { /* ignore */ }
-    return "all";
+  // A fresh load always starts on A–Z with nothing filtered. Sort and filter
+  // choices are deliberately not remembered across reloads.
+  function readMode() { return "alpha"; }
+  function readFilter() { return "all"; }
+
+  function setMode(next) {
+    mode = MODES[next] ? next : "alpha";
+    document.querySelectorAll(".modes:not(.filters) button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mode === mode)));
+    render();
   }
 
   function setFilter(next) {
     filter = ["all", "unwatched", "watched"].includes(next) ? next : "all";
-    try { localStorage.setItem("movindi.filter", filter); } catch (e) { /* ignore */ }
     document.querySelectorAll(".filters button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.filter === filter)));
     render();
   }
@@ -50,21 +55,6 @@
     if (!m) return "";
     const d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
     return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
-  }
-
-  function readMode() {
-    const fromHash = (location.hash.match(/^#(alpha|year|age)\b/) || [])[1];
-    if (fromHash) return fromHash;
-    try { const m = localStorage.getItem("movindi.mode"); if (MODES[m]) return m; } catch (e) { /* ignore */ }
-    return "alpha";
-  }
-
-  function setMode(next, push) {
-    mode = MODES[next] ? next : "alpha";
-    try { localStorage.setItem("movindi.mode", mode); } catch (e) { /* ignore */ }
-    document.querySelectorAll(".modes button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mode === mode)));
-    if (push) history.replaceState(null, "", "#" + mode);
-    render();
   }
 
   function esc(s) {
@@ -120,7 +110,13 @@
     }
     const keys = Array.from(groups.keys()).sort(m.groupSort);
     jump.innerHTML = `<ul>${keys.map(k =>
-      `<li><a href="#${mode}-${slug(k)}">${esc(m.jump ? m.jump(k) : m.heading(k))}</a></li>`).join("")}</ul>`;
+      `<li><a href="#${mode}-${slug(k)}" data-target="${mode}-${slug(k)}">${esc(m.jump ? m.jump(k) : m.heading(k))}</a></li>`).join("")}</ul>`;
+    // Scroll without leaving a hash in the URL, so a refresh starts clean.
+    jump.querySelectorAll("a").forEach(a => a.addEventListener("click", ev => {
+      ev.preventDefault();
+      const el = document.getElementById(a.dataset.target);
+      if (el) el.scrollIntoView({ block: "start" });
+    }));
     if (!films.length) {
       main.innerHTML = filter === "all"
         ? `<p class="empty">No films yet. Add a title to <code>list.md</code>.</p>`
@@ -136,7 +132,7 @@
     }).join("");
   }
 
-  document.querySelectorAll(".modes:not(.filters) button").forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode, true)));
+  document.querySelectorAll(".modes:not(.filters) button").forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode)));
   document.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => setFilter(b.dataset.filter)));
 
   function renderLegend() {
@@ -145,10 +141,6 @@
     const levels = ["None", "Mild", "Moderate", "Severe"].map(l => `<span><i class="swatch" style="background:var(--sev-${l.toLowerCase()})"></i>${l}</span>`).join("");
     $("#legend").innerHTML = `<div class="legend-row">${names}</div><div class="legend-row">${levels}</div>`;
   }
-  window.addEventListener("hashchange", () => {
-    const next = (location.hash.match(/^#(alpha|year|age)\b/) || [])[1];
-    if (next && next !== mode) setMode(next, false);
-  });
 
   // films.json is refetched with a cache-busting query so a new deploy shows up
   // on a normal reload even though Pages caches assets for ten minutes.
@@ -160,11 +152,7 @@
       $("#foot-note").textContent = `${n} film${n === 1 ? "" : "s"}, ${w} watched · data refreshed ${data.generated_at} · ages are computed from the MPAA rating, IMDb Parents Guide severities, genre and runtime; see the repo for the model.`;
       renderLegend();
       document.querySelectorAll(".filters button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.filter === filter)));
-      setMode(mode, false);
-      if (location.hash && location.hash.includes("-")) {
-        const el = document.getElementById(location.hash.slice(1));
-        if (el) el.scrollIntoView();
-      }
+      setMode(mode);
     })
     .catch(err => { main.innerHTML = `<p class="empty">Could not load films.json (${esc(err.message)}).</p>`; });
 })();
