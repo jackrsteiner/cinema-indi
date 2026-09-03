@@ -1422,6 +1422,40 @@
     "year": 1990,
     "year_end": null
   },
+  "The Wizard of Oz (1939)": {
+    "genre": [
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-09-03T08:42:36Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0032138",
+    "imdb_rating": 8.1,
+    "imdb_votes": 464833,
+    "kind": "film",
+    "list_title": "The Wizard of Oz",
+    "metascore": 92,
+    "omdb_fetched_at": "2026-09-03T08:42:36Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYWRmY2I0MGItYTQ0OC00NWZmLWIwMDktYjJlNDc0MzVhMmViXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the others...",
+    "rated": "G",
+    "runtime_min": 102,
+    "title": "The Wizard of Oz",
+    "total_seasons": null,
+    "year": 1939,
+    "year_end": null
+  },
   "The Wonder Years (1988 series)": {
     "genre": [
       "Comedy",
