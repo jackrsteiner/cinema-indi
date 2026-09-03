@@ -3658,6 +3658,40 @@
     "year": 1999,
     "year_end": null
   },
+  "The Nightmare Before Christmas": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T23:42:14Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0107688",
+    "imdb_rating": 7.9,
+    "imdb_votes": 409668,
+    "kind": "film",
+    "list_title": "The Nightmare Before Christmas",
+    "metascore": 82,
+    "omdb_fetched_at": "2026-09-03T23:42:14Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNmYxOTAzZWYtOGI3Yi00ODc3LTk5ZjYtZTY0MzVkZTg3YmRiXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Jack Skellington, king of Halloween Town, discovers Christmas Town, but his attempts to bring Christmas to his home causes confusion.",
+    "rated": "PG",
+    "runtime_min": 76,
+    "title": "The Nightmare Before Christmas",
+    "total_seasons": null,
+    "year": 1993,
+    "year_end": null
+  },
   "The Passenger (1975)": {
     "genre": [
       "Drama",
