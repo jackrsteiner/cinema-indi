@@ -1,29 +1,42 @@
 {
-  "_comment": "Deterministic age = max(rating_floor[rated], category_floor[category][severity]) + stacking bumps. Edit numbers here, push, and the site rebuilds without refetching. Ratings not listed (N/A, Not Rated, Approved, Passed) contribute no floor, so the Parents Guide alone decides. Calibrated against: Totoro/Ponyo/Prince Achmed = 3; Kiki/Penzance/Chipmunk Adventure/Up/Iron Giant/WALL-E/Muppet Treasure Island = 4.",
+  "_comment": "model=linear: age = round(intercept + sum(category_weights * severity score) + rating_offsets[rated] + genre_offsets[genre...] + numeric terms), clamped to [min_age, max_age], then raised to rating_floor[rated] if lower. Severity score per category is the vote-weighted mean (None=0 .. Severe=3) when IMDb vote counts are cached, else the median level. Coefficients were fitted to hand-labelled ages (see README); rating_floor covers ratings with no labels yet.",
+  "model": "linear",
+  "min_age": 3,
+  "max_age": 18,
+  "intercept": 3.47,
+  "category_weights": {
+    "sex": 0.75,
+    "violence": 0.02,
+    "profanity": 0.33,
+    "drugs": 0.0,
+    "frightening": 0.59
+  },
+  "rating_offsets": {
+    "PG": 0.72,
+    "PG-13": 0.1,
+    "R": 0.0,
+    "Not Rated": -0.45
+  },
+  "genre_offsets": {
+    "Animation": -0.55,
+    "Family": 0.45,
+    "Fantasy": 1.09
+  },
+  "numeric": {
+    "runtime_min": {
+      "weight": -0.0113,
+      "center": 100.0,
+      "label": "Runtime"
+    },
+    "imdb_rating": {
+      "weight": -0.5515,
+      "center": 7.5,
+      "label": "IMDb rating"
+    }
+  },
   "rating_floor": {
-    "G": 3,
-    "TV-G": 3,
-    "TV-Y7": 4,
-    "PG": 4,
-    "TV-PG": 4,
-    "PG-13": 12,
-    "TV-14": 13,
-    "R": 15,
-    "TV-MA": 16,
-    "NC-17": 18
-  },
-  "category_floor": {
-    "violence":    { "None": 0, "Mild": 3, "Moderate": 8,  "Severe": 12 },
-    "frightening": { "None": 0, "Mild": 3, "Moderate": 4,  "Severe": 10 },
-    "sex":         { "None": 0, "Mild": 4, "Moderate": 10, "Severe": 15 },
-    "profanity":   { "None": 0, "Mild": 4, "Moderate": 8,  "Severe": 12 },
-    "drugs":       { "None": 0, "Mild": 4, "Moderate": 8,  "Severe": 12 }
-  },
-  "stacking": {
-    "_comment": "Optional bumps when several categories are heavy at once. Set counts to 0 to disable.",
-    "moderate_or_worse_count": 3,
-    "moderate_bump": 1,
-    "severe_count": 2,
-    "severe_bump": 1
+    "_comment": "Uncalibrated: no labelled R or NC-17 films yet.",
+    "R": 12,
+    "NC-17": 17
   }
 }

@@ -38,9 +38,24 @@ class ListParsing(unittest.TestCase):
         self.assertEqual(m.first_sentence("N/A"), "")
 
 
+FLOOR_RULES = {
+    "rating_floor": {"G": 5, "PG": 8, "PG-13": 12, "R": 15},
+    "category_floor": {
+        "violence": {"None": 0, "Mild": 7, "Moderate": 11, "Severe": 15},
+        "frightening": {"None": 0, "Mild": 7, "Moderate": 10, "Severe": 14},
+        "sex": {"None": 0, "Mild": 7, "Moderate": 13, "Severe": 17},
+        "profanity": {"None": 0, "Mild": 7, "Moderate": 11, "Severe": 14},
+        "drugs": {"None": 0, "Mild": 7, "Moderate": 11, "Severe": 14},
+    },
+    "stacking": {"moderate_or_worse_count": 3, "moderate_bump": 1, "severe_count": 2, "severe_bump": 1},
+}
+
+
 class AgeRules(unittest.TestCase):
+    """The floors model (rules without "model": "linear")."""
+
     def setUp(self):
-        self.rules = m.load_json(m.RULES_PATH, None)
+        self.rules = FLOOR_RULES
 
     def test_rating_alone(self):
         r = m.compute_age({"rated": "PG"}, self.rules)
@@ -73,6 +88,47 @@ class AgeRules(unittest.TestCase):
     def test_unlisted_rating_defers_to_guide(self):
         r = m.compute_age({"rated": "Approved", "parents_guide": {"violence": "Mild"}}, self.rules)
         self.assertEqual(r["age"], self.rules["category_floor"]["violence"]["Mild"])
+
+
+class LinearModel(unittest.TestCase):
+    def setUp(self):
+        self.rules = m.load_json(m.RULES_PATH, None)
+        self.assertEqual(self.rules.get("model"), "linear")
+
+    def test_severity_scores_prefer_votes(self):
+        film = {"parents_guide": {"violence": "Mild"}, "parents_guide_votes": {"violence": {"None": 3, "Mild": 1}}}
+        self.assertAlmostEqual(m.severity_scores(film)["violence"], 0.25)
+        film = {"parents_guide": {"violence": "Moderate"}}
+        self.assertEqual(m.severity_scores(film)["violence"], 2.0)
+
+    def test_terms_and_rounding(self):
+        rules = {"model": "linear", "intercept": 3.4, "min_age": 3, "max_age": 18,
+                 "category_weights": {"violence": 1.0}, "rating_offsets": {"PG": 0.5},
+                 "genre_offsets": {"Animation": -0.6}, "numeric": {"runtime_min": {"weight": 0.01, "center": 100}}}
+        film = {"rated": "PG", "genre": ["Animation"], "runtime_min": 110, "parents_guide": {"violence": "Mild"}}
+        r = m.compute_age(film, rules)
+        # 3.4 + 1.0 + 0.5 - 0.6 + 0.1 = 4.4 -> 4
+        self.assertEqual(r["age"], 4)
+        self.assertEqual(r["reasons"][-1], "= 4.4 → 4+")
+
+    def test_rating_floor_applies(self):
+        rules = {"model": "linear", "intercept": 3, "category_weights": {}, "rating_floor": {"R": 12}}
+        r = m.compute_age({"rated": "R", "parents_guide": {"violence": "None"}}, rules)
+        self.assertEqual(r["age"], 12)
+        self.assertIn("floor for R → 12+", r["reasons"])
+
+    def test_unknown(self):
+        r = m.compute_age({"rated": None, "parents_guide": {}}, self.rules)
+        self.assertTrue(r["unknown"])
+
+    def test_repo_rules_reproduce_labels(self):
+        """The committed coefficients must keep reproducing the hand labels."""
+        films = m.load_json(m.FILMS_PATH, {})
+        labels = {"My Neighbor Totoro": 3, "Ponyo": 3, "Up (2009)": 4, "WALL-E": 4, "The Princess Bride": 5,
+                  "Star Wars (1977)": 5, "The Empire Strikes Back": 6, "Indiana Jones and the Temple of Doom": 7}
+        for k, t in labels.items():
+            if k in films:
+                self.assertEqual(m.compute_age(films[k], self.rules)["age"], t, k)
 
 
 if __name__ == "__main__":

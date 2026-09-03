@@ -243,6 +243,12 @@ def compute_age_linear(film: dict, rules: dict) -> dict:
     shown = [terms[0]] + sorted(terms[1:], key=lambda t: -abs(t[1]))
     reasons = [f"{label} {val:+.1f}" if label != "base" else f"base {val:.1f}" for label, val in shown if abs(val) >= 0.05]
     reasons.append(f"= {raw:.1f} → {age}+")
+    # Optional hard floors by rating for parts of the scale no label calibrates.
+    rated = (film.get("rated") or "").strip()
+    floor = (rules.get("rating_floor") or {}).get(rated)
+    if floor is not None and floor > age:
+        age = floor
+        reasons.append(f"floor for {rated} → {floor}+")
     return {"age": age, "reasons": reasons, "unknown": False, "partial": len(scores) < len(CATEGORY_LABELS)}
 
 

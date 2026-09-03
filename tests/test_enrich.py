@@ -1,4 +1,4 @@
-import sys, unittest
+import os, sys, unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -11,7 +11,6 @@ OMDB_HIT = {"Title": "The Princess Bride", "Year": "1987", "Rated": "PG", "Plot"
 OMDB_MISS = {"Response": "False", "Error": "Movie not found!"}
 OMDB_SEARCH = {"Search": [{"Title": "WarGames", "Year": "1983", "imdbID": "tt0086567", "Type": "movie"}], "Response": "True"}
 OMDB_WARGAMES = {"Title": "WarGames", "Year": "1983", "Rated": "PG", "Plot": "A young computer whiz kid accidentally connects into a top secret super-computer.", "Poster": "N/A", "imdbID": "tt0086567", "Response": "True"}
-INTROSPECT = {"data": {"severity": {"fields": [{"name": "id"}, {"name": "text"}, {"name": "voteCount"}]}}}
 GRAPHQL = {"data": {"title": {"id": "tt0093779", "certificate": {"rating": "PG"}, "parentsGuide": {"categories": [
     {"category": {"id": "NUDITY", "text": "Sex & Nudity"}, "severity": {"id": "MILD", "text": "Mild"},
      "totalSeverityVotes": 10, "severityBreakdown": [{"id": "NONE", "text": "None", "voteCount": 4},
@@ -29,9 +28,10 @@ def fake_fetch(log):
         log.append(url)
         if url.startswith(enrich.IMDB_GRAPHQL_URL):
             assert headers and headers.get("x-imdb-client-name") == "imdb-web-next"
-            if "__type" in data["query"]:
-                return INTROSPECT
-            assert "severityBreakdown { id text voteCount }" in data["query"], data["query"]
+            if os.environ.get("IMDB_VOTE_FIELDS"):
+                assert "severityBreakdown { id text voteCount }" in data["query"], data["query"]
+            else:
+                assert "severityBreakdown" not in data["query"]
             return GRAPHQL
         if url.startswith(enrich.OMDB_URL):
             if "t=The+Princess+Bride" in url:
@@ -54,8 +54,13 @@ def fake_fetch(log):
 class Enrich(unittest.TestCase):
     def setUp(self):
         enrich._VOTE_FIELDS = None
+        os.environ.pop("IMDB_VOTE_FIELDS", None)
+
+    def tearDown(self):
+        os.environ.pop("IMDB_VOTE_FIELDS", None)
 
     def test_full_pipeline_with_fallback_search(self):
+        os.environ["IMDB_VOTE_FIELDS"] = "id text voteCount"
         log = []
         entries = parse_list("The Princess Bride\nWar Games\nNo Such Film (1901)\n")
         out = enrich.enrich(entries, {}, {}, omdb_key="k", tmdb_key="t", fetch=fake_fetch(log), log=lambda *a: None)
@@ -91,18 +96,16 @@ class Enrich(unittest.TestCase):
         out = enrich.enrich(entries, cached, {"The Princess Bride": {"imdb_id": "tt0093779"}},
                             omdb_key="k", fetch=fake_fetch(log), log=lambda *a: None)
         self.assertEqual([u for u in log if enrich.OMDB_URL in u], [])
-        # one introspection call plus one guide query
-        self.assertEqual(len([u for u in log if enrich.IMDB_GRAPHQL_URL in u]), 2)
+        self.assertEqual(len([u for u in log if enrich.IMDB_GRAPHQL_URL in u]), 1)
         self.assertEqual(out["The Princess Bride"]["imdb_certificate"], "PG")
 
     def test_votes_query_falls_back(self):
+        os.environ["IMDB_VOTE_FIELDS"] = "id text voteCount"
         calls = []
         def fetch(url, data=None, headers=None):
             calls.append(data["query"] if data else url)
             if url.startswith(enrich.OMDB_URL):
                 return OMDB_HIT
-            if "__type" in data["query"]:
-                return INTROSPECT
             if "severityBreakdown" in data["query"]:
                 raise enrich.ApiError("HTTP 400: Cannot query field voteCount on type SeverityLevel", status=400)
             return GRAPHQL
@@ -112,17 +115,8 @@ class Enrich(unittest.TestCase):
         self.assertIn("guide_votes_note", pb)
         self.assertEqual(sum("severityBreakdown" in c for c in calls if isinstance(c, str)), 1)
 
-    def test_introspection_without_vote_field_skips_votes(self):
-        calls = []
-        def fetch(url, data=None, headers=None):
-            calls.append(data["query"] if data else url)
-            if url.startswith(enrich.OMDB_URL):
-                return OMDB_HIT
-            if "__type" in data["query"]:
-                return {"data": {"severity": {"fields": [{"name": "id"}, {"name": "text"}]}}}
-            assert "severityBreakdown" not in data["query"]
-            return GRAPHQL
-        out = enrich.enrich(parse_list("The Princess Bride\n"), {}, {}, omdb_key="k", fetch=fetch, log=lambda *a: None)
+    def test_votes_off_by_default(self):
+        out = enrich.enrich(parse_list("The Princess Bride\n"), {}, {}, omdb_key="k", fetch=fake_fetch([]), log=lambda *a: None)
         self.assertEqual(out["The Princess Bride"]["parents_guide_votes"], {})
         self.assertIn("guide_votes_note", out["The Princess Bride"])
 

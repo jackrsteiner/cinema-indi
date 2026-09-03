@@ -48,12 +48,8 @@ query ParentsGuide($id: ID!) {
 """
 
 # IMDb also exposes the per-level vote counts behind each severity as
-# `severityBreakdown`, a list of `SeverityLevel` objects. The exact field names
-# are discovered once per run by introspection (see _vote_fields) so a schema
-# change degrades to "severities only" instead of breaking the run.
-INTROSPECT_QUERY = """
-query { severity: __type(name: "SeverityLevel") { fields { name } } }
-"""
+# `severityBreakdown`, a list of `SeverityLevel` objects, but refuses schema
+# introspection so the field names are unknown. See _vote_fields.
 PARENTS_GUIDE_VOTES_QUERY = """
 query ParentsGuideVotes($id: ID!) {
   title(id: $id) {
@@ -209,20 +205,21 @@ def imdb_parents_guide(imdb_id: str, fetch=http_json, log=print) -> dict:
 
 
 def _vote_fields(fetch, log=print):
-    """Introspect SeverityLevel once and return (level_fields, count_field) or False."""
+    """Return (level_fields, count_field) for the vote-breakdown query, or False.
+
+    IMDb refuses schema introspection, so the field names cannot be discovered
+    automatically. Set IMDB_VOTE_FIELDS="id text voteCount" (level fields plus
+    the count field, space separated) to enable the query once they are known.
+    """
     global _VOTE_FIELDS
     if _VOTE_FIELDS is not None:
         return _VOTE_FIELDS
-    try:
-        resp = fetch(IMDB_GRAPHQL_URL, data={"query": INTROSPECT_QUERY}, headers=IMDB_HEADERS)
-        fields = [f.get("name") for f in (((resp.get("data") or {}).get("severity") or {}).get("fields") or [])]
-        count = next((f for f in ("voteCount", "votes", "count", "total") if f in fields), None)
-        level = [f for f in ("id", "text") if f in fields]
-        _VOTE_FIELDS = (level, count) if (count and level) else False
-        log(f"  IMDb SeverityLevel fields: {fields} -> vote breakdown {'ON' if _VOTE_FIELDS else 'OFF'}")
-    except Exception as e:
-        _VOTE_FIELDS = False
-        log(f"  IMDb introspection failed ({e}); severities only")
+    spec = (os.environ.get("IMDB_VOTE_FIELDS") or "").split()
+    level = [f for f in spec if f in ("id", "text")]
+    count = [f for f in spec if f not in ("id", "text")]
+    _VOTE_FIELDS = (level, count[0]) if (level and count) else False
+    if _VOTE_FIELDS:
+        log(f"  IMDb vote breakdown ON via IMDB_VOTE_FIELDS={spec}")
     return _VOTE_FIELDS
 
 
@@ -313,6 +310,7 @@ def enrich(entries, cache, overrides, *, omdb_key, tmdb_key=None, refresh=False,
                     raise
                 log(f"  OMDb    {key} -> {rec['imdb_id']} ({rec.get('title')}, {rec.get('year')})")
             if refresh or "parents_guide_votes" not in rec or _older_than(rec.get("guide_fetched_at"), max_age_days):
+                rec.pop("guide_error", None)
                 try:
                     rec.update(imdb_parents_guide(rec["imdb_id"], fetch=fetch, log=log))
                     log(f"  Guide   {key} -> {rec.get('parents_guide')}")

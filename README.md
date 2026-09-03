@@ -27,27 +27,37 @@ Each view has a sticky jump bar to any letter / year / age.
 
 ## Age appropriateness
 
-Deterministic and reproducible: no human or AI judgement is involved, only data
-plus the rules in [`data/age-rules.json`](data/age-rules.json).
+Deterministic and reproducible: no human or AI judgement at build time, only
+data plus the coefficients in [`data/age-rules.json`](data/age-rules.json).
 
 ```
-age = max( rating_floor[MPAA rating],
-           category_floor[category][severity]  for each Parents Guide category )
-      + stacking bumps
+age = round( intercept
+           + Σ category_weight × severity score      (IMDb Parents Guide, None=0 … Severe=3)
+           + rating_offset[MPAA rating]
+           + Σ genre_offset[genre]                    (OMDb genres)
+           + runtime and IMDb-rating terms )
+      clamped to [min_age, max_age], then raised to rating_floor[rating] if lower
 ```
 
-- **MPAA rating** comes from OMDb (falls back to IMDb's certificate).
-- **Parents Guide severities** (None / Mild / Moderate / Severe for Sex & Nudity,
-  Violence & Gore, Profanity, Alcohol/Drugs/Smoking, Frightening & Intense Scenes)
-  come from IMDb. Each is the median of IMDb user votes, and the Action re-fetches
-  them monthly because they drift.
-- Every number in the formula lives in `age-rules.json`. Change a number, push,
-  and the site regroups; nothing needs to be refetched.
-- Each card shows the five severities as coloured dots and the rule(s) that set
-  its age, so you can see *why* a film landed where it did.
-- The build step prints the full age table into the workflow run summary.
+The coefficients were **fitted to hand-labelled ages** for 21 films (3: Totoro,
+Ponyo, Prince Achmed; 4: Kiki, Penzance, Chipmunk Adventure, Up, Iron Giant,
+WALL-E, Muppet Treasure Island; 5: Princess Bride, Star Wars, Land Before Time,
+Back to the Future, Raiders, Last Crusade, WarGames; 6: Empire, Real Genius,
+Return of the Jedi; 7: Temple of Doom). The fit reproduces 20 of them; Raiders
+comes out one year high because its data is identical to Last Crusade's.
+Nothing R-rated has been labelled yet, so `rating_floor` pins R at 12 until it is.
 
-To pin a film's age by hand, set `"age"` for it in `data/overrides.json`.
+To recalibrate: label more films, refit (a scratch fitter lives outside the
+repo; any least-squares fit to these features works), paste the coefficients
+into `age-rules.json`, push. Each card shows its terms so you can see why a
+film landed where it did, and `python scripts/build.py --explain` prints the
+whole table. To pin a film by hand, set `"age"` for it in `data/overrides.json`.
+
+Note on IMDb: severities come from the same GraphQL endpoint IMDb's own site
+uses. It is undocumented, refuses schema introspection, and its responses
+carry a disclaimer limiting use to limited non-commercial purposes. A personal
+list for one family fits that, but keep the data in this repo, not on a public
+API of your own.
 
 ## Data files
 
