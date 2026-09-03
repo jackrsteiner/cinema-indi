@@ -834,6 +834,40 @@
     "year": 2004,
     "year_end": null
   },
+  "Explorers (1985)": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T10:57:19Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0089114",
+    "imdb_rating": 6.4,
+    "imdb_votes": 24647,
+    "kind": "film",
+    "list_title": "Explorers",
+    "metascore": 58,
+    "omdb_fetched_at": "2026-09-03T10:57:19Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMzhkMmViYjQtMDNmYy00MTM0LWJjNDQtMmI4Yzc5MjgxNThjXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A boy obsessed with '50s sci-fi movies about aliens has a recurring dream about a blueprint of some kind, which he draws for his inventor friend. With the help of a third kid, they follow it and build themselves a spaceship. Now w...",
+    "rated": "PG",
+    "runtime_min": 109,
+    "title": "Explorers",
+    "total_seasons": null,
+    "year": 1985,
+    "year_end": null
+  },
   "Fantasia (1940)": {
     "genre": [
       "Animation",
@@ -1062,6 +1096,40 @@
     "title": "Harvey",
     "total_seasons": null,
     "year": 1950,
+    "year_end": null
+  },
+  "Honey, I Shrunk the Kids": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T10:57:19Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0097523",
+    "imdb_rating": 6.4,
+    "imdb_votes": 175324,
+    "kind": "film",
+    "list_title": "Honey, I Shrunk the Kids",
+    "metascore": 63,
+    "omdb_fetched_at": "2026-09-03T10:57:19Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMWZmMDA5OGUtNmUzZi00MTkyLWE2MTctNmRkOWUwMWViNjNkXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "The scientist father of a teenage girl and boy accidentally shrinks his and two other neighborhood teens to the size of insects. Now the teens must fight diminutive dangers as the father searches for them.",
+    "rated": "PG",
+    "runtime_min": 93,
+    "title": "Honey, I Shrunk the Kids",
+    "total_seasons": null,
+    "year": 1989,
     "year_end": null
   },
   "Idiocracy": {
@@ -1522,6 +1590,40 @@
     "title": "Letters from Iwo Jima",
     "total_seasons": null,
     "year": 2006,
+    "year_end": null
+  },
+  "Little Shop of Horrors (1986)": {
+    "genre": [
+      "Comedy",
+      "Horror",
+      "Musical"
+    ],
+    "guide_fetched_at": "2026-09-03T10:57:20Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0091419",
+    "imdb_rating": 7.1,
+    "imdb_votes": 93959,
+    "kind": "film",
+    "list_title": "Little Shop of Horrors",
+    "metascore": 81,
+    "omdb_fetched_at": "2026-09-03T10:57:20Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNTJjM2VhMDctMTIxYi00MzY3LWI5ZDgtZjFiNzg0M2QxNzI5XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A nerdy florist finds his chance for success and romance with the help of a giant man-eating plant who demands to be fed.",
+    "rated": "PG-13",
+    "runtime_min": 94,
+    "title": "Little Shop of Horrors",
+    "total_seasons": null,
+    "year": 1986,
     "year_end": null
   },
   "Logan's Run (1976)": {
@@ -3071,6 +3173,10 @@
     "total_seasons": 6,
     "year": 1988,
     "year_end": 1993
+  },
+  "The World of David the Gnome (series)": {
+    "error": "OMDb: no match for 'The World of David the Gnome (series)' (Series not found!)",
+    "list_title": "The World of David the Gnome"
   },
   "True Grit (2010)": {
     "genre": [
