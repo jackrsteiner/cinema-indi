@@ -89,7 +89,7 @@
     const why = (f.age_reasons || []).join("\n");
     const ageChip = f.age == null
       ? `<span class="chip age unknown" title="${esc(why)}">age ?</span>`
-      : `<span class="chip age" title="${esc(why)}" tabindex="0">${f.age}+</span>`;
+      : `<span class="chip age${f.age_estimated ? " est" : ""}" title="${esc(why)}" tabindex="0">${f.age}+${f.age_estimated ? "<sup>~</sup>" : ""}</span>`;
     const series = f.series ? `<span class="chip">${esc(f.series)}${f.series_order ? " " + f.series_order : ""}</span>` : "";
     const links = [
       f.imdb_url ? `<a href="${esc(f.imdb_url)}" rel="noopener">IMDb</a>` : "",

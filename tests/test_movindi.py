@@ -126,9 +126,25 @@ class LinearModel(unittest.TestCase):
         self.assertEqual(r["age"], 12)
         self.assertIn("floor for R → 12+", r["reasons"])
 
-    def test_unknown(self):
+    def test_unknown_only_when_not_looked_up(self):
         r = m.compute_age({"rated": None, "parents_guide": {}}, self.rules)
         self.assertTrue(r["unknown"])
+
+    def test_no_guide_gives_flagged_estimate(self):
+        film = {"imdb_id": "tt0093488", "rated": None, "parents_guide": {}, "genre": ["Animation", "Short"],
+                "runtime_min": 30, "imdb_rating": 8.6}
+        r = m.compute_age(film, self.rules)
+        self.assertFalse(r["unknown"])
+        self.assertTrue(r["estimated"])
+        self.assertIsInstance(r["age"], int)
+        self.assertTrue(any(x.startswith("Estimate:") for x in r["reasons"]))
+        full = dict(film, parents_guide={c: "None" for c in m.CATEGORY_LABELS})
+        self.assertFalse(m.compute_age(full, self.rules)["estimated"])
+
+    def test_missing_severity_setting(self):
+        rules = {"model": "linear", "intercept": 3, "category_weights": {"violence": 1.0}, "missing_severity": 2}
+        r = m.compute_age({"imdb_id": "tt1", "parents_guide": {}}, rules)
+        self.assertEqual(r["age"], 5)
 
     def test_repo_rules_reproduce_labels(self):
         """The committed coefficients must keep reproducing the hand labels."""

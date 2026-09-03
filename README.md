@@ -62,6 +62,11 @@ Return of the Jedi; 7: Temple of Doom). The fit reproduces 20 of them; Raiders
 comes out one year high because its data is identical to Last Crusade's.
 Nothing R-rated has been labelled yet, so `rating_floor` pins R at 12 until it is.
 
+A film IMDb has no Parents Guide for (shorts, obscure titles) is still scored
+from its other inputs, with the missing severities set to `missing_severity`
+(default 0, i.e. None). Its age chip is drawn dashed with a ~ to mark it as an
+estimate, and the tooltip says which categories were assumed.
+
 To recalibrate: label more films, refit (a scratch fitter lives outside the
 repo; any least-squares fit to these features works), paste the coefficients
 into `age-rules.json`, push. Each card shows its terms so you can see why a

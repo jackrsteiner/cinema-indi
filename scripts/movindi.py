@@ -244,9 +244,14 @@ def linear_terms(film: dict, rules: dict) -> list[tuple[str, float]]:
     """(label, contribution) pairs for the linear model, intercept first."""
     terms = [("base", float(rules.get("intercept", 0)))]
     scores = severity_scores(film)
+    missing = float(rules.get("missing_severity", 0))
     for cat, w in (rules.get("category_weights") or {}).items():
-        if cat in scores and w:
+        if not w:
+            continue
+        if cat in scores:
             terms.append((CATEGORY_LABELS.get(cat, cat), w * scores[cat]))
+        elif missing:
+            terms.append((f"{CATEGORY_LABELS.get(cat, cat)} (assumed)", w * missing))
     rated = (film.get("rated") or "").strip()
     off = (rules.get("rating_offsets") or {}).get(rated)
     if off:
@@ -263,9 +268,9 @@ def linear_terms(film: dict, rules: dict) -> list[tuple[str, float]]:
 
 
 def compute_age_linear(film: dict, rules: dict) -> dict:
+    if not film.get("imdb_id"):
+        return {"age": None, "reasons": ["Not looked up yet"], "unknown": True, "estimated": False}
     scores = severity_scores(film)
-    if not scores and not film.get("rated"):
-        return {"age": None, "reasons": ["No rating or Parents Guide data yet"], "unknown": True}
     terms = linear_terms(film, rules)
     raw = sum(v for _, v in terms)
     age = int(raw + 0.5)  # round half up
@@ -280,7 +285,15 @@ def compute_age_linear(film: dict, rules: dict) -> dict:
     if floor is not None and floor > age:
         age = floor
         reasons.append(f"floor for {rated} → {floor}+")
-    return {"age": age, "reasons": reasons, "unknown": False, "partial": len(scores) < len(CATEGORY_LABELS)}
+    # An estimate when IMDb has no Parents Guide for the film: the severity
+    # terms fall back to missing_severity (default None) and the card says so.
+    missing_cats = [CATEGORY_LABELS[c] for c in CATEGORY_LABELS if c not in scores]
+    estimated = bool(missing_cats)
+    if estimated:
+        what = "all categories" if len(missing_cats) == len(CATEGORY_LABELS) else ", ".join(missing_cats)
+        level = SEVERITIES[int(round(float(rules.get("missing_severity", 0))))] if 0 <= float(rules.get("missing_severity", 0)) <= 3 else "?"
+        reasons.append(f"Estimate: no Parents Guide on IMDb for {what} (assumed {level})")
+    return {"age": age, "reasons": reasons, "unknown": False, "estimated": estimated}
 
 
 _compute_age_floors = compute_age

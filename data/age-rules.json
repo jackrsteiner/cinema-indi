@@ -1,6 +1,8 @@
 {
   "_comment": "model=linear: age = round(intercept + sum(category_weights * severity score) + rating_offsets[rated] + genre_offsets[genre...] + numeric terms), clamped to [min_age, max_age], then raised to rating_floor[rated] if lower. Severity score per category is the vote-weighted mean (None=0 .. Severe=3) when IMDb vote counts are cached, else the median level. Coefficients were fitted to hand-labelled ages (see README); rating_floor covers ratings with no labels yet.",
   "model": "linear",
+  "missing_severity": 0,
+  "_missing_severity": "Score used for a Parents Guide category IMDb has no data for (0=None .. 3=Severe). Such films are shown as estimates.",
   "min_age": 3,
   "max_age": 18,
   "intercept": 3.47,

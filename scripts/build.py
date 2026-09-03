@@ -65,6 +65,7 @@ def build_records(entries, cache, overrides, rules, watched=None) -> list[dict]:
             "age": age_info["age"],
             "age_reasons": age_info["reasons"],
             "age_unknown": age_info["unknown"],
+            "age_estimated": bool(age_info.get("estimated")) and "age" not in ov,
             "status": status,
             "error": raw.get("error") or (raw.get("guide_error") if not raw.get("parents_guide") else None),
             "watched": key in watched,
@@ -87,7 +88,7 @@ def explain(records) -> str:
              "|---|---|---|" + "---|" * len(CATEGORY_LABELS) + "---|---|"]
     for r in sorted(records, key=lambda r: (r["age"] is None, r["age"] or 0, r["alpha_key"])):
         sev = " | ".join((r["parents_guide"].get(k) or "?") for k in CATEGORY_LABELS)
-        age = f"{r['age']}+" if r["age"] is not None else "?"
+        age = (f"{r['age']}+" + ("~" if r.get("age_estimated") else "")) if r["age"] is not None else "?"
         lines.append(f"| {r['title']} | {r['year'] or ''} | {r['rated'] or ''} | {sev} | {age} | {'; '.join(r['age_reasons'])} |")
     return "\n".join(lines)
 
