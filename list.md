@@ -32,6 +32,7 @@ Detroit Rock City
 Easy Rider
 Edward Scissorhands
 Eternal Sunshine of the Spotless Mind
+Explorers (1985)
 Fantasia (1940)
 Ferris Bueller's Day Off
 Forrest Gump
@@ -42,6 +43,7 @@ The Goonies
 The Grand Budapest Hotel
 Harold & Kumar Go to White Castle
 Harvey (1950)
+Honey, I Shrunk the Kids
 Idiocracy
 Indiana Jones and the Last Crusade
 Indiana Jones and the Raiders of the Lost Ark
@@ -59,6 +61,7 @@ The Land Before Time
 Last Action Hero
 Letters from Iwo Jima
 The Life Aquatic with Steve Zissou
+Little Shop of Horrors (1986)
 Logan's Run (1976)
 The Man Who Planted Trees (1987)
 The Matrix
@@ -100,3 +103,4 @@ The Witches (1990)
 The Wizard of Oz (1939)
 A Woman Under the Influence
 The Wonder Years (1988 series)
+The World of David the Gnome (series)
