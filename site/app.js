@@ -141,10 +141,9 @@
 
   function renderLegend() {
     const cats = Object.keys(data.categories);
-    const icons = `<ul class="sev" aria-hidden="true">${cats.map(k => `<li data-sev="Mild"><span>${esc(data.icons[k] || "")}</span></li>`).join("")}</ul>`;
-    const names = cats.map(k => `${esc(data.icons[k] || "")} ${esc(data.categories[k])}`).join(" · ");
+    const names = cats.map(k => `<span>${esc(data.icons[k] || "")} ${esc(data.categories[k])}</span>`).join("");
     const levels = ["None", "Mild", "Moderate", "Severe"].map(l => `<span><i class="swatch" style="background:var(--sev-${l.toLowerCase()})"></i>${l}</span>`).join("");
-    $("#legend").innerHTML = `${icons}<span>${names}</span>${levels}`;
+    $("#legend").innerHTML = `<div class="legend-row">${names}</div><div class="legend-row">${levels}</div>`;
   }
   window.addEventListener("hashchange", () => {
     const next = (location.hash.match(/^#(alpha|year|age)\b/) || [])[1];
