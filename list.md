@@ -105,6 +105,7 @@ Seinfeld (series)
 Shaun of the Dead
 Silver Spoon (2013 series)
 The Social Network
+Speed (1994)
 Spirited Away
 The Squid and the Whale
 Star Wars: Episode IV - A New Hope
@@ -118,6 +119,7 @@ Three O'Clock High
 True Grit (2010)
 The Truman Show
 Turbo Kid
+Twelve Monkeys
 Up (2009)
 Wake in Fright (1971)
 WALL-E
