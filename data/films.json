@@ -100,6 +100,73 @@
     "year": 1974,
     "year_end": null
   },
+  "Alien (1979)": {
+    "genre": [
+      "Horror",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:03Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0078748",
+    "imdb_rating": 8.5,
+    "imdb_votes": 1061640,
+    "kind": "film",
+    "list_title": "Alien",
+    "metascore": 89,
+    "omdb_fetched_at": "2026-09-03T09:57:03Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BN2NhMDk2MmEtZDQzOC00MmY5LThhYzAtMDdjZGFjOGZjMjdjXkEyXkFqcGc@._V1_QL75_UX380_CR0,6,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "After investigating a mysterious transmission of unknown origin, the crew of a commercial spacecraft encounters a deadly lifeform.",
+    "rated": "R",
+    "runtime_min": 117,
+    "title": "Alien",
+    "total_seasons": null,
+    "year": 1979,
+    "year_end": null
+  },
+  "Aliens": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Horror"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:04Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0090605",
+    "imdb_rating": 8.4,
+    "imdb_votes": 839261,
+    "kind": "film",
+    "list_title": "Aliens",
+    "metascore": 84,
+    "omdb_fetched_at": "2026-09-03T09:57:03Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZjIyNGJhYzYtN2I1My00OTVhLWEyMzItZTVjNDMzOTVkYWViXkEyXkFqcGc@._V1_QL75_UX380_CR0,6,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Moderate",
+      "sex": "None",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "Decades after surviving the Nostromo incident, Ellen Ripley is sent out to re-establish contact with a terraforming colony but finds herself battling the Alien Queen and her offspring.",
+    "rated": "R",
+    "runtime_min": 137,
+    "title": "Aliens",
+    "total_seasons": null,
+    "year": 1986,
+    "year_end": null
+  },
   "American Pie (1999)": {
     "genre": [
       "Comedy"
@@ -428,6 +495,40 @@
     "year": 2017,
     "year_end": null
   },
+  "Brick (2005)": {
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:04Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0393109",
+    "imdb_rating": 7.1,
+    "imdb_votes": 113436,
+    "kind": "film",
+    "list_title": "Brick",
+    "metascore": 72,
+    "omdb_fetched_at": "2026-09-03T09:57:04Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTk4MjQzMzA2N15BMl5BanBnXkFtZTcwMTU2MzIzMQ@@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A teenage loner pushes his way into the underworld of a high school crime ring to investigate the disappearance of his ex-girlfriend.",
+    "rated": "R",
+    "runtime_min": 110,
+    "title": "Brick",
+    "total_seasons": null,
+    "year": 2005,
+    "year_end": null
+  },
   "Chinatown": {
     "genre": [
       "Drama",
@@ -561,6 +662,40 @@
     "title": "Edward Scissorhands",
     "total_seasons": null,
     "year": 1990,
+    "year_end": null
+  },
+  "Fantasia (1940)": {
+    "genre": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:05Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0032455",
+    "imdb_rating": 7.7,
+    "imdb_votes": 110233,
+    "kind": "film",
+    "list_title": "Fantasia",
+    "metascore": 96,
+    "omdb_fetched_at": "2026-09-03T09:57:05Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMmM1NGNjZWUtZTk2Zi00ZjdmLTk3Y2QtMDQyNjJjMWI1ZDFlXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A series of eight famous pieces of classical music, conducted by Leopold Stokowski and interpreted in animation by Walt Disney's team of artists.",
+    "rated": "G",
+    "runtime_min": 124,
+    "title": "Fantasia",
+    "total_seasons": null,
+    "year": 1940,
     "year_end": null
   },
   "Ferris Bueller's Day Off": {
@@ -1307,6 +1442,40 @@
     "title": "Ponyo",
     "year": 2008
   },
+  "Primer": {
+    "genre": [
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:06Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0390384",
+    "imdb_rating": 6.7,
+    "imdb_votes": 120852,
+    "kind": "film",
+    "list_title": "Primer",
+    "metascore": 68,
+    "omdb_fetched_at": "2026-09-03T09:57:06Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZTRmZDlmNzUtNjM2NS00MjBjLWFmNjQtMTczMWNkZTdiOGZmXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Four friends/fledgling entrepreneurs, knowing that there's something bigger and more innovative than the different error-checking devices they've built, wrestle over their new invention.",
+    "rated": "PG-13",
+    "runtime_min": 77,
+    "title": "Primer",
+    "total_seasons": null,
+    "year": 2004,
+    "year_end": null
+  },
   "Real Genius": {
     "genre": [
       "Comedy",
@@ -1402,6 +1571,40 @@
     "runtime_min": 131,
     "title": "Star Wars: Episode VI - Return of the Jedi",
     "year": 1983
+  },
+  "Rushmore": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:07Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0128445",
+    "imdb_rating": 7.6,
+    "imdb_votes": 208163,
+    "kind": "film",
+    "list_title": "Rushmore",
+    "metascore": 87,
+    "omdb_fetched_at": "2026-09-03T09:57:07Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZmM2MTNhYWItMDc4Yi00MTM3LWI3YTctYjE1NWRjNTczYjI5XkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A teenager at Rushmore Academy falls for a much older teacher and befriends a middle-aged industrialist. Later, he finds out that his love interest and his friend are having an affair, which prompts him to begin a vendetta.",
+    "rated": "R",
+    "runtime_min": 93,
+    "title": "Rushmore",
+    "total_seasons": null,
+    "year": 1999,
+    "year_end": null
   },
   "Saving Private Ryan": {
     "genre": [
@@ -1562,6 +1765,40 @@
     "title": "Terminator 2: Judgment Day",
     "total_seasons": null,
     "year": 1991,
+    "year_end": null
+  },
+  "The Abyss": {
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Mystery"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:03Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0096754",
+    "imdb_rating": 7.5,
+    "imdb_votes": 205697,
+    "kind": "film",
+    "list_title": "The Abyss",
+    "metascore": 62,
+    "omdb_fetched_at": "2026-09-03T09:57:03Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMGRkNzJlNjgtZmUwYS00Y2U3LTljZDctMTQxYWIxOWVjMzNjXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A civilian diving team is enlisted to search for a lost nuclear submarine and faces danger while encountering an alien aquatic species.",
+    "rated": "PG-13",
+    "runtime_min": 140,
+    "title": "The Abyss",
+    "total_seasons": null,
+    "year": 1989,
     "year_end": null
   },
   "The Adventures of Pete & Pete (series)": {
@@ -1727,6 +1964,40 @@
     "title": "The Big Short",
     "year": 2015
   },
+  "The Brothers Bloom": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:04Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0844286",
+    "imdb_rating": 6.7,
+    "imdb_votes": 53473,
+    "kind": "film",
+    "list_title": "The Brothers Bloom",
+    "metascore": 55,
+    "omdb_fetched_at": "2026-09-03T09:57:04Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYzE4OGExZGYtMGZkMS00MzMzLTk2MWQtMGY5MzY3MTRmNTAzXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "The Brothers Bloom are the best con men in the world, swindling millionaires with complex scenarios of lust and intrigue. Now they've decided to take on one last job - showing a beautiful and eccentric heiress the time of her life...",
+    "rated": "PG-13",
+    "runtime_min": 114,
+    "title": "The Brothers Bloom",
+    "total_seasons": null,
+    "year": 2008,
+    "year_end": null
+  },
   "The Chipmunk Adventure": {
     "genre": [
       "Animation",
@@ -1757,6 +2028,40 @@
     "runtime_min": 77,
     "title": "The Chipmunk Adventure",
     "year": 1987
+  },
+  "The Darjeeling Limited": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:05Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0838221",
+    "imdb_rating": 7.2,
+    "imdb_votes": 233924,
+    "kind": "film",
+    "list_title": "The Darjeeling Limited",
+    "metascore": 67,
+    "omdb_fetched_at": "2026-09-03T09:57:05Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZDY4Mzc2YTQtZDg4ZS00OGIzLWJhOGMtOTQ2OThmNzg4NTc4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A year after their father's funeral, three brothers travel across India by train in an attempt to bond with each other.",
+    "rated": "R",
+    "runtime_min": 91,
+    "title": "The Darjeeling Limited",
+    "total_seasons": null,
+    "year": 2007,
+    "year_end": null
   },
   "The Dark Crystal": {
     "genre": [
@@ -1887,6 +2192,39 @@
     "title": "The Goonies",
     "year": 1985
   },
+  "The Grand Budapest Hotel": {
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:06Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt2278388",
+    "imdb_rating": 8.1,
+    "imdb_votes": 968286,
+    "kind": "film",
+    "list_title": "The Grand Budapest Hotel",
+    "metascore": 88,
+    "omdb_fetched_at": "2026-09-03T09:57:05Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+    "rated": "R",
+    "runtime_min": 99,
+    "title": "The Grand Budapest Hotel",
+    "total_seasons": null,
+    "year": 2014,
+    "year_end": null
+  },
   "The Iron Giant": {
     "genre": [
       "Animation",
@@ -1948,6 +2286,40 @@
     "runtime_min": 69,
     "title": "The Land Before Time",
     "year": 1988
+  },
+  "The Life Aquatic with Steve Zissou": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:06Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0362270",
+    "imdb_rating": 7.2,
+    "imdb_votes": 220871,
+    "kind": "film",
+    "list_title": "The Life Aquatic with Steve Zissou",
+    "metascore": 62,
+    "omdb_fetched_at": "2026-09-03T09:57:06Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTYzODYzNzg2MF5BMl5BanBnXkFtZTcwMTkzOTQzMw@@._V1_QL75_UY562_CR2,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "With a plan to exact revenge on a legendary shark that killed his partner, oceanographer Steve Zissou rallies a crew that includes his estranged wife, a journalist, and a man who may or may not be his son.",
+    "rated": "R",
+    "runtime_min": 119,
+    "title": "The Life Aquatic with Steve Zissou",
+    "total_seasons": null,
+    "year": 2004,
+    "year_end": null
   },
   "The Man Who Planted Trees (1987)": {
     "genre": [
@@ -2100,6 +2472,39 @@
     "runtime_min": 98,
     "title": "The Princess Bride",
     "year": 1987
+  },
+  "The Royal Tenenbaums": {
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T09:57:07Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0265666",
+    "imdb_rating": 7.6,
+    "imdb_votes": 334411,
+    "kind": "film",
+    "list_title": "The Royal Tenenbaums",
+    "metascore": 76,
+    "omdb_fetched_at": "2026-09-03T09:57:07Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZTc1MzFlMjEtMzkyNC00NDgyLThjMjMtMzQzZGI5YjUyNzU5XkEyXkFqcGc@._V1_QL75_UX380_CR0,25,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "The eccentric members of a dysfunctional family reluctantly gather under the same roof for various reasons.",
+    "rated": "R",
+    "runtime_min": 110,
+    "title": "The Royal Tenenbaums",
+    "total_seasons": null,
+    "year": 2002,
+    "year_end": null
   },
   "The Social Network": {
     "genre": [
