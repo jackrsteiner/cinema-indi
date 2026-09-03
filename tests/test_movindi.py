@@ -114,7 +114,8 @@ class LinearModel(unittest.TestCase):
         rules = {"model": "linear", "intercept": 3.4, "min_age": 3, "max_age": 18,
                  "category_weights": {"violence": 1.0}, "rating_offsets": {"PG": 0.5},
                  "genre_offsets": {"Animation": -0.6}, "numeric": {"runtime_min": {"weight": 0.01, "center": 100}}}
-        film = {"imdb_id": "tt1", "rated": "PG", "genre": ["Animation"], "runtime_min": 110, "parents_guide": {"violence": "Mild"}}
+        guide = {c: "None" for c in m.CATEGORY_LABELS}; guide["violence"] = "Mild"
+        film = {"imdb_id": "tt1", "rated": "PG", "genre": ["Animation"], "runtime_min": 110, "parents_guide": guide}
         r = m.compute_age(film, rules)
         # 3.4 + 1.0 + 0.5 - 0.6 + 0.1 = 4.4 -> 4
         self.assertEqual(r["age"], 4)
