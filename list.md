@@ -84,6 +84,7 @@ The Matrix
 Midnight in Paris
 Muppet Treasure Island
 My Neighbor Totoro
+The Nightmare Before Christmas
 Ocean's Eleven (2001)
 Pan's Labyrinth
 The Passenger (1975)
