@@ -43,5 +43,13 @@
   "Back to the Future Part III": {
     "series": "Back to the Future",
     "series_order": 3
+  },
+  "The Terminator": {
+    "series": "Terminator",
+    "series_order": 1
+  },
+  "Terminator 2: Judgment Day": {
+    "series": "Terminator",
+    "series_order": 2
   }
 }

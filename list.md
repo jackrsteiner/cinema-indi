@@ -41,6 +41,7 @@ Seinfeld (series)
 The Social Network
 Star Wars (1977)
 The Terminator
+Terminator 2: Judgment Day
 True Grit (2010)
 Up (2009)
 WALL-E
