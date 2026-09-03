@@ -1,23 +1,29 @@
 The Adventures of Pete & Pete (series)
 The Adventures of Prince Achmed
 Amélie
+The American Astronaut
 Apollo 13
 Back to the Future
 Back to the Future Part II
 Back to the Future Part III
 Bananaman (series)
+Band of Brothers (series)
+The Big Lebowski
 The Big Short
 Blade Runner
 Blade Runner 2049
 A Charlie Brown Christmas
+Chinatown
 The Chipmunk Adventure
 A Christmas Carol (1951)
+The Dark Crystal
 Easy Rider
 Edward Scissorhands
 The Empire Strikes Back
 Ferris Bueller's Day Off
 Forrest Gump
 Freaks and Geeks (series)
+Glory (1989)
 The Good, the Bad and the Ugly
 The Goonies
 Harvey (1950)
@@ -29,12 +35,17 @@ It's a Wonderful Life
 James and the Giant Peach
 Jurassic Park
 Kiki's Delivery Service
+Kill Bill: Vol. 1
+Kill Bill: Vol. 2
+Labyrinth (1986)
 The Land Before Time
+Letters from Iwo Jima
 The Man Who Planted Trees (1987)
 The Matrix
 Midnight in Paris
 Muppet Treasure Island
 My Neighbor Totoro
+Pan's Labyrinth
 The Passenger (1975)
 The Pirates of Penzance (1983)
 Pirates of Silicon Valley
@@ -43,6 +54,7 @@ The Princess Bride
 Real Genius
 Resident Evil (2002)
 Return of the Jedi
+Saving Private Ryan
 Scott Pilgrim vs. the World
 Seinfeld (series)
 The Social Network
