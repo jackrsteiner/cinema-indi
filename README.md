@@ -68,6 +68,11 @@ To pin a film's age by hand, set `"age"` for it in `data/overrides.json`.
 2. **Pages** (repo → Settings → Pages): set *Source* to **GitHub Actions**.
 3. Run the *Build and deploy* workflow once from the Actions tab (or push to `main`).
 
+If every film shows "Lookup failed" with HTTP 401, the OMDb key has not been
+activated yet: click the link in OMDb's confirmation email, then re-run the
+workflow. You can sanity-check a key with
+`https://www.omdbapi.com/?apikey=YOUR_KEY&t=WarGames`.
+
 ## Running locally
 
 ```
