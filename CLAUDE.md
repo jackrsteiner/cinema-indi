@@ -42,11 +42,20 @@ Put corrections in `data/overrides.json` keyed by the `list.md` line
 (`imdb_id`, `title`, `year`, `rated`, `synopsis`, `poster`, `series`,
 `series_order`, `age`). Never hand-edit `data/films.json`.
 
-## Age rules
+## Ages
 
-`data/age-rules.json` is the only place age appropriateness is defined. It is
-deterministic data, not judgement; do not invent ages. Run
-`python scripts/build.py --explain` to see the resulting table.
+Two files decide the age shown on a card:
+
+- `data/labels.json`: ages the user has set by hand, keyed by the exact
+  `list.md` line. These win. When the user says "X should be 8" or gives a
+  batch of ages, add or change entries here (integers), never in
+  `films.json`. Keys must match `list.md` lines; the tests check this.
+- `data/age-rules.json`: the fitted model that scores everything else. Its
+  coefficients were fitted to `labels.json`; do not hand-edit them or invent
+  ages. Refitting is a separate task the user asks for explicitly.
+
+Run `python scripts/build.py --explain` to see the resulting table, with
+labelled titles marked.
 
 ## Layout
 

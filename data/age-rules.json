@@ -1,50 +1,40 @@
 {
-  "_comment": "model=linear: age = round(intercept + sum(category_weights * severity score) + rating_offsets[rated] + genre_offsets[genre...] + numeric terms), clamped to [min_age, max_age], then raised to rating_floor[rated] if lower. Severity score per category is the vote-weighted mean (None=0 .. Severe=3) when IMDb vote counts are cached, else the median level. Coefficients were fitted to hand-labelled ages (see README); rating_floor covers ratings with no labels yet.",
+  "_comment": "model=linear: age = round(intercept + sum(category_weights * severity score) + rating_offsets[aliased rating] + kind_offsets[kind] + genre_offsets + numeric terms), clamped to [min_age, max_age], then raised to rating_floor if lower. Fitted to data/labels.json (labelled titles show their label directly; this model scores the rest). Feature set chosen by leave-one-out error; severity weights constrained non-negative. Refit when labels change.",
   "model": "linear",
   "missing_severity": 0,
-  "_missing_severity": "Score used for a Parents Guide category IMDb has no data for (0=None .. 3=Severe). Such films are shown as estimates.",
+  "_missing_severity": "Score used for a Parents Guide category IMDb has no data for (0=None .. 3=Severe). Such titles are shown as estimates.",
   "min_age": 3,
   "max_age": 18,
-  "intercept": 3.47,
+  "intercept": 3.63,
   "category_weights": {
-    "sex": 0.75,
-    "violence": 0.02,
-    "profanity": 0.33,
-    "drugs": 0.0,
-    "frightening": 0.59
+    "sex": 0.5,
+    "violence": 0.67,
+    "profanity": 1.48,
+    "drugs": 0.05,
+    "frightening": 0.01
   },
   "rating_aliases": {
-    "_comment": "TV ratings are scored as their MPAA equivalents until some series are labelled.",
-    "TV-Y": "G", "TV-G": "G", "TV-Y7": "PG", "TV-Y7-FV": "PG", "TV-PG": "PG", "TV-14": "PG-13", "TV-MA": "R"
+    "TV-Y": "G",
+    "TV-G": "G",
+    "TV-Y7": "PG",
+    "TV-Y7-FV": "PG",
+    "TV-PG": "PG",
+    "TV-14": "PG-13",
+    "TV-MA": "R"
   },
   "rating_offsets": {
-    "PG": 0.72,
-    "PG-13": 0.1,
-    "R": 0.0,
-    "Not Rated": -0.45
+    "PG": -0.53,
+    "PG-13": 2.48,
+    "R": 3.98,
+    "Not Rated": -1.09
   },
-  "genre_offsets": {
-    "Animation": -0.55,
-    "Family": 0.45,
-    "Fantasy": 1.09
+  "kind_offsets": {
+    "series": 0.96
   },
-  "numeric": {
-    "runtime_min": {
-      "weight": -0.0113,
-      "center": 100.0,
-      "label": "Runtime",
-      "films_only": true,
-      "_comment": "Per-episode runtime means nothing to a film-fitted term; skipped for series until refit."
-    },
-    "imdb_rating": {
-      "weight": -0.5515,
-      "center": 7.5,
-      "label": "IMDb rating"
-    }
-  },
+  "genre_offsets": {},
+  "numeric": {},
   "rating_floor": {
-    "_comment": "Uncalibrated: no labelled R or NC-17 films yet.",
-    "R": 12,
+    "_comment": "Uncalibrated: no labelled NC-17 titles.",
     "NC-17": 17
   }
 }

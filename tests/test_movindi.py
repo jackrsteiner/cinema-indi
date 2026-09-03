@@ -172,15 +172,21 @@ class LinearModel(unittest.TestCase):
         r = m.compute_age({"imdb_id": "tt1", "parents_guide": {}}, rules)
         self.assertEqual(r["age"], 5)
 
-    def test_repo_rules_reproduce_labels(self):
-        """The committed coefficients must keep reproducing the hand labels."""
-        films = m.load_json(m.FILMS_PATH, {})
-        labels = {"My Neighbor Totoro": 3, "Ponyo": 3, "Up (2009)": 4, "WALL-E": 4, "The Princess Bride": 5,
-                  "Star Wars (1977)": 5, "The Empire Strikes Back": 6, "Indiana Jones and the Temple of Doom": 7}
-        for k, t in labels.items():
-            if k in films:
-                self.assertEqual(m.compute_age(films[k], self.rules)["age"], t, k)
+    def test_repo_labels_match_list(self):
+        entries = {e["key"] for e in m.parse_list(m.LIST_PATH.read_text(encoding="utf-8"))}
+        labels = {k: v for k, v in m.load_json(m.LABELS_PATH, {}).items() if not k.startswith("_")}
+        self.assertTrue(labels)
+        self.assertEqual([k for k in labels if k not in entries], [])
+        self.assertTrue(all(isinstance(v, int) and 0 <= v <= 18 for v in labels.values()))
 
+    def test_repo_model_is_close_to_labels(self):
+        """The committed model should land within two years of the labels on average."""
+        films = m.load_json(m.FILMS_PATH, {})
+        labels = {k: v for k, v in m.load_json(m.LABELS_PATH, {}).items() if not k.startswith("_") and k in films}
+        if not labels:
+            self.skipTest("no fetched data yet")
+        err = sum(abs(m.compute_age(films[k], self.rules)["age"] - v) for k, v in labels.items()) / len(labels)
+        self.assertLess(err, 2.0, f"mean absolute error {err:.2f}")
 
 if __name__ == "__main__":
     unittest.main()

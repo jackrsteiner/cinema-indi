@@ -51,41 +51,41 @@ five IMDb Parents Guide categories as icons (💋 sex & nudity, 💥 violence,
 
 ## Age appropriateness
 
-Deterministic and reproducible: no human or AI judgement at build time, only
-data plus the coefficients in [`data/age-rules.json`](data/age-rules.json).
+Two layers, both plain data in the repo:
+
+1. **Your labels** in [`data/labels.json`](data/labels.json): ages you have set
+   by hand, keyed by the `list.md` line. A labelled title always shows its
+   label (the tooltip says so).
+2. **A fitted model** in [`data/age-rules.json`](data/age-rules.json) for
+   everything else:
 
 ```
 age = round( intercept
            + Σ category_weight × severity score      (IMDb Parents Guide, None=0 … Severe=3)
-           + rating_offset[MPAA rating]
+           + rating_offset[rating]                    (TV ratings mapped to MPAA via rating_aliases)
+           + kind_offset (series)
            + Σ genre_offset[genre]                    (OMDb genres)
-           + runtime and IMDb-rating terms )
-      clamped to [min_age, max_age], then raised to rating_floor[rating] if lower
+           + numeric terms: IMDb rating, runtime (films only), … )
+      clamped to [min_age, max_age]
 ```
 
-The coefficients were **fitted to hand-labelled ages** for 21 films (3: Totoro,
-Ponyo, Prince Achmed; 4: Kiki, Penzance, Chipmunk Adventure, Up, Iron Giant,
-WALL-E, Muppet Treasure Island; 5: Princess Bride, Star Wars, Land Before Time,
-Back to the Future, Raiders, Last Crusade, WarGames; 6: Empire, Real Genius,
-Return of the Jedi; 7: Temple of Doom). The fit reproduces 20 of them; Raiders
-comes out one year high because its data is identical to Last Crusade's.
-Nothing R-rated has been labelled yet, so `rating_floor` pins R at 12 until it is.
+The coefficients are fitted to the labels, and the feature set is chosen by
+leave-one-out error (how well each label is predicted from the others), because
+the model's only job is the unlabelled titles. Some labels are unreachable by
+any formula over these inputs (Jurassic Park at 13 and Last Crusade at 5 have
+near-identical Parents Guides), which is why labels are authoritative rather
+than targets the model must hit.
 
-TV ratings are scored as their MPAA equivalents (`rating_aliases`: TV-Y/TV-G as
-G, TV-Y7/TV-PG as PG, TV-14 as PG-13, TV-MA as R) and the runtime term is
-skipped for series, since OMDb reports per-episode length. Both are stopgaps
-until a few series have been labelled and the model refitted.
+To recalibrate: add labels, refit (a scratch least-squares fitter; any
+regression over these features works), paste the coefficients into
+`age-rules.json`, push. Hover an age chip to see its terms; `python
+scripts/build.py --explain` prints the whole table with labelled titles marked.
+`data/overrides.json` can also pin an `"age"` for a single title.
 
-A film IMDb has no Parents Guide for (shorts, obscure titles) is still scored
-from its other inputs, with the missing severities set to `missing_severity`
-(default 0, i.e. None). Its age chip is drawn dashed with a ~ to mark it as an
-estimate, and the tooltip says which categories were assumed.
-
-To recalibrate: label more films, refit (a scratch fitter lives outside the
-repo; any least-squares fit to these features works), paste the coefficients
-into `age-rules.json`, push. Each card shows its terms so you can see why a
-film landed where it did, and `python scripts/build.py --explain` prints the
-whole table. To pin a film by hand, set `"age"` for it in `data/overrides.json`.
+A title IMDb has no Parents Guide for (shorts, obscure titles) is still scored
+from its other inputs with the missing severities set to `missing_severity`
+(default 0, i.e. None). Its chip is dashed with a ~ and the tooltip says which
+categories were assumed.
 
 Note on IMDb: severities come from the same GraphQL endpoint IMDb's own site
 uses. It is undocumented, refuses schema introspection, and its responses
@@ -100,7 +100,8 @@ API of your own.
 | `list.md` | you / an agent | the list |
 | `watched.md` | you / an agent | which films you have watched, with optional dates |
 | `data/overrides.json` | you / an agent | manual fixes keyed by the `list.md` line: `imdb_id`, `title`, `year`, `rated`, `synopsis`, `poster`, `series`, `series_order`, `age` |
-| `data/age-rules.json` | you | the age formula |
+| `data/labels.json` | you / an agent | hand-set ages, authoritative, and the model's training set |
+| `data/age-rules.json` | the fitter | the model for unlabelled titles |
 | `data/films.json` | the Action | cache of fetched data (committed back automatically) |
 
 ## One-time setup

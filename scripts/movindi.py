@@ -16,6 +16,7 @@ DATA_DIR = ROOT / "data"
 FILMS_PATH = DATA_DIR / "films.json"
 OVERRIDES_PATH = DATA_DIR / "overrides.json"
 RULES_PATH = DATA_DIR / "age-rules.json"
+LABELS_PATH = DATA_DIR / "labels.json"
 
 ARTICLES = ("the ", "a ", "an ")
 
@@ -287,6 +288,9 @@ def linear_terms(film: dict, rules: dict) -> list[tuple[str, float]]:
         off = (rules.get("genre_offsets") or {}).get(g)
         if off:
             terms.append((g, float(off)))
+    kind_off = (rules.get("kind_offsets") or {}).get(film.get("kind") or "film")
+    if kind_off:
+        terms.append(((film.get("kind") or "film").capitalize(), float(kind_off)))
     for field, spec in (rules.get("numeric") or {}).items():
         val = film.get(field)
         if spec.get("films_only") and film.get("kind") == "series":

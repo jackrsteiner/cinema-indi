@@ -17,8 +17,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from movindi import (  # noqa: E402
-    CATEGORY_ICONS, CATEGORY_LABELS, FILMS_PATH, LIST_PATH, OVERRIDES_PATH, ROOT,
-    RULES_PATH, WATCHED_PATH, alpha_key, alpha_letter, compute_age, first_sentence,
+    CATEGORY_ICONS, CATEGORY_LABELS, FILMS_PATH, LABELS_PATH, LIST_PATH, OVERRIDES_PATH,
+    ROOT, RULES_PATH, WATCHED_PATH, alpha_key, alpha_letter, compute_age, first_sentence,
     load_json, parse_list, parse_watched, sort_title,
 )
 
@@ -26,8 +26,9 @@ SITE_SRC = ROOT / "site"
 SITE_OUT = ROOT / "_site"
 
 
-def build_records(entries, cache, overrides, rules, watched=None) -> list[dict]:
+def build_records(entries, cache, overrides, rules, watched=None, labels=None) -> list[dict]:
     watched = watched or {}
+    labels = labels or {}
     records = []
     for entry in entries:
         key = entry["key"]
@@ -43,8 +44,13 @@ def build_records(entries, cache, overrides, rules, watched=None) -> list[dict]:
 
         title = raw.get("title") or entry["title"]
         age_info = compute_age(raw, rules)
+        age_source = "model"
+        if key in labels:
+            age_info = {"age": labels[key], "reasons": ["Set by hand (data/labels.json)"], "unknown": False}
+            age_source = "label"
         if "age" in ov:
             age_info = {"age": ov["age"], "reasons": ["Set manually in overrides.json"], "unknown": False}
+            age_source = "override"
         poster = ov.get("poster") or raw.get("tmdb_poster") or raw.get("omdb_poster")
         imdb_id = raw.get("imdb_id")
         status = "error" if raw.get("error") else ("ok" if imdb_id else "pending")
@@ -69,7 +75,8 @@ def build_records(entries, cache, overrides, rules, watched=None) -> list[dict]:
             "age": age_info["age"],
             "age_reasons": age_info["reasons"],
             "age_unknown": age_info["unknown"],
-            "age_estimated": bool(age_info.get("estimated")) and "age" not in ov,
+            "age_estimated": bool(age_info.get("estimated")) and age_source == "model",
+            "age_source": age_source,
             "status": status,
             "error": raw.get("error") or (raw.get("guide_error") if not raw.get("parents_guide") else None),
             "watched": key in watched,
@@ -157,7 +164,7 @@ def explain(records) -> str:
              "|---|---|---|" + "---|" * len(CATEGORY_LABELS) + "---|---|"]
     for r in sorted(records, key=lambda r: (r["age"] is None, r["age"] or 0, r["alpha_key"])):
         sev = " | ".join((r["parents_guide"].get(k) or "?") for k in CATEGORY_LABELS)
-        age = (f"{r['age']}+" + ("~" if r.get("age_estimated") else "")) if r["age"] is not None else "?"
+        age = (f"{r['age']}+" + {"label": " (label)", "override": " (override)"}.get(r.get("age_source"), "") + ("~" if r.get("age_estimated") else "")) if r["age"] is not None else "?"
         lines.append(f"| {r['title']} | {r['year'] or ''} | {r['rated'] or ''} | {sev} | {age} | {'; '.join(r['age_reasons'])} |")
     return "\n".join(lines)
 
@@ -177,11 +184,15 @@ def main(argv=None) -> int:
         return 1
 
     watched = parse_watched(WATCHED_PATH.read_text(encoding="utf-8")) if WATCHED_PATH.exists() else {}
+    labels = {k: v for k, v in load_json(LABELS_PATH, {}).items() if not k.startswith("_")}
     known = {e["key"] for e in entries}
     for k in watched:
         if k not in known:
             print(f"WARNING watched.md: '{k}' is not a line in list.md")
-    records = build_records(entries, cache, overrides, rules, watched)
+    for k in labels:
+        if k not in known:
+            print(f"WARNING labels.json: '{k}' is not a line in list.md")
+    records = build_records(entries, cache, overrides, rules, watched, labels)
     out = ROOT / args.out
     if out.exists():
         shutil.rmtree(out)
