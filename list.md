@@ -95,6 +95,7 @@ Ponyo
 Primer
 The Princess Bride
 Real Genius
+Repo! The Genetic Opera
 Resident Evil (2002)
 The Royal Tenenbaums
 Rushmore
