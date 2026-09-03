@@ -3,6 +3,7 @@ The Adventures of Pete & Pete (series)
 The Adventures of Prince Achmed
 Alien (1979)
 Aliens
+Almost Famous
 Amélie
 The American Astronaut
 American Pie (1999)
@@ -14,8 +15,10 @@ Bananaman (series)
 Band of Brothers (series)
 The Big Lebowski
 The Big Short
+Big Trouble in Little China
 Blade Runner
 Blade Runner 2049
+Breaking Away
 Brick (2005)
 The Brothers Bloom
 A Charlie Brown Christmas
@@ -24,6 +27,7 @@ The Chipmunk Adventure
 A Christmas Carol (1951)
 The Darjeeling Limited
 The Dark Crystal
+Demolition Man
 Detroit Rock City
 Easy Rider
 Edward Scissorhands
@@ -37,9 +41,11 @@ The Goonies
 The Grand Budapest Hotel
 Harold & Kumar Go to White Castle
 Harvey (1950)
+Idiocracy
 Indiana Jones and the Last Crusade
 Indiana Jones and the Raiders of the Lost Ark
 Indiana Jones and the Temple of Doom
+Invasion of the Body Snatchers (1978)
 The Iron Giant
 It's a Wonderful Life
 James and the Giant Peach
@@ -49,8 +55,10 @@ Kill Bill: Vol. 1
 Kill Bill: Vol. 2
 Labyrinth (1986)
 The Land Before Time
+Last Action Hero
 Letters from Iwo Jima
 The Life Aquatic with Steve Zissou
+Logan's Run (1976)
 The Man Who Planted Trees (1987)
 The Matrix
 Midnight in Paris
@@ -70,17 +78,20 @@ Rushmore
 Saving Private Ryan
 Scott Pilgrim vs. the World
 Seinfeld (series)
+Silver Spoon (2013 series)
 The Social Network
 Star Wars: Episode IV - A New Hope
 Star Wars: Episode V - The Empire Strikes Back
 Star Wars: Episode VI - Return of the Jedi
 The Terminator
 Terminator 2: Judgment Day
+The Thing (1982)
 True Grit (2010)
 Up (2009)
 Wake in Fright (1971)
 WALL-E
 WarGames
+White Men Can't Jump (1992)
 Who Framed Roger Rabbit
 Willy Wonka & the Chocolate Factory
 The Witches (1990)
