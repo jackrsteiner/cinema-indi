@@ -153,7 +153,9 @@
     if (next && next !== mode) setMode(next, false);
   });
 
-  fetch("films.json", { cache: "no-cache" })
+  // films.json is refetched with a cache-busting query so a new deploy shows up
+  // on a normal reload even though Pages caches assets for ten minutes.
+  fetch("films.json?t=" + Math.floor(Date.now() / 60000), { cache: "no-cache" })
     .then(r => { if (!r.ok) throw new Error(r.status + " " + r.statusText); return r.json(); })
     .then(json => {
       data = json;

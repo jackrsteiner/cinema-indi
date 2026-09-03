@@ -73,6 +73,15 @@ def build_records(entries, cache, overrides, rules, watched=None) -> list[dict]:
     return records
 
 
+def _asset_version(out) -> str:
+    """Short content hash over the static assets, stable across identical builds."""
+    import hashlib
+    h = hashlib.sha1()
+    for name in ("app.js", "style.css"):
+        h.update((out / name).read_bytes())
+    return h.hexdigest()[:10]
+
+
 def explain(records) -> str:
     lines = ["| Title | Year | Rated | " + " | ".join(k.capitalize() for k in CATEGORY_LABELS) + " | Age | Why |",
              "|---|---|---|" + "---|" * len(CATEGORY_LABELS) + "---|---|"]
@@ -116,6 +125,12 @@ def main(argv=None) -> int:
     }
     (out / "films.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / ".nojekyll").write_text("")
+    # Cache-bust the static assets: GitHub Pages serves them with a 10-minute
+    # max-age, so without this a redeploy is invisible until the cache expires.
+    version = _asset_version(out)
+    html = (out / "index.html").read_text(encoding="utf-8")
+    html = html.replace('href="style.css"', f'href="style.css?v={version}"').replace('src="app.js"', f'src="app.js?v={version}"')
+    (out / "index.html").write_text(html, encoding="utf-8")
     print(f"built {len(records)} films into {out} ({sum(r['watched'] for r in records)} watched)")
     if args.explain:
         print(explain(records))
