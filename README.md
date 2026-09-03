@@ -27,7 +27,7 @@ The Princess Bride 2026-09-01
 True Grit (2010)
 ```
 
-The page shows a ✓ badge with the date and has an All / To watch / Watched
+The page shows a ✓ badge with the date and has an All / Unwatched / Watched
 filter. Or tell an agent "mark *Title* as watched".
 
 ## How the page works

@@ -124,7 +124,7 @@
     if (!films.length) {
       main.innerHTML = filter === "all"
         ? `<p class="empty">No films yet. Add a title to <code>list.md</code>.</p>`
-        : `<p class="empty">Nothing ${filter === "watched" ? "watched yet" : "left to watch"}.</p>`;
+        : `<p class="empty">Nothing ${filter === "watched" ? "watched yet" : "unwatched"}.</p>`;
       return;
     }
     main.innerHTML = keys.map(k => {
