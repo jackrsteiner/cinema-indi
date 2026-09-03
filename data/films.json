@@ -1,4 +1,105 @@
 {
+  "A Charlie Brown Christmas": {
+    "genre": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T08:46:08Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-G",
+    "imdb_id": "tt0059026",
+    "imdb_rating": 8.3,
+    "imdb_votes": 50353,
+    "kind": "film",
+    "list_title": "A Charlie Brown Christmas",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T08:46:08Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjViMWMxNWItYTk2OC00MWQwLWIyMzktNDQ4YWIyYjcxZGIyXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "None",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "Depressed at the commercialism he sees around him, Charlie Brown tries to find a deeper meaning to Christmas.",
+    "rated": "TV-G",
+    "runtime_min": 25,
+    "title": "A Charlie Brown Christmas",
+    "total_seasons": null,
+    "year": 1965,
+    "year_end": null
+  },
+  "A Christmas Carol (1951)": {
+    "genre": [
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-09-03T08:46:08Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "Approved",
+    "imdb_id": "tt0044008",
+    "imdb_rating": 8.1,
+    "imdb_votes": 27655,
+    "kind": "film",
+    "list_title": "A Christmas Carol",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T08:46:08Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNTlmMzgzNTctOWY0ZS00M2Q2LTk5NjYtM2ZiNTFjZTBjYzM0XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "Ebenezer Scrooge, a curmudgeonly, miserly businessman, has no time for sentimentality and largely views Christmas as a waste of time. However, this Christmas Eve, he will be visited by three spirits who will show him the error of ...",
+    "rated": "Approved",
+    "runtime_min": 86,
+    "title": "A Christmas Carol",
+    "total_seasons": null,
+    "year": 1951,
+    "year_end": null
+  },
+  "A Woman Under the Influence": {
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-09-03T08:46:10Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0072417",
+    "imdb_rating": 8.0,
+    "imdb_votes": 31141,
+    "kind": "film",
+    "list_title": "A Woman Under the Influence",
+    "metascore": 88,
+    "omdb_fetched_at": "2026-09-03T08:46:10Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BODk2MWJmN2MtYmVhMi00MjZjLTlhZTMtMmM2ZWRjZDc2ZjQ2XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Severe",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "Although wife and mother Mabel is loved by her husband Nick, her mental illness places a strain on the marriage.",
+    "rated": "R",
+    "runtime_min": 155,
+    "title": "A Woman Under the Influence",
+    "total_seasons": null,
+    "year": 1974,
+    "year_end": null
+  },
   "Amélie": {
     "genre": [
       "Comedy",
@@ -162,6 +263,40 @@
     "year": 1990,
     "year_end": null
   },
+  "Bananaman (series)": {
+    "genre": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "guide_fetched_at": "2026-09-03T08:46:08Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-Y",
+    "imdb_id": "tt0084980",
+    "imdb_rating": 6.7,
+    "imdb_votes": 1816,
+    "kind": "series",
+    "list_title": "Bananaman",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T08:46:08Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTkxMTYzMjczN15BMl5BanBnXkFtZTcwOTIyMDcyMQ@@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Bananaman, a young boy named Eric, transforms into a super-strong hero by eating bananas. His crow friend provides bananas. As Bananaman, he battles villains while keeping his alter-ego secret from others.",
+    "rated": "TV-Y7",
+    "runtime_min": 5,
+    "title": "Bananaman",
+    "total_seasons": 3,
+    "year": 1983,
+    "year_end": 1986
+  },
   "Blade Runner": {
     "genre": [
       "Action",
@@ -225,6 +360,39 @@
     "title": "Blade Runner 2049",
     "total_seasons": null,
     "year": 2017,
+    "year_end": null
+  },
+  "Easy Rider": {
+    "genre": [
+      "Adventure",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T08:46:09Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0064276",
+    "imdb_rating": 7.2,
+    "imdb_votes": 122458,
+    "kind": "film",
+    "list_title": "Easy Rider",
+    "metascore": 85,
+    "omdb_fetched_at": "2026-09-03T08:46:08Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTc2MjI2NDc4Ml5BMl5BanBnXkFtZTgwODI4NzU0MTI@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Severe",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "Two bikers head from L.A. to New Orleans through the open country and desert lands, and along the way they meet a man who bridges a counter-culture gap of which they had been unaware.",
+    "rated": "R",
+    "runtime_min": 95,
+    "title": "Easy Rider",
+    "total_seasons": null,
+    "year": 1969,
     "year_end": null
   },
   "Edward Scissorhands": {
@@ -356,6 +524,40 @@
     "year": 1999,
     "year_end": 2000
   },
+  "Harvey (1950)": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-09-03T08:46:09Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "Approved",
+    "imdb_id": "tt0042546",
+    "imdb_rating": 7.9,
+    "imdb_votes": 60260,
+    "kind": "film",
+    "list_title": "Harvey",
+    "metascore": 79,
+    "omdb_fetched_at": "2026-09-03T08:46:09Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZTNlNWRhZmEtYzgyOC00YTIxLTk1MjktMWQ1MjhlMmE0ZjljXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "A whimsical man is thought to be insane due to his insistence that he is best friends with an invisible, humanoid rabbit, but he may be wiser than anyone knows.",
+    "rated": "Approved",
+    "runtime_min": 104,
+    "title": "Harvey",
+    "total_seasons": null,
+    "year": 1950,
+    "year_end": null
+  },
   "Indiana Jones and the Last Crusade": {
     "genre": [
       "Action",
@@ -445,6 +647,40 @@
     "runtime_min": 118,
     "title": "Indiana Jones and the Temple of Doom",
     "year": 1984
+  },
+  "It's a Wonderful Life": {
+    "genre": [
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-09-03T08:46:09Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0038650",
+    "imdb_rating": 8.6,
+    "imdb_votes": 552062,
+    "kind": "film",
+    "list_title": "It's a Wonderful Life",
+    "metascore": 89,
+    "omdb_fetched_at": "2026-09-03T08:46:09Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMDM4OWFhYjEtNTE5Yy00NjcyLTg5N2UtZDQwNDZlYjlmNDU5XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "An angel is sent from Heaven to help a desperately frustrated businessman see the value of his own life.",
+    "rated": "PG",
+    "runtime_min": 130,
+    "title": "It's a Wonderful Life",
+    "total_seasons": null,
+    "year": 1946,
+    "year_end": null
   },
   "James and the Giant Peach": {
     "genre": [
@@ -1265,6 +1501,39 @@
     "year": 1999,
     "year_end": null
   },
+  "The Passenger (1975)": {
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T08:46:09Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0073580",
+    "imdb_rating": 7.4,
+    "imdb_votes": 28127,
+    "kind": "film",
+    "list_title": "The Passenger",
+    "metascore": 90,
+    "omdb_fetched_at": "2026-09-03T08:46:09Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTgwMWUxYWEtZDA3NC00Y2I4LTgzMGEtMTkwYTE5YzI2ODlmXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Unable to find the war he has been asked to cover, a frustrated war correspondent takes the risky path of co-opting the identity of a dead arms-deal acquaintance.",
+    "rated": "PG",
+    "runtime_min": 126,
+    "title": "The Passenger",
+    "total_seasons": null,
+    "year": 1975,
+    "year_end": null
+  },
   "The Pirates of Penzance (1983)": {
     "genre": [
       "Comedy",
@@ -1612,6 +1881,40 @@
     "runtime_min": 114,
     "title": "WarGames",
     "year": 1983
+  },
+  "Who Framed Roger Rabbit": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-09-03T08:46:10Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0096438",
+    "imdb_rating": 7.7,
+    "imdb_votes": 232021,
+    "kind": "film",
+    "list_title": "Who Framed Roger Rabbit",
+    "metascore": 83,
+    "omdb_fetched_at": "2026-09-03T08:46:09Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMDc5ZGRiM2EtMWRmMC00YjViLWEwMjYtNGE5MWVlZGEzZGM0XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "When a cartoon rabbit is accused of murder, he enlists the help of a burnt out private investigator to prove his innocence.",
+    "rated": "PG",
+    "runtime_min": 104,
+    "title": "Who Framed Roger Rabbit",
+    "total_seasons": null,
+    "year": 1988,
+    "year_end": null
   },
   "Willy Wonka & the Chocolate Factory": {
     "genre": [
