@@ -96,10 +96,14 @@ section.group h2 small { font-weight: 400; color: var(--muted); font-size: 0.85r
   gap: 1rem;
 }
 .card {
+  position: relative;
   display: grid; grid-template-columns: 110px 1fr; gap: 1rem;
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 0.9rem; min-height: 160px;
 }
+.card.is-watched h3 { padding-right: 4.6rem; }
+.chip.watched.corner { position: absolute; top: 0.75rem; right: 0.75rem; }
+.side .meta.badges { margin: 0; justify-content: center; gap: 0.3rem; }
 .card.pending, .card.error { opacity: 0.75; border-style: dashed; }
 .poster {
   width: 110px; aspect-ratio: 2 / 3; border-radius: 8px; object-fit: cover;

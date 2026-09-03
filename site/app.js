@@ -70,7 +70,7 @@
       return `<li data-sev="${esc(v || "")}" title="${esc(data.categories[k])}: ${esc(v || "unknown")}" aria-label="${esc(data.categories[k])}: ${esc(v || "unknown")}"><span aria-hidden="true">${esc(data.icons[k] || "")}</span></li>`;
     }).join("");
     const watched = f.watched
-      ? `<span class="chip watched" title="Watched${f.watched_on ? " on " + esc(fmtDate(f.watched_on)) : ""}">${f.watched_on ? "Watched " + esc(fmtDate(f.watched_on)) : "Watched"}</span>`
+      ? `<span class="chip watched corner" title="Watched${f.watched_on ? " on " + esc(fmtDate(f.watched_on)) : ""}">Watched</span>`
       : "";
     const poster = f.poster
       ? `<img class="poster" src="${esc(f.poster)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'poster placeholder',textContent:'🎞'}))">`
@@ -88,10 +88,11 @@
       ? `<p class="warn">${f.status === "error" ? "Lookup failed: " + esc(f.error) : "Not fetched yet"}</p>`
       : (f.error ? `<p class="warn">${esc(f.error)}</p>` : "");
     return `<article class="card ${esc(f.status)}${f.watched ? " is-watched" : ""}">
-      <div class="side">${poster}${imdbLink}</div>
+      ${watched}
+      <div class="side">${poster}<p class="meta badges">${f.rated ? `<span class="chip">${esc(f.rated)}</span>` : ""}${ageChip}</p>${imdbLink}</div>
       <div>
         <h3>${title}</h3>
-        <p class="meta">${f.year_label ? `<span>${esc(f.year_label)}</span>` : ""}${runtime}${f.rated ? `<span class="chip">${esc(f.rated)}</span>` : ""}${ageChip}${kind}${watched}</p>
+        <p class="meta">${f.year_label ? `<span>${esc(f.year_label)}</span>` : ""}${runtime}${kind}</p>
         ${f.synopsis ? `<p class="synopsis">${esc(f.synopsis)}</p>` : ""}
         ${guideLink}
         <ul class="sev" aria-label="Parents Guide severities">${sev}</ul>
