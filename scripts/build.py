@@ -102,7 +102,9 @@ def runtime_label(raw) -> str:
     if raw.get("kind") == "series":
         parts = []
         if mins:
-            parts.append(f"≈{mins} min/ep")
+            # OMDb gives per-episode length for most series but the whole run
+            # for miniseries; nothing episodic is longer than 90 minutes.
+            parts.append(f"≈{mins} min/ep" if mins <= 90 else f"{mins} min total")
         if raw.get("total_seasons"):
             n = raw["total_seasons"]
             parts.append(f"{n} season{'' if n == 1 else 's'}")

@@ -51,6 +51,15 @@ class ListParsing(unittest.TestCase):
         watched = m.parse_watched(m.WATCHED_PATH.read_text(encoding="utf-8")) if m.WATCHED_PATH.exists() else {}
         self.assertEqual([k for k in watched if k not in entries], [])
 
+    def test_series_runtime_label(self):
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from build import runtime_label, year_label
+        self.assertEqual(runtime_label({"kind": "series", "runtime_min": 22, "total_seasons": 9}), "≈22 min/ep · 9 seasons")
+        self.assertEqual(runtime_label({"kind": "series", "runtime_min": 594, "total_seasons": 1}), "594 min total · 1 season")
+        self.assertEqual(runtime_label({"kind": "film", "runtime_min": 98}), "98 min")
+        self.assertEqual(year_label({"kind": "series", "year": 2018, "ongoing": True}, {}), "2018–")
+        self.assertEqual(year_label({"kind": "series", "year": 1989, "year_end": 1998}, {}), "1989–1998")
+
     def test_first_sentence(self):
         self.assertEqual(m.first_sentence("A boy meets a girl. They dance."), "A boy meets a girl.")
         self.assertEqual(m.first_sentence("Dr. Brown builds a time machine. Chaos ensues."), "Dr. Brown builds a time machine.")
