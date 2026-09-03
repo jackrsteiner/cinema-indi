@@ -665,6 +665,39 @@
     "year": 2005,
     "year_end": null
   },
+  "Cave of Forgotten Dreams": {
+    "genre": [
+      "Documentary",
+      "History"
+    ],
+    "guide_fetched_at": "2026-09-03T16:24:52Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "G",
+    "imdb_id": "tt1664894",
+    "imdb_rating": 7.4,
+    "imdb_votes": 18777,
+    "kind": "film",
+    "list_title": "Cave of Forgotten Dreams",
+    "metascore": 86,
+    "omdb_fetched_at": "2026-09-03T16:24:52Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTYxNDExMzUwMl5BMl5BanBnXkFtZTcwNjM2MzYwNQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "None",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "Werner Herzog gains exclusive access to film inside the Chauvet caves of Southern France and captures the oldest known pictorial creations of humanity.",
+    "rated": "G",
+    "runtime_min": 90,
+    "title": "Cave of Forgotten Dreams",
+    "total_seasons": null,
+    "year": 2026,
+    "year_end": null
+  },
   "Chinatown": {
     "genre": [
       "Drama",
@@ -1031,6 +1064,39 @@
     "runtime_min": 103,
     "title": "Ferris Bueller's Day Off",
     "year": 1986
+  },
+  "Fire of Love (2022)": {
+    "genre": [
+      "Documentary",
+      "Biography"
+    ],
+    "guide_fetched_at": "2026-09-03T16:24:53Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt16227014",
+    "imdb_rating": 7.6,
+    "imdb_votes": 16131,
+    "kind": "film",
+    "list_title": "Fire of Love",
+    "metascore": 84,
+    "omdb_fetched_at": "2026-09-03T16:24:52Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZDg0ZmViMWUtMGQ1Ni00NTEyLWFkYzgtMWViYjkwZDQ2ZWVkXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Intrepid scientists and lovers Katia and Maurice Krafft died in a volcanic explosion doing the very thing that brought them together: unraveling the mysteries of volcanoes by capturing the most explosive imagery ever recorded.",
+    "rated": "PG",
+    "runtime_min": 98,
+    "title": "Fire of Love",
+    "total_seasons": null,
+    "year": 2022,
+    "year_end": null
   },
   "Forrest Gump": {
     "genre": [
@@ -2773,6 +2839,40 @@
     "title": "The Abyss",
     "total_seasons": null,
     "year": 1989,
+    "year_end": null
+  },
+  "The Act of Killing": {
+    "genre": [
+      "Documentary",
+      "Biography",
+      "Crime"
+    ],
+    "guide_fetched_at": "2026-09-03T16:24:52Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "Not Rated",
+    "imdb_id": "tt2375605",
+    "imdb_rating": 8.2,
+    "imdb_votes": 43085,
+    "kind": "film",
+    "list_title": "The Act of Killing",
+    "metascore": 92,
+    "omdb_fetched_at": "2026-09-03T16:24:50Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZDg1NDMwMGQtMmFkZS00NTQwLTkxYjktMTlhNjI2NzNlYTQ1XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Severe",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "A documentary which challenges former Indonesian death-squad leaders to reenact their mass-killings in whichever cinematic genres they wish, including classic Hollywood crime scenarios and lavish musical numbers.",
+    "rated": "Not Rated",
+    "runtime_min": 117,
+    "title": "The Act of Killing",
+    "total_seasons": null,
+    "year": 2012,
     "year_end": null
   },
   "The Adventures of Pete & Pete (series)": {
