@@ -74,6 +74,46 @@ def build_records(entries, cache, overrides, rules, watched=None) -> list[dict]:
     return records
 
 
+def plain_list_html(entries, watched, version) -> str:
+    """list.md as a bare page: one title per line, alphabetical, watched marked."""
+    from html import escape
+    items = []
+    for e in entries:
+        key = e["key"]
+        text = e["title"] + (f" ({e['year']})" if e.get("year") else "")
+        mark = ' <span class="w">watched</span>' if key in watched else ""
+        items.append(f"<li>{escape(text)}{mark}</li>")
+    n = len(entries)
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>movindi list</title>
+<link rel="stylesheet" href="style.css?v={version}">
+<style>
+  .plain {{ max-width: 40rem; margin: 0 auto; padding: 1.5rem; }}
+  .plain h1 {{ margin: 0 0 0.25rem; font-size: 1.6rem; }}
+  .plain .nav {{ display: flex; gap: 1rem; flex-wrap: wrap; color: var(--muted); margin: 0 0 1.25rem; font-size: 0.9rem; }}
+  .plain ul {{ list-style: none; margin: 0; padding: 0; columns: 1; }}
+  .plain li {{ padding: 0.2rem 0; border-bottom: 1px solid var(--line); }}
+  .plain .w {{ color: var(--muted); font-size: 0.8rem; margin-left: 0.4rem; }}
+  @media (min-width: 700px) {{ .plain ul {{ columns: 2; column-gap: 2rem; }} .plain li {{ break-inside: avoid; }} }}
+</style>
+</head>
+<body>
+<main class="plain">
+  <h1>movindi list</h1>
+  <p class="nav"><a href="./">Full site</a> <a href="list.md">Raw list.md</a> <span>{n} film{"" if n == 1 else "s"}</span></p>
+  <ul>
+{chr(10).join("    " + i for i in items)}
+  </ul>
+</main>
+</body>
+</html>
+"""
+
+
 def _asset_version(out) -> str:
     """Short content hash over the static assets, stable across identical builds."""
     import hashlib
@@ -132,6 +172,10 @@ def main(argv=None) -> int:
     html = (out / "index.html").read_text(encoding="utf-8")
     html = html.replace('href="style.css"', f'href="style.css?v={version}"').replace('src="app.js"', f'src="app.js?v={version}"')
     (out / "index.html").write_text(html, encoding="utf-8")
+    # A plain rendering of list.md for quick "is it on the list?" checks, plus
+    # the raw file itself.
+    (out / "list.html").write_text(plain_list_html(entries, watched, version), encoding="utf-8")
+    (out / "list.md").write_text(LIST_PATH.read_text(encoding="utf-8"), encoding="utf-8")
     print(f"built {len(records)} films into {out} ({sum(r['watched'] for r in records)} watched)")
     if args.explain:
         print(explain(records))

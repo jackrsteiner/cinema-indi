@@ -17,6 +17,11 @@ automatically by a GitHub Action and rendered as a static page.
 
 Or just tell an agent "Add *Title* to the movindi list"; `CLAUDE.md` tells it how.
 
+The site also serves the list as a bare page at
+[`/list.html`](https://jackrsteiner.github.io/movindi/list.html) (titles only,
+watched ones marked) and the raw file at `/list.md`, for a quick "is it on the
+list already?" check. Each page links to the other.
+
 ## Marking a film watched
 
 Add its `list.md` line to [`watched.md`](watched.md), optionally followed by a
