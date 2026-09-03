@@ -699,6 +699,40 @@
     "year": 2005,
     "year_end": null
   },
+  "Casablanca": {
+    "genre": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "guide_fetched_at": "2026-09-03T23:44:50Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0034583",
+    "imdb_rating": 8.5,
+    "imdb_votes": 656718,
+    "kind": "film",
+    "list_title": "Casablanca",
+    "metascore": 100,
+    "omdb_fetched_at": "2026-09-03T23:44:50Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNWEzN2U1YTYtYTQyMS00NTVkLWE2NGQtZWFlMmM0MDNjMmRiXkEyXkFqcGc@._V1_QL75_UX380_CR0,5,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco.",
+    "rated": "PG",
+    "runtime_min": 102,
+    "title": "Casablanca",
+    "total_seasons": null,
+    "year": 1943,
+    "year_end": null
+  },
   "Cave of Forgotten Dreams": {
     "genre": [
       "Documentary",
@@ -764,6 +798,39 @@
     "title": "Chinatown",
     "total_seasons": null,
     "year": 1974,
+    "year_end": null
+  },
+  "Citizen Kane": {
+    "genre": [
+      "Drama",
+      "Mystery"
+    ],
+    "guide_fetched_at": "2026-09-03T23:44:50Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0033467",
+    "imdb_rating": 8.2,
+    "imdb_votes": 491492,
+    "kind": "film",
+    "list_title": "Citizen Kane",
+    "metascore": 100,
+    "omdb_fetched_at": "2026-09-03T23:44:50Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYjk1ZDJlMmUtOWQ0Zi00MDM5LTk1OGYtODczNjFmMGYwZGVkXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud.'",
+    "rated": "PG",
+    "runtime_min": 119,
+    "title": "Citizen Kane",
+    "total_seasons": null,
+    "year": 1941,
     "year_end": null
   },
   "David the Gnome (series)": {
@@ -2522,6 +2589,40 @@
     "year": 2004,
     "year_end": null
   },
+  "Psycho (1960)": {
+    "genre": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "guide_fetched_at": "2026-09-03T23:44:51Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0054215",
+    "imdb_rating": 8.5,
+    "imdb_votes": 783952,
+    "kind": "film",
+    "list_title": "Psycho",
+    "metascore": 97,
+    "omdb_fetched_at": "2026-09-03T23:44:51Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYjZhMzFiZjItODA3ZC00MmRhLWIzMGYtMmVjOWUwYTA3MTRjXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A secretary on the run for embezzlement takes refuge at a secluded California motel owned by a repressed man and his overbearing mother.",
+    "rated": "R",
+    "runtime_min": 109,
+    "title": "Psycho",
+    "total_seasons": null,
+    "year": 1960,
+    "year_end": null
+  },
   "Real Genius": {
     "genre": [
       "Comedy",
@@ -4015,6 +4116,40 @@
     "year": 1998,
     "year_end": null
   },
+  "The Twilight Zone (1959 series)": {
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+    ],
+    "guide_fetched_at": "2026-09-03T23:44:51Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-PG",
+    "imdb_id": "tt0052520",
+    "imdb_rating": 9.0,
+    "imdb_votes": 106816,
+    "kind": "series",
+    "list_title": "The Twilight Zone",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T23:44:51Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZjdmOTE3NjItY2JkMi00YjlhLWI0M2UtZjEwZTQ4ZDBkM2I0XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Classic American Anthology series created by Rod Serling, featuring standalone stories of science fiction, fantasy, and horror, each with a twist ending or moral lesson.",
+    "rated": "TV-PG",
+    "runtime_min": 51,
+    "title": "The Twilight Zone",
+    "total_seasons": 5,
+    "year": 1959,
+    "year_end": 1964
+  },
   "The Witches (1990)": {
     "genre": [
       "Adventure",
@@ -4372,6 +4507,40 @@
     "runtime_min": 114,
     "title": "WarGames",
     "year": 1983
+  },
+  "What Ever Happened to Baby Jane? (1962)": {
+    "genre": [
+      "Drama",
+      "Horror",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T23:44:51Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "Approved",
+    "imdb_id": "tt0056687",
+    "imdb_rating": 8.0,
+    "imdb_votes": 67202,
+    "kind": "film",
+    "list_title": "What Ever Happened to Baby Jane?",
+    "metascore": 75,
+    "omdb_fetched_at": "2026-09-03T23:44:51Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMmQ0MjAwOGUtZjUzNy00MzQ1LWJkZGYtNWNhOGVjNzA2MTRjXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A former vaudeville child star torments her paraplegic sister, who eclipsed her as a movie star, in their decaying Hollywood mansion while desperately clinging to hopes of a comeback.",
+    "rated": "Approved",
+    "runtime_min": 134,
+    "title": "What Ever Happened to Baby Jane?",
+    "total_seasons": null,
+    "year": 1962,
+    "year_end": null
   },
   "White Men Can't Jump (1992)": {
     "genre": [
