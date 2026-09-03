@@ -85,6 +85,16 @@ class Enrich(unittest.TestCase):
         out = enrich.enrich(parse_list("X\n"), {}, {}, omdb_key="", fetch=fake_fetch([]), log=lambda *a: None)
         self.assertIn("OMDB_API_KEY", out["X"]["error"])
 
+    def test_rejected_key_fails_fast(self):
+        calls = []
+        def fetch(url, data=None, headers=None):
+            calls.append(url)
+            raise enrich.ApiError("HTTP 401 from omdb: Invalid API key!", status=401)
+        out = enrich.enrich(parse_list("A\nB\nC\n"), {}, {}, omdb_key="bad", fetch=fetch, log=lambda *a: None)
+        self.assertEqual(len(calls), 1)
+        for k in "ABC":
+            self.assertIn("rejected the API key", out[k]["error"])
+
     def test_dropped_titles_leave_cache(self):
         out = enrich.enrich(parse_list("The Princess Bride\n"), {"Gone": {"imdb_id": "tt1"}, "The Princess Bride": {"imdb_id": "tt0093779", "guide_fetched_at": enrich._now()}},
                             {}, omdb_key="k", fetch=fake_fetch([]), log=lambda *a: None)

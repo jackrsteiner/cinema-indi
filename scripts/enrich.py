@@ -56,15 +56,32 @@ def http_json(url: str, data: dict | None = None, headers: dict | None = None, r
         hdrs["Content-Type"] = "application/json"
     hdrs.update(headers or {})
     last_err = None
+    safe_url = url.split("?")[0]
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, data=body, headers=hdrs)
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return json.loads(resp.read().decode("utf-8"))
-        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError) as e:
+        except urllib.error.HTTPError as e:
+            detail = ""
+            try:
+                detail = e.read().decode("utf-8", "replace")[:200]
+            except Exception:
+                pass
+            if 400 <= e.code < 500 and e.code != 429:
+                # Client errors (bad key, not found) will not improve on retry.
+                raise ApiError(f"HTTP {e.code} from {safe_url}: {detail or e.reason}", status=e.code)
+            last_err = f"HTTP {e.code} {detail or e.reason}"
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
             last_err = e
-            time.sleep(2 ** attempt)
-    raise RuntimeError(f"request failed after {retries} attempts: {url}: {last_err}")
+        time.sleep(2 ** attempt)
+    raise RuntimeError(f"request failed after {retries} attempts: {safe_url}: {last_err}")
+
+
+class ApiError(RuntimeError):
+    def __init__(self, msg, status=None):
+        super().__init__(msg)
+        self.status = status
 
 
 # --------------------------------------------------------------------------
@@ -172,6 +189,7 @@ def enrich(entries, cache, overrides, *, omdb_key, tmdb_key=None, refresh=False,
            max_age_days=30, fetch=http_json, log=print) -> dict:
     """Return the updated cache dict. Pure apart from `fetch` and `log`."""
     out = {}
+    omdb_down = None  # set once OMDb rejects the key, so we stop hammering it
     for entry in entries:
         key = entry["key"]
         rec = dict(cache.get(key, {}))
@@ -182,7 +200,16 @@ def enrich(entries, cache, overrides, *, omdb_key, tmdb_key=None, refresh=False,
             if refresh or not rec.get("imdb_id"):
                 if not omdb_key:
                     raise RuntimeError("OMDB_API_KEY is not set")
-                rec.update(omdb_lookup(entry, omdb_key, imdb_id=ov.get("imdb_id"), fetch=fetch))
+                if omdb_down:
+                    raise RuntimeError(omdb_down)
+                try:
+                    rec.update(omdb_lookup(entry, omdb_key, imdb_id=ov.get("imdb_id"), fetch=fetch))
+                except ApiError as e:
+                    if e.status in (401, 403):
+                        omdb_down = ("OMDb rejected the API key (HTTP %d). Check that OMDB_API_KEY is the "
+                                     "activated key from the OMDb confirmation email." % e.status)
+                        raise RuntimeError(omdb_down)
+                    raise
                 log(f"  OMDb    {key} -> {rec['imdb_id']} ({rec.get('title')}, {rec.get('year')})")
             if refresh or _older_than(rec.get("guide_fetched_at"), max_age_days):
                 try:
