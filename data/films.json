@@ -167,6 +167,40 @@
     "year": 1986,
     "year_end": null
   },
+  "Almost Famous": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:14Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0181875",
+    "imdb_rating": 7.9,
+    "imdb_votes": 313640,
+    "kind": "film",
+    "list_title": "Almost Famous",
+    "metascore": 90,
+    "omdb_fetched_at": "2026-09-03T10:54:14Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZGFmNDQzOTItOGZkNS00NjFkLWE4MjQtNmRjMjNlMjg3YzdiXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A high-school boy in the early 1970s is given the chance to write a story for Rolling Stone magazine about an up-and-coming rock band as he accompanies them on their concert tour.",
+    "rated": "R",
+    "runtime_min": 122,
+    "title": "Almost Famous",
+    "total_seasons": null,
+    "year": 2000,
+    "year_end": null
+  },
   "American Pie (1999)": {
     "genre": [
       "Comedy"
@@ -430,6 +464,40 @@
     "year": 2001,
     "year_end": null
   },
+  "Big Trouble in Little China": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:15Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0090728",
+    "imdb_rating": 7.2,
+    "imdb_votes": 165944,
+    "kind": "film",
+    "list_title": "Big Trouble in Little China",
+    "metascore": 53,
+    "omdb_fetched_at": "2026-09-03T10:54:14Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYWNjZDQyMjUtZDEzZC00OThhLTg1NWItOTQ1MWI3ODBlODcyXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A rough-and-tumble trucker and his sidekick face off with an ancient sorcerer in a supernatural battle beneath Chinatown.",
+    "rated": "PG-13",
+    "runtime_min": 99,
+    "title": "Big Trouble in Little China",
+    "total_seasons": null,
+    "year": 1986,
+    "year_end": null
+  },
   "Blade Runner": {
     "genre": [
       "Action",
@@ -493,6 +561,40 @@
     "title": "Blade Runner 2049",
     "total_seasons": null,
     "year": 2017,
+    "year_end": null
+  },
+  "Breaking Away": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Sport"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:15Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0078902",
+    "imdb_rating": 7.7,
+    "imdb_votes": 26889,
+    "kind": "film",
+    "list_title": "Breaking Away",
+    "metascore": 91,
+    "omdb_fetched_at": "2026-09-03T10:54:15Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYTNkMTA4YzktNmE3Mi00NjdjLWE4MzAtZjcwOTVmYmMxNGIwXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A working-class Indiana teen obsessed with the Italian cycling team vies for the affections of a college girl while searching for life goals with his friends.",
+    "rated": "PG",
+    "runtime_min": 101,
+    "title": "Breaking Away",
+    "total_seasons": null,
+    "year": 1979,
     "year_end": null
   },
   "Brick (2005)": {
@@ -561,6 +663,40 @@
     "title": "Chinatown",
     "total_seasons": null,
     "year": 1974,
+    "year_end": null
+  },
+  "Demolition Man": {
+    "genre": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:15Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0106697",
+    "imdb_rating": 6.7,
+    "imdb_votes": 205964,
+    "kind": "film",
+    "list_title": "Demolition Man",
+    "metascore": 34,
+    "omdb_fetched_at": "2026-09-03T10:54:15Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNWY3ZThmN2QtMzVkNS00MjczLTllNDQtOGEwN2M0ZTFkMWMzXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A police officer is brought out of suspended animation in prison to pursue an old ultra-violent nemesis who is loose in a non-violent future society.",
+    "rated": "R",
+    "runtime_min": 115,
+    "title": "Demolition Man",
+    "total_seasons": null,
+    "year": 1993,
     "year_end": null
   },
   "Detroit Rock City": {
@@ -894,6 +1030,40 @@
     "year": 1950,
     "year_end": null
   },
+  "Idiocracy": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:15Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0387808",
+    "imdb_rating": 6.5,
+    "imdb_votes": 213033,
+    "kind": "film",
+    "list_title": "Idiocracy",
+    "metascore": 66,
+    "omdb_fetched_at": "2026-09-03T10:54:15Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNmNhN2NiOGUtOGM0Yy00ZjA3LTljNjAtNGZjZDZlNzdlZDcxXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Mild",
+      "profanity": "Severe",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Corporal Joe Bauers, a decidedly average American, is selected for a top-secret hibernation program but is forgotten and left to awaken to a future so incredibly moronic that he's easily the most intelligent person alive.",
+    "rated": "R",
+    "runtime_min": 84,
+    "title": "Idiocracy",
+    "total_seasons": null,
+    "year": 2006,
+    "year_end": null
+  },
   "Indiana Jones and the Last Crusade": {
     "genre": [
       "Action",
@@ -983,6 +1153,39 @@
     "runtime_min": 118,
     "title": "Indiana Jones and the Temple of Doom",
     "year": 1984
+  },
+  "Invasion of the Body Snatchers (1978)": {
+    "genre": [
+      "Horror",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:16Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0077745",
+    "imdb_rating": 7.4,
+    "imdb_votes": 77039,
+    "kind": "film",
+    "list_title": "Invasion of the Body Snatchers",
+    "metascore": 75,
+    "omdb_fetched_at": "2026-09-03T10:54:15Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMzUzNDdjOTAtOThlNS00OTc0LWIyZjEtMzA3YTA4Mjk2Yjc5XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "When strange seeds drift to earth from space, mysterious pods begin to grow and invade San Francisco, replicating the city's residents one body at a time.",
+    "rated": "PG",
+    "runtime_min": 115,
+    "title": "Invasion of the Body Snatchers",
+    "total_seasons": null,
+    "year": 1978,
+    "year_end": null
   },
   "It's a Wonderful Life": {
     "genre": [
@@ -1219,6 +1422,40 @@
     "year": 1986,
     "year_end": null
   },
+  "Last Action Hero": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:16Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0107362",
+    "imdb_rating": 6.5,
+    "imdb_votes": 173615,
+    "kind": "film",
+    "list_title": "Last Action Hero",
+    "metascore": 44,
+    "omdb_fetched_at": "2026-09-03T10:54:16Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZGU2NWQyY2ItY2JiZS00ZDJhLWI0NDQtNjMyNWU3MDA1NTgzXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "With the help of a magic ticket, a young movie fan is transported into the fictional world of his favorite action movie character.",
+    "rated": "PG-13",
+    "runtime_min": 130,
+    "title": "Last Action Hero",
+    "total_seasons": null,
+    "year": 1993,
+    "year_end": null
+  },
   "Letters from Iwo Jima": {
     "genre": [
       "Action",
@@ -1251,6 +1488,40 @@
     "title": "Letters from Iwo Jima",
     "total_seasons": null,
     "year": 2006,
+    "year_end": null
+  },
+  "Logan's Run (1976)": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:16Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0074812",
+    "imdb_rating": 6.8,
+    "imdb_votes": 64463,
+    "kind": "film",
+    "list_title": "Logan's Run",
+    "metascore": 53,
+    "omdb_fetched_at": "2026-09-03T10:54:16Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNWFmOGQ3NmItY2QzZC00ODdlLWE2NjMtM2I5YTdjYjk4YjUwXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A police officer in the future uncovers the deadly secret behind a society that worships youth.",
+    "rated": "PG",
+    "runtime_min": 119,
+    "title": "Logan's Run",
+    "total_seasons": null,
+    "year": 1976,
     "year_end": null
   },
   "Midnight in Paris": {
@@ -1670,6 +1941,40 @@
     "total_seasons": 9,
     "year": 1989,
     "year_end": 1998
+  },
+  "Silver Spoon (2013 series)": {
+    "genre": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:16Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-PG",
+    "imdb_id": "tt2909912",
+    "imdb_rating": 7.9,
+    "imdb_votes": 1453,
+    "kind": "series",
+    "list_title": "Silver Spoon",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T10:54:16Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMzUzMWJiMWQtZTI0Yy00ZmRmLThmOWEtNGVjYTVkMjAzMjJlXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "In order to escape his stressful city life, Hachiken enrolls in an agricultural school where he must learn a whole new way of life alongside a colorful cast of characters.",
+    "rated": "TV-PG",
+    "runtime_min": 22,
+    "title": "Silver Spoon",
+    "total_seasons": 2,
+    "year": 2013,
+    "year_end": 2014
   },
   "Star Wars: Episode IV - A New Hope": {
     "genre": [
@@ -2564,6 +2869,40 @@
     "title": "The Terminator",
     "year": 1984
   },
+  "The Thing (1982)": {
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:17Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0084787",
+    "imdb_rating": 8.2,
+    "imdb_votes": 521638,
+    "kind": "film",
+    "list_title": "The Thing",
+    "metascore": 57,
+    "omdb_fetched_at": "2026-09-03T10:54:16Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYTA3NDU5MWEtNTk4Yy00ZDNkLThmZTQtMjU3ZGVhYzAyMzU4XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Moderate",
+      "sex": "None",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
+    "rated": "R",
+    "runtime_min": 109,
+    "title": "The Thing",
+    "total_seasons": null,
+    "year": 1982,
+    "year_end": null
+  },
   "The Witches (1990)": {
     "genre": [
       "Adventure",
@@ -2821,6 +3160,39 @@
     "runtime_min": 114,
     "title": "WarGames",
     "year": 1983
+  },
+  "White Men Can't Jump (1992)": {
+    "genre": [
+      "Comedy",
+      "Sport"
+    ],
+    "guide_fetched_at": "2026-09-03T10:54:17Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0105812",
+    "imdb_rating": 6.8,
+    "imdb_votes": 104365,
+    "kind": "film",
+    "list_title": "White Men Can't Jump",
+    "metascore": 65,
+    "omdb_fetched_at": "2026-09-03T10:54:17Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZTE1ZmEyNDgtMjQyOS00YzUyLTlkMjYtNmJkYWUyZDJjYjczXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Severe",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Two basketball hustlers, black Sidney Deane and white Billy Hoyle, join forces to double their chances of winning money on the street courts as well as in a tournament.",
+    "rated": "R",
+    "runtime_min": 115,
+    "title": "White Men Can't Jump",
+    "total_seasons": null,
+    "year": 1992,
+    "year_end": null
   },
   "Who Framed Roger Rabbit": {
     "genre": [
