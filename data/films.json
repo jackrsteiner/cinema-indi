@@ -113,6 +113,25 @@
     "title": "Indiana Jones and the Temple of Doom",
     "year": 1984
   },
+  "Kiki's Delivery Service": {
+    "guide_fetched_at": "2026-09-03T01:22:00Z",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0097814",
+    "list_title": "Kiki's Delivery Service",
+    "omdb_fetched_at": "2026-09-03T01:22:00Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTFhYWI1NGUtZWFhZS00MTdkLWIzZTItMDBhNWNiZDNlMjYyXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "None",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "plot": "Along with her black cat Jiji, Kiki settles in a seaside town and starts a high-flying delivery service. Here begins her magical encounter with independence and responsibility, making lifelong friends and finding her place in the ...",
+    "rated": "G",
+    "title": "Kiki's Delivery Service",
+    "year": 1989
+  },
   "Midnight in Paris": {
     "guide_fetched_at": "2026-09-03T01:14:19Z",
     "imdb_certificate": "PG-13",
@@ -131,6 +150,25 @@
     "rated": "PG-13",
     "title": "Midnight in Paris",
     "year": 2011
+  },
+  "Muppet Treasure Island": {
+    "guide_fetched_at": "2026-09-03T01:22:00Z",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0117110",
+    "list_title": "Muppet Treasure Island",
+    "omdb_fetched_at": "2026-09-03T01:22:00Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZmE3MmM4NTYtM2JhYS00ZjIwLWExOTItOTI3YjI4ZDQ2NjBhXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "plot": "The Muppets set sail in search of treasure, with Jim Hawkins and Long John Silver.",
+    "rated": "G",
+    "title": "Muppet Treasure Island",
+    "year": 1996
   },
   "My Neighbor Totoro": {
     "guide_fetched_at": "2026-09-03T01:14:19Z",
@@ -169,6 +207,25 @@
     "rated": "Not Rated",
     "title": "Pirates of Silicon Valley",
     "year": 1999
+  },
+  "Ponyo": {
+    "guide_fetched_at": "2026-09-03T01:22:01Z",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0876563",
+    "list_title": "Ponyo",
+    "omdb_fetched_at": "2026-09-03T01:22:01Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZDkzMzQ5ZmQtOTA3MC00MjhiLTk5M2UtNzk0MjEzZmVjN2UxXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "plot": "A five-year-old boy develops a relationship with Ponyo, a young goldfish princess who longs to become a human after falling in love with him.",
+    "rated": "G",
+    "title": "Ponyo",
+    "year": 2008
   },
   "Raiders of the Lost Ark": {
     "guide_fetched_at": "2026-09-03T01:14:20Z",
@@ -265,6 +322,25 @@
     "title": "Star Wars: Episode IV - A New Hope",
     "year": 1977
   },
+  "The Adventures of Prince Achmed": {
+    "guide_fetched_at": "2026-09-03T01:21:59Z",
+    "imdb_certificate": "Not Rated",
+    "imdb_id": "tt0015532",
+    "list_title": "The Adventures of Prince Achmed",
+    "omdb_fetched_at": "2026-09-03T01:21:59Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMDM5MWJhNTctNGI1OC00NTJlLTllM2MtNzk4NTE1MzRjNzY0XkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "plot": "A handsome prince rides a flying horse to faraway lands and embarks on magical adventures, which include befriending a witch, meeting Aladdin, battling demons and falling in love with a princess.",
+    "rated": "Not Rated",
+    "title": "The Adventures of Prince Achmed",
+    "year": 1926
+  },
   "The Big Short": {
     "guide_fetched_at": "2026-09-03T01:14:18Z",
     "imdb_certificate": "R",
@@ -283,6 +359,25 @@
     "rated": "R",
     "title": "The Big Short",
     "year": 2015
+  },
+  "The Chipmunk Adventure": {
+    "guide_fetched_at": "2026-09-03T01:21:59Z",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0092752",
+    "list_title": "The Chipmunk Adventure",
+    "omdb_fetched_at": "2026-09-03T01:21:59Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMWFmYjAzOWItMTc1OC00ZTY3LTkyY2YtN2NhOGQ5MWM3MTY2XkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "plot": "The Chipmunks compete with the Chipettes in a round-the-world race.",
+    "rated": "G",
+    "title": "The Chipmunk Adventure",
+    "year": 1987
   },
   "The Empire Strikes Back": {
     "guide_fetched_at": "2026-09-03T01:14:18Z",
@@ -303,6 +398,25 @@
     "title": "Star Wars: Episode V - The Empire Strikes Back",
     "year": 1980
   },
+  "The Iron Giant": {
+    "guide_fetched_at": "2026-09-03T01:22:00Z",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0129167",
+    "list_title": "The Iron Giant",
+    "omdb_fetched_at": "2026-09-03T01:21:59Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BODM4ZjZjMGEtYmFiMy00MThjLWIzZjUtMDU0ODg1NTI2MzIwXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "plot": "A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.",
+    "rated": "PG",
+    "title": "The Iron Giant",
+    "year": 1999
+  },
   "The Land Before Time": {
     "guide_fetched_at": "2026-09-03T01:14:19Z",
     "imdb_certificate": "G",
@@ -321,6 +435,25 @@
     "rated": "G",
     "title": "The Land Before Time",
     "year": 1988
+  },
+  "The Pirates of Penzance (1983)": {
+    "guide_fetched_at": "2026-09-03T01:22:01Z",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0086112",
+    "list_title": "The Pirates of Penzance",
+    "omdb_fetched_at": "2026-09-03T01:22:00Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTBkMjFiYjctZjE0NC00MWNkLWFhYTEtYWE4MWM4ZjQ1NzIzXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "None",
+      "profanity": "None",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "plot": "After a young man leaves a band of pirates, hilarity ensues.",
+    "rated": "G",
+    "title": "The Pirates of Penzance",
+    "year": 1983
   },
   "The Princess Bride": {
     "guide_fetched_at": "2026-09-03T01:14:20Z",
@@ -397,6 +530,44 @@
     "rated": "PG-13",
     "title": "True Grit",
     "year": 2010
+  },
+  "Up (2009)": {
+    "guide_fetched_at": "2026-09-03T01:22:01Z",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt1049413",
+    "list_title": "Up",
+    "omdb_fetched_at": "2026-09-03T01:22:01Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNmI1ZTc5MWMtMDYyOS00ZDc2LTkzOTAtNjQ4NWIxNjYyNDgzXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "plot": "78-year-old Carl Fredricksen travels to South America in his house equipped with balloons, inadvertently taking a young stowaway.",
+    "rated": "PG",
+    "title": "Up",
+    "year": 2009
+  },
+  "WALL-E": {
+    "guide_fetched_at": "2026-09-03T01:22:02Z",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0910970",
+    "list_title": "WALL-E",
+    "omdb_fetched_at": "2026-09-03T01:22:01Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "plot": "A robot who is responsible for cleaning a waste-covered Earth meets another robot and falls in love with her. Together, they set out on a journey that will alter the fate of mankind.",
+    "rated": "G",
+    "title": "WALL·E",
+    "year": 2008
   },
   "WarGames": {
     "guide_fetched_at": "2026-09-03T01:14:22Z",
