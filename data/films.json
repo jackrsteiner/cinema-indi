@@ -4111,6 +4111,40 @@
     "year": 2015,
     "year_end": null
   },
+  "Twelve Monkeys": {
+    "genre": [
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T17:05:30Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0114746",
+    "imdb_rating": 8.0,
+    "imdb_votes": 676593,
+    "kind": "film",
+    "list_title": "Twelve Monkeys",
+    "metascore": 75,
+    "omdb_fetched_at": "2026-09-03T17:05:30Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMDQwNDY0M2MtOGFmNy00ZjI5LTkzN2ItMzg5M2IwZTZjY2MyXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.",
+    "rated": "R",
+    "runtime_min": 129,
+    "title": "12 Monkeys",
+    "total_seasons": null,
+    "year": 1995,
+    "year_end": null
+  },
   "Up (2009)": {
     "genre": [
       "Animation",
