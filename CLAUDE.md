@@ -1,0 +1,45 @@
+# movindi — agent instructions
+
+This repo is a static GitHub Pages site listing films. The single source of
+truth is `list.md`. A GitHub Action fetches everything else.
+
+## "Add X to the movindi list"
+
+1. Resolve the film to its canonical English title (the one IMDb/OMDb uses, e.g.
+   "WarGames", "Ferris Bueller's Day Off", "My Neighbor Totoro"). A series or
+   trilogy becomes one line per film.
+2. Insert it into `list.md` on its own line, in alphabetical order **ignoring a
+   leading "The", "A" or "An"**. Plain text, no bullets, no other fields.
+3. If a title is ambiguous (remakes, same-name films), append the year:
+   `True Grit (2010)`.
+4. If the film belongs to a series the user cares about, add a `series` and
+   `series_order` entry for it in `data/overrides.json`, keyed by the exact
+   `list.md` line.
+5. Run `python -m unittest discover -s tests` (no network needed), commit with a
+   message like `Add The Iron Giant`, and push to `main`. Do not edit
+   `data/films.json`; the Action fills it in and commits it back.
+
+## Removing / renaming
+
+Delete or change the line in `list.md`. The Action drops the stale cache entry.
+Rename the matching key in `data/overrides.json` if one exists.
+
+## Fixing bad data
+
+Put corrections in `data/overrides.json` keyed by the `list.md` line
+(`imdb_id`, `title`, `year`, `rated`, `synopsis`, `poster`, `series`,
+`series_order`, `age`). Never hand-edit `data/films.json`.
+
+## Age rules
+
+`data/age-rules.json` is the only place age appropriateness is defined. It is
+deterministic data, not judgement; do not invent ages. Run
+`python scripts/build.py --explain` to see the resulting table.
+
+## Layout
+
+- `scripts/movindi.py` shared helpers (list parsing, sort keys, age formula)
+- `scripts/enrich.py` OMDb + IMDb GraphQL + TMDB fetching → `data/films.json`
+- `scripts/build.py` → `_site/` (static HTML/JS + `films.json`)
+- `site/` the page source
+- `.github/workflows/build.yml` enrich → commit data → build → deploy Pages

@@ -1,0 +1,68 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Monthly: Parents Guide severities are vote-based and drift.
+    - cron: "17 6 1 * *"
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: "Re-fetch every film (ignore cache)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Enrich films.json
+        env:
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python scripts/enrich.py ${{ inputs.refresh && '--refresh' || '' }}
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/films.json
+          if git diff --cached --quiet; then
+            echo "films.json unchanged"
+          else
+            git commit -m "data: refresh films.json"
+            git push origin HEAD:main
+          fi
+      - name: Build site
+        run: python scripts/build.py --explain >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,30 @@
+{
+  "_comment": "Manual corrections keyed by the exact line in list.md. Any of: imdb_id, title, year, rated, synopsis, poster, series, age. Overrides win over fetched data; 'age' pins the age outright.",
+  "Star Wars (1977)": {
+    "series": "Star Wars",
+    "series_order": 1,
+    "title": "Star Wars: A New Hope"
+  },
+  "The Empire Strikes Back": {
+    "series": "Star Wars",
+    "series_order": 2,
+    "title": "The Empire Strikes Back"
+  },
+  "Return of the Jedi": {
+    "series": "Star Wars",
+    "series_order": 3,
+    "title": "Return of the Jedi"
+  },
+  "Raiders of the Lost Ark": {
+    "series": "Indiana Jones",
+    "series_order": 1
+  },
+  "Indiana Jones and the Temple of Doom": {
+    "series": "Indiana Jones",
+    "series_order": 2
+  },
+  "Indiana Jones and the Last Crusade": {
+    "series": "Indiana Jones",
+    "series_order": 3
+  }
+}

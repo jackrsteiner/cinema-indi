@@ -1,0 +1,29 @@
+{
+  "_comment": "Deterministic age = max(rating_floor[rated], category_floor[category][severity]) + stacking bumps. Edit numbers here, push, and the site rebuilds without refetching. Ratings not listed (N/A, Not Rated, Approved, Passed, TV-*) contribute no floor, so the Parents Guide alone decides.",
+  "rating_floor": {
+    "G": 5,
+    "TV-G": 5,
+    "TV-Y7": 7,
+    "PG": 8,
+    "TV-PG": 8,
+    "PG-13": 12,
+    "TV-14": 13,
+    "R": 15,
+    "TV-MA": 16,
+    "NC-17": 18
+  },
+  "category_floor": {
+    "violence":    { "None": 0, "Mild": 7,  "Moderate": 11, "Severe": 15 },
+    "frightening": { "None": 0, "Mild": 7,  "Moderate": 10, "Severe": 14 },
+    "sex":         { "None": 0, "Mild": 7,  "Moderate": 13, "Severe": 17 },
+    "profanity":   { "None": 0, "Mild": 7,  "Moderate": 11, "Severe": 14 },
+    "drugs":       { "None": 0, "Mild": 7,  "Moderate": 11, "Severe": 14 }
+  },
+  "stacking": {
+    "_comment": "Optional bumps when several categories are heavy at once. Set counts to 0 to disable.",
+    "moderate_or_worse_count": 3,
+    "moderate_bump": 1,
+    "severe_count": 2,
+    "severe_bump": 1
+  }
+}
