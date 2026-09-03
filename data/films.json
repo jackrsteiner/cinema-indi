@@ -4111,32 +4111,6 @@
     "year": 2015,
     "year_end": null
   },
-  "Twelve Monkeys": {
-    "genre": [
-      "Documentary"
-    ],
-    "guide_fetched_at": "2026-09-03T17:04:44Z",
-    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
-    "imdb_certificate": null,
-    "imdb_id": "tt0116479",
-    "imdb_rating": 7.6,
-    "imdb_votes": 996,
-    "kind": "film",
-    "list_title": "Twelve Monkeys",
-    "metascore": null,
-    "omdb_fetched_at": "2026-09-03T17:04:44Z",
-    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZTAxNzY1NTktNjA1Zi00MjJjLThkMTgtNTM0NTI1NWIzNDQ3XkEyXkFqcGdeQXVyODAyNDE3Mw@@._V1_SX300.jpg",
-    "ongoing": false,
-    "parents_guide": {},
-    "parents_guide_votes": {},
-    "plot": "A documentary following Terry Gilliam through the creation of \"12 Monkeys\" (1995)",
-    "rated": null,
-    "runtime_min": 88,
-    "title": "The Hamster Factor and Other Tales of Twelve Monkeys",
-    "total_seasons": null,
-    "year": 1996,
-    "year_end": null
-  },
   "Up (2009)": {
     "genre": [
       "Animation",
