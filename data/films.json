@@ -125,6 +125,40 @@
     "title": "Blade Runner",
     "year": 1982
   },
+  "Edward Scissorhands": {
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-09-03T08:19:04Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0099487",
+    "imdb_rating": 7.8,
+    "imdb_votes": 562377,
+    "kind": "film",
+    "list_title": "Edward Scissorhands",
+    "metascore": 74,
+    "omdb_fetched_at": "2026-09-03T08:19:04Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BODJhODczYjUtYzdkMy00Yjc4LTllNWMtZTQ3MDZlYWZjYWEzXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "The solitary life of an artificial man with scissors for hands is upended when he is taken in by a suburban family.",
+    "rated": "PG-13",
+    "runtime_min": 105,
+    "title": "Edward Scissorhands",
+    "total_seasons": null,
+    "year": 1990,
+    "year_end": null
+  },
   "Ferris Bueller's Day Off": {
     "genre": [
       "Comedy"
@@ -279,6 +313,40 @@
     "runtime_min": 118,
     "title": "Indiana Jones and the Temple of Doom",
     "year": 1984
+  },
+  "James and the Giant Peach": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T08:19:05Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0116683",
+    "imdb_rating": 6.7,
+    "imdb_votes": 78186,
+    "kind": "film",
+    "list_title": "James and the Giant Peach",
+    "metascore": 78,
+    "omdb_fetched_at": "2026-09-03T08:19:04Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMmQwNDEyNjItYmExOC00MGU4LWE2MDEtOTFlZTM5MzA1OTY1XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "An orphan who lives with his two cruel aunts befriends anthropomorphic bugs who live inside a giant peach, and they embark on a journey to New York City.",
+    "rated": "PG",
+    "runtime_min": 79,
+    "title": "James and the Giant Peach",
+    "total_seasons": null,
+    "year": 1996,
+    "year_end": null
   },
   "Jurassic Park": {
     "genre": [
@@ -1151,6 +1219,40 @@
     "title": "The Terminator",
     "year": 1984
   },
+  "The Witches (1990)": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T08:19:05Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0100944",
+    "imdb_rating": 6.8,
+    "imdb_votes": 58478,
+    "kind": "film",
+    "list_title": "The Witches",
+    "metascore": 78,
+    "omdb_fetched_at": "2026-09-03T08:19:05Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjI1MDg5NzAyMV5BMl5BanBnXkFtZTgwNzU5Mzk4NjE@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A young boy stumbles onto a witch convention and must stop them, even after he has been turned into a mouse.",
+    "rated": "PG",
+    "runtime_min": 91,
+    "title": "The Witches",
+    "total_seasons": null,
+    "year": 1990,
+    "year_end": null
+  },
   "The Wonder Years (1988 series)": {
     "genre": [
       "Comedy",
@@ -1307,5 +1409,39 @@
     "runtime_min": 114,
     "title": "WarGames",
     "year": 1983
+  },
+  "Willy Wonka & the Chocolate Factory": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T08:19:05Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0067992",
+    "imdb_rating": 7.8,
+    "imdb_votes": 243676,
+    "kind": "film",
+    "list_title": "Willy Wonka & the Chocolate Factory",
+    "metascore": 67,
+    "omdb_fetched_at": "2026-09-03T08:19:05Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNzllNzlkNzYtZTEzZi00ODMwLWFlYTctZDE5Mzk0NTM1NmViXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A poor but hopeful boy seeks one of the five coveted golden tickets that will send him on a tour of Willy Wonka's mysterious chocolate factory.",
+    "rated": "G",
+    "runtime_min": 100,
+    "title": "Willy Wonka & the Chocolate Factory",
+    "total_seasons": null,
+    "year": 1971,
+    "year_end": null
   }
 }
