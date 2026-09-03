@@ -2,6 +2,7 @@ The Adventures of Pete & Pete (series)
 The Adventures of Prince Achmed
 Amélie
 The American Astronaut
+American Pie (1999)
 Apollo 13
 Back to the Future
 Back to the Future Part II
@@ -17,6 +18,7 @@ Chinatown
 The Chipmunk Adventure
 A Christmas Carol (1951)
 The Dark Crystal
+Detroit Rock City
 Easy Rider
 Edward Scissorhands
 The Empire Strikes Back
@@ -26,6 +28,7 @@ Freaks and Geeks (series)
 Glory (1989)
 The Good, the Bad and the Ugly
 The Goonies
+Harold & Kumar Go to White Castle
 Harvey (1950)
 Indiana Jones and the Last Crusade
 Indiana Jones and the Raiders of the Lost Ark
