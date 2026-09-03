@@ -100,6 +100,40 @@
     "year": 1974,
     "year_end": null
   },
+  "Adventureland": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-09-03T16:31:00Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt1091722",
+    "imdb_rating": 6.8,
+    "imdb_votes": 174167,
+    "kind": "film",
+    "list_title": "Adventureland",
+    "metascore": 76,
+    "omdb_fetched_at": "2026-09-03T16:31:00Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTI1NTYyMjA2N15BMl5BanBnXkFtZTcwNjU1OTA0Mg@@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "None",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "In the summer of 1987, a college graduate takes a 'nowhere' job at his local amusement park, only to find it's the perfect course to get him prepared for the real world.",
+    "rated": "R",
+    "runtime_min": 107,
+    "title": "Adventureland",
+    "total_seasons": null,
+    "year": 2009,
+    "year_end": null
+  },
   "Alien (1979)": {
     "genre": [
       "Horror",
@@ -966,6 +1000,39 @@
     "title": "Eternal Sunshine of the Spotless Mind",
     "total_seasons": null,
     "year": 2004,
+    "year_end": null
+  },
+  "Everything Is Illuminated": {
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T16:31:01Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0404030",
+    "imdb_rating": 7.4,
+    "imdb_votes": 60839,
+    "kind": "film",
+    "list_title": "Everything Is Illuminated",
+    "metascore": 58,
+    "omdb_fetched_at": "2026-09-03T16:31:01Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjExNTU2MTczNl5BMl5BanBnXkFtZTYwODYxMjY3._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A young Jewish American man, with the help of an eccentric local, endeavors to find the woman who saved his grandfather during World War II in a Ukrainian village that was ultimately razed by the Nazis.",
+    "rated": "PG-13",
+    "runtime_min": 106,
+    "title": "Everything Is Illuminated",
+    "total_seasons": null,
+    "year": 2005,
     "year_end": null
   },
   "Explorers (1985)": {
@@ -3612,6 +3679,39 @@
     "runtime_min": 120,
     "title": "The Social Network",
     "year": 2010
+  },
+  "The Squid and the Whale": {
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T16:31:01Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0367089",
+    "imdb_rating": 7.3,
+    "imdb_votes": 93653,
+    "kind": "film",
+    "list_title": "The Squid and the Whale",
+    "metascore": 82,
+    "omdb_fetched_at": "2026-09-03T16:31:01Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNmRkNmRiMDQtOWJmZS00OWQ0LThlZDQtNDRkYmEzMjQyZGZjXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Severe",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Follows two young boys dealing with their parents' divorce in Brooklyn in the 1980s.",
+    "rated": "R",
+    "runtime_min": 81,
+    "title": "The Squid and the Whale",
+    "total_seasons": null,
+    "year": 2005,
+    "year_end": null
   },
   "The Terminator": {
     "genre": [
