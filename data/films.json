@@ -1794,6 +1794,39 @@
     "year": 1996,
     "year_end": null
   },
+  "Juno (2007)": {
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T23:59:17Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0467406",
+    "imdb_rating": 7.4,
+    "imdb_votes": 566848,
+    "kind": "film",
+    "list_title": "Juno",
+    "metascore": 81,
+    "omdb_fetched_at": "2026-09-03T23:59:17Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTIwMDgwODc5Nl5BMl5BanBnXkFtZTYwMjQzMDM4._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Faced with an unplanned pregnancy, an offbeat young woman makes a selfless decision regarding the unborn child.",
+    "rated": "PG-13",
+    "runtime_min": 96,
+    "title": "Juno",
+    "total_seasons": null,
+    "year": 2007,
+    "year_end": null
+  },
   "Jurassic Park": {
     "genre": [
       "Action",
