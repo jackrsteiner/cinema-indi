@@ -46,7 +46,7 @@ filter. Or tell an agent "mark *Title* as watched".
 Each view has a sticky jump bar to any letter / year / age. Cards show the
 runtime, or the per-episode length and season count for a series. Each card shows the
 five IMDb Parents Guide categories as icons (💋 sex & nudity, 💥 violence,
-🤬 profanity, 🍺 alcohol/drugs, 👻 frightening scenes) coloured by severity.
+🤬 profanity, 🍺 alcohol/drugs, 😱 frightening scenes) coloured by severity.
 
 ## Age appropriateness
 

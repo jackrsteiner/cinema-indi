@@ -33,7 +33,7 @@ CATEGORY_ICONS = {
     "violence": "💥",
     "profanity": "🤬",
     "drugs": "🍺",
-    "frightening": "👻",
+    "frightening": "😱",
 }
 CATEGORY_LABELS = {
     "sex": "Sex & Nudity",
