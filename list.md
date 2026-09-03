@@ -27,7 +27,6 @@ The Dark Crystal
 Detroit Rock City
 Easy Rider
 Edward Scissorhands
-The Empire Strikes Back
 Fantasia (1940)
 Ferris Bueller's Day Off
 Forrest Gump
@@ -66,14 +65,15 @@ Primer
 The Princess Bride
 Real Genius
 Resident Evil (2002)
-Return of the Jedi
 The Royal Tenenbaums
 Rushmore
 Saving Private Ryan
 Scott Pilgrim vs. the World
 Seinfeld (series)
 The Social Network
-Star Wars (1977)
+Star Wars: Episode IV - A New Hope
+Star Wars: Episode V - The Empire Strikes Back
+Star Wars: Episode VI - Return of the Jedi
 The Terminator
 Terminator 2: Judgment Day
 True Grit (2010)

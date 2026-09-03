@@ -1541,37 +1541,6 @@
     "year": 2002,
     "year_end": null
   },
-  "Return of the Jedi": {
-    "genre": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:23Z",
-    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
-    "imdb_certificate": "PG",
-    "imdb_id": "tt0086190",
-    "imdb_rating": 8.3,
-    "imdb_votes": 1200333,
-    "list_title": "Return of the Jedi",
-    "metascore": 58,
-    "omdb_fetched_at": "2026-09-03T01:38:57Z",
-    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNWEwOTI0MmUtMGNmNy00ODViLTlkZDQtZTg1YmQ3MDgyNTUzXkEyXkFqcGc@._V1_SX300.jpg",
-    "parents_guide": {
-      "drugs": "Mild",
-      "frightening": "Mild",
-      "profanity": "None",
-      "sex": "Mild",
-      "violence": "Mild"
-    },
-    "parents_guide_votes": {},
-    "plot": "After rescuing Han Solo from Jabba the Hutt, the Rebel Alliance attempts to destroy the second Death Star while Luke struggles to help Darth Vader back from the dark side.",
-    "rated": "PG",
-    "runtime_min": 131,
-    "title": "Star Wars: Episode VI - Return of the Jedi",
-    "year": 1983
-  },
   "Rushmore": {
     "genre": [
       "Comedy",
@@ -1702,7 +1671,7 @@
     "year": 1989,
     "year_end": 1998
   },
-  "Star Wars (1977)": {
+  "Star Wars: Episode IV - A New Hope": {
     "genre": [
       "Action",
       "Adventure",
@@ -1730,8 +1699,67 @@
     "plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth ...",
     "rated": "PG",
     "runtime_min": 121,
-    "title": "Star Wars: Episode IV - A New Hope",
     "year": 1977
+  },
+  "Star Wars: Episode V - The Empire Strikes Back": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
+    "guide_fetched_at": "2026-09-03T01:41:19Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0080684",
+    "imdb_rating": 8.7,
+    "imdb_votes": 1495152,
+    "list_title": "The Empire Strikes Back",
+    "metascore": 82,
+    "omdb_fetched_at": "2026-09-03T01:38:53Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "After the Empire overpowers the Rebel Alliance, Luke Skywalker begins training with Jedi Master Yoda, while Darth Vader and bounty hunter Boba Fett pursue his friends across the galaxy.",
+    "rated": "PG",
+    "runtime_min": 124,
+    "year": 1980
+  },
+  "Star Wars: Episode VI - Return of the Jedi": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
+    "guide_fetched_at": "2026-09-03T01:41:23Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0086190",
+    "imdb_rating": 8.3,
+    "imdb_votes": 1200333,
+    "list_title": "Return of the Jedi",
+    "metascore": 58,
+    "omdb_fetched_at": "2026-09-03T01:38:57Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNWEwOTI0MmUtMGNmNy00ODViLTlkZDQtZTg1YmQ3MDgyNTUzXkEyXkFqcGc@._V1_SX300.jpg",
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "After rescuing Han Solo from Jabba the Hutt, the Rebel Alliance attempts to destroy the second Death Star while Luke struggles to help Darth Vader back from the dark side.",
+    "rated": "PG",
+    "runtime_min": 131,
+    "year": 1983
   },
   "Terminator 2: Judgment Day": {
     "genre": [
@@ -2096,37 +2124,6 @@
     "total_seasons": null,
     "year": 1982,
     "year_end": null
-  },
-  "The Empire Strikes Back": {
-    "genre": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:19Z",
-    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
-    "imdb_certificate": "PG",
-    "imdb_id": "tt0080684",
-    "imdb_rating": 8.7,
-    "imdb_votes": 1495152,
-    "list_title": "The Empire Strikes Back",
-    "metascore": 82,
-    "omdb_fetched_at": "2026-09-03T01:38:53Z",
-    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_SX300.jpg",
-    "parents_guide": {
-      "drugs": "None",
-      "frightening": "Moderate",
-      "profanity": "None",
-      "sex": "None",
-      "violence": "Mild"
-    },
-    "parents_guide_votes": {},
-    "plot": "After the Empire overpowers the Rebel Alliance, Luke Skywalker begins training with Jedi Master Yoda, while Darth Vader and bounty hunter Boba Fett pursue his friends across the galaxy.",
-    "rated": "PG",
-    "runtime_min": 124,
-    "title": "Star Wars: Episode V - The Empire Strikes Back",
-    "year": 1980
   },
   "The Good, the Bad and the Ugly": {
     "genre": [

@@ -99,7 +99,7 @@ API of your own.
 |---|---|---|
 | `list.md` | you / an agent | the list |
 | `watched.md` | you / an agent | which films you have watched, with optional dates |
-| `data/overrides.json` | you / an agent | manual fixes keyed by the `list.md` line: `imdb_id`, `title`, `year`, `rated`, `synopsis`, `poster`, `series`, `series_order`, `age` |
+| `data/overrides.json` | you / an agent | manual fixes keyed by the `list.md` line: `imdb_id`, `title`, `year`, `rated`, `synopsis`, `poster`, `runtime_min`, `total_seasons`, `age` |
 | `data/labels.json` | you / an agent | hand-set ages, authoritative, and the model's training set |
 | `data/age-rules.json` | the fitter | the model for unlabelled titles |
 | `data/films.json` | the Action | cache of fetched data (committed back automatically) |

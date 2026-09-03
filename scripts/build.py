@@ -35,7 +35,7 @@ def build_records(entries, cache, overrides, rules, watched=None, labels=None) -
         raw = dict(cache.get(key, {}))
         ov = overrides.get(key, {})
         # Overrides win over fetched values for the fields they name.
-        for field in ("imdb_id", "title", "year", "rated", "series", "series_order", "runtime_min", "total_seasons"):
+        for field in ("imdb_id", "title", "year", "rated", "runtime_min", "total_seasons"):
             if field in ov:
                 raw[field] = ov[field]
         raw.setdefault("kind", entry.get("kind", "film"))
@@ -69,8 +69,6 @@ def build_records(entries, cache, overrides, rules, watched=None, labels=None) -
             "poster": poster,
             "imdb_url": f"https://www.imdb.com/title/{imdb_id}/" if imdb_id else None,
             "parents_guide_url": f"https://www.imdb.com/title/{imdb_id}/parentalguide/" if imdb_id else None,
-            "series": raw.get("series"),
-            "series_order": raw.get("series_order"),
             "parents_guide": raw.get("parents_guide") or {},
             "age": age_info["age"],
             "age_reasons": age_info["reasons"],

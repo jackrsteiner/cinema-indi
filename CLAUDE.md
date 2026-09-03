@@ -15,9 +15,10 @@ truth is `list.md`. A GitHub Action fetches everything else.
 4. A TV series is marked `(series)`, with the first-air year if ambiguous:
    `Bluey (series)`, `Fargo (2014 series)`. Without the marker the lookup is
    film-only. One line per series, never per season or episode.
-5. If the film belongs to a franchise the user cares about (Star Wars, Indiana
-   Jones), add a `series` and `series_order` entry for it in
-   `data/overrides.json`, keyed by the exact `list.md` line.
+5. For a franchise entry use the full IMDb title so the films sort next to
+   each other: `Indiana Jones and the Raiders of the Lost Ark`,
+   `Star Wars: Episode IV - A New Hope`, `Terminator 2: Judgment Day`. No
+   franchise tags or badges.
 6. Run `python -m unittest discover -s tests` (no network needed), commit with a
    message like `Add The Iron Giant`, and push to `main`. Do not edit
    `data/films.json`; the Action fills it in and commits it back.
@@ -39,8 +40,8 @@ if they exist.
 ## Fixing bad data
 
 Put corrections in `data/overrides.json` keyed by the `list.md` line
-(`imdb_id`, `title`, `year`, `rated`, `synopsis`, `poster`, `series`,
-`series_order`, `age`). Never hand-edit `data/films.json`.
+(`imdb_id`, `title`, `year`, `rated`, `synopsis`, `poster`, `runtime_min`,
+`total_seasons`, `age`). Never hand-edit `data/films.json`.
 
 ## Ages
 

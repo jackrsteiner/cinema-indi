@@ -1,75 +1,23 @@
 {
-  "_comment": "Manual corrections keyed by the exact line in list.md. Any of: imdb_id, title, year, rated, synopsis, poster, series, age. Overrides win over fetched data; 'age' pins the age outright.",
-  "Star Wars (1977)": {
-    "series": "Star Wars",
-    "series_order": 1,
-    "title": "Star Wars: A New Hope"
+  "_comment": "Manual corrections keyed by the exact line in list.md. Any of: imdb_id, title, year, rated, synopsis, poster, runtime_min, total_seasons, age. Overrides win over fetched data; 'age' pins the age outright.",
+  "Star Wars: Episode IV - A New Hope": {
+    "imdb_id": "tt0076759"
   },
-  "The Empire Strikes Back": {
-    "series": "Star Wars",
-    "series_order": 2,
-    "title": "The Empire Strikes Back"
+  "Star Wars: Episode V - The Empire Strikes Back": {
+    "imdb_id": "tt0080684"
   },
-  "Return of the Jedi": {
-    "series": "Star Wars",
-    "series_order": 3,
-    "title": "Return of the Jedi"
-  },
-  "Indiana Jones and the Temple of Doom": {
-    "series": "Indiana Jones",
-    "series_order": 2
-  },
-  "Indiana Jones and the Last Crusade": {
-    "series": "Indiana Jones",
-    "series_order": 3
+  "Star Wars: Episode VI - Return of the Jedi": {
+    "imdb_id": "tt0086190"
   },
   "WALL-E": {
     "imdb_id": "tt0910970",
     "title": "WALL-E"
   },
   "Indiana Jones and the Raiders of the Lost Ark": {
-    "series": "Indiana Jones",
-    "series_order": 1,
     "imdb_id": "tt0082971"
-  },
-  "Back to the Future": {
-    "series": "Back to the Future",
-    "series_order": 1
-  },
-  "Back to the Future Part II": {
-    "series": "Back to the Future",
-    "series_order": 2
-  },
-  "Back to the Future Part III": {
-    "series": "Back to the Future",
-    "series_order": 3
-  },
-  "The Terminator": {
-    "series": "Terminator",
-    "series_order": 1
-  },
-  "Terminator 2: Judgment Day": {
-    "series": "Terminator",
-    "series_order": 2
   },
   "A Christmas Carol (1951)": {
     "imdb_id": "tt0044008",
     "title": "A Christmas Carol"
-  },
-  "Kill Bill: Vol. 1": {
-    "series": "Kill Bill",
-    "series_order": 1
-  },
-  "Kill Bill: Vol. 2": {
-    "series": "Kill Bill",
-    "series_order": 2
-  },
-  "Alien (1979)": {
-    "series": "Alien",
-    "series_order": 1
-  },
-  "Aliens": {
-    "series": "Alien",
-    "series_order": 2
   }
 }

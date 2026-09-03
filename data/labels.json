@@ -11,15 +11,12 @@
   "WALL-E": 4,
   "Muppet Treasure Island": 4,
   "The Princess Bride": 5,
-  "Star Wars (1977)": 5,
   "The Land Before Time": 5,
   "Back to the Future": 5,
   "Indiana Jones and the Last Crusade": 5,
   "WarGames": 5,
   "The Wonder Years (1988 series)": 5,
-  "The Empire Strikes Back": 6,
   "Real Genius": 6,
-  "Return of the Jedi": 6,
   "Indiana Jones and the Temple of Doom": 7,
   "Apollo 13": 8,
   "Seinfeld (series)": 9,
@@ -36,5 +33,8 @@
   "Midnight in Paris": 11,
   "The Passenger (1975)": 13,
   "Easy Rider": 14,
-  "A Woman Under the Influence": 14
+  "A Woman Under the Influence": 14,
+  "Star Wars: Episode IV - A New Hope": 5,
+  "Star Wars: Episode V - The Empire Strikes Back": 6,
+  "Star Wars: Episode VI - Return of the Jedi": 6
 }
