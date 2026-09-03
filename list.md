@@ -5,10 +5,14 @@ Apollo 13
 Back to the Future
 Back to the Future Part II
 Back to the Future Part III
+Bananaman (series)
 The Big Short
 Blade Runner
 Blade Runner 2049
+A Charlie Brown Christmas
 The Chipmunk Adventure
+A Christmas Carol (1951)
+Easy Rider
 Edward Scissorhands
 The Empire Strikes Back
 Ferris Bueller's Day Off
@@ -16,10 +20,12 @@ Forrest Gump
 Freaks and Geeks (series)
 The Good, the Bad and the Ugly
 The Goonies
+Harvey (1950)
 Indiana Jones and the Last Crusade
 Indiana Jones and the Raiders of the Lost Ark
 Indiana Jones and the Temple of Doom
 The Iron Giant
+It's a Wonderful Life
 James and the Giant Peach
 Jurassic Park
 Kiki's Delivery Service
@@ -29,6 +35,7 @@ The Matrix
 Midnight in Paris
 Muppet Treasure Island
 My Neighbor Totoro
+The Passenger (1975)
 The Pirates of Penzance (1983)
 Pirates of Silicon Valley
 Ponyo
@@ -46,7 +53,9 @@ True Grit (2010)
 Up (2009)
 WALL-E
 WarGames
+Who Framed Roger Rabbit
 Willy Wonka & the Chocolate Factory
 The Witches (1990)
 The Wizard of Oz (1939)
+A Woman Under the Influence
 The Wonder Years (1988 series)

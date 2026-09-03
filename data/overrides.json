@@ -51,5 +51,9 @@
   "Terminator 2: Judgment Day": {
     "series": "Terminator",
     "series_order": 2
+  },
+  "A Christmas Carol (1951)": {
+    "imdb_id": "tt0044008",
+    "title": "A Christmas Carol"
   }
 }
