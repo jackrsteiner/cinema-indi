@@ -14,21 +14,22 @@
     <h1>movindi</h1>
     <p class="tagline">Films worth watching together. <a class="plain-link" href="list.html">Plain list</a></p>
   </div>
+  <div id="legend" class="legend" aria-label="Severity legend"></div>
+</header>
+<div class="bar">
   <div class="controls">
     <nav class="modes" aria-label="Sort order">
       <button data-mode="alpha" aria-pressed="true">A–Z</button>
       <button data-mode="year" aria-pressed="false">Year</button>
       <button data-mode="age" aria-pressed="false">Age</button>
     </nav>
-    <nav class="modes filters" aria-label="Watched filter">
-      <button data-filter="all" aria-pressed="true">All</button>
+    <nav class="modes filters" aria-label="Show only">
       <button data-filter="unwatched" aria-pressed="false">Unwatched</button>
       <button data-filter="watched" aria-pressed="false">Watched</button>
     </nav>
-    <div id="legend" class="legend" aria-label="Severity legend"></div>
   </div>
-</header>
-<nav class="jump" id="jump" aria-label="Jump to section"></nav>
+  <nav class="jump" id="jump" aria-label="Jump to section"></nav>
+</div>
 <main id="main">
   <p class="empty" id="loading">Loading…</p>
 </main>

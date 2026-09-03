@@ -28,7 +28,7 @@ truth is `list.md`. A GitHub Action fetches everything else.
 Add a line to `watched.md` containing the film's exact `list.md` line, followed
 by the date as `YYYY-MM-DD` when one is known (resolve relative dates against
 today). One line per film; remove the line to un-mark it. The site shows a
-"Watched" chip and offers an All / Unwatched / Watched filter. Run the tests (they check every
+"Watched" chip and offers Unwatched / Watched toggles. Run the tests (they check every
 `watched.md` line matches a `list.md` line), commit, push to `main`.
 
 ## Removing / renaming

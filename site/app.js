@@ -6,7 +6,7 @@
       label: "A–Z",
       group: f => f.letter,
       groupSort: (a, b) => (a === "#") - (b === "#") || a.localeCompare(b),
-      heading: g => g === "#" ? "0–9 & symbols" : g,
+      heading: g => g === "#" ? "#'s" : g,
       sort: (a, b) => a.alpha_key.localeCompare(b.alpha_key) || (a.year || 0) - (b.year || 0),
     },
     year: {
@@ -36,7 +36,9 @@
   // A fresh load always starts on A–Z with nothing filtered. Sort and filter
   // choices are deliberately not remembered across reloads.
   function readMode() { return "alpha"; }
-  function readFilter() { return "all"; }
+  // Two independent toggles. Both off, or both on, means everything shows.
+  function readFilter() { return { unwatched: false, watched: false }; }
+  function showAll() { return filter.unwatched === filter.watched; }
 
   function setMode(next) {
     mode = MODES[next] ? next : "alpha";
@@ -44,9 +46,9 @@
     render();
   }
 
-  function setFilter(next) {
-    filter = ["all", "unwatched", "watched"].includes(next) ? next : "all";
-    document.querySelectorAll(".filters button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.filter === filter)));
+  function toggleFilter(which) {
+    if (which in filter) filter[which] = !filter[which];
+    document.querySelectorAll(".filters button").forEach(b => b.setAttribute("aria-pressed", String(!!filter[b.dataset.filter])));
     render();
   }
 
@@ -104,7 +106,7 @@
 
   function render() {
     const m = MODES[mode];
-    const films = data.films.filter(f => filter === "all" || (filter === "watched") === !!f.watched);
+    const films = data.films.filter(f => showAll() || (filter.watched ? f.watched : !f.watched));
     const groups = new Map();
     for (const f of films) {
       const g = m.group(f);
@@ -121,9 +123,9 @@
       if (el) el.scrollIntoView({ block: "start" });
     }));
     if (!films.length) {
-      main.innerHTML = filter === "all"
+      main.innerHTML = showAll()
         ? `<p class="empty">No films yet. Add a title to <code>list.md</code>.</p>`
-        : `<p class="empty">Nothing ${filter === "watched" ? "watched yet" : "unwatched"}.</p>`;
+        : `<p class="empty">Nothing ${filter.watched ? "watched yet" : "unwatched"}.</p>`;
       return;
     }
     main.innerHTML = keys.map(k => {
@@ -136,7 +138,7 @@
   }
 
   document.querySelectorAll(".modes:not(.filters) button").forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode)));
-  document.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => setFilter(b.dataset.filter)));
+  document.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => toggleFilter(b.dataset.filter)));
 
   function renderLegend() {
     const cats = Object.keys(data.categories);
@@ -154,7 +156,6 @@
       const n = data.films.length, w = data.films.filter(f => f.watched).length;
       $("#foot-note").textContent = `${n} film${n === 1 ? "" : "s"}, ${w} watched · data refreshed ${data.generated_at} · ages are computed from the MPAA rating, IMDb Parents Guide severities, genre and runtime; see the repo for the model.`;
       renderLegend();
-      document.querySelectorAll(".filters button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.filter === filter)));
       setMode(mode);
     })
     .catch(err => { main.innerHTML = `<p class="empty">Could not load films.json (${esc(err.message)}).</p>`; });

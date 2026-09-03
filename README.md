@@ -34,8 +34,8 @@ The Princess Bride 2026-09-01
 True Grit (2010)
 ```
 
-The page shows a "Watched" chip with the date and has an All / Unwatched / Watched
-filter. Or tell an agent "mark *Title* as watched".
+The page shows a "Watched" chip with the date and has Unwatched and Watched toggles;
+with neither or both on, everything shows. Or tell an agent "mark *Title* as watched".
 
 ## How the page works
 
