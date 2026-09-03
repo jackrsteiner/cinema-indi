@@ -100,6 +100,38 @@
     "year": 1974,
     "year_end": null
   },
+  "American Pie (1999)": {
+    "genre": [
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-09-03T08:53:54Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0163651",
+    "imdb_rating": 7.0,
+    "imdb_votes": 463213,
+    "kind": "film",
+    "list_title": "American Pie",
+    "metascore": 58,
+    "omdb_fetched_at": "2026-09-03T08:53:54Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTg3ODY5ODI1NF5BMl5BanBnXkFtZTgwMTkxNTYxMTE@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "None",
+      "profanity": "Moderate",
+      "sex": "Severe",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "Four teenage boys enter a pact to lose their virginity by prom night.",
+    "rated": "R",
+    "runtime_min": 95,
+    "title": "American Pie",
+    "total_seasons": null,
+    "year": 1999,
+    "year_end": null
+  },
   "Amélie": {
     "genre": [
       "Comedy",
@@ -430,6 +462,40 @@
     "year": 1974,
     "year_end": null
   },
+  "Detroit Rock City": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Music"
+    ],
+    "guide_fetched_at": "2026-09-03T08:53:54Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0165710",
+    "imdb_rating": 6.8,
+    "imdb_votes": 42553,
+    "kind": "film",
+    "list_title": "Detroit Rock City",
+    "metascore": 33,
+    "omdb_fetched_at": "2026-09-03T08:53:54Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZTA4MDM5OGItMGE5YS00YTEyLTk3ZTEtM2I3ZjMzODM3NzA5XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "None",
+      "profanity": "Severe",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "In 1978, four rebellious teenagers try to scam their way into a KISS concert.",
+    "rated": "R",
+    "runtime_min": 95,
+    "title": "Detroit Rock City",
+    "total_seasons": null,
+    "year": 1999,
+    "year_end": null
+  },
   "Easy Rider": {
     "genre": [
       "Adventure",
@@ -624,6 +690,39 @@
     "title": "Glory",
     "total_seasons": null,
     "year": 1989,
+    "year_end": null
+  },
+  "Harold & Kumar Go to White Castle": {
+    "genre": [
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-09-03T08:53:55Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0366551",
+    "imdb_rating": 7.0,
+    "imdb_votes": 215149,
+    "kind": "film",
+    "list_title": "Harold & Kumar Go to White Castle",
+    "metascore": 64,
+    "omdb_fetched_at": "2026-09-03T08:53:54Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNjk2MGI0M2YtZmIwOS00NGVjLWFlNDAtMDYzM2Y1MWM2OWNkXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Severe",
+      "frightening": "None",
+      "profanity": "Severe",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A Korean-American office worker and his Indian-American stoner friend embark on a quest to satisfy their desire for White Castle burgers.",
+    "rated": "R",
+    "runtime_min": 88,
+    "title": "Harold & Kumar Go to White Castle",
+    "total_seasons": null,
+    "year": 2004,
     "year_end": null
   },
   "Harvey (1950)": {
