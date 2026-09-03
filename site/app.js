@@ -91,21 +91,19 @@
       ? `<span class="chip age unknown" title="${esc(why)}">age ?</span>`
       : `<span class="chip age${f.age_estimated ? " est" : ""}" title="${esc(why)}" tabindex="0">${f.age}+${f.age_estimated ? "<sup>~</sup>" : ""}</span>`;
     const series = f.series ? `<span class="chip">${esc(f.series)}${f.series_order ? " " + f.series_order : ""}</span>` : "";
-    const links = [
-      f.imdb_url ? `<a href="${esc(f.imdb_url)}" rel="noopener">IMDb</a>` : "",
-      f.parents_guide_url ? `<a href="${esc(f.parents_guide_url)}" rel="noopener">Parents Guide</a>` : "",
-    ].filter(Boolean).join("");
+    const imdbLink = f.imdb_url ? `<a class="imdb-link" href="${esc(f.imdb_url)}" rel="noopener">IMDb</a>` : "";
+    const guideLink = f.parents_guide_url ? `<p class="links"><a href="${esc(f.parents_guide_url)}" rel="noopener">Parents Guide</a></p>` : "";
     const warn = f.status !== "ok"
       ? `<p class="warn">${f.status === "error" ? "Lookup failed: " + esc(f.error) : "Not fetched yet"}</p>`
       : (f.error ? `<p class="warn">${esc(f.error)}</p>` : "");
     return `<article class="card ${esc(f.status)}${f.watched ? " is-watched" : ""}">
-      ${poster}
+      <div class="side">${poster}${imdbLink}</div>
       <div>
         <h3>${title}</h3>
         <p class="meta">${f.year ? `<span>${f.year}</span>` : ""}${f.rated ? `<span class="chip">${esc(f.rated)}</span>` : ""}${ageChip}${series}${watched}</p>
         ${f.synopsis ? `<p class="synopsis">${esc(f.synopsis)}</p>` : ""}
+        ${guideLink}
         <ul class="sev" aria-label="Parents Guide severities">${sev}</ul>
-        <p class="links">${links}</p>
         ${warn}
       </div>
     </article>`;
