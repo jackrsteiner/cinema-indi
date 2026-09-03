@@ -1,4 +1,5 @@
 The Abyss
+The Act of Killing
 The Adventures of Pete & Pete (series)
 The Adventures of Prince Achmed
 Alien (1979)
@@ -22,6 +23,7 @@ Blade Runner 2049
 Breaking Away
 Brick (2005)
 The Brothers Bloom
+Cave of Forgotten Dreams
 A Charlie Brown Christmas
 Chinatown
 The Chipmunk Adventure
@@ -39,6 +41,7 @@ Explorers (1985)
 Fantasia (1940)
 Ferris Bueller's Day Off
 The Fifth Element
+Fire of Love (2022)
 Forrest Gump
 Freaks and Geeks (series)
 From Up on Poppy Hill
