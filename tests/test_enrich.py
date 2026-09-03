@@ -91,7 +91,8 @@ class Enrich(unittest.TestCase):
         out = enrich.enrich(entries, cached, {"The Princess Bride": {"imdb_id": "tt0093779"}},
                             omdb_key="k", fetch=fake_fetch(log), log=lambda *a: None)
         self.assertEqual([u for u in log if enrich.OMDB_URL in u], [])
-        self.assertEqual(len([u for u in log if enrich.IMDB_GRAPHQL_URL in u]), 1)
+        # one introspection call plus one guide query
+        self.assertEqual(len([u for u in log if enrich.IMDB_GRAPHQL_URL in u]), 2)
         self.assertEqual(out["The Princess Bride"]["imdb_certificate"], "PG")
 
     def test_votes_query_falls_back(self):
