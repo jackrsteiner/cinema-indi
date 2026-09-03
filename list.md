@@ -72,6 +72,7 @@ Kill Bill: Vol. 2
 Labyrinth (1986)
 The Land Before Time
 Last Action Hero
+Lawrence of Arabia
 Léon: The Professional
 Letters from Iwo Jima
 The Life Aquatic with Steve Zissou
