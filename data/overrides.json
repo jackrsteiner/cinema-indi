@@ -63,5 +63,13 @@
   "Kill Bill: Vol. 2": {
     "series": "Kill Bill",
     "series_order": 2
+  },
+  "Alien (1979)": {
+    "series": "Alien",
+    "series_order": 1
+  },
+  "Aliens": {
+    "series": "Alien",
+    "series_order": 2
   }
 }

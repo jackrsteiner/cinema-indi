@@ -1,5 +1,8 @@
+The Abyss
 The Adventures of Pete & Pete (series)
 The Adventures of Prince Achmed
+Alien (1979)
+Aliens
 Amélie
 The American Astronaut
 American Pie (1999)
@@ -13,21 +16,26 @@ The Big Lebowski
 The Big Short
 Blade Runner
 Blade Runner 2049
+Brick (2005)
+The Brothers Bloom
 A Charlie Brown Christmas
 Chinatown
 The Chipmunk Adventure
 A Christmas Carol (1951)
+The Darjeeling Limited
 The Dark Crystal
 Detroit Rock City
 Easy Rider
 Edward Scissorhands
 The Empire Strikes Back
+Fantasia (1940)
 Ferris Bueller's Day Off
 Forrest Gump
 Freaks and Geeks (series)
 Glory (1989)
 The Good, the Bad and the Ugly
 The Goonies
+The Grand Budapest Hotel
 Harold & Kumar Go to White Castle
 Harvey (1950)
 Indiana Jones and the Last Crusade
@@ -43,6 +51,7 @@ Kill Bill: Vol. 2
 Labyrinth (1986)
 The Land Before Time
 Letters from Iwo Jima
+The Life Aquatic with Steve Zissou
 The Man Who Planted Trees (1987)
 The Matrix
 Midnight in Paris
@@ -53,10 +62,13 @@ The Passenger (1975)
 The Pirates of Penzance (1983)
 Pirates of Silicon Valley
 Ponyo
+Primer
 The Princess Bride
 Real Genius
 Resident Evil (2002)
 Return of the Jedi
+The Royal Tenenbaums
+Rushmore
 Saving Private Ryan
 Scott Pilgrim vs. the World
 Seinfeld (series)
