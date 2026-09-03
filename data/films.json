@@ -1031,6 +1031,40 @@
     "year": 1999,
     "year_end": 2000
   },
+  "From Up on Poppy Hill": {
+    "genre": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T11:01:08Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt1798188",
+    "imdb_rating": 7.4,
+    "imdb_votes": 58692,
+    "kind": "film",
+    "list_title": "From Up on Poppy Hill",
+    "metascore": 71,
+    "omdb_fetched_at": "2026-09-03T11:01:08Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMWVjMWRhMzYtOGRmMi00ODExLTk2M2YtZDhjNGY5OWQ5NDY4XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "A group of Yokohama teens look to save their school's clubhouse from the wrecking ball in preparations for the 1964 Tokyo Olympics.",
+    "rated": "PG",
+    "runtime_min": 91,
+    "title": "From Up on Poppy Hill",
+    "total_seasons": null,
+    "year": 2011,
+    "year_end": null
+  },
   "Glory (1989)": {
     "genre": [
       "Biography",
@@ -2145,6 +2179,40 @@
     "total_seasons": 2,
     "year": 2013,
     "year_end": 2014
+  },
+  "Spirited Away": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T11:01:09Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0245429",
+    "imdb_rating": 8.6,
+    "imdb_votes": 964088,
+    "kind": "film",
+    "list_title": "Spirited Away",
+    "metascore": 96,
+    "omdb_fetched_at": "2026-09-03T11:01:09Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, and where humans are changed into beasts.",
+    "rated": "PG",
+    "runtime_min": 124,
+    "title": "Spirited Away",
+    "total_seasons": null,
+    "year": 2003,
+    "year_end": null
   },
   "Star Wars: Episode IV - A New Hope": {
     "genre": [
