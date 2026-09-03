@@ -29,6 +29,40 @@
     "title": "Amélie",
     "year": 2002
   },
+  "Apollo 13": {
+    "genre": [
+      "Adventure",
+      "Drama",
+      "History"
+    ],
+    "guide_fetched_at": "2026-09-03T08:11:30Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0112384",
+    "imdb_rating": 7.7,
+    "imdb_votes": 334301,
+    "kind": "film",
+    "list_title": "Apollo 13",
+    "metascore": 78,
+    "omdb_fetched_at": "2026-09-03T08:11:30Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMGZmNGY1OTAtNjFkYS00MjcyLWFlZjUtYzEyMDllZGZhMzM3XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "NASA must devise a strategy to return Apollo 13 to Earth safely after the spacecraft undergoes massive internal damage putting the lives of the three astronauts on board in jeopardy.",
+    "rated": "PG",
+    "runtime_min": 140,
+    "title": "Apollo 13",
+    "total_seasons": null,
+    "year": 1995,
+    "year_end": null
+  },
   "Back to the Future": {
     "genre": [
       "Adventure",
@@ -119,6 +153,39 @@
     "runtime_min": 103,
     "title": "Ferris Bueller's Day Off",
     "year": 1986
+  },
+  "Forrest Gump": {
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-09-03T08:11:30Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0109830",
+    "imdb_rating": 8.8,
+    "imdb_votes": 2493306,
+    "kind": "film",
+    "list_title": "Forrest Gump",
+    "metascore": 82,
+    "omdb_fetched_at": "2026-09-03T08:11:30Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_QL75_UY562_CR4,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+    "rated": "PG-13",
+    "runtime_min": 142,
+    "title": "Forrest Gump",
+    "total_seasons": null,
+    "year": 1994,
+    "year_end": null
   },
   "Freaks and Geeks (series)": {
     "genre": [
@@ -212,6 +279,40 @@
     "runtime_min": 118,
     "title": "Indiana Jones and the Temple of Doom",
     "year": 1984
+  },
+  "Jurassic Park": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T08:11:30Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0107290",
+    "imdb_rating": 8.2,
+    "imdb_votes": 1167043,
+    "kind": "film",
+    "list_title": "Jurassic Park",
+    "metascore": 68,
+    "omdb_fetched_at": "2026-09-03T08:11:30Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "An industrialist invites some experts to visit his theme park of cloned dinosaurs. After a power failure, the creatures run loose, putting everyone's lives, including his grandchildren's, in danger.",
+    "rated": "PG-13",
+    "runtime_min": 127,
+    "title": "Jurassic Park",
+    "total_seasons": null,
+    "year": 1993,
+    "year_end": null
   },
   "Kiki's Delivery Service": {
     "genre": [
@@ -459,6 +560,40 @@
     "runtime_min": 108,
     "title": "Real Genius",
     "year": 1985
+  },
+  "Resident Evil (2002)": {
+    "genre": [
+      "Action",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T08:11:31Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0120804",
+    "imdb_rating": 6.6,
+    "imdb_votes": 310457,
+    "kind": "film",
+    "list_title": "Resident Evil",
+    "metascore": 35,
+    "omdb_fetched_at": "2026-09-03T08:11:31Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYmI3YjJkN2ItY2ZmYS00Y2JhLTk2YTQtYzE5YWU5ODI1MzJmXkEyXkFqcGc@._V1_QL75_UY562_CR3,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident.",
+    "rated": "R",
+    "runtime_min": 100,
+    "title": "Resident Evil",
+    "total_seasons": null,
+    "year": 2002,
+    "year_end": null
   },
   "Return of the Jedi": {
     "genre": [
@@ -742,6 +877,40 @@
     "runtime_min": 124,
     "title": "Star Wars: Episode V - The Empire Strikes Back",
     "year": 1980
+  },
+  "The Good, the Bad and the Ugly": {
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Western"
+    ],
+    "guide_fetched_at": "2026-09-03T08:11:30Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0060196",
+    "imdb_rating": 8.8,
+    "imdb_votes": 889734,
+    "kind": "film",
+    "list_title": "The Good, the Bad and the Ugly",
+    "metascore": 90,
+    "omdb_fetched_at": "2026-09-03T08:11:30Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMWM5ZjQxM2YtNDlmYi00ZDNhLWI4MWUtN2VkYjBlMTY1ZTkwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A bounty-hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
+    "rated": "R",
+    "runtime_min": 178,
+    "title": "The Good, the Bad and the Ugly",
+    "total_seasons": null,
+    "year": 1967,
+    "year_end": null
   },
   "The Goonies": {
     "genre": [
