@@ -5,7 +5,8 @@
       "Romance"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:17Z",
+    "guide_fetched_at": "2026-09-03T01:41:18Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0211915",
     "imdb_rating": 8.3,
@@ -21,6 +22,7 @@
       "sex": "Moderate",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "Despite being caught in her imaginative world, young waitress Amelie decides to help people find happiness. Her quest to spread joy leads her on a journey during which she finds true love.",
     "rated": "R",
     "runtime_min": 122,
@@ -34,7 +36,8 @@
       "Sci-Fi"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:18Z",
+    "guide_fetched_at": "2026-09-03T01:41:18Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0088763",
     "imdb_rating": 8.5,
@@ -50,6 +53,7 @@
       "sex": "Mild",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
     "rated": "PG",
     "runtime_min": 116,
@@ -63,7 +67,8 @@
       "Sci-Fi"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:18Z",
+    "guide_fetched_at": "2026-09-03T01:41:18Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0083658",
     "imdb_rating": 8.1,
@@ -79,6 +84,7 @@
       "sex": "Moderate",
       "violence": "Moderate"
     },
+    "parents_guide_votes": {},
     "plot": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator.",
     "rated": "R",
     "runtime_min": 117,
@@ -90,7 +96,8 @@
       "Comedy"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:18Z",
+    "guide_fetched_at": "2026-09-03T01:41:19Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0091042",
     "imdb_rating": 7.8,
@@ -106,6 +113,7 @@
       "sex": "Mild",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "A brash, cocky high school senior, tired of skipping school to spend a boring day at home, is determined to enjoy an epic day roaring around his favorite Chicago sites, enlisting his best friend and girlfriend to join him on the a...",
     "rated": "PG-13",
     "runtime_min": 103,
@@ -118,7 +126,8 @@
       "Adventure"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:19Z",
+    "guide_fetched_at": "2026-09-03T01:41:19Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0097576",
     "imdb_rating": 8.2,
@@ -134,6 +143,7 @@
       "sex": "Mild",
       "violence": "Moderate"
     },
+    "parents_guide_votes": {},
     "plot": "In 1938, after his father goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against the Nazis again to stop them from obtaining its powers.",
     "rated": "PG-13",
     "runtime_min": 127,
@@ -146,7 +156,8 @@
       "Adventure"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:19Z",
+    "guide_fetched_at": "2026-09-03T01:41:20Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0087469",
     "imdb_rating": 7.5,
@@ -162,6 +173,7 @@
       "sex": "Mild",
       "violence": "Severe"
     },
+    "parents_guide_votes": {},
     "plot": "In 1935, Indiana Jones is tasked by Indian villagers with reclaiming a sacred stone stolen from them by a secret cult.",
     "rated": "PG",
     "runtime_min": 118,
@@ -175,7 +187,8 @@
       "Fantasy"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:22:00Z",
+    "guide_fetched_at": "2026-09-03T01:41:20Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0097814",
     "imdb_rating": 7.8,
@@ -191,6 +204,7 @@
       "sex": "None",
       "violence": "None"
     },
+    "parents_guide_votes": {},
     "plot": "Along with her black cat Jiji, Kiki settles in a seaside town and starts a high-flying delivery service. Here begins her magical encounter with independence and responsibility, making lifelong friends and finding her place in the ...",
     "rated": "G",
     "runtime_min": 103,
@@ -204,7 +218,8 @@
       "Romance"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:19Z",
+    "guide_fetched_at": "2026-09-03T01:41:21Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1605783",
     "imdb_rating": 7.6,
@@ -220,6 +235,7 @@
       "sex": "None",
       "violence": "None"
     },
+    "parents_guide_votes": {},
     "plot": "While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s every day at midnight.",
     "rated": "PG-13",
     "runtime_min": 94,
@@ -233,7 +249,8 @@
       "Comedy"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:22:00Z",
+    "guide_fetched_at": "2026-09-03T01:41:21Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0117110",
     "imdb_rating": 6.9,
@@ -249,6 +266,7 @@
       "sex": "None",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "The Muppets set sail in search of treasure, with Jim Hawkins and Long John Silver.",
     "rated": "G",
     "runtime_min": 99,
@@ -262,7 +280,8 @@
       "Comedy"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:19Z",
+    "guide_fetched_at": "2026-09-03T01:41:21Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0096283",
     "imdb_rating": 8.1,
@@ -278,6 +297,7 @@
       "sex": "None",
       "violence": "None"
     },
+    "parents_guide_votes": {},
     "plot": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
     "rated": "G",
     "runtime_min": 86,
@@ -291,7 +311,8 @@
       "History"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:20Z",
+    "guide_fetched_at": "2026-09-03T01:41:22Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0168122",
     "imdb_rating": 7.2,
@@ -307,6 +328,7 @@
       "sex": "Mild",
       "violence": "None"
     },
+    "parents_guide_votes": {},
     "plot": "History of Apple and Microsoft.",
     "rated": "Not Rated",
     "runtime_min": 95,
@@ -320,7 +342,8 @@
       "Comedy"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:22:01Z",
+    "guide_fetched_at": "2026-09-03T01:41:22Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0876563",
     "imdb_rating": 7.6,
@@ -336,6 +359,7 @@
       "sex": "None",
       "violence": "None"
     },
+    "parents_guide_votes": {},
     "plot": "A five-year-old boy develops a relationship with Ponyo, a young goldfish princess who longs to become a human after falling in love with him.",
     "rated": "G",
     "runtime_min": 101,
@@ -348,7 +372,8 @@
       "Adventure"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:20Z",
+    "guide_fetched_at": "2026-09-03T01:41:22Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0082971",
     "imdb_rating": 8.4,
@@ -364,6 +389,7 @@
       "sex": "Mild",
       "violence": "Moderate"
     },
+    "parents_guide_votes": {},
     "plot": "In 1936, archaeologist Indiana Jones is tasked by Army Intelligence to help locate a legendary ancient power, the Ark of Covenant, before the Nazis get it first.",
     "rated": "PG",
     "runtime_min": 115,
@@ -377,7 +403,8 @@
       "Sci-Fi"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:20Z",
+    "guide_fetched_at": "2026-09-03T01:41:23Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0089886",
     "imdb_rating": 6.9,
@@ -393,6 +420,7 @@
       "sex": "Mild",
       "violence": "None"
     },
+    "parents_guide_votes": {},
     "plot": "An uptight teenage prodigy enters a top engineering college, but feels awkward among the freewheeling students. When a professor aims to turn their laser project into a military weapon, he and his offbeat roommate plot to ruin the...",
     "rated": "PG",
     "runtime_min": 108,
@@ -406,7 +434,8 @@
       "Fantasy"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:20Z",
+    "guide_fetched_at": "2026-09-03T01:41:23Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0086190",
     "imdb_rating": 8.3,
@@ -422,6 +451,7 @@
       "sex": "Mild",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "After rescuing Han Solo from Jabba the Hutt, the Rebel Alliance attempts to destroy the second Death Star while Luke struggles to help Darth Vader back from the dark side.",
     "rated": "PG",
     "runtime_min": 131,
@@ -435,7 +465,8 @@
       "Fantasy"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:21Z",
+    "guide_fetched_at": "2026-09-03T01:41:23Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0446029",
     "imdb_rating": 7.5,
@@ -451,6 +482,7 @@
       "sex": "Mild",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "A young man must defeat his new girlfriend's seven evil exes, who are willing to do anything to prevent her happiness with someone else.",
     "rated": "PG-13",
     "runtime_min": 112,
@@ -464,7 +496,8 @@
       "Fantasy"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:21Z",
+    "guide_fetched_at": "2026-09-03T01:41:24Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0076759",
     "imdb_rating": 8.6,
@@ -480,6 +513,7 @@
       "sex": "None",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth ...",
     "rated": "PG",
     "runtime_min": 121,
@@ -493,7 +527,8 @@
       "Drama"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:21:59Z",
+    "guide_fetched_at": "2026-09-03T01:41:17Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0015532",
     "imdb_rating": 7.8,
@@ -509,6 +544,7 @@
       "sex": "None",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "A handsome prince rides a flying horse to faraway lands and embarks on magical adventures, which include befriending a witch, meeting Aladdin, battling demons and falling in love with a princess.",
     "rated": "Not Rated",
     "runtime_min": 80,
@@ -522,7 +558,8 @@
       "Drama"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:18Z",
+    "guide_fetched_at": "2026-09-03T01:41:18Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt1596363",
     "imdb_rating": 7.8,
@@ -538,6 +575,7 @@
       "sex": "Moderate",
       "violence": "None"
     },
+    "parents_guide_votes": {},
     "plot": "In 2006-2007 a group of investors bet against the United States mortgage market. In their research, they discover how flawed and corrupt the market is.",
     "rated": "R",
     "runtime_min": 130,
@@ -551,7 +589,8 @@
       "Comedy"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:21:59Z",
+    "guide_fetched_at": "2026-09-03T01:41:19Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0092752",
     "imdb_rating": 7.2,
@@ -567,6 +606,7 @@
       "sex": "None",
       "violence": "None"
     },
+    "parents_guide_votes": {},
     "plot": "The Chipmunks compete with the Chipettes in a round-the-world race.",
     "rated": "G",
     "runtime_min": 77,
@@ -580,7 +620,8 @@
       "Fantasy"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:18Z",
+    "guide_fetched_at": "2026-09-03T01:41:19Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0080684",
     "imdb_rating": 8.7,
@@ -596,6 +637,7 @@
       "sex": "None",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "After the Empire overpowers the Rebel Alliance, Luke Skywalker begins training with Jedi Master Yoda, while Darth Vader and bounty hunter Boba Fett pursue his friends across the galaxy.",
     "rated": "PG",
     "runtime_min": 124,
@@ -609,7 +651,8 @@
       "Adventure"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:22:00Z",
+    "guide_fetched_at": "2026-09-03T01:41:20Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0129167",
     "imdb_rating": 8.1,
@@ -625,6 +668,7 @@
       "sex": "None",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.",
     "rated": "PG",
     "runtime_min": 86,
@@ -638,7 +682,8 @@
       "Drama"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:19Z",
+    "guide_fetched_at": "2026-09-03T01:41:21Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0095489",
     "imdb_rating": 7.4,
@@ -654,6 +699,7 @@
       "sex": "None",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "An orphaned brontosaurus teams up with other young dinosaurs in order to reunite with their families in a valley.",
     "rated": "G",
     "runtime_min": 69,
@@ -667,7 +713,8 @@
       "Romance"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:22:01Z",
+    "guide_fetched_at": "2026-09-03T01:41:21Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0086112",
     "imdb_rating": 7.1,
@@ -683,6 +730,7 @@
       "sex": "Mild",
       "violence": "None"
     },
+    "parents_guide_votes": {},
     "plot": "After a young man leaves a band of pirates, hilarity ensues.",
     "rated": "G",
     "runtime_min": 112,
@@ -696,7 +744,8 @@
       "Family"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:20Z",
+    "guide_fetched_at": "2026-09-03T01:41:22Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0093779",
     "imdb_rating": 8.0,
@@ -712,6 +761,7 @@
       "sex": "None",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "A bedridden boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love.",
     "rated": "PG",
     "runtime_min": 98,
@@ -724,7 +774,8 @@
       "Drama"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:21Z",
+    "guide_fetched_at": "2026-09-03T01:41:23Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1285016",
     "imdb_rating": 7.8,
@@ -740,6 +791,7 @@
       "sex": "Moderate",
       "violence": "None"
     },
+    "parents_guide_votes": {},
     "plot": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business.",
     "rated": "PG-13",
     "runtime_min": 120,
@@ -753,7 +805,8 @@
       "Sci-Fi"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:21Z",
+    "guide_fetched_at": "2026-09-03T01:41:24Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0088247",
     "imdb_rating": 8.1,
@@ -769,6 +822,7 @@
       "sex": "Moderate",
       "violence": "Severe"
     },
+    "parents_guide_votes": {},
     "plot": "A cyborg assassin from the future attempts to find and kill a young woman who is destined to give birth to a warrior that will lead a resistance to save humankind from extinction.",
     "rated": "R",
     "runtime_min": 107,
@@ -781,7 +835,8 @@
       "Western"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:21Z",
+    "guide_fetched_at": "2026-09-03T01:41:24Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1403865",
     "imdb_rating": 7.6,
@@ -797,6 +852,7 @@
       "sex": "None",
       "violence": "Moderate"
     },
+    "parents_guide_votes": {},
     "plot": "A stubborn teenager enlists the help of a tough U.S. Marshal to track down her father's murderer.",
     "rated": "PG-13",
     "runtime_min": 110,
@@ -810,7 +866,8 @@
       "Comedy"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:22:01Z",
+    "guide_fetched_at": "2026-09-03T01:41:24Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt1049413",
     "imdb_rating": 8.3,
@@ -826,6 +883,7 @@
       "sex": "None",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "78-year-old Carl Fredricksen travels to South America in his house equipped with balloons, inadvertently taking a young stowaway.",
     "rated": "PG",
     "runtime_min": 96,
@@ -839,7 +897,8 @@
       "Family"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:22:02Z",
+    "guide_fetched_at": "2026-09-03T01:41:24Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0910970",
     "imdb_rating": 8.4,
@@ -855,6 +914,7 @@
       "sex": "None",
       "violence": "Mild"
     },
+    "parents_guide_votes": {},
     "plot": "A robot who is responsible for cleaning a waste-covered Earth meets another robot and falls in love with her. Together, they set out on a journey that will alter the fate of mankind.",
     "rated": "G",
     "runtime_min": 98,
@@ -868,7 +928,8 @@
       "Sci-Fi"
     ],
     "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:14:22Z",
+    "guide_fetched_at": "2026-09-03T01:41:25Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0086567",
     "imdb_rating": 7.1,
@@ -884,6 +945,7 @@
       "sex": "None",
       "violence": "None"
     },
+    "parents_guide_votes": {},
     "plot": "A young man finds a back door into a military central computer in which reality is confused with game-playing, possibly starting World War III.",
     "rated": "PG",
     "runtime_min": 114,
