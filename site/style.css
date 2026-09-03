@@ -125,8 +125,9 @@ section.group h2 small { font-weight: 400; color: var(--muted); font-size: 0.85r
 .sev li[data-sev="Mild"] { background: var(--sev-mild); }
 .sev li[data-sev="Moderate"] { background: var(--sev-moderate); }
 .sev li[data-sev="Severe"] { background: var(--sev-severe); }
-.sev li[data-sev="None"] > span { opacity: 0.45; filter: grayscale(1); }
-.sev li > span { pointer-events: none; }
+.sev li > span { pointer-events: none; position: relative; z-index: 1; }
+/* Softer ring for "None" so the emoji stays fully legible on top of it. */
+.sev li[data-sev="None"] { background: color-mix(in srgb, var(--sev-none) 55%, var(--card)); }
 .legend { margin: 0 0 0.5rem; display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; align-items: center; }
 .legend .sev { display: inline-flex; margin: 0; gap: 0.2rem; vertical-align: middle; }
 .legend .sev li { width: 20px; height: 20px; font-size: 11px; }
