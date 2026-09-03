@@ -31,6 +31,7 @@ Demolition Man
 Detroit Rock City
 Easy Rider
 Edward Scissorhands
+Eternal Sunshine of the Spotless Mind
 Fantasia (1940)
 Ferris Bueller's Day Off
 Forrest Gump
