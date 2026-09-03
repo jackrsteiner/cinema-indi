@@ -19,10 +19,19 @@ truth is `list.md`. A GitHub Action fetches everything else.
    message like `Add The Iron Giant`, and push to `main`. Do not edit
    `data/films.json`; the Action fills it in and commits it back.
 
+## "Mark X as watched" / "We watched X on Saturday"
+
+Add a line to `watched.md` containing the film's exact `list.md` line, followed
+by the date as `YYYY-MM-DD` when one is known (resolve relative dates against
+today). One line per film; remove the line to un-mark it. The site shows a
+✓ badge and offers a watched / to-watch filter. Run the tests (they check every
+`watched.md` line matches a `list.md` line), commit, push to `main`.
+
 ## Removing / renaming
 
 Delete or change the line in `list.md`. The Action drops the stale cache entry.
-Rename the matching key in `data/overrides.json` if one exists.
+Rename the matching key in `data/overrides.json` and the line in `watched.md`
+if they exist.
 
 ## Fixing bad data
 

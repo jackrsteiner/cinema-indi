@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 LIST_PATH = ROOT / "list.md"
+WATCHED_PATH = ROOT / "watched.md"
 DATA_DIR = ROOT / "data"
 FILMS_PATH = DATA_DIR / "films.json"
 OVERRIDES_PATH = DATA_DIR / "overrides.json"
@@ -25,6 +26,13 @@ CATEGORY_KEYS = {
     "PROFANITY": "profanity",
     "ALCOHOL": "drugs",
     "FRIGHTENING": "frightening",
+}
+CATEGORY_ICONS = {
+    "sex": "💋",
+    "violence": "💥",
+    "profanity": "🤬",
+    "drugs": "🍺",
+    "frightening": "👻",
 }
 CATEGORY_LABELS = {
     "sex": "Sex & Nudity",
@@ -55,6 +63,29 @@ def parse_list(text: str) -> list[dict]:
         year = int(m.group("year")) if m.group("year") else None
         entries.append({"key": entry_key(title, year), "title": title, "year": year})
     return entries
+
+
+_WATCHED_RE = re.compile(r"^(?P<key>.+?)(?:\s+(?P<date>\d{4}-\d{2}-\d{2}))?\s*$")
+
+
+def parse_watched(text: str) -> dict:
+    """Parse watched.md: one list.md key per line, optional trailing YYYY-MM-DD.
+
+    Returns {key: date_or_None}. Lines are normalised through entry_key so
+    'True Grit (2010)' matches the list entry of the same name.
+    """
+    out = {}
+    for raw in text.splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        line = re.sub(r"^[-*]\s+", "", line)
+        m = _WATCHED_RE.match(line)
+        key_text = m.group("key").strip()
+        e = _ENTRY_RE.match(key_text)
+        key = entry_key(e.group("title").strip(), int(e.group("year")) if e.group("year") else None)
+        out[key] = m.group("date")
+    return out
 
 
 def entry_key(title: str, year: int | None) -> str:

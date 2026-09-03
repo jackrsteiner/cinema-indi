@@ -31,6 +31,26 @@
   const jump = $("#jump");
   let data = null;
   let mode = readMode();
+  let filter = readFilter();
+
+  function readFilter() {
+    try { const f = localStorage.getItem("movindi.filter"); if (["all", "unwatched", "watched"].includes(f)) return f; } catch (e) { /* ignore */ }
+    return "all";
+  }
+
+  function setFilter(next) {
+    filter = ["all", "unwatched", "watched"].includes(next) ? next : "all";
+    try { localStorage.setItem("movindi.filter", filter); } catch (e) { /* ignore */ }
+    document.querySelectorAll(".filters button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.filter === filter)));
+    render();
+  }
+
+  function fmtDate(iso) {
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || "");
+    if (!m) return "";
+    const d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+    return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+  }
 
   function readMode() {
     const fromHash = (location.hash.match(/^#(alpha|year|age)\b/) || [])[1];
@@ -57,8 +77,11 @@
     const cats = Object.keys(data.categories);
     const sev = cats.map(k => {
       const v = f.parents_guide[k];
-      return `<li data-sev="${esc(v || "")}" title="${esc(data.categories[k])}: ${esc(v || "unknown")}"></li>`;
+      return `<li data-sev="${esc(v || "")}" title="${esc(data.categories[k])}: ${esc(v || "unknown")}" aria-label="${esc(data.categories[k])}: ${esc(v || "unknown")}"><span aria-hidden="true">${esc(data.icons[k] || "")}</span></li>`;
     }).join("");
+    const watched = f.watched
+      ? `<span class="chip watched" title="Watched${f.watched_on ? " on " + esc(fmtDate(f.watched_on)) : ""}">✓ ${f.watched_on ? esc(fmtDate(f.watched_on)) : "watched"}</span>`
+      : "";
     const poster = f.poster
       ? `<img class="poster" src="${esc(f.poster)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'poster placeholder',textContent:'🎞'}))">`
       : `<div class="poster placeholder" aria-hidden="true">🎞</div>`;
@@ -74,11 +97,11 @@
     const warn = f.status !== "ok"
       ? `<p class="warn">${f.status === "error" ? "Lookup failed: " + esc(f.error) : "Not fetched yet"}</p>`
       : (f.error ? `<p class="warn">${esc(f.error)}</p>` : "");
-    return `<article class="card ${esc(f.status)}">
+    return `<article class="card ${esc(f.status)}${f.watched ? " is-watched" : ""}">
       ${poster}
       <div>
         <h3>${title}</h3>
-        <p class="meta">${f.year ? `<span>${f.year}</span>` : ""}${f.rated ? `<span class="chip">${esc(f.rated)}</span>` : ""}${ageChip}${series}</p>
+        <p class="meta">${f.year ? `<span>${f.year}</span>` : ""}${f.rated ? `<span class="chip">${esc(f.rated)}</span>` : ""}${ageChip}${series}${watched}</p>
         ${f.synopsis ? `<p class="synopsis">${esc(f.synopsis)}</p>` : ""}
         <ul class="sev" aria-label="Parents Guide severities">${sev}</ul>
         ${f.age_reasons && f.age_reasons.length ? `<p class="why">${esc(f.age_reasons.join(" · "))}</p>` : ""}
@@ -90,7 +113,7 @@
 
   function render() {
     const m = MODES[mode];
-    const films = data.films.slice();
+    const films = data.films.filter(f => filter === "all" || (filter === "watched") === !!f.watched);
     const groups = new Map();
     for (const f of films) {
       const g = m.group(f);
@@ -101,7 +124,9 @@
     jump.innerHTML = `<ul>${keys.map(k =>
       `<li><a href="#${mode}-${slug(k)}">${esc(m.jump ? m.jump(k) : m.heading(k))}</a></li>`).join("")}</ul>`;
     if (!films.length) {
-      main.innerHTML = `<p class="empty">No films yet. Add a title to <code>list.md</code>.</p>`;
+      main.innerHTML = filter === "all"
+        ? `<p class="empty">No films yet. Add a title to <code>list.md</code>.</p>`
+        : `<p class="empty">Nothing ${filter === "watched" ? "watched yet" : "left to watch"}.</p>`;
       return;
     }
     main.innerHTML = keys.map(k => {
@@ -113,7 +138,16 @@
     }).join("");
   }
 
-  document.querySelectorAll(".modes button").forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode, true)));
+  document.querySelectorAll(".modes:not(.filters) button").forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode, true)));
+  document.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => setFilter(b.dataset.filter)));
+
+  function renderLegend() {
+    const cats = Object.keys(data.categories);
+    const icons = `<ul class="sev" aria-hidden="true">${cats.map(k => `<li data-sev="Mild"><span>${esc(data.icons[k] || "")}</span></li>`).join("")}</ul>`;
+    const names = cats.map(k => `${esc(data.icons[k] || "")} ${esc(data.categories[k])}`).join(" · ");
+    const levels = ["None", "Mild", "Moderate", "Severe"].map(l => `<span><i class="swatch" style="background:var(--sev-${l.toLowerCase()})"></i>${l}</span>`).join("");
+    $("#legend").innerHTML = `${icons}<span>${names}</span>${levels}`;
+  }
   window.addEventListener("hashchange", () => {
     const next = (location.hash.match(/^#(alpha|year|age)\b/) || [])[1];
     if (next && next !== mode) setMode(next, false);
@@ -123,8 +157,10 @@
     .then(r => { if (!r.ok) throw new Error(r.status + " " + r.statusText); return r.json(); })
     .then(json => {
       data = json;
-      const n = data.films.length;
-      $("#foot-note").textContent = `${n} film${n === 1 ? "" : "s"} · data refreshed ${data.generated_at} · ages are computed from the MPAA rating and IMDb Parents Guide severities, see the repo for the rules.`;
+      const n = data.films.length, w = data.films.filter(f => f.watched).length;
+      $("#foot-note").textContent = `${n} film${n === 1 ? "" : "s"}, ${w} watched · data refreshed ${data.generated_at} · ages are computed from the MPAA rating, IMDb Parents Guide severities, genre and runtime; see the repo for the model.`;
+      renderLegend();
+      document.querySelectorAll(".filters button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.filter === filter)));
       setMode(mode, false);
       if (location.hash && location.hash.includes("-")) {
         const el = document.getElementById(location.hash.slice(1));

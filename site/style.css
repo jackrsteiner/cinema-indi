@@ -49,6 +49,7 @@ a { color: inherit; }
 .brand h1 { margin: 0; font-size: 2rem; letter-spacing: -0.02em; }
 .tagline { margin: 0.1rem 0 0; color: var(--muted); }
 
+.controls { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .modes { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; background: var(--card); }
 .modes button {
   border: 0; background: transparent; color: var(--muted);
@@ -111,12 +112,27 @@ section.group h2 small { font-weight: 400; color: var(--muted); font-size: 0.85r
 .links { font-size: 0.85rem; display: flex; gap: 0.75rem; flex-wrap: wrap; }
 .links a { color: var(--accent); }
 
-.sev { display: flex; gap: 0.3rem; margin: 0.35rem 0 0.25rem; padding: 0; list-style: none; }
-.sev li { width: 12px; height: 12px; border-radius: 50%; background: var(--sev-unknown); }
+.sev { display: flex; gap: 0.3rem; margin: 0.4rem 0 0.25rem; padding: 0; list-style: none; }
+.sev li {
+  width: 26px; height: 26px; border-radius: 50%;
+  display: grid; place-items: center;
+  font-size: 14px; line-height: 1;
+  background: var(--sev-unknown);
+  border: 2px solid transparent;
+  cursor: default;
+}
 .sev li[data-sev="None"] { background: var(--sev-none); }
 .sev li[data-sev="Mild"] { background: var(--sev-mild); }
 .sev li[data-sev="Moderate"] { background: var(--sev-moderate); }
 .sev li[data-sev="Severe"] { background: var(--sev-severe); }
+.sev li[data-sev="None"] > span { opacity: 0.45; filter: grayscale(1); }
+.sev li > span { pointer-events: none; }
+.legend { margin: 0 0 0.5rem; display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; align-items: center; }
+.legend .sev { display: inline-flex; margin: 0; gap: 0.2rem; vertical-align: middle; }
+.legend .sev li { width: 20px; height: 20px; font-size: 11px; }
+.legend .swatch { display: inline-block; width: 12px; height: 12px; border-radius: 50%; vertical-align: -1px; margin-right: 0.25rem; }
+.chip.watched { background: color-mix(in srgb, var(--sev-none) 45%, var(--chip)); }
+.card.is-watched .poster { filter: saturate(0.6); }
 .why { color: var(--muted); font-size: 0.8rem; margin: 0; }
 .warn { color: var(--accent); font-size: 0.8rem; margin: 0.25rem 0 0; }
 

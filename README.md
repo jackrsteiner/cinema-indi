@@ -17,13 +17,28 @@ automatically by a GitHub Action and rendered as a static page.
 
 Or just tell an agent "Add *Title* to the movindi list"; `CLAUDE.md` tells it how.
 
+## Marking a film watched
+
+Add its `list.md` line to [`watched.md`](watched.md), optionally followed by a
+date:
+
+```
+The Princess Bride 2026-09-01
+True Grit (2010)
+```
+
+The page shows a ✓ badge with the date and has an All / To watch / Watched
+filter. Or tell an agent "mark *Title* as watched".
+
 ## How the page works
 
 - **A–Z** groups by first letter of the title with articles stripped.
 - **Year** groups by release year.
 - **Age** groups by a computed minimum age (see below).
 
-Each view has a sticky jump bar to any letter / year / age.
+Each view has a sticky jump bar to any letter / year / age. Each card shows the
+five IMDb Parents Guide categories as icons (💋 sex & nudity, 💥 violence,
+🤬 profanity, 🍺 alcohol/drugs, 👻 frightening scenes) coloured by severity.
 
 ## Age appropriateness
 
@@ -64,6 +79,7 @@ API of your own.
 | File | Who edits it | Purpose |
 |---|---|---|
 | `list.md` | you / an agent | the list |
+| `watched.md` | you / an agent | which films you have watched, with optional dates |
 | `data/overrides.json` | you / an agent | manual fixes keyed by the `list.md` line: `imdb_id`, `title`, `year`, `rated`, `synopsis`, `poster`, `series`, `series_order`, `age` |
 | `data/age-rules.json` | you | the age formula |
 | `data/films.json` | the Action | cache of fetched data (committed back automatically) |

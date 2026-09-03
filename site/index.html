@@ -14,17 +14,25 @@
     <h1>movindi</h1>
     <p class="tagline">Films worth watching together.</p>
   </div>
-  <nav class="modes" aria-label="Sort order">
-    <button data-mode="alpha" aria-pressed="true">A–Z</button>
-    <button data-mode="year" aria-pressed="false">Year</button>
-    <button data-mode="age" aria-pressed="false">Age</button>
-  </nav>
+  <div class="controls">
+    <nav class="modes" aria-label="Sort order">
+      <button data-mode="alpha" aria-pressed="true">A–Z</button>
+      <button data-mode="year" aria-pressed="false">Year</button>
+      <button data-mode="age" aria-pressed="false">Age</button>
+    </nav>
+    <nav class="modes filters" aria-label="Watched filter">
+      <button data-filter="all" aria-pressed="true">All</button>
+      <button data-filter="unwatched" aria-pressed="false">To watch</button>
+      <button data-filter="watched" aria-pressed="false">Watched</button>
+    </nav>
+  </div>
 </header>
 <nav class="jump" id="jump" aria-label="Jump to section"></nav>
 <main id="main">
   <p class="empty" id="loading">Loading…</p>
 </main>
 <footer class="foot">
+  <p id="legend" class="legend"></p>
   <p id="foot-note"></p>
 </footer>
 <script src="app.js"></script>

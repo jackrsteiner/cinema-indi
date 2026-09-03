@@ -17,16 +17,17 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from movindi import (  # noqa: E402
-    CATEGORY_LABELS, FILMS_PATH, LIST_PATH, OVERRIDES_PATH, ROOT, RULES_PATH,
-    alpha_key, alpha_letter, compute_age, first_sentence, load_json, parse_list,
-    sort_title,
+    CATEGORY_ICONS, CATEGORY_LABELS, FILMS_PATH, LIST_PATH, OVERRIDES_PATH, ROOT,
+    RULES_PATH, WATCHED_PATH, alpha_key, alpha_letter, compute_age, first_sentence,
+    load_json, parse_list, parse_watched, sort_title,
 )
 
 SITE_SRC = ROOT / "site"
 SITE_OUT = ROOT / "_site"
 
 
-def build_records(entries, cache, overrides, rules) -> list[dict]:
+def build_records(entries, cache, overrides, rules, watched=None) -> list[dict]:
+    watched = watched or {}
     records = []
     for entry in entries:
         key = entry["key"]
@@ -66,6 +67,8 @@ def build_records(entries, cache, overrides, rules) -> list[dict]:
             "age_unknown": age_info["unknown"],
             "status": status,
             "error": raw.get("error") or (raw.get("guide_error") if not raw.get("parents_guide") else None),
+            "watched": key in watched,
+            "watched_on": watched.get(key),
         })
     return records
 
@@ -94,7 +97,12 @@ def main(argv=None) -> int:
         print(f"missing {RULES_PATH}", file=sys.stderr)
         return 1
 
-    records = build_records(entries, cache, overrides, rules)
+    watched = parse_watched(WATCHED_PATH.read_text(encoding="utf-8")) if WATCHED_PATH.exists() else {}
+    known = {e["key"] for e in entries}
+    for k in watched:
+        if k not in known:
+            print(f"WARNING watched.md: '{k}' is not a line in list.md")
+    records = build_records(entries, cache, overrides, rules, watched)
     out = ROOT / args.out
     if out.exists():
         shutil.rmtree(out)
@@ -103,11 +111,12 @@ def main(argv=None) -> int:
         "generated_at": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%d"),
         "rules": rules,
         "categories": CATEGORY_LABELS,
+        "icons": CATEGORY_ICONS,
         "films": records,
     }
     (out / "films.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / ".nojekyll").write_text("")
-    print(f"built {len(records)} films into {out}")
+    print(f"built {len(records)} films into {out} ({sum(r['watched'] for r in records)} watched)")
     if args.explain:
         print(explain(records))
     return 0

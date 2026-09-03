@@ -32,6 +32,15 @@ class ListParsing(unittest.TestCase):
         problems = m.check_list_sorted(entries)
         self.assertEqual(len(problems), 2)
 
+    def test_parse_watched(self):
+        w = m.parse_watched("# comment\nThe Princess Bride 2026-09-01\n- True Grit (2010)\nUp (2009) 2026-08-30\n")
+        self.assertEqual(w, {"The Princess Bride": "2026-09-01", "True Grit (2010)": None, "Up (2009)": "2026-08-30"})
+
+    def test_repo_watched_entries_exist_in_list(self):
+        entries = {e["key"] for e in m.parse_list(m.LIST_PATH.read_text(encoding="utf-8"))}
+        watched = m.parse_watched(m.WATCHED_PATH.read_text(encoding="utf-8")) if m.WATCHED_PATH.exists() else {}
+        self.assertEqual([k for k in watched if k not in entries], [])
+
     def test_first_sentence(self):
         self.assertEqual(m.first_sentence("A boy meets a girl. They dance."), "A boy meets a girl.")
         self.assertEqual(m.first_sentence("Dr. Brown builds a time machine. Chaos ensues."), "Dr. Brown builds a time machine.")
