@@ -24,11 +24,13 @@ Blade Runner 2049
 Breaking Away
 Brick (2005)
 The Brothers Bloom
+Casablanca
 Cave of Forgotten Dreams
 A Charlie Brown Christmas
 Chinatown
 The Chipmunk Adventure
 A Christmas Carol (1951)
+Citizen Kane
 The Darjeeling Limited
 The Dark Crystal
 David the Gnome (series)
@@ -97,6 +99,7 @@ Planet of the Apes (1968)
 Ponyo
 Primer
 The Princess Bride
+Psycho (1960)
 Real Genius
 Repo! The Genetic Opera
 Resident Evil (2002)
@@ -123,10 +126,12 @@ True Grit (2010)
 The Truman Show
 Turbo Kid
 Twelve Monkeys
+The Twilight Zone (1959 series)
 Up (2009)
 Wake in Fright (1971)
 WALL-E
 WarGames
+What Ever Happened to Baby Jane? (1962)
 White Men Can't Jump (1992)
 Who Framed Roger Rabbit
 Willy Wonka & the Chocolate Factory
