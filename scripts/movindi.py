@@ -30,7 +30,7 @@ CATEGORY_KEYS = {
 }
 CATEGORY_ICONS = {
     "sex": "💋",
-    "violence": "💥",
+    "violence": "🪓",
     "profanity": "🤬",
     "drugs": "🍺",
     "frightening": "😱",
