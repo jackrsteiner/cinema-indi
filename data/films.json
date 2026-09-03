@@ -2292,6 +2292,40 @@
     "year": 2007,
     "year_end": null
   },
+  "Pee-wee's Playhouse (series)": {
+    "genre": [
+      "Comedy",
+      "Family",
+      "Musical"
+    ],
+    "guide_fetched_at": "2026-09-03T20:47:05Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-Y",
+    "imdb_id": "tt0090500",
+    "imdb_rating": 8.1,
+    "imdb_votes": 6046,
+    "kind": "series",
+    "list_title": "Pee-wee's Playhouse",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T20:47:04Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTM4NDQxMzk4OV5BMl5BanBnXkFtZTcwMzQyMDcyMQ@@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "None",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "Pee-Wee Herman and his friends have wacky, imaginative fun in his unique playhouse.",
+    "rated": "TV-Y",
+    "runtime_min": 30,
+    "title": "Pee-wee's Playhouse",
+    "total_seasons": 5,
+    "year": 1986,
+    "year_end": 1991
+  },
   "Picnic at Hanging Rock (1975)": {
     "genre": [
       "Drama",
