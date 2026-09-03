@@ -1,17 +1,21 @@
 The Adventures of Pete & Pete (series)
 The Adventures of Prince Achmed
 Amélie
+Apollo 13
 Back to the Future
 The Big Short
 Blade Runner
 The Chipmunk Adventure
 The Empire Strikes Back
 Ferris Bueller's Day Off
+Forrest Gump
 Freaks and Geeks (series)
+The Good, the Bad and the Ugly
 The Goonies
 Indiana Jones and the Last Crusade
 Indiana Jones and the Temple of Doom
 The Iron Giant
+Jurassic Park
 Kiki's Delivery Service
 The Land Before Time
 The Man Who Planted Trees (1987)
@@ -24,6 +28,7 @@ Ponyo
 The Princess Bride
 Raiders of the Lost Ark
 Real Genius
+Resident Evil (2002)
 Return of the Jedi
 Scott Pilgrim vs. the World
 Seinfeld (series)
