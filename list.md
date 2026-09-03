@@ -1,3 +1,4 @@
+The Adventures of Pete & Pete (series)
 The Adventures of Prince Achmed
 Amélie
 Back to the Future
@@ -6,6 +7,7 @@ Blade Runner
 The Chipmunk Adventure
 The Empire Strikes Back
 Ferris Bueller's Day Off
+Freaks and Geeks (series)
 The Goonies
 Indiana Jones and the Last Crusade
 Indiana Jones and the Temple of Doom
@@ -24,6 +26,7 @@ Raiders of the Lost Ark
 Real Genius
 Return of the Jedi
 Scott Pilgrim vs. the World
+Seinfeld (series)
 The Social Network
 Star Wars (1977)
 The Terminator
@@ -31,3 +34,4 @@ True Grit (2010)
 Up (2009)
 WALL-E
 WarGames
+The Wonder Years (1988 series)
