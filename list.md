@@ -88,6 +88,7 @@ The Terminator
 Terminator 2: Judgment Day
 The Thing (1982)
 True Grit (2010)
+The Truman Show
 Up (2009)
 Wake in Fright (1971)
 WALL-E
