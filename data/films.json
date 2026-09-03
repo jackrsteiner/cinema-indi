@@ -120,6 +120,39 @@
     "title": "Ferris Bueller's Day Off",
     "year": 1986
   },
+  "Freaks and Geeks (series)": {
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-03T07:53:49Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-14",
+    "imdb_id": "tt0193676",
+    "imdb_rating": 8.8,
+    "imdb_votes": 163602,
+    "kind": "series",
+    "list_title": "Freaks and Geeks",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T07:53:49Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNDk4MTRlZjMtYTMxYi00ZjdkLWEyYjYtZjg1NjBlMzY2MDIzXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A high school mathlete starts hanging out with a group of burnouts while her younger brother navigates his freshman year.",
+    "rated": "TV-14",
+    "runtime_min": 44,
+    "title": "Freaks and Geeks",
+    "total_seasons": 1,
+    "year": 1999,
+    "year_end": 2000
+  },
   "Indiana Jones and the Last Crusade": {
     "genre": [
       "Action",
@@ -489,6 +522,38 @@
     "title": "Scott Pilgrim vs. the World",
     "year": 2010
   },
+  "Seinfeld (series)": {
+    "genre": [
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-09-03T07:53:49Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-PG",
+    "imdb_id": "tt0098904",
+    "imdb_rating": 8.9,
+    "imdb_votes": 382252,
+    "kind": "series",
+    "list_title": "Seinfeld",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T07:53:49Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMmRjNjZjN2ItN2FkYi00ZDg0LWExN2EtMTU2ODUwNWU1M2NhXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "The continuing misadventures of neurotic New York City stand-up comedian Jerry Seinfeld and his equally neurotic New York City friends.",
+    "rated": "TV-PG",
+    "runtime_min": 22,
+    "title": "Seinfeld",
+    "total_seasons": 9,
+    "year": 1989,
+    "year_end": 1998
+  },
   "Star Wars (1977)": {
     "genre": [
       "Action",
@@ -519,6 +584,40 @@
     "runtime_min": 121,
     "title": "Star Wars: Episode IV - A New Hope",
     "year": 1977
+  },
+  "The Adventures of Pete & Pete (series)": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T07:53:49Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-Y",
+    "imdb_id": "tt0105933",
+    "imdb_rating": 8.4,
+    "imdb_votes": 10162,
+    "kind": "series",
+    "list_title": "The Adventures of Pete & Pete",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T07:53:48Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYTI2ODUwMWQtZDg4NC00MjI2LWFhNzQtMGFhYzZmYWE3YTNjXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "None",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "This delightfully quirky show looks at the lives and adventures of two red-headed brothers with the same name.",
+    "rated": "TV-Y",
+    "runtime_min": 30,
+    "title": "The Adventures of Pete & Pete",
+    "total_seasons": 3,
+    "year": 1992,
+    "year_end": 1996
   },
   "The Adventures of Prince Achmed": {
     "genre": [
@@ -882,6 +981,40 @@
     "runtime_min": 107,
     "title": "The Terminator",
     "year": 1984
+  },
+  "The Wonder Years (1988 series)": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-09-03T07:53:50Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-PG",
+    "imdb_id": "tt0094582",
+    "imdb_rating": 8.3,
+    "imdb_votes": 43531,
+    "kind": "series",
+    "list_title": "The Wonder Years",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T07:53:50Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMDE1MTM2NzAtY2U3MC00OGViLThmODEtY2UzMWVlZWYwYjU1XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "Kevin Arnold recalls growing up during the late 60s and early 70s; the turbulent social times make the transition from child to adult unusually interesting.",
+    "rated": "TV-PG",
+    "runtime_min": 22,
+    "title": "The Wonder Years",
+    "total_seasons": 6,
+    "year": 1988,
+    "year_end": 1993
   },
   "True Grit (2010)": {
     "genre": [
