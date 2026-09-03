@@ -890,6 +890,40 @@
     "title": "Star Wars: Episode IV - A New Hope",
     "year": 1977
   },
+  "Terminator 2: Judgment Day": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-09-03T08:40:22Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0103064",
+    "imdb_rating": 8.6,
+    "imdb_votes": 1282391,
+    "kind": "film",
+    "list_title": "Terminator 2: Judgment Day",
+    "metascore": 75,
+    "omdb_fetched_at": "2026-09-03T08:40:21Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNGMyMGNkMDUtMjc2Ni00NWFlLTgyODEtZTY2MzBiZTg0OWZiXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "A cyborg from the future, identical to the one who failed to kill Sarah Connor, must now protect her ten-year-old son John from an even more advanced and powerful cyborg.",
+    "rated": "R",
+    "runtime_min": 137,
+    "title": "Terminator 2: Judgment Day",
+    "total_seasons": null,
+    "year": 1991,
+    "year_end": null
+  },
   "The Adventures of Pete & Pete (series)": {
     "genre": [
       "Comedy",
