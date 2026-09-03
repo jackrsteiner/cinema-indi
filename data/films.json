@@ -2750,6 +2750,40 @@
     "year": 2013,
     "year_end": 2014
   },
+  "Speed (1994)": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-09-03T17:04:44Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0111257",
+    "imdb_rating": 7.3,
+    "imdb_votes": 420427,
+    "kind": "film",
+    "list_title": "Speed",
+    "metascore": 78,
+    "omdb_fetched_at": "2026-09-03T17:04:43Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMDc2ODI5YWQtMmM2ZS00MTdmLWEyNWEtNmRmOGE5NGZlYWMzXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "An extortionist bomber rigs a Los Angeles city bus to explode if its speed drops below 50 mph, forcing a young cop and a female passenger to keep it moving and save everyone on board.",
+    "rated": "R",
+    "runtime_min": 116,
+    "title": "Speed",
+    "total_seasons": null,
+    "year": 1994,
+    "year_end": null
+  },
   "Spirited Away": {
     "genre": [
       "Animation",
@@ -4075,6 +4109,32 @@
     "title": "Turbo Kid",
     "total_seasons": null,
     "year": 2015,
+    "year_end": null
+  },
+  "Twelve Monkeys": {
+    "genre": [
+      "Documentary"
+    ],
+    "guide_fetched_at": "2026-09-03T17:04:44Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": null,
+    "imdb_id": "tt0116479",
+    "imdb_rating": 7.6,
+    "imdb_votes": 996,
+    "kind": "film",
+    "list_title": "Twelve Monkeys",
+    "metascore": null,
+    "omdb_fetched_at": "2026-09-03T17:04:44Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZTAxNzY1NTktNjA1Zi00MjJjLThkMTgtNTM0NTI1NWIzNDQ3XkEyXkFqcGdeQXVyODAyNDE3Mw@@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {},
+    "parents_guide_votes": {},
+    "plot": "A documentary following Terry Gilliam through the creation of \"12 Monkeys\" (1995)",
+    "rated": null,
+    "runtime_min": 88,
+    "title": "The Hamster Factor and Other Tales of Twelve Monkeys",
+    "total_seasons": null,
+    "year": 1996,
     "year_end": null
   },
   "Up (2009)": {
