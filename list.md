@@ -1,5 +1,6 @@
 The Abyss
 The Act of Killing
+Adventureland
 The Adventures of Pete & Pete (series)
 The Adventures of Prince Achmed
 Alien (1979)
@@ -37,6 +38,7 @@ Die Hard
 Easy Rider
 Edward Scissorhands
 Eternal Sunshine of the Spotless Mind
+Everything Is Illuminated
 Explorers (1985)
 Fantasia (1940)
 Ferris Bueller's Day Off
@@ -103,6 +105,7 @@ Shaun of the Dead
 Silver Spoon (2013 series)
 The Social Network
 Spirited Away
+The Squid and the Whale
 Star Wars: Episode IV - A New Hope
 Star Wars: Episode V - The Empire Strikes Back
 Star Wars: Episode VI - Return of the Jedi
