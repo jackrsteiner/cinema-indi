@@ -1,7 +1,7 @@
-# movindi
+# Cinema Indi
 
 A list of films I want to share with my son, published at
-**https://jackrsteiner.github.io/movindi/**.
+**https://jackrsteiner.github.io/cinema-indi/**.
 
 The whole thing is driven by one file: [`list.md`](list.md), a plain alphabetical
 list of titles. Everything else (year, poster, synopsis, IMDb link, age) is fetched
@@ -17,10 +17,10 @@ automatically by a GitHub Action and rendered as a static page.
 3. Commit to `main`. The Action looks the film up, updates `data/films.json`,
    rebuilds the site and deploys it. Takes a minute or two.
 
-Or just tell an agent "Add *Title* to the movindi list"; `CLAUDE.md` tells it how.
+Or just tell an agent "Add *Title* to the Cinema Indi list"; `CLAUDE.md` tells it how.
 
 The site also serves the list as a bare page at
-[`/list.html`](https://jackrsteiner.github.io/movindi/list.html) (titles only,
+[`/list.html`](https://jackrsteiner.github.io/cinema-indi/list.html) (titles only,
 watched ones marked) and the raw file at `/list.md`, for a quick "is it on the
 list already?" check. Each page links to the other.
 

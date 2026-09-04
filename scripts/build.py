@@ -125,7 +125,7 @@ def plain_list_html(entries, watched, version) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>movindi list</title>
+<title>Cinema Indi list</title>
 <link rel="stylesheet" href="style.css?v={version}">
 <style>
   .plain {{ max-width: 40rem; margin: 0 auto; padding: 1.5rem; }}
@@ -139,7 +139,7 @@ def plain_list_html(entries, watched, version) -> str:
 </head>
 <body>
 <main class="plain">
-  <h1>movindi list</h1>
+  <h1>Cinema Indi list</h1>
   <p class="nav"><a href="./">Full site</a> <a href="list.md">Raw list.md</a> <span>{n} film{"" if n == 1 else "s"}</span></p>
   <ul>
 {chr(10).join("    " + i for i in items)}

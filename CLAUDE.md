@@ -1,9 +1,9 @@
-# movindi — agent instructions
+# Cinema Indi — agent instructions
 
 This repo is a static GitHub Pages site listing films. The single source of
 truth is `list.md`. A GitHub Action fetches everything else.
 
-## "Add X to the movindi list"
+## "Add X to the Cinema Indi list"
 
 1. Resolve the film to its canonical English title (the one IMDb/OMDb uses, e.g.
    "WarGames", "Ferris Bueller's Day Off", "My Neighbor Totoro"). A series or

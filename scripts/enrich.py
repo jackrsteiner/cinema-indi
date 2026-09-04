@@ -30,7 +30,7 @@ from movindi import (  # noqa: E402
 OMDB_URL = "https://www.omdbapi.com/"
 IMDB_GRAPHQL_URL = "https://api.graphql.imdb.com/"
 TMDB_FIND_URL = "https://api.themoviedb.org/3/find/{imdb_id}?external_source=imdb_id"
-USER_AGENT = "movindi/1.0 (+https://github.com/jackrsteiner/movindi)"
+USER_AGENT = "movindi/1.0 (+https://github.com/jackrsteiner/cinema-indi)"
 
 PARENTS_GUIDE_QUERY = """
 query ParentsGuide($id: ID!) {
