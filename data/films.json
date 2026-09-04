@@ -67,33 +67,6 @@
     "year": 1951,
     "year_end": null
   },
-  "A Fistful of Dynamite": {
-    "genre": [
-      "War",
-      "Western"
-    ],
-    "guide_fetched_at": "2026-09-04T02:24:11Z",
-    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
-    "imdb_certificate": null,
-    "imdb_id": "tt22336544",
-    "imdb_rating": 6.3,
-    "imdb_votes": 117,
-    "kind": "film",
-    "list_title": "A Fistful of Dynamite",
-    "metascore": null,
-    "omdb_fetched_at": "2026-09-04T02:24:11Z",
-    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMzEzYTBjNmEtZTQ0MC00NTE2LThlMmItMDUwNzIyY2M0NDQ3XkEyXkFqcGc@._V1_SX300.jpg",
-    "ongoing": false,
-    "parents_guide": {},
-    "parents_guide_votes": {},
-    "plot": "Based on the Lucky Luke comic books; Lucky Luke (Terence Hill) arrives into a tiny western town, Purgatory, and is asked to escort 12 mail order brides from another town, where some bandits get on their trail.",
-    "rated": null,
-    "runtime_min": 123,
-    "title": "A Fistful of Dynamite",
-    "total_seasons": null,
-    "year": 1972,
-    "year_end": null
-  },
   "A Woman Under the Influence": {
     "genre": [
       "Drama",
