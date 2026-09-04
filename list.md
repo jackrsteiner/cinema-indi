@@ -39,6 +39,7 @@ Detroit Rock City
 Die Hard
 Easy Rider
 Edward Scissorhands
+Empire of the Sun (1987)
 Eternal Sunshine of the Spotless Mind
 Everything Is Illuminated
 Explorers (1985)
@@ -93,6 +94,7 @@ Ocean's Eleven (2001)
 Pan's Labyrinth
 The Passenger (1975)
 Pee-wee's Playhouse (series)
+The Pianist
 Picnic at Hanging Rock (1975)
 The Pirates of Penzance (1983)
 Pirates of Silicon Valley
@@ -108,6 +110,7 @@ Resident Evil (2002)
 The Royal Tenenbaums
 Rushmore
 Saving Private Ryan
+Schindler's List
 Scott Pilgrim vs. the World
 Seinfeld (series)
 Shaun of the Dead
