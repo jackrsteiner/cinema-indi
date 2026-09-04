@@ -4055,6 +4055,40 @@
     "year": 2002,
     "year_end": null
   },
+  "The Secret Life of Walter Mitty (2013)": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-09-04T01:25:29Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0359950",
+    "imdb_rating": 7.3,
+    "imdb_votes": 365611,
+    "kind": "film",
+    "list_title": "The Secret Life of Walter Mitty",
+    "metascore": 54,
+    "omdb_fetched_at": "2026-09-04T01:25:29Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BODYwNDYxNDk1Nl5BMl5BanBnXkFtZTgwOTAwMTk2MDE@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "When both he and a colleague are about to lose their job, Walter takes action by embarking on an adventure more extraordinary than anything he ever imagined.",
+    "rated": "PG",
+    "runtime_min": 114,
+    "title": "The Secret Life of Walter Mitty",
+    "total_seasons": null,
+    "year": 2013,
+    "year_end": null
+  },
   "The Social Network": {
     "genre": [
       "Biography",
