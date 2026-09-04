@@ -4449,6 +4449,32 @@
     "year": 1995,
     "year_end": null
   },
+  "Under the Sun (2015)": {
+    "genre": [
+      "Documentary"
+    ],
+    "guide_fetched_at": "2026-09-04T00:41:05Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "Not Rated",
+    "imdb_id": "tt5129818",
+    "imdb_rating": 7.4,
+    "imdb_votes": 5188,
+    "kind": "film",
+    "list_title": "Under the Sun",
+    "metascore": 81,
+    "omdb_fetched_at": "2026-09-04T00:41:04Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNzYyODQyODAyOV5BMl5BanBnXkFtZTgwMzc4MzczOTE@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {},
+    "parents_guide_votes": {},
+    "plot": "A propaganda documentary about North Korea that reveals a few hidden facts because the director continues filming between the scripted scenes.",
+    "rated": "Not Rated",
+    "runtime_min": 106,
+    "title": "Under the Sun",
+    "total_seasons": null,
+    "year": 2015,
+    "year_end": null
+  },
   "Up (2009)": {
     "genre": [
       "Animation",
