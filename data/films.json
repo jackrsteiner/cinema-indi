@@ -67,6 +67,40 @@
     "year": 1951,
     "year_end": null
   },
+  "A Fistful of Dynamite": {
+    "genre": [
+      "Drama",
+      "War",
+      "Western"
+    ],
+    "guide_fetched_at": "2026-09-04T02:28:04Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": null,
+    "imdb_id": "tt0067140",
+    "imdb_rating": 7.5,
+    "imdb_votes": 39996,
+    "kind": "film",
+    "list_title": "A Fistful of Dynamite",
+    "metascore": 77,
+    "omdb_fetched_at": "2026-09-04T02:28:04Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNzA5YjI3ZGMtY2IxMC00ZTFiLWJjNDgtMGRmNWVlOTgwOTc2XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A low-life bandit and an I.R.A. explosives expert rebel against the government and become heroes of the Mexican Revolution.",
+    "rated": "PG",
+    "runtime_min": 138,
+    "title": "Duck, You Sucker!",
+    "total_seasons": null,
+    "year": 1971,
+    "year_end": null
+  },
   "A Woman Under the Influence": {
     "genre": [
       "Drama",
