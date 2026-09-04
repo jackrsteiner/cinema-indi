@@ -49,6 +49,7 @@ Fire of Love (2022)
 Forrest Gump
 Freaks and Geeks (series)
 From Up on Poppy Hill
+Garden State
 Gattaca
 Glory (1989)
 The Good, the Bad and the Ugly
