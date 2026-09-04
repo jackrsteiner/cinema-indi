@@ -464,40 +464,6 @@
     "year": 2003,
     "year_end": null
   },
-  "Bananaman (series)": {
-    "genre": [
-      "Animation",
-      "Action",
-      "Adventure"
-    ],
-    "guide_fetched_at": "2026-09-03T08:46:08Z",
-    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
-    "imdb_certificate": "TV-Y",
-    "imdb_id": "tt0084980",
-    "imdb_rating": 6.7,
-    "imdb_votes": 1816,
-    "kind": "series",
-    "list_title": "Bananaman",
-    "metascore": null,
-    "omdb_fetched_at": "2026-09-03T08:46:08Z",
-    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTkxMTYzMjczN15BMl5BanBnXkFtZTcwOTIyMDcyMQ@@._V1_SX300.jpg",
-    "ongoing": false,
-    "parents_guide": {
-      "drugs": "None",
-      "frightening": "Moderate",
-      "profanity": "None",
-      "sex": "None",
-      "violence": "Mild"
-    },
-    "parents_guide_votes": {},
-    "plot": "Bananaman, a young boy named Eric, transforms into a super-strong hero by eating bananas. His crow friend provides bananas. As Bananaman, he battles villains while keeping his alter-ego secret from others.",
-    "rated": "TV-Y7",
-    "runtime_min": 5,
-    "title": "Bananaman",
-    "total_seasons": 3,
-    "year": 1983,
-    "year_end": 1986
-  },
   "Band of Brothers (series)": {
     "genre": [
       "Action",
