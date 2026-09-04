@@ -111,6 +111,7 @@ Rushmore
 Saving Private Ryan
 Schindler's List
 Scott Pilgrim vs. the World
+The Secret Life of Walter Mitty (2013)
 Seinfeld (series)
 Shaun of the Dead
 Silver Spoon (2013 series)
