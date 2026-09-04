@@ -129,6 +129,7 @@ The Truman Show
 Turbo Kid
 Twelve Monkeys
 The Twilight Zone (1959 series)
+Under the Sun (2015)
 Up (2009)
 Wake in Fright (1971)
 WALL-E
