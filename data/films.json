@@ -1332,6 +1332,40 @@
     "year": 2011,
     "year_end": null
   },
+  "Garden State": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-09-04T00:36:53Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0333766",
+    "imdb_rating": 7.4,
+    "imdb_votes": 227462,
+    "kind": "film",
+    "list_title": "Garden State",
+    "metascore": 67,
+    "omdb_fetched_at": "2026-09-04T00:36:52Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjc5MDE0NjkxOF5BMl5BanBnXkFtZTcwNzA0NTkyMw@@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "None",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "A quietly troubled young man returns home for his mother's funeral after being estranged from his family for a decade.",
+    "rated": "R",
+    "runtime_min": 102,
+    "title": "Garden State",
+    "total_seasons": null,
+    "year": 2004,
+    "year_end": null
+  },
   "Gattaca": {
     "genre": [
       "Drama",
