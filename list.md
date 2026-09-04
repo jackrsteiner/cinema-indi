@@ -46,7 +46,6 @@ Fantasia (1940)
 Ferris Bueller's Day Off
 The Fifth Element
 Fire of Love (2022)
-A Fistful of Dynamite
 Forrest Gump
 Freaks and Geeks (series)
 From Up on Poppy Hill
