@@ -1861,6 +1861,39 @@
     "year": 1996,
     "year_end": null
   },
+  "Josie and the Pussycats (2001)": {
+    "genre": [
+      "Comedy",
+      "Music"
+    ],
+    "guide_fetched_at": "2026-09-05T09:41:55Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0236348",
+    "imdb_rating": 5.7,
+    "imdb_votes": 26253,
+    "kind": "film",
+    "list_title": "Josie and the Pussycats",
+    "metascore": 47,
+    "omdb_fetched_at": "2026-09-05T09:41:54Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNjQxZDlmNjUtM2RjMS00MWYwLWJhNjYtNGJhNzg2YWVmMzQwXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "None",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A girl group find themselves in the middle of a conspiracy to deliver subliminal messages through popular music.",
+    "rated": "PG-13",
+    "runtime_min": 98,
+    "title": "Josie and the Pussycats",
+    "total_seasons": null,
+    "year": 2001,
+    "year_end": null
+  },
   "Juno (2007)": {
     "genre": [
       "Comedy",
