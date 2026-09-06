@@ -50,6 +50,7 @@ A Fistful of Dynamite
 Forrest Gump
 Freaks and Geeks (series)
 From Up on Poppy Hill
+Gallipoli (1981)
 Garden State
 Gattaca
 Glory (1989)
