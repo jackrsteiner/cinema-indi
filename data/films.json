@@ -1365,6 +1365,40 @@
     "year": 2011,
     "year_end": null
   },
+  "Gallipoli (1981)": {
+    "genre": [
+      "Adventure",
+      "Drama",
+      "History"
+    ],
+    "guide_fetched_at": "2026-09-06T09:49:07Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0082432",
+    "imdb_rating": 7.4,
+    "imdb_votes": 43587,
+    "kind": "film",
+    "list_title": "Gallipoli",
+    "metascore": 65,
+    "omdb_fetched_at": "2026-09-06T09:49:06Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYjlmMzdiZjAtNTI5Yi00MWNlLTk4NWItOTAxZDQwN2UwZTc5XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "Two Australian sprinters face the brutal realities of war when they are sent to fight in the Gallipoli campaign in Turkey during World War I.",
+    "rated": "PG",
+    "runtime_min": 110,
+    "title": "Gallipoli",
+    "total_seasons": null,
+    "year": 1981,
+    "year_end": null
+  },
   "Garden State": {
     "genre": [
       "Comedy",
