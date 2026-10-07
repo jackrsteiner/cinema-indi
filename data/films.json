@@ -364,6 +364,39 @@
     "year": 1995,
     "year_end": null
   },
+  "Army of Darkness": {
+    "genre": [
+      "Comedy",
+      "Horror"
+    ],
+    "guide_fetched_at": "2026-10-07T08:28:16Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0106308",
+    "imdb_rating": 7.4,
+    "imdb_votes": 213187,
+    "kind": "film",
+    "list_title": "Army of Darkness",
+    "metascore": 59,
+    "omdb_fetched_at": "2026-10-07T08:28:16Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYzU4ZDFmNzEtNmE2Ny00OTA1LWEyMmMtZjFiOWM0MGM3YTQ1XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "When Ash Williams is accidentally transported to 1300 A.D., he must retrieve the Necronomicon and battle an army of the dead in order to return home.",
+    "rated": "R",
+    "runtime_min": 81,
+    "title": "Army of Darkness",
+    "total_seasons": null,
+    "year": 1993,
+    "year_end": null
+  },
   "Back to the Future": {
     "genre": [
       "Adventure",
