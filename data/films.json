@@ -998,6 +998,40 @@
     "year": 1988,
     "year_end": null
   },
+  "Doug (1991 series)": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-10-07T09:07:18Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-Y",
+    "imdb_id": "tt0101084",
+    "imdb_rating": 7.4,
+    "imdb_votes": 21157,
+    "kind": "series",
+    "list_title": "Doug",
+    "metascore": null,
+    "omdb_fetched_at": "2026-10-07T09:07:17Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNjhkZWMxZTQtMjMyNC00NjU2LWE2NTUtNzg3YzI5NTY3NjBiXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "The life of a young boy as he meets friends, falls in love, maneuvers his way through grade 6 and writes all about it in his journal.",
+    "rated": "TV-Y",
+    "runtime_min": 30,
+    "title": "Doug",
+    "total_seasons": 4,
+    "year": 1991,
+    "year_end": 1996
+  },
   "E.T. the Extra-Terrestrial": {
     "genre": [
       "Adventure",
@@ -1098,6 +1132,40 @@
     "total_seasons": null,
     "year": 1990,
     "year_end": null
+  },
+  "Eerie, Indiana (1991 series)": {
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-10-07T09:07:18Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-Y7",
+    "imdb_id": "tt0101088",
+    "imdb_rating": 8.2,
+    "imdb_votes": 6496,
+    "kind": "series",
+    "list_title": "Eerie, Indiana",
+    "metascore": null,
+    "omdb_fetched_at": "2026-10-07T09:07:18Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYzNjMGRmYmUtY2UxOC00MTI3LWE5NzktOTk2NzY1MWE1MmEzXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Teenage weirdness investigator Marshall Teller adventures through his new small-town home with his friends, geeky Simon Holmes and mysterious Dash X.",
+    "rated": "TV-Y7",
+    "runtime_min": 30,
+    "title": "Eerie, Indiana",
+    "total_seasons": 1,
+    "year": 1991,
+    "year_end": 1992
   },
   "Empire of the Sun (1987)": {
     "genre": [
@@ -2976,6 +3044,40 @@
     "year": 2002,
     "year_end": null
   },
+  "Rugrats (1991 series)": {
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-10-07T09:07:19Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-Y",
+    "imdb_id": "tt0101188",
+    "imdb_rating": 7.4,
+    "imdb_votes": 40936,
+    "kind": "series",
+    "list_title": "Rugrats",
+    "metascore": null,
+    "omdb_fetched_at": "2026-10-07T09:07:18Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTkwZWRjZjktMDQyMy00MjljLWIzMmMtMjc2OTNiNGY2YzkzXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "Tommy, Chuckie, Angelica, Phil and Lil and Susie find themselves in a slew of adventures - both real and imaginary. Baldly go where no baby's every gone before as the Rugrats turn the ordinary into the extraordinary every day.",
+    "rated": "TV-Y",
+    "runtime_min": 30,
+    "title": "Rugrats",
+    "total_seasons": 10,
+    "year": 1991,
+    "year_end": 2003
+  },
   "Rushmore": {
     "genre": [
       "Comedy",
@@ -3009,6 +3111,40 @@
     "total_seasons": null,
     "year": 1999,
     "year_end": null
+  },
+  "Salute Your Shorts (series)": {
+    "genre": [
+      "Comedy",
+      "Family",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-10-07T09:07:19Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-G",
+    "imdb_id": "tt0101190",
+    "imdb_rating": 8.2,
+    "imdb_votes": 6524,
+    "kind": "series",
+    "list_title": "Salute Your Shorts",
+    "metascore": null,
+    "omdb_fetched_at": "2026-10-07T09:07:19Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTE3YzU5ZmMtY2FkZi00ZWRhLWI2NWEtNmY2MmEzNzlhMzNjXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "A group of kids at a summer camp, run by the heard-but-never-seen Dr. Kahn, form friendships as they spend time harassing buffoonish camp counselor Kevin \"Ug\" Lee.",
+    "rated": "TV-G",
+    "runtime_min": 30,
+    "title": "Salute Your Shorts",
+    "total_seasons": 2,
+    "year": 1991,
+    "year_end": 1992
   },
   "Saving Private Ryan": {
     "genre": [
