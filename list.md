@@ -91,6 +91,7 @@ The Matrix
 Midnight in Paris
 Muppet Treasure Island
 My Neighbor Totoro
+Nick and Norah's Infinite Playlist
 The Nightmare Before Christmas
 Ocean's Eleven (2001)
 Pan's Labyrinth
