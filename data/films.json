@@ -998,6 +998,40 @@
     "year": 1988,
     "year_end": null
   },
+  "E.T. the Extra-Terrestrial": {
+    "genre": [
+      "Adventure",
+      "Family",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-10-07T08:58:54Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0083866",
+    "imdb_rating": 7.9,
+    "imdb_votes": 468998,
+    "kind": "film",
+    "list_title": "E.T. the Extra-Terrestrial",
+    "metascore": 92,
+    "omdb_fetched_at": "2026-10-07T08:58:54Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYTNhNmY0YWMtMTczYi00MTA0LThhMmUtMTIxYzE0Y2QwMzRlXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A troubled child summons the courage to help a friendly alien escape from Earth and return to his home planet.",
+    "rated": "PG",
+    "runtime_min": 115,
+    "title": "E.T. the Extra-Terrestrial",
+    "total_seasons": null,
+    "year": 1982,
+    "year_end": null
+  },
   "Easy Rider": {
     "genre": [
       "Adventure",
