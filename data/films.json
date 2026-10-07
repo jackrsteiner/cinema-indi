@@ -5,7 +5,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T08:46:08Z",
+    "guide_fetched_at": "2026-10-07T08:04:57Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-G",
     "imdb_id": "tt0059026",
@@ -39,7 +39,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-09-03T08:46:08Z",
+    "guide_fetched_at": "2026-10-07T08:04:58Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Approved",
     "imdb_id": "tt0044008",
@@ -73,7 +73,7 @@
       "War",
       "Western"
     ],
-    "guide_fetched_at": "2026-09-04T02:28:04Z",
+    "guide_fetched_at": "2026-10-07T08:05:02Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": null,
     "imdb_id": "tt0067140",
@@ -106,7 +106,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-09-03T08:46:10Z",
+    "guide_fetched_at": "2026-10-07T08:05:21Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0072417",
@@ -140,7 +140,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-09-03T16:31:00Z",
+    "guide_fetched_at": "2026-10-07T08:04:53Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt1091722",
@@ -173,7 +173,7 @@
       "Horror",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:03Z",
+    "guide_fetched_at": "2026-10-07T08:04:53Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0078748",
@@ -207,7 +207,7 @@
       "Adventure",
       "Horror"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:04Z",
+    "guide_fetched_at": "2026-10-07T08:04:53Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0090605",
@@ -241,7 +241,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:14Z",
+    "guide_fetched_at": "2026-10-07T08:04:54Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0181875",
@@ -273,7 +273,7 @@
     "genre": [
       "Comedy"
     ],
-    "guide_fetched_at": "2026-09-03T08:53:54Z",
+    "guide_fetched_at": "2026-10-07T08:04:54Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0163651",
@@ -306,8 +306,7 @@
       "Comedy",
       "Romance"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:18Z",
+    "guide_fetched_at": "2026-10-07T08:04:54Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0211915",
@@ -337,7 +336,7 @@
       "Drama",
       "History"
     ],
-    "guide_fetched_at": "2026-09-03T08:11:30Z",
+    "guide_fetched_at": "2026-10-07T08:04:54Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0112384",
@@ -352,7 +351,7 @@
     "parents_guide": {
       "drugs": "Mild",
       "frightening": "Mild",
-      "profanity": "Moderate",
+      "profanity": "Mild",
       "sex": "Mild",
       "violence": "None"
     },
@@ -371,8 +370,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:18Z",
+    "guide_fetched_at": "2026-10-07T08:04:55Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0088763",
@@ -402,7 +400,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T08:37:58Z",
+    "guide_fetched_at": "2026-10-07T08:04:55Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0096874",
@@ -436,7 +434,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T08:37:58Z",
+    "guide_fetched_at": "2026-10-07T08:04:55Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0099088",
@@ -470,7 +468,7 @@
       "Crime",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:01Z",
+    "guide_fetched_at": "2026-10-07T08:04:55Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0307987",
@@ -504,7 +502,7 @@
       "Drama",
       "History"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:36Z",
+    "guide_fetched_at": "2026-10-07T08:04:55Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-MA",
     "imdb_id": "tt0185906",
@@ -538,7 +536,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:15Z",
+    "guide_fetched_at": "2026-10-07T08:04:56Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0090728",
@@ -572,8 +570,7 @@
       "Drama",
       "Sci-Fi"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:18Z",
+    "guide_fetched_at": "2026-10-07T08:04:56Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0083658",
@@ -603,7 +600,7 @@
       "Drama",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-09-03T08:37:59Z",
+    "guide_fetched_at": "2026-10-07T08:04:56Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt1856101",
@@ -637,7 +634,7 @@
       "Drama",
       "Sport"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:15Z",
+    "guide_fetched_at": "2026-10-07T08:04:56Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0078902",
@@ -671,7 +668,7 @@
       "Drama",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:04Z",
+    "guide_fetched_at": "2026-10-07T08:04:57Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0393109",
@@ -705,7 +702,7 @@
       "Romance",
       "War"
     ],
-    "guide_fetched_at": "2026-09-03T23:44:50Z",
+    "guide_fetched_at": "2026-10-07T08:04:57Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0034583",
@@ -738,7 +735,7 @@
       "Documentary",
       "History"
     ],
-    "guide_fetched_at": "2026-09-03T16:24:52Z",
+    "guide_fetched_at": "2026-10-07T08:04:57Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt1664894",
@@ -772,7 +769,7 @@
       "Mystery",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:37Z",
+    "guide_fetched_at": "2026-10-07T08:04:58Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0071315",
@@ -805,7 +802,7 @@
       "Drama",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-09-03T23:44:50Z",
+    "guide_fetched_at": "2026-10-07T08:04:58Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0033467",
@@ -839,7 +836,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T10:58:12Z",
+    "guide_fetched_at": "2026-10-07T08:04:59Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-Y",
     "imdb_id": "tt0283721",
@@ -873,7 +870,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:15Z",
+    "guide_fetched_at": "2026-10-07T08:04:59Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0106697",
@@ -907,7 +904,7 @@
       "Comedy",
       "Music"
     ],
-    "guide_fetched_at": "2026-09-03T08:53:54Z",
+    "guide_fetched_at": "2026-10-07T08:04:59Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0165710",
@@ -940,7 +937,7 @@
       "Action",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:01Z",
+    "guide_fetched_at": "2026-10-07T08:05:00Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0095016",
@@ -973,7 +970,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T08:46:09Z",
+    "guide_fetched_at": "2026-10-07T08:05:00Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0064276",
@@ -987,7 +984,7 @@
     "ongoing": false,
     "parents_guide": {
       "drugs": "Severe",
-      "frightening": "Mild",
+      "frightening": "Moderate",
       "profanity": "Mild",
       "sex": "Mild",
       "violence": "Moderate"
@@ -1007,7 +1004,7 @@
       "Fantasy",
       "Romance"
     ],
-    "guide_fetched_at": "2026-09-03T08:19:04Z",
+    "guide_fetched_at": "2026-10-07T08:05:00Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0099487",
@@ -1040,7 +1037,7 @@
       "Drama",
       "War"
     ],
-    "guide_fetched_at": "2026-09-04T00:43:15Z",
+    "guide_fetched_at": "2026-10-07T08:05:00Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0092965",
@@ -1074,7 +1071,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:57Z",
+    "guide_fetched_at": "2026-10-07T08:05:00Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0338013",
@@ -1107,7 +1104,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T16:31:01Z",
+    "guide_fetched_at": "2026-10-07T08:05:01Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0404030",
@@ -1141,7 +1138,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T10:57:19Z",
+    "guide_fetched_at": "2026-10-07T08:05:01Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0089114",
@@ -1175,7 +1172,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:05Z",
+    "guide_fetched_at": "2026-10-07T08:05:01Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0032455",
@@ -1207,8 +1204,7 @@
     "genre": [
       "Comedy"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:19Z",
+    "guide_fetched_at": "2026-10-07T08:05:01Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0091042",
@@ -1237,7 +1233,7 @@
       "Documentary",
       "Biography"
     ],
-    "guide_fetched_at": "2026-09-03T16:24:53Z",
+    "guide_fetched_at": "2026-10-07T08:05:02Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt16227014",
@@ -1270,7 +1266,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-09-03T08:11:30Z",
+    "guide_fetched_at": "2026-10-07T08:05:02Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0109830",
@@ -1303,7 +1299,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T07:53:49Z",
+    "guide_fetched_at": "2026-10-07T08:05:02Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-14",
     "imdb_id": "tt0193676",
@@ -1337,7 +1333,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T11:01:08Z",
+    "guide_fetched_at": "2026-10-07T08:05:02Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt1798188",
@@ -1351,7 +1347,7 @@
     "ongoing": false,
     "parents_guide": {
       "drugs": "Mild",
-      "frightening": "Mild",
+      "frightening": "None",
       "profanity": "None",
       "sex": "None",
       "violence": "None"
@@ -1371,7 +1367,7 @@
       "Drama",
       "History"
     ],
-    "guide_fetched_at": "2026-09-06T09:49:07Z",
+    "guide_fetched_at": "2026-10-07T08:05:03Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0082432",
@@ -1387,7 +1383,7 @@
       "drugs": "Mild",
       "frightening": "Moderate",
       "profanity": "Mild",
-      "sex": "Mild",
+      "sex": "Moderate",
       "violence": "Moderate"
     },
     "parents_guide_votes": {},
@@ -1405,7 +1401,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-09-04T00:36:53Z",
+    "guide_fetched_at": "2026-10-07T08:05:03Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0333766",
@@ -1439,7 +1435,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:02Z",
+    "guide_fetched_at": "2026-10-07T08:05:03Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0119177",
@@ -1473,7 +1469,7 @@
       "Drama",
       "History"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:38Z",
+    "guide_fetched_at": "2026-10-07T08:05:03Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0097441",
@@ -1506,7 +1502,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-09-03T08:53:55Z",
+    "guide_fetched_at": "2026-10-07T08:05:04Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0366551",
@@ -1540,7 +1536,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:02Z",
+    "guide_fetched_at": "2026-10-07T08:05:04Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0067185",
@@ -1574,7 +1570,7 @@
       "Drama",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-09-03T08:46:09Z",
+    "guide_fetched_at": "2026-10-07T08:05:04Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Approved",
     "imdb_id": "tt0042546",
@@ -1608,7 +1604,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T10:57:19Z",
+    "guide_fetched_at": "2026-10-07T08:05:04Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0097523",
@@ -1642,7 +1638,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T11:01:42Z",
+    "guide_fetched_at": "2026-10-07T08:05:05Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0347149",
@@ -1676,7 +1672,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:15Z",
+    "guide_fetched_at": "2026-10-07T08:05:05Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0387808",
@@ -1709,8 +1705,7 @@
       "Action",
       "Adventure"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:19Z",
+    "guide_fetched_at": "2026-10-07T08:05:05Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0097576",
@@ -1739,8 +1734,7 @@
       "Action",
       "Adventure"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:22Z",
+    "guide_fetched_at": "2026-10-07T08:05:05Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0082971",
@@ -1769,8 +1763,7 @@
       "Action",
       "Adventure"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:20Z",
+    "guide_fetched_at": "2026-10-07T08:05:05Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0087469",
@@ -1799,7 +1792,7 @@
       "Horror",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:16Z",
+    "guide_fetched_at": "2026-10-07T08:05:06Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0077745",
@@ -1833,7 +1826,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-09-03T08:46:09Z",
+    "guide_fetched_at": "2026-10-07T08:05:06Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0038650",
@@ -1867,7 +1860,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T08:19:05Z",
+    "guide_fetched_at": "2026-10-07T08:05:06Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0116683",
@@ -1900,7 +1893,7 @@
       "Comedy",
       "Music"
     ],
-    "guide_fetched_at": "2026-09-05T09:41:55Z",
+    "guide_fetched_at": "2026-10-07T08:05:06Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0236348",
@@ -1933,7 +1926,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T23:59:17Z",
+    "guide_fetched_at": "2026-10-07T08:05:07Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0467406",
@@ -1967,7 +1960,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T08:11:30Z",
+    "guide_fetched_at": "2026-10-07T08:05:07Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0107290",
@@ -2001,8 +1994,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:20Z",
+    "guide_fetched_at": "2026-10-07T08:05:07Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0097814",
@@ -2032,7 +2024,7 @@
       "Crime",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:38Z",
+    "guide_fetched_at": "2026-10-07T08:05:07Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0266697",
@@ -2066,7 +2058,7 @@
       "Crime",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:38Z",
+    "guide_fetched_at": "2026-10-07T08:05:07Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0378194",
@@ -2100,7 +2092,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:39Z",
+    "guide_fetched_at": "2026-10-07T08:05:07Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0091369",
@@ -2134,7 +2126,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:16Z",
+    "guide_fetched_at": "2026-10-07T08:05:08Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0107362",
@@ -2168,7 +2160,7 @@
       "Biography",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T19:16:52Z",
+    "guide_fetched_at": "2026-10-07T08:05:08Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Approved",
     "imdb_id": "tt0056172",
@@ -2202,7 +2194,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:39Z",
+    "guide_fetched_at": "2026-10-07T08:05:08Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0498380",
@@ -2236,7 +2228,7 @@
       "Horror",
       "Musical"
     ],
-    "guide_fetched_at": "2026-09-03T10:57:20Z",
+    "guide_fetched_at": "2026-10-07T08:05:09Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0091419",
@@ -2270,7 +2262,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:16Z",
+    "guide_fetched_at": "2026-10-07T08:05:09Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0074812",
@@ -2304,7 +2296,7 @@
       "Crime",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:02Z",
+    "guide_fetched_at": "2026-10-07T08:05:08Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0110413",
@@ -2338,7 +2330,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:03Z",
+    "guide_fetched_at": "2026-10-07T08:05:09Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0082694",
@@ -2372,8 +2364,7 @@
       "Fantasy",
       "Romance"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:21Z",
+    "guide_fetched_at": "2026-10-07T08:05:10Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1605783",
@@ -2403,8 +2394,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:21Z",
+    "guide_fetched_at": "2026-10-07T08:05:10Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0117110",
@@ -2434,8 +2424,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:21Z",
+    "guide_fetched_at": "2026-10-07T08:05:10Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0096283",
@@ -2459,12 +2448,46 @@
     "title": "My Neighbor Totoro",
     "year": 1988
   },
+  "Nick and Norah's Infinite Playlist": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Music"
+    ],
+    "guide_fetched_at": "2026-10-07T08:05:10Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0981227",
+    "imdb_rating": 6.6,
+    "imdb_votes": 97731,
+    "kind": "film",
+    "list_title": "Nick and Norah's Infinite Playlist",
+    "metascore": 64,
+    "omdb_fetched_at": "2026-10-07T08:05:10Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTY2MjI4ODI4Nl5BMl5BanBnXkFtZTcwNTMyNjM4MQ@@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Two newly acquainted music-lovers spend the night scouting the streets of New York City in search of their favourite band's surprise secret show. All the while, they're both being chased after by their tempting but devious exes.",
+    "rated": "PG-13",
+    "runtime_min": 90,
+    "title": "Nick and Norah's Infinite Playlist",
+    "total_seasons": null,
+    "year": 2008,
+    "year_end": null
+  },
   "Ocean's Eleven (2001)": {
     "genre": [
       "Crime",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:03Z",
+    "guide_fetched_at": "2026-10-07T08:05:11Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0240772",
@@ -2498,7 +2521,7 @@
       "Fantasy",
       "War"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:39Z",
+    "guide_fetched_at": "2026-10-07T08:05:11Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0457430",
@@ -2532,7 +2555,7 @@
       "Family",
       "Musical"
     ],
-    "guide_fetched_at": "2026-09-03T20:47:05Z",
+    "guide_fetched_at": "2026-10-07T08:05:11Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-Y",
     "imdb_id": "tt0090500",
@@ -2565,7 +2588,7 @@
       "Drama",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:03Z",
+    "guide_fetched_at": "2026-10-07T08:05:12Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0073540",
@@ -2599,8 +2622,7 @@
       "Drama",
       "History"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:22Z",
+    "guide_fetched_at": "2026-10-07T08:05:12Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0168122",
@@ -2630,7 +2652,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:03Z",
+    "guide_fetched_at": "2026-10-07T08:05:12Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0325980",
@@ -2663,7 +2685,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:04Z",
+    "guide_fetched_at": "2026-10-07T08:05:12Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0063442",
@@ -2697,8 +2719,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:22Z",
+    "guide_fetched_at": "2026-10-07T08:05:13Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0876563",
@@ -2728,7 +2749,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:06Z",
+    "guide_fetched_at": "2026-10-07T08:05:13Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0390384",
@@ -2762,7 +2783,7 @@
       "Horror",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-09-03T23:44:51Z",
+    "guide_fetched_at": "2026-10-07T08:05:13Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0054215",
@@ -2796,8 +2817,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:23Z",
+    "guide_fetched_at": "2026-10-07T08:05:13Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0089886",
@@ -2827,7 +2847,7 @@
       "Musical",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T16:32:37Z",
+    "guide_fetched_at": "2026-10-07T08:05:14Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0963194",
@@ -2861,7 +2881,7 @@
       "Horror",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T08:11:31Z",
+    "guide_fetched_at": "2026-10-07T08:05:14Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0120804",
@@ -2895,7 +2915,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:07Z",
+    "guide_fetched_at": "2026-10-07T08:05:14Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0128445",
@@ -2928,7 +2948,7 @@
       "Drama",
       "War"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:40Z",
+    "guide_fetched_at": "2026-10-07T08:05:14Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0120815",
@@ -2962,7 +2982,7 @@
       "Drama",
       "History"
     ],
-    "guide_fetched_at": "2026-09-04T00:43:16Z",
+    "guide_fetched_at": "2026-10-07T08:05:15Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0108052",
@@ -2996,8 +3016,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:23Z",
+    "guide_fetched_at": "2026-10-07T08:05:15Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0446029",
@@ -3025,7 +3044,7 @@
     "genre": [
       "Comedy"
     ],
-    "guide_fetched_at": "2026-09-03T07:53:49Z",
+    "guide_fetched_at": "2026-10-07T08:05:15Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-PG",
     "imdb_id": "tt0098904",
@@ -3058,7 +3077,7 @@
       "Comedy",
       "Horror"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:04Z",
+    "guide_fetched_at": "2026-10-07T08:05:15Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0365748",
@@ -3092,7 +3111,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:16Z",
+    "guide_fetched_at": "2026-10-07T08:05:16Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-PG",
     "imdb_id": "tt2909912",
@@ -3126,7 +3145,7 @@
       "Adventure",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T17:04:44Z",
+    "guide_fetched_at": "2026-10-07T08:05:16Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0111257",
@@ -3160,7 +3179,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T11:01:09Z",
+    "guide_fetched_at": "2026-10-07T08:05:16Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0245429",
@@ -3194,8 +3213,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:24Z",
+    "guide_fetched_at": "2026-10-07T08:05:16Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0076759",
@@ -3224,8 +3242,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:19Z",
+    "guide_fetched_at": "2026-10-07T08:05:17Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0080684",
@@ -3254,8 +3271,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:23Z",
+    "guide_fetched_at": "2026-10-07T08:05:17Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0086190",
@@ -3284,7 +3300,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T08:40:22Z",
+    "guide_fetched_at": "2026-10-07T08:05:17Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0103064",
@@ -3318,7 +3334,7 @@
       "Drama",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:03Z",
+    "guide_fetched_at": "2026-10-07T08:04:52Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0096754",
@@ -3352,7 +3368,7 @@
       "Biography",
       "Crime"
     ],
-    "guide_fetched_at": "2026-09-03T16:24:52Z",
+    "guide_fetched_at": "2026-10-07T08:04:52Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt2375605",
@@ -3365,7 +3381,7 @@
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZDg1NDMwMGQtMmFkZS00NTQwLTkxYjktMTlhNjI2NzNlYTQ1XkEyXkFqcGc@._V1_SX300.jpg",
     "ongoing": false,
     "parents_guide": {
-      "drugs": "Moderate",
+      "drugs": "Mild",
       "frightening": "Severe",
       "profanity": "Mild",
       "sex": "Moderate",
@@ -3386,7 +3402,7 @@
       "Drama",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T07:53:49Z",
+    "guide_fetched_at": "2026-10-07T08:04:53Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-Y",
     "imdb_id": "tt0105933",
@@ -3420,8 +3436,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:17Z",
+    "guide_fetched_at": "2026-10-07T08:04:53Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0015532",
@@ -3451,7 +3466,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:36Z",
+    "guide_fetched_at": "2026-10-07T08:04:54Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0243759",
@@ -3484,7 +3499,7 @@
       "Comedy",
       "Crime"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:37Z",
+    "guide_fetched_at": "2026-10-07T08:04:56Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0118715",
@@ -3518,8 +3533,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:18Z",
+    "guide_fetched_at": "2026-10-07T08:04:56Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt1596363",
@@ -3549,7 +3563,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:04Z",
+    "guide_fetched_at": "2026-10-07T08:04:57Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0844286",
@@ -3583,8 +3597,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:19Z",
+    "guide_fetched_at": "2026-10-07T08:04:58Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0092752",
@@ -3614,7 +3627,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:05Z",
+    "guide_fetched_at": "2026-10-07T08:04:59Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0838221",
@@ -3648,7 +3661,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-09-03T08:52:37Z",
+    "guide_fetched_at": "2026-10-07T08:04:59Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0083791",
@@ -3682,7 +3695,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:01Z",
+    "guide_fetched_at": "2026-10-07T08:05:01Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0119116",
@@ -3716,7 +3729,7 @@
       "Drama",
       "Western"
     ],
-    "guide_fetched_at": "2026-09-03T08:11:30Z",
+    "guide_fetched_at": "2026-10-07T08:05:03Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0060196",
@@ -3750,7 +3763,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T02:11:10Z",
+    "guide_fetched_at": "2026-10-07T08:05:04Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0089218",
@@ -3779,7 +3792,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:06Z",
+    "guide_fetched_at": "2026-10-07T08:05:04Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt2278388",
@@ -3813,8 +3826,7 @@
       "Action",
       "Adventure"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:20Z",
+    "guide_fetched_at": "2026-10-07T08:05:06Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0129167",
@@ -3844,8 +3856,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:21Z",
+    "guide_fetched_at": "2026-10-07T08:05:08Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0095489",
@@ -3875,7 +3886,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:06Z",
+    "guide_fetched_at": "2026-10-07T08:05:09Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0362270",
@@ -3909,7 +3920,7 @@
       "Short",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T02:11:10Z",
+    "guide_fetched_at": "2026-10-07T08:05:09Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": null,
     "imdb_id": "tt0093488",
@@ -3932,7 +3943,7 @@
       "Action",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T08:37:59Z",
+    "guide_fetched_at": "2026-10-07T08:05:10Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0133093",
@@ -3966,7 +3977,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T23:42:14Z",
+    "guide_fetched_at": "2026-10-07T08:05:11Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0107688",
@@ -3999,7 +4010,7 @@
       "Drama",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T08:46:09Z",
+    "guide_fetched_at": "2026-10-07T08:05:11Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0073580",
@@ -4033,7 +4044,7 @@
       "Drama",
       "Music"
     ],
-    "guide_fetched_at": "2026-09-04T00:43:15Z",
+    "guide_fetched_at": "2026-10-07T08:05:11Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0253474",
@@ -4067,8 +4078,7 @@
       "Musical",
       "Romance"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:21Z",
+    "guide_fetched_at": "2026-10-07T08:05:12Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0086112",
@@ -4098,8 +4108,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:22Z",
+    "guide_fetched_at": "2026-10-07T08:05:13Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0093779",
@@ -4128,7 +4137,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T09:57:07Z",
+    "guide_fetched_at": "2026-10-07T08:05:14Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0265666",
@@ -4162,7 +4171,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-04T01:25:29Z",
+    "guide_fetched_at": "2026-10-07T08:05:15Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0359950",
@@ -4195,8 +4204,7 @@
       "Biography",
       "Drama"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:23Z",
+    "guide_fetched_at": "2026-10-07T08:05:16Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1285016",
@@ -4225,7 +4233,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T16:31:01Z",
+    "guide_fetched_at": "2026-10-07T08:05:16Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0367089",
@@ -4259,8 +4267,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:24Z",
+    "guide_fetched_at": "2026-10-07T08:05:17Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0088247",
@@ -4290,7 +4297,7 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:17Z",
+    "guide_fetched_at": "2026-10-07T08:05:17Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0084787",
@@ -4324,7 +4331,7 @@
       "Romance",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:04Z",
+    "guide_fetched_at": "2026-10-07T08:05:18Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0155267",
@@ -4357,7 +4364,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-09-03T10:56:36Z",
+    "guide_fetched_at": "2026-10-07T08:05:18Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0120382",
@@ -4391,7 +4398,7 @@
       "Fantasy",
       "Horror"
     ],
-    "guide_fetched_at": "2026-09-03T23:44:51Z",
+    "guide_fetched_at": "2026-10-07T08:05:19Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-PG",
     "imdb_id": "tt0052520",
@@ -4425,7 +4432,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T08:19:05Z",
+    "guide_fetched_at": "2026-10-07T08:05:21Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0100944",
@@ -4439,7 +4446,7 @@
     "ongoing": false,
     "parents_guide": {
       "drugs": "Mild",
-      "frightening": "Severe",
+      "frightening": "Moderate",
       "profanity": "Mild",
       "sex": "None",
       "violence": "Moderate"
@@ -4459,7 +4466,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-09-03T08:42:36Z",
+    "guide_fetched_at": "2026-10-07T08:05:21Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0032138",
@@ -4493,7 +4500,7 @@
       "Drama",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T07:53:50Z",
+    "guide_fetched_at": "2026-10-07T08:05:21Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-PG",
     "imdb_id": "tt0094582",
@@ -4525,7 +4532,7 @@
     "genre": [
       "Comedy"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:05Z",
+    "guide_fetched_at": "2026-10-07T08:05:18Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0094138",
@@ -4558,8 +4565,7 @@
       "Drama",
       "Western"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:24Z",
+    "guide_fetched_at": "2026-10-07T08:05:18Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1403865",
@@ -4589,7 +4595,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-09-03T16:18:05Z",
+    "guide_fetched_at": "2026-10-07T08:05:18Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt3672742",
@@ -4623,7 +4629,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T17:05:30Z",
+    "guide_fetched_at": "2026-10-07T08:05:19Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0114746",
@@ -4655,7 +4661,7 @@
     "genre": [
       "Documentary"
     ],
-    "guide_fetched_at": "2026-09-04T00:41:05Z",
+    "guide_fetched_at": "2026-10-07T08:05:19Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt5129818",
@@ -4683,8 +4689,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:24Z",
+    "guide_fetched_at": "2026-10-07T08:05:19Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt1049413",
@@ -4714,8 +4719,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:24Z",
+    "guide_fetched_at": "2026-10-07T08:05:20Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0910970",
@@ -4744,7 +4748,7 @@
       "Drama",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T10:07:58Z",
+    "guide_fetched_at": "2026-10-07T08:05:19Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0067541",
@@ -4778,8 +4782,7 @@
       "Drama",
       "Sci-Fi"
     ],
-    "guide_error": "HTTP 400 from https://api.graphql.imdb.com/: {\"errors\":[{\"message\":\"Cannot query field \\\"severity\\\" on type \\\"SeverityLevel\\\".\",\"locations\":[{\"line\":11,\"column\":29}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\",\"errorType\":\"CLIENT\",\"isRetrya",
-    "guide_fetched_at": "2026-09-03T01:41:25Z",
+    "guide_fetched_at": "2026-10-07T08:05:20Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0086567",
@@ -4809,7 +4812,7 @@
       "Horror",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-09-03T23:44:51Z",
+    "guide_fetched_at": "2026-10-07T08:05:20Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Approved",
     "imdb_id": "tt0056687",
@@ -4842,7 +4845,7 @@
       "Comedy",
       "Sport"
     ],
-    "guide_fetched_at": "2026-09-03T10:54:17Z",
+    "guide_fetched_at": "2026-10-07T08:05:20Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0105812",
@@ -4876,7 +4879,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-09-03T08:46:10Z",
+    "guide_fetched_at": "2026-10-07T08:05:20Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0096438",
@@ -4892,7 +4895,7 @@
       "drugs": "Moderate",
       "frightening": "Moderate",
       "profanity": "Mild",
-      "sex": "Moderate",
+      "sex": "Mild",
       "violence": "Mild"
     },
     "parents_guide_votes": {},
@@ -4910,7 +4913,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-09-03T08:19:05Z",
+    "guide_fetched_at": "2026-10-07T08:05:21Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0067992",
