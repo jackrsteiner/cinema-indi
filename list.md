@@ -37,6 +37,7 @@ David the Gnome (series)
 Demolition Man
 Detroit Rock City
 Die Hard
+E.T. the Extra-Terrestrial
 Easy Rider
 Edward Scissorhands
 Empire of the Sun (1987)
