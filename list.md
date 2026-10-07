@@ -37,9 +37,11 @@ David the Gnome (series)
 Demolition Man
 Detroit Rock City
 Die Hard
+Doug (1991 series)
 E.T. the Extra-Terrestrial
 Easy Rider
 Edward Scissorhands
+Eerie, Indiana (1991 series)
 Empire of the Sun (1987)
 Eternal Sunshine of the Spotless Mind
 Everything Is Illuminated
@@ -113,7 +115,9 @@ Real Genius
 Repo! The Genetic Opera
 Resident Evil (2002)
 The Royal Tenenbaums
+Rugrats (1991 series)
 Rushmore
+Salute Your Shorts (series)
 Saving Private Ryan
 Schindler's List
 Scott Pilgrim vs. the World
