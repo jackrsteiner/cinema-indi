@@ -10,6 +10,7 @@ Amélie
 The American Astronaut
 American Pie (1999)
 Apollo 13
+Army of Darkness
 Back to the Future
 Back to the Future Part II
 Back to the Future Part III
