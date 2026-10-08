@@ -31,6 +31,7 @@ Chinatown
 The Chipmunk Adventure
 A Christmas Carol (1951)
 Citizen Kane
+Clarissa Explains It All (series)
 The Darjeeling Limited
 The Dark Crystal
 David the Gnome (series)
