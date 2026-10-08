@@ -863,6 +863,39 @@
     "year": 1941,
     "year_end": null
   },
+  "Clarissa Explains It All (series)": {
+    "genre": [
+      "Comedy",
+      "Family"
+    ],
+    "guide_fetched_at": "2026-10-08T06:41:18Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-G",
+    "imdb_id": "tt0101065",
+    "imdb_rating": 7.1,
+    "imdb_votes": 10410,
+    "kind": "series",
+    "list_title": "Clarissa Explains It All",
+    "metascore": null,
+    "omdb_fetched_at": "2026-10-08T06:41:18Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTk4M2QyYmEtYWY4Ny00MDYxLWFkNWItY2Y2YzIzZDBlN2Q4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "As events unfold in her life, Clarissa explains to the viewer the motivations behind people's actions.",
+    "rated": "TV-G",
+    "runtime_min": 30,
+    "title": "Clarissa Explains It All",
+    "total_seasons": 5,
+    "year": 1991,
+    "year_end": 1994
+  },
   "David the Gnome (series)": {
     "genre": [
       "Animation",
