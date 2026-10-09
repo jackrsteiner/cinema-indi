@@ -39,6 +39,7 @@ David the Gnome (series)
 Demolition Man
 Detroit Rock City
 Die Hard
+Do the Right Thing
 Doug (1991 series)
 E.T. the Extra-Terrestrial
 Easy Rider
