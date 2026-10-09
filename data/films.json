@@ -2023,8 +2023,38 @@
     "year_end": null
   },
   "Iron Monkey (1993)": {
-    "error": "OMDb: no match for 'Iron Monkey (1993)' (Movie not found!)",
-    "list_title": "Iron Monkey"
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-10-09T00:26:01Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0108148",
+    "imdb_rating": 7.5,
+    "imdb_votes": 18299,
+    "kind": "film",
+    "list_title": "Iron Monkey",
+    "metascore": 79,
+    "omdb_fetched_at": "2026-10-09T00:26:00Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOWE2NzA1YTAtNmIwMi00ZjhlLTg2YTYtZGZlMDdlNjJiZWJkXkEyXkFqcGc@._V1_QL75_UX380_CR0,6,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A martial artist/doctor steals from the corrupt authorities as a masked thief to give to the poor while another martial artist/doctor is forced to hunt him down. But a major threat unites them as a powerful and traitorous shaolin ...",
+    "rated": "PG-13",
+    "runtime_min": 85,
+    "title": "Iron Monkey",
+    "total_seasons": null,
+    "year": 2001,
+    "year_end": null
   },
   "It's a Wonderful Life": {
     "genre": [
