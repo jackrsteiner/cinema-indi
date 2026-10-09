@@ -142,6 +142,7 @@ The Thing (1982)
 The Thomas Crown Affair (1999)
 Three O'Clock High
 True Grit (2010)
+True Lies
 The Truman Show
 Turbo Kid
 Twelve Monkeys
