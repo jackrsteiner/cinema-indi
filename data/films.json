@@ -2355,6 +2355,40 @@
     "year": 2004,
     "year_end": null
   },
+  "La Jetée": {
+    "genre": [
+      "Short",
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-10-09T00:58:17Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "Not Rated",
+    "imdb_id": "tt0056119",
+    "imdb_rating": 8.2,
+    "imdb_votes": 37834,
+    "kind": "film",
+    "list_title": "La Jetée",
+    "metascore": null,
+    "omdb_fetched_at": "2026-10-09T00:58:16Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYjg2Yzk3M2ItY2NlOS00MzhjLWE2NGUtN2Y1MmYxZWE3MGE1XkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "The story of a man forced to explore his memories in the wake of World War III's devastation, told through still images.",
+    "rated": "Not Rated",
+    "runtime_min": 28,
+    "title": "La Jetée",
+    "total_seasons": null,
+    "year": 1962,
+    "year_end": null
+  },
   "Labyrinth (1986)": {
     "genre": [
       "Adventure",
