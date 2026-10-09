@@ -84,6 +84,7 @@ Jurassic Park
 Kiki's Delivery Service
 Kill Bill: Vol. 1
 Kill Bill: Vol. 2
+La Jetée
 Labyrinth (1986)
 The Land Before Time
 Last Action Hero
