@@ -896,6 +896,40 @@
     "year": 1991,
     "year_end": 1994
   },
+  "Crouching Tiger, Hidden Dragon": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-10-09T00:25:11Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0190332",
+    "imdb_rating": 7.8,
+    "imdb_votes": 298065,
+    "kind": "film",
+    "list_title": "Crouching Tiger, Hidden Dragon",
+    "metascore": 94,
+    "omdb_fetched_at": "2026-10-09T00:25:10Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMzRmMTU2OWEtZjI0Ni00MGRhLThjOTItZTJiNmM4MDk0ZWU2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A young Chinese warrior steals a sword from a famed swordsman and then escapes into a world of romantic adventure with a mysterious man in the frontier of the nation.",
+    "rated": "PG-13",
+    "runtime_min": 120,
+    "title": "Crouching Tiger, Hidden Dragon",
+    "total_seasons": null,
+    "year": 2001,
+    "year_end": null
+  },
   "David the Gnome (series)": {
     "genre": [
       "Animation",
@@ -1987,6 +2021,10 @@
     "total_seasons": null,
     "year": 1978,
     "year_end": null
+  },
+  "Iron Monkey (1993)": {
+    "error": "OMDb: no match for 'Iron Monkey (1993)' (Movie not found!)",
+    "list_title": "Iron Monkey"
   },
   "It's a Wonderful Life": {
     "genre": [
@@ -4367,6 +4405,40 @@
     "runtime_min": 98,
     "title": "The Princess Bride",
     "year": 1987
+  },
+  "The Quick and the Dead (1995)": {
+    "genre": [
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-10-09T00:25:11Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0114214",
+    "imdb_rating": 6.5,
+    "imdb_votes": 115143,
+    "kind": "film",
+    "list_title": "The Quick and the Dead",
+    "metascore": 49,
+    "omdb_fetched_at": "2026-10-09T00:25:11Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNzU2OGUyOWItMDY4Yi00N2M0LTgwZjYtNTQ0YjZjNTAxYjg4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A female gunfighter returns to a frontier town where a dueling tournament is being held, which she enters in an effort to avenge her father's death.",
+    "rated": "R",
+    "runtime_min": 108,
+    "title": "The Quick and the Dead",
+    "total_seasons": null,
+    "year": 1995,
+    "year_end": null
   },
   "The Royal Tenenbaums": {
     "genre": [
