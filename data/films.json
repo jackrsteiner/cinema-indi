@@ -1065,6 +1065,39 @@
     "year": 1988,
     "year_end": null
   },
+  "Do the Right Thing": {
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-10-09T00:30:07Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0097216",
+    "imdb_rating": 7.9,
+    "imdb_votes": 126528,
+    "kind": "film",
+    "list_title": "Do the Right Thing",
+    "metascore": 93,
+    "omdb_fetched_at": "2026-10-09T00:30:07Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BODA2MjU1NTI1MV5BMl5BanBnXkFtZTgwOTU4ODIwMjE@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Severe",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "On the hottest day of the year on a street in the Bedford-Stuyvesant section of Brooklyn, everyone's hatred and bigotry smolder and build until violence erupts.",
+    "rated": "R",
+    "runtime_min": 120,
+    "title": "Do the Right Thing",
+    "total_seasons": null,
+    "year": 1989,
+    "year_end": null
+  },
   "Doug (1991 series)": {
     "genre": [
       "Animation",
