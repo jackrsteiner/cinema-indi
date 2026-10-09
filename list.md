@@ -32,6 +32,7 @@ The Chipmunk Adventure
 A Christmas Carol (1951)
 Citizen Kane
 Clarissa Explains It All (series)
+Crouching Tiger, Hidden Dragon
 The Darjeeling Limited
 The Dark Crystal
 David the Gnome (series)
@@ -73,6 +74,7 @@ Indiana Jones and the Raiders of the Lost Ark
 Indiana Jones and the Temple of Doom
 Invasion of the Body Snatchers (1978)
 The Iron Giant
+Iron Monkey (1993)
 It's a Wonderful Life
 James and the Giant Peach
 Josie and the Pussycats (2001)
@@ -112,6 +114,7 @@ Ponyo
 Primer
 The Princess Bride
 Psycho (1960)
+The Quick and the Dead (1995)
 Real Genius
 Repo! The Genetic Opera
 Resident Evil (2002)
