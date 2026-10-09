@@ -4927,6 +4927,40 @@
     "title": "True Grit",
     "year": 2010
   },
+  "True Lies": {
+    "genre": [
+      "Action",
+      "Comedy",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-10-09T00:28:09Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0111503",
+    "imdb_rating": 7.3,
+    "imdb_votes": 303941,
+    "kind": "film",
+    "list_title": "True Lies",
+    "metascore": 63,
+    "omdb_fetched_at": "2026-10-09T00:28:08Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYjU1ZjNhMjMtOTMxZS00MDc1LTlkNzQtZTdjNGQyYjQ4YTA4XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A fearless, globe-trotting, terrorist-battling secret agent has his life turned upside down when he discovers his wife might be having an affair with a used-car salesman while terrorists smuggle nuclear warheads into the United St...",
+    "rated": "R",
+    "runtime_min": 141,
+    "title": "True Lies",
+    "total_seasons": null,
+    "year": 1994,
+    "year_end": null
+  },
   "Turbo Kid": {
     "genre": [
       "Action",
