@@ -5379,5 +5379,39 @@
     "total_seasons": null,
     "year": 1971,
     "year_end": null
+  },
+  "Wristcutters: A Love Story": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-10-11T04:18:42Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0477139",
+    "imdb_rating": 7.2,
+    "imdb_votes": 60112,
+    "kind": "film",
+    "list_title": "Wristcutters: A Love Story",
+    "metascore": 62,
+    "omdb_fetched_at": "2026-10-11T04:18:41Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZTQzY2ZlYzItY2M0Ny00YjIwLWJjYTQtNDEzNzJmNzE2MTc1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A film set in a strange afterlife way station that has been reserved for people who have committed suicide.",
+    "rated": "R",
+    "runtime_min": 88,
+    "title": "Wristcutters: A Love Story",
+    "total_seasons": null,
+    "year": 2007,
+    "year_end": null
   }
 }
