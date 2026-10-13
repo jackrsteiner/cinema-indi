@@ -4797,6 +4797,33 @@
     "year": 1999,
     "year_end": null
   },
+  "The Tom Green Show (series)": {
+    "genre": [
+      "Comedy",
+      "Talk-Show"
+    ],
+    "guide_fetched_at": "2026-10-13T08:56:04Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "TV-14",
+    "imdb_id": "tt0162118",
+    "imdb_rating": 6.2,
+    "imdb_votes": 1470,
+    "kind": "series",
+    "list_title": "The Tom Green Show",
+    "metascore": null,
+    "omdb_fetched_at": "2026-10-13T08:56:04Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTIyNTkzNzY2NV5BMl5BanBnXkFtZTcwODkzNzIyMQ@@._V1_SX300.jpg",
+    "ongoing": true,
+    "parents_guide": {},
+    "parents_guide_votes": {},
+    "plot": "Follows Tom Green, a comedian who likes to pull pranks on everybody.",
+    "rated": "TV-14",
+    "runtime_min": 30,
+    "title": "The Tom Green Show",
+    "total_seasons": 1,
+    "year": 1999,
+    "year_end": null
+  },
   "The Truman Show": {
     "genre": [
       "Comedy",
