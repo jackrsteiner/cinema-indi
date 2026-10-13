@@ -35,9 +35,11 @@ def build_records(entries, cache, overrides, rules, watched=None, labels=None) -
         raw = dict(cache.get(key, {}))
         ov = overrides.get(key, {})
         # Overrides win over fetched values for the fields they name.
-        for field in ("imdb_id", "title", "year", "rated", "runtime_min", "total_seasons"):
+        for field in ("imdb_id", "title", "year", "year_end", "rated", "runtime_min", "total_seasons"):
             if field in ov:
                 raw[field] = ov[field]
+        if "year_end" in ov:  # an end year means the series has finished
+            raw["ongoing"] = False
         raw.setdefault("kind", entry.get("kind", "film"))
         if "synopsis" in ov:
             raw["plot"] = ov["synopsis"]

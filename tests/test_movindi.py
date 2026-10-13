@@ -60,6 +60,16 @@ class ListParsing(unittest.TestCase):
         self.assertEqual(year_label({"kind": "series", "year": 2018, "ongoing": True}, {}), "2018–")
         self.assertEqual(year_label({"kind": "series", "year": 1989, "year_end": 1998}, {}), "1989–1998")
 
+    def test_override_year_end_closes_series(self):
+        from build import build_records
+        rules = m.load_json(m.RULES_PATH, {})
+        entry = {"key": "Show (series)", "title": "Show", "year": None, "kind": "series"}
+        cache = {"Show (series)": {"kind": "series", "year": 1999, "ongoing": True, "imdb_id": "tt0000001"}}
+        rec = build_records([entry], cache, {"Show (series)": {"year": 1994, "year_end": 2000}}, rules)[0]
+        self.assertEqual(rec["year_label"], "1994–2000")
+        rec = build_records([entry], cache, {"Show (series)": {"year_end": 1999}}, rules)[0]
+        self.assertEqual(rec["year_label"], "1999")
+
     def test_first_sentence(self):
         self.assertEqual(m.first_sentence("A boy meets a girl. They dance."), "A boy meets a girl.")
         self.assertEqual(m.first_sentence("Dr. Brown builds a time machine. Chaos ensues."), "Dr. Brown builds a time machine.")

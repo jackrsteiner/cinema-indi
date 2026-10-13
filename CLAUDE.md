@@ -40,8 +40,8 @@ if they exist.
 ## Fixing bad data
 
 Put corrections in `data/overrides.json` keyed by the `list.md` line
-(`imdb_id`, `title`, `year`, `rated`, `synopsis`, `poster`, `runtime_min`,
-`total_seasons`, `age`). Never hand-edit `data/films.json`.
+(`imdb_id`, `title`, `year`, `year_end`, `rated`, `synopsis`, `poster`,
+`runtime_min`, `total_seasons`, `age`). Never hand-edit `data/films.json`.
 
 ## Ages
 
