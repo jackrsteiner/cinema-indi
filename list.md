@@ -21,6 +21,7 @@ The Big Short
 Big Trouble in Little China
 Blade Runner
 Blade Runner 2049
+The Breakfast Club
 Breaking Away
 Brick (2005)
 The Brothers Bloom
