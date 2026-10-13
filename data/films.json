@@ -3928,6 +3928,39 @@
     "title": "The Big Short",
     "year": 2015
   },
+  "The Breakfast Club": {
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-10-13T08:39:34Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0088847",
+    "imdb_rating": 7.8,
+    "imdb_votes": 478093,
+    "kind": "film",
+    "list_title": "The Breakfast Club",
+    "metascore": 66,
+    "omdb_fetched_at": "2026-10-13T08:39:33Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZTZiMGU1MWMtNjk0Yi00ZjNjLTljMDEtMDhkNGE2OWY3YzZiXkEyXkFqcGc@._V1_QL75_UX380_CR0,16,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "None",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Five high school students meet in Saturday detention and discover how they have a great deal more in common than they thought.",
+    "rated": "R",
+    "runtime_min": 97,
+    "title": "The Breakfast Club",
+    "total_seasons": null,
+    "year": 1985,
+    "year_end": null
+  },
   "The Brothers Bloom": {
     "genre": [
       "Action",
