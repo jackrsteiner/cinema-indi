@@ -2661,9 +2661,39 @@
     "year": 1981,
     "year_end": null
   },
-  "Mary Poppins (1964)": {
-    "error": "OMDb: no match for 'Mary Poppins (1964)' (Movie not found!)",
-    "list_title": "Mary Poppins"
+  "Mary Poppins": {
+    "genre": [
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-10-15T06:22:05Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0058331",
+    "imdb_rating": 7.8,
+    "imdb_votes": 200735,
+    "kind": "film",
+    "list_title": "Mary Poppins",
+    "metascore": 88,
+    "omdb_fetched_at": "2026-10-15T06:22:05Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNThiNjgzMTYtZjUzMC00YTVlLTg4MDItMmFjMDIwYjg4ZDAwXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "None",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "In turn of the century London, a magical nanny employs music and adventure to help two neglected children become closer to their father.",
+    "rated": "G",
+    "runtime_min": 139,
+    "title": "Mary Poppins",
+    "total_seasons": null,
+    "year": 1965,
+    "year_end": null
   },
   "Midnight in Paris": {
     "genre": [
