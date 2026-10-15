@@ -34,6 +34,7 @@ A Christmas Carol (1951)
 Cinema Paradiso
 Citizen Kane
 Clarissa Explains It All (series)
+Cronos
 Crouching Tiger, Hidden Dragon
 The Darjeeling Limited
 The Dark Crystal
