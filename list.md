@@ -126,6 +126,7 @@ The Quick and the Dead (1995)
 Real Genius
 Repo! The Genetic Opera
 Resident Evil (2002)
+Robot Dreams
 The Royal Tenenbaums
 Rugrats (1991 series)
 Rushmore
