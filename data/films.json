@@ -3381,6 +3381,40 @@
     "year": 2002,
     "year_end": null
   },
+  "Robot Dreams": {
+    "genre": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-10-15T19:10:34Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt13429870",
+    "imdb_rating": 7.6,
+    "imdb_votes": 26050,
+    "kind": "film",
+    "list_title": "Robot Dreams",
+    "metascore": 87,
+    "omdb_fetched_at": "2026-10-15T19:10:34Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNjVhYWRkZjAtNTA1Mi00NDVkLWI2NjAtNzQxOTJlMWRjMDQ1XkEyXkFqcGc@._V1_QL75_UY562_CR9,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "The adventures and misfortunes of Dog and Robot in New York City during the 1980s.",
+    "rated": "PG-13",
+    "runtime_min": 103,
+    "title": "Robot Dreams",
+    "total_seasons": null,
+    "year": 2024,
+    "year_end": null
+  },
   "Rugrats (1991 series)": {
     "genre": [
       "Animation",
