@@ -2661,6 +2661,10 @@
     "year": 1981,
     "year_end": null
   },
+  "Mary Poppins (1964)": {
+    "error": "OMDb: no match for 'Mary Poppins (1964)' (Movie not found!)",
+    "list_title": "Mary Poppins"
+  },
   "Midnight in Paris": {
     "genre": [
       "Comedy",
@@ -3542,6 +3546,40 @@
     "title": "Speed",
     "total_seasons": null,
     "year": 1994,
+    "year_end": null
+  },
+  "Spider-Man: Into the Spider-Verse": {
+    "genre": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "guide_fetched_at": "2026-10-15T06:21:09Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt4633694",
+    "imdb_rating": 8.4,
+    "imdb_votes": 819638,
+    "kind": "film",
+    "list_title": "Spider-Man: Into the Spider-Verse",
+    "metascore": 87,
+    "omdb_fetched_at": "2026-10-15T06:21:09Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+    "rated": "PG",
+    "runtime_min": 117,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "total_seasons": null,
+    "year": 2018,
     "year_end": null
   },
   "Spirited Away": {
