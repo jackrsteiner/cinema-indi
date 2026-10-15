@@ -68,6 +68,7 @@ Glory (1989)
 The Good, the Bad and the Ugly
 The Goonies
 The Grand Budapest Hotel
+Hanna (2011)
 Harold & Kumar Go to White Castle
 Harold and Maude
 Harvey (1950)
