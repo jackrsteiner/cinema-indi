@@ -61,6 +61,7 @@ From Up on Poppy Hill
 Gallipoli (1981)
 Garden State
 Gattaca
+Gladiator (2000)
 Glory (1989)
 The Good, the Bad and the Ugly
 The Goonies
@@ -130,6 +131,7 @@ Salute Your Shorts (series)
 Saving Private Ryan
 Schindler's List
 Scott Pilgrim vs. the World
+Scream (1996)
 The Secret Life of Walter Mitty (2013)
 Seinfeld (series)
 Shaun of the Dead
@@ -158,6 +160,7 @@ Under the Sun (2015)
 Up (2009)
 Waiting... (2005)
 Wake in Fright (1971)
+Walkabout (1971)
 WALL-E
 WarGames
 What Ever Happened to Baby Jane? (1962)
