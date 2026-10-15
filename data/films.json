@@ -929,6 +929,40 @@
     "year": 1991,
     "year_end": 1994
   },
+  "Cronos": {
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+    ],
+    "guide_fetched_at": "2026-10-15T19:07:20Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0104029",
+    "imdb_rating": 6.7,
+    "imdb_votes": 37052,
+    "kind": "film",
+    "list_title": "Cronos",
+    "metascore": 70,
+    "omdb_fetched_at": "2026-10-15T19:07:20Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTI1YTVjNDEtYjE3Yi00NDFlLWI4M2MtNjUyYzIyOTMxMzQzXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "None",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A mysterious device designed to provide its owner with eternal life resurfaces after four hundred years, leaving a trail of destruction in its path.",
+    "rated": "R",
+    "runtime_min": 94,
+    "title": "Cronos",
+    "total_seasons": null,
+    "year": 1992,
+    "year_end": null
+  },
   "Crouching Tiger, Hidden Dragon": {
     "genre": [
       "Action",
