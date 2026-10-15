@@ -31,6 +31,7 @@ A Charlie Brown Christmas
 Chinatown
 The Chipmunk Adventure
 A Christmas Carol (1951)
+Cinema Paradiso
 Citizen Kane
 Clarissa Explains It All (series)
 Crouching Tiger, Hidden Dragon
