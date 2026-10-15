@@ -1698,6 +1698,40 @@
     "year": 1997,
     "year_end": null
   },
+  "Gladiator (2000)": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-10-15T18:52:28Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0172495",
+    "imdb_rating": 8.5,
+    "imdb_votes": 1886962,
+    "kind": "film",
+    "list_title": "Gladiator",
+    "metascore": 67,
+    "omdb_fetched_at": "2026-10-15T18:52:28Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Severe",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "rated": "R",
+    "runtime_min": 155,
+    "title": "Gladiator",
+    "total_seasons": null,
+    "year": 2000,
+    "year_end": null
+  },
   "Glory (1989)": {
     "genre": [
       "Biography",
@@ -3478,6 +3512,39 @@
     "runtime_min": 112,
     "title": "Scott Pilgrim vs. the World",
     "year": 2010
+  },
+  "Scream (1996)": {
+    "genre": [
+      "Horror",
+      "Mystery"
+    ],
+    "guide_fetched_at": "2026-10-15T18:52:28Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0117571",
+    "imdb_rating": 7.4,
+    "imdb_votes": 454623,
+    "kind": "film",
+    "list_title": "Scream",
+    "metascore": 66,
+    "omdb_fetched_at": "2026-10-15T18:52:28Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjA2NjU5MTg5OF5BMl5BanBnXkFtZTgwOTkyMzQxMDE@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "In the small town of Woodsboro, California, a masked killer known as Ghostface begins murdering high school students, and a group of friends must use their knowledge of horror movies to unmask the killer.",
+    "rated": "R",
+    "runtime_min": 111,
+    "title": "Scream",
+    "total_seasons": null,
+    "year": 1996,
+    "year_end": null
   },
   "Seinfeld (series)": {
     "genre": [
@@ -5405,6 +5472,39 @@
     "rated": "R",
     "runtime_min": 109,
     "title": "Wake in Fright",
+    "total_seasons": null,
+    "year": 1971,
+    "year_end": null
+  },
+  "Walkabout (1971)": {
+    "genre": [
+      "Adventure",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-10-15T18:52:29Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "GP",
+    "imdb_id": "tt0067959",
+    "imdb_rating": 7.6,
+    "imdb_votes": 27979,
+    "kind": "film",
+    "list_title": "Walkabout",
+    "metascore": 85,
+    "omdb_fetched_at": "2026-10-15T18:52:29Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTU1MDdmNzEtMWQ5YS00ZjRmLWJlZDgtOWYyZGIxOGQ1ZmVkXkEyXkFqcGc@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "None",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "Two city-bred siblings are stranded in the Australian Outback, where they learn to survive with the aid of an Aboriginal boy on his \"walkabout\": a ritual separation from his tribe.",
+    "rated": "GP",
+    "runtime_min": 100,
+    "title": "Walkabout",
     "total_seasons": null,
     "year": 1971,
     "year_end": null
