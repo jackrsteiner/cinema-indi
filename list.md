@@ -96,6 +96,7 @@ Lawrence of Arabia
 Léon: The Professional
 Letters from Iwo Jima
 The Life Aquatic with Steve Zissou
+A Little Princess (1995)
 Little Shop of Horrors (1986)
 Logan's Run (1976)
 Mad Max 2: The Road Warrior
