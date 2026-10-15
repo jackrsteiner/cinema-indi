@@ -158,6 +158,13 @@ class LinearModel(unittest.TestCase):
         self.assertTrue(any("Rated TV-PG (as PG)" in x for x in r["reasons"]))
         self.assertEqual(m.effective_rating({"rated": "TV-14"}, self.rules), "PG-13")
 
+    def test_list_alias_sits_between_ratings(self):
+        rules = {"model": "linear", "intercept": 3, "category_weights": {},
+                 "rating_offsets": {"PG": -1.0, "PG-13": 2.0}, "rating_aliases": {"GP": ["PG", "PG-13"]}}
+        r = m.compute_age({"imdb_id": "tt1", "rated": "GP", "parents_guide": {}}, rules)
+        self.assertEqual(r["age"], 4)  # 3 + mean(-1.0, 2.0) = 3.5 -> 4
+        self.assertIn("Rated GP (as PG/PG-13) +0.5", r["reasons"])
+
     def test_runtime_term_skipped_for_series(self):
         rules = {"model": "linear", "intercept": 3, "category_weights": {},
                  "numeric": {"runtime_min": {"weight": -0.1, "center": 100, "films_only": True}}}

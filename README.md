@@ -61,7 +61,7 @@ Two layers, both plain data in the repo:
 ```
 age = round( intercept
            + Σ category_weight × severity score      (IMDb Parents Guide, None=0 … Severe=3)
-           + rating_offset[rating]                    (TV ratings mapped to MPAA via rating_aliases)
+           + rating_offset[rating]                    (TV ratings mapped to MPAA via rating_aliases; GP sits between PG and PG-13)
            + kind_offset (series)
            + Σ genre_offset[genre]                    (OMDb genres)
            + numeric terms: IMDb rating, runtime (films only), … )

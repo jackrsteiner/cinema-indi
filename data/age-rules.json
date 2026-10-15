@@ -21,7 +21,10 @@
     "TV-PG": "PG",
     "TV-14": "PG-13",
     "TV-MA": "R",
-    "GP": "PG"
+    "GP": [
+      "PG",
+      "PG-13"
+    ]
   },
   "rating_offsets": {
     "PG": -0.82,

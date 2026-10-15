@@ -262,9 +262,22 @@ def severity_scores(film: dict) -> dict:
 
 def effective_rating(film: dict, rules: dict) -> str:
     """The rating the model reasons about: TV ratings map onto MPAA ones via
-    rules["rating_aliases"] (TV-PG -> PG, TV-14 -> PG-13, ...)."""
+    rules["rating_aliases"] (TV-PG -> PG, TV-14 -> PG-13, ...). An alias may
+    name several ratings to sit between them (GP -> PG/PG-13)."""
     rated = (film.get("rated") or "").strip()
-    return (rules.get("rating_aliases") or {}).get(rated, rated)
+    alias = (rules.get("rating_aliases") or {}).get(rated, rated)
+    return "/".join(alias) if isinstance(alias, list) else alias
+
+
+def rating_offset(film: dict, rules: dict) -> float | None:
+    """The rating term: the fitted offset, or the mean of the offsets a list alias names."""
+    offsets = rules.get("rating_offsets") or {}
+    rated = (film.get("rated") or "").strip()
+    alias = (rules.get("rating_aliases") or {}).get(rated, rated)
+    if isinstance(alias, list):
+        vals = [float(offsets[a]) for a in alias if a in offsets]
+        return sum(vals) / len(vals) if vals else None
+    return offsets.get(alias)
 
 
 def linear_terms(film: dict, rules: dict) -> list[tuple[str, float]]:
@@ -280,7 +293,7 @@ def linear_terms(film: dict, rules: dict) -> list[tuple[str, float]]:
         elif missing:
             terms.append((f"{CATEGORY_LABELS.get(cat, cat)} (assumed)", w * missing))
     rated = effective_rating(film, rules)
-    off = (rules.get("rating_offsets") or {}).get(rated)
+    off = rating_offset(film, rules)
     if off:
         shown = (film.get("rated") or "").strip()
         terms.append((f"Rated {shown}" + (f" (as {rated})" if shown != rated else ""), float(off)))
