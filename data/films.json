@@ -1630,6 +1630,40 @@
     "year": 1994,
     "year_end": null
   },
+  "Frances Ha": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-10-15T19:31:56Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt2347569",
+    "imdb_rating": 7.4,
+    "imdb_votes": 103641,
+    "kind": "film",
+    "list_title": "Frances Ha",
+    "metascore": 82,
+    "omdb_fetched_at": "2026-10-15T19:31:56Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTY0NDQ2NzQ2N15BMl5BanBnXkFtZTcwMTU0OTkwOQ@@._V1_QL75_UX380_CR0,17,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "A New York woman apprentices for a dance company and throws herself headlong into her dreams, even as the possibility of realizing them dwindles.",
+    "rated": "R",
+    "runtime_min": 86,
+    "title": "Frances Ha",
+    "total_seasons": null,
+    "year": 2013,
+    "year_end": null
+  },
   "Freaks and Geeks (series)": {
     "genre": [
       "Comedy",
@@ -1695,6 +1729,40 @@
     "title": "From Up on Poppy Hill",
     "total_seasons": null,
     "year": 2011,
+    "year_end": null
+  },
+  "Funny Ha Ha": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-10-15T19:31:56Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "Not Rated",
+    "imdb_id": "tt0327753",
+    "imdb_rating": 6.4,
+    "imdb_votes": 3143,
+    "kind": "film",
+    "list_title": "Funny Ha Ha",
+    "metascore": 78,
+    "omdb_fetched_at": "2026-10-15T19:31:56Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjE1OTU5MjI1NF5BMl5BanBnXkFtZTcwNjkwMzgyMQ@@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "Marnie just graduated from college, drinks likes she's still in school, and is looking for a temporary job but a permanent boyfriend. She loves a guy who doesn't love her (?), ping-pongs between awkward romantic alternatives and e...",
+    "rated": "Not Rated",
+    "runtime_min": 89,
+    "title": "Funny Ha Ha",
+    "total_seasons": null,
+    "year": 2007,
     "year_end": null
   },
   "Gallipoli (1981)": {
