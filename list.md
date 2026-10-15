@@ -97,6 +97,7 @@ Little Shop of Horrors (1986)
 Logan's Run (1976)
 Mad Max 2: The Road Warrior
 The Man Who Planted Trees (1987)
+Mary Poppins (1964)
 The Matrix
 Midnight in Paris
 Muppet Treasure Island
@@ -134,6 +135,7 @@ Shaun of the Dead
 Silver Spoon (2013 series)
 The Social Network
 Speed (1994)
+Spider-Man: Into the Spider-Verse
 Spirited Away
 The Squid and the Whale
 Star Wars: Episode IV - A New Hope
