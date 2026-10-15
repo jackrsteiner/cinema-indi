@@ -122,6 +122,7 @@ Ponyo
 Primer
 The Princess Bride
 Psycho (1960)
+The Puffy Chair
 Puss in Boots: The Last Wish
 The Quick and the Dead (1995)
 Real Genius
