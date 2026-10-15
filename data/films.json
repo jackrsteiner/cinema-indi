@@ -101,6 +101,40 @@
     "year": 1971,
     "year_end": null
   },
+  "A Little Princess (1995)": {
+    "genre": [
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-10-15T19:17:27Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "G",
+    "imdb_id": "tt0113670",
+    "imdb_rating": 7.6,
+    "imdb_votes": 39577,
+    "kind": "film",
+    "list_title": "A Little Princess",
+    "metascore": 83,
+    "omdb_fetched_at": "2026-10-15T19:17:27Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BY2VjODg3MDEtOWZkYi00ZTEwLTllZGItZDc3N2I4MWIwODI3XkEyXkFqcGc@._V1_QL75_UX380_CR0,5,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Mild",
+      "profanity": "None",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Sara is sent to a strict boarding school after her father enlists in WWI. When he is presumed dead, the headmistress, knowing she will not receive any more money, forces the girl to become a servant.",
+    "rated": "G",
+    "runtime_min": 97,
+    "title": "A Little Princess",
+    "total_seasons": null,
+    "year": 1995,
+    "year_end": null
+  },
   "A Woman Under the Influence": {
     "genre": [
       "Drama",
