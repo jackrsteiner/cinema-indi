@@ -20,7 +20,8 @@
     "TV-Y7-FV": "PG",
     "TV-PG": "PG",
     "TV-14": "PG-13",
-    "TV-MA": "R"
+    "TV-MA": "R",
+    "GP": "PG"
   },
   "rating_offsets": {
     "PG": -0.82,
