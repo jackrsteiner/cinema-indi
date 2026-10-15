@@ -4840,6 +4840,40 @@
     "title": "The Princess Bride",
     "year": 1987
   },
+  "The Puffy Chair": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-10-15T19:29:18Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0436689",
+    "imdb_rating": 6.5,
+    "imdb_votes": 5302,
+    "kind": "film",
+    "list_title": "The Puffy Chair",
+    "metascore": 73,
+    "omdb_fetched_at": "2026-10-15T19:29:18Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMzM1OTc5NzAyMl5BMl5BanBnXkFtZTcwNzMzOTkzMQ@@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "Josh Sagers drives cross-country on a mission to deliver his father's birthday gift - a giant purple LazyBoy.",
+    "rated": "R",
+    "runtime_min": 85,
+    "title": "The Puffy Chair",
+    "total_seasons": null,
+    "year": 2005,
+    "year_end": null
+  },
   "The Quick and the Dead (1995)": {
     "genre": [
       "Action",
