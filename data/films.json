@@ -830,6 +830,39 @@
     "year": 1974,
     "year_end": null
   },
+  "Cinema Paradiso": {
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-10-15T19:05:12Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0095765",
+    "imdb_rating": 8.5,
+    "imdb_votes": 321617,
+    "kind": "film",
+    "list_title": "Cinema Paradiso",
+    "metascore": 80,
+    "omdb_fetched_at": "2026-10-15T19:05:12Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTljNzc4YWEtYTZlMS00ODMyLWIwMTAtNWQxY2VkMDEwYTk5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "Salvatore, a famous film director, returns to his hometown for the funeral of the local theater's film projectionist, Alfredo. He reminisces about his life as a young boy falling in love with cinema.",
+    "rated": "PG",
+    "runtime_min": 174,
+    "title": "Cinema Paradiso",
+    "total_seasons": null,
+    "year": 1990,
+    "year_end": null
+  },
   "Citizen Kane": {
     "genre": [
       "Drama",
