@@ -58,8 +58,10 @@ The Fifth Element
 Fire of Love (2022)
 A Fistful of Dynamite
 Forrest Gump
+Frances Ha
 Freaks and Geeks (series)
 From Up on Poppy Hill
+Funny Ha Ha
 Gallipoli (1981)
 Garden State
 Gattaca
