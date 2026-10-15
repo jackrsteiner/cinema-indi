@@ -1867,6 +1867,40 @@
     "year": 1989,
     "year_end": null
   },
+  "Hanna (2011)": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "guide_fetched_at": "2026-10-15T19:30:23Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt0993842",
+    "imdb_rating": 6.7,
+    "imdb_votes": 216039,
+    "kind": "film",
+    "list_title": "Hanna",
+    "metascore": 65,
+    "omdb_fetched_at": "2026-10-15T19:30:23Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNTAzMTg1NjY0NF5BMl5BanBnXkFtZTcwODc3MTgzNA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A sixteen-year-old girl who was raised by her father to be the perfect assassin is dispatched on a mission across Europe, tracked by a ruthless intelligence agent and her operatives.",
+    "rated": "PG-13",
+    "runtime_min": 111,
+    "title": "Hanna",
+    "total_seasons": null,
+    "year": 2011,
+    "year_end": null
+  },
   "Harold & Kumar Go to White Castle": {
     "genre": [
       "Adventure",
