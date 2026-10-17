@@ -4499,6 +4499,39 @@
     "year": 1982,
     "year_end": null
   },
+  "The Endless Summer": {
+    "genre": [
+      "Documentary",
+      "Sport"
+    ],
+    "guide_fetched_at": "2026-10-17T06:24:33Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "Not Rated",
+    "imdb_id": "tt0060371",
+    "imdb_rating": 7.6,
+    "imdb_votes": 7024,
+    "kind": "film",
+    "list_title": "The Endless Summer",
+    "metascore": 82,
+    "omdb_fetched_at": "2026-10-17T06:24:32Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjEzODQ1Njg4M15BMl5BanBnXkFtZTgwODIyOTcwMjE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "None",
+      "frightening": "None",
+      "profanity": "None",
+      "sex": "Mild",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "The crown jewel to ten years of Bruce Brown surfing documentaries. Brown follows two young surfers around the world in search of the perfect wave, and ends up finding quite a few in addition to some colorful local characters.",
+    "rated": "Not Rated",
+    "runtime_min": 95,
+    "title": "The Endless Summer",
+    "total_seasons": null,
+    "year": 1966,
+    "year_end": null
+  },
   "The Fifth Element": {
     "genre": [
       "Action",
