@@ -49,6 +49,7 @@ Easy Rider
 Edward Scissorhands
 Eerie, Indiana (1991 series)
 Empire of the Sun (1987)
+The Endless Summer
 Eternal Sunshine of the Spotless Mind
 Everything Is Illuminated
 Explorers (1985)
