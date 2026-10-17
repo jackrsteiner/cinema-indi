@@ -1233,6 +1233,40 @@
     "year": 1991,
     "year_end": 1996
   },
+  "Downsizing": {
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-10-17T20:04:35Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt1389072",
+    "imdb_rating": 5.8,
+    "imdb_votes": 139286,
+    "kind": "film",
+    "list_title": "Downsizing",
+    "metascore": 64,
+    "omdb_fetched_at": "2026-10-17T20:04:35Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNDYxNDQ5OTYxOV5BMl5BanBnXkFtZTgwOTcyODkxNDM@._V1_QL75_UX380_CR0,15,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "None",
+      "profanity": "Moderate",
+      "sex": "Moderate",
+      "violence": "None"
+    },
+    "parents_guide_votes": {},
+    "plot": "A social satire in which a man realizes he would have a better life if he were to shrink himself to five inches tall, allowing him to live in wealth and splendor.",
+    "rated": "R",
+    "runtime_min": 135,
+    "title": "Downsizing",
+    "total_seasons": null,
+    "year": 2017,
+    "year_end": null
+  },
   "E.T. the Extra-Terrestrial": {
     "genre": [
       "Adventure",
