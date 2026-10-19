@@ -1969,6 +1969,40 @@
     "year": 1989,
     "year_end": null
   },
+  "Groundhog Day": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-10-19T06:53:21Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0107048",
+    "imdb_rating": 8.0,
+    "imdb_votes": 741786,
+    "kind": "film",
+    "list_title": "Groundhog Day",
+    "metascore": 72,
+    "omdb_fetched_at": "2026-10-19T06:53:20Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOWE3MjQ3ZDAtNDQ2MC00YjBjLTk0ZWYtNjQ0YzQ4YWE3YTEyXkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A curmudgeonly weatherman finds himself stuck in a time loop and is forced to relive the same day over and over again.",
+    "rated": "PG",
+    "runtime_min": 101,
+    "title": "Groundhog Day",
+    "total_seasons": null,
+    "year": 1993,
+    "year_end": null
+  },
   "Hanna (2011)": {
     "genre": [
       "Action",
