@@ -3355,6 +3355,40 @@
     "year": 1968,
     "year_end": null
   },
+  "Point Break (1991)": {
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-10-23T15:50:29Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0102685",
+    "imdb_rating": 7.3,
+    "imdb_votes": 230308,
+    "kind": "film",
+    "list_title": "Point Break",
+    "metascore": 60,
+    "omdb_fetched_at": "2026-10-23T15:50:29Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNTI3YzY3N2MtODI1OC00NmU0LThlMDYtNmFjMGFkNzhhNTRlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Severe",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "An F.B.I. Agent goes undercover to catch a gang of surfers who may be bank robbers.",
+    "rated": "R",
+    "runtime_min": 122,
+    "title": "Point Break",
+    "total_seasons": null,
+    "year": 1991,
+    "year_end": null
+  },
   "Ponyo": {
     "genre": [
       "Animation",
@@ -3950,6 +3984,40 @@
     "year": 2013,
     "year_end": 2014
   },
+  "Sing Street": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Music"
+    ],
+    "guide_fetched_at": "2026-10-23T15:50:30Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt3544112",
+    "imdb_rating": 7.9,
+    "imdb_votes": 109222,
+    "kind": "film",
+    "list_title": "Sing Street",
+    "metascore": 79,
+    "omdb_fetched_at": "2026-10-23T15:50:30Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMjEzODA3MDcxMl5BMl5BanBnXkFtZTgwODgxNDk3NzE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "None",
+      "profanity": "Moderate",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A young lad notices a beautiful girl who begins to occupy his thoughts. While struggling with poverty, personal relationships and life's woes, he starts a band, hoping to catch her attention.",
+    "rated": "PG-13",
+    "runtime_min": 106,
+    "title": "Sing Street",
+    "total_seasons": null,
+    "year": 2016,
+    "year_end": null
+  },
   "Speed (1994)": {
     "genre": [
       "Action",
@@ -4138,6 +4206,40 @@
     "rated": "PG",
     "runtime_min": 131,
     "year": 1983
+  },
+  "Starship Troopers": {
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "guide_fetched_at": "2026-10-23T15:50:30Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0120201",
+    "imdb_rating": 7.3,
+    "imdb_votes": 350608,
+    "kind": "film",
+    "list_title": "Starship Troopers",
+    "metascore": 52,
+    "omdb_fetched_at": "2026-10-23T15:50:30Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZTNiOGM1ZWUtZTZjZC00OWJmLWE2YzUtZjQ4ODZjZmVlMDU3XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Severe",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "Humans, in a fascist militaristic future, wage war with giant alien bugs.",
+    "rated": "R",
+    "runtime_min": 129,
+    "title": "Starship Troopers",
+    "total_seasons": null,
+    "year": 1997,
+    "year_end": null
   },
   "Terminator 2: Judgment Day": {
     "genre": [
