@@ -124,6 +124,7 @@ The Pirates of Penzance (1983)
 Pirates of Silicon Valley
 Pirates of the Caribbean: The Curse of the Black Pearl
 Planet of the Apes (1968)
+Point Break (1991)
 Ponyo
 Primer
 The Princess Bride
@@ -147,6 +148,7 @@ The Secret Life of Walter Mitty (2013)
 Seinfeld (series)
 Shaun of the Dead
 Silver Spoon (2013 series)
+Sing Street
 The Social Network
 Speed (1994)
 Spider-Man: Into the Spider-Verse
@@ -155,6 +157,7 @@ The Squid and the Whale
 Star Wars: Episode IV - A New Hope
 Star Wars: Episode V - The Empire Strikes Back
 Star Wars: Episode VI - Return of the Jedi
+Starship Troopers
 The Terminator
 Terminator 2: Judgment Day
 The Thing (1982)
