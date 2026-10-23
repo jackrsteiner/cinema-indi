@@ -202,39 +202,6 @@
     "year": 2009,
     "year_end": null
   },
-  "After Yang": {
-    "genre": [
-      "Drama",
-      "Sci-Fi"
-    ],
-    "guide_fetched_at": "2026-10-23T19:57:49Z",
-    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
-    "imdb_certificate": "PG",
-    "imdb_id": "tt8633464",
-    "imdb_rating": 6.6,
-    "imdb_votes": 26825,
-    "kind": "film",
-    "list_title": "After Yang",
-    "metascore": 78,
-    "omdb_fetched_at": "2026-10-23T19:57:48Z",
-    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMWM2MDBkMTQtYWUxNS00NmI3LTg2ZGUtNjI4MzdiM2U1NTYwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-    "ongoing": false,
-    "parents_guide": {
-      "drugs": "None",
-      "frightening": "None",
-      "profanity": "Mild",
-      "sex": "None",
-      "violence": "None"
-    },
-    "parents_guide_votes": {},
-    "plot": "In a near future, a family reckons with questions of love, connection, and loss after their A.I. helper unexpectedly breaks down.",
-    "rated": "PG",
-    "runtime_min": 96,
-    "title": "After Yang",
-    "total_seasons": null,
-    "year": 2022,
-    "year_end": null
-  },
   "Alien (1979)": {
     "genre": [
       "Horror",
