@@ -3,7 +3,7 @@ The Act of Killing
 Adventureland
 The Adventures of Pete & Pete (series)
 The Adventures of Prince Achmed
-Afterbang
+Afterbang (2002)
 Alien (1979)
 Aliens
 Almost Famous
