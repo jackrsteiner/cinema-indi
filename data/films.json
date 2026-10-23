@@ -202,6 +202,34 @@
     "year": 2009,
     "year_end": null
   },
+  "Afterbang": {
+    "genre": [
+      "Short",
+      "Comedy",
+      "Romance"
+    ],
+    "guide_fetched_at": "2026-10-23T19:59:10Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": null,
+    "imdb_id": "tt6028752",
+    "imdb_rating": null,
+    "imdb_votes": null,
+    "kind": "film",
+    "list_title": "Afterbang",
+    "metascore": null,
+    "omdb_fetched_at": "2026-10-23T19:59:10Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNGY4MjgwMDUtNjM4OC00N2QzLWE1MDMtZjdhMjI4ZjE0ZDkzXkEyXkFqcGdeQXVyNDIzMjA2MDA@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {},
+    "parents_guide_votes": {},
+    "plot": "Two lovers inadvertently stumble into the single most dangerous discussion a couple can have...sexual history.",
+    "rated": null,
+    "runtime_min": 5,
+    "title": "Afterbang",
+    "total_seasons": null,
+    "year": 2016,
+    "year_end": null
+  },
   "Alien (1979)": {
     "genre": [
       "Horror",
