@@ -2466,6 +2466,40 @@
     "year": 1996,
     "year_end": null
   },
+  "Jojo Rabbit": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "War"
+    ],
+    "guide_fetched_at": "2026-10-24T02:58:18Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt2584384",
+    "imdb_rating": 7.9,
+    "imdb_votes": 495584,
+    "kind": "film",
+    "list_title": "Jojo Rabbit",
+    "metascore": 58,
+    "omdb_fetched_at": "2026-10-24T02:58:18Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYmFmNmUyMjYtZTFjNS00OWQyLThhZmMtMGZkYTQ3YjY0ZDQ1XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Moderate",
+      "sex": "None",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A young German boy in the Hitler Youth, whose hero and imaginary friend is the country's dictator, is shocked to discover that his mother is hiding a Jewish girl in their home.",
+    "rated": "PG-13",
+    "runtime_min": 108,
+    "title": "Jojo Rabbit",
+    "total_seasons": null,
+    "year": 2019,
+    "year_end": null
+  },
   "Josie and the Pussycats (2001)": {
     "genre": [
       "Comedy",
