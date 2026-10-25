@@ -5706,6 +5706,38 @@
     "year": 1987,
     "year_end": null
   },
+  "Trading Places": {
+    "genre": [
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-10-25T03:17:50Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0086465",
+    "imdb_rating": 7.5,
+    "imdb_votes": 184899,
+    "kind": "film",
+    "list_title": "Trading Places",
+    "metascore": 69,
+    "omdb_fetched_at": "2026-10-25T03:17:50Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BNzlkYjQ1MzUtNjgwZi00MmRhLTkwYzItMGRmN2Y3YmRjY2JmXkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Mild",
+      "profanity": "Moderate",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "A snobbish Wall Street commodities broker and a wily street hustler find their positions reversed as part of a bet by two callous millionaire brothers who run a brokerage house.",
+    "rated": "R",
+    "runtime_min": 116,
+    "title": "Trading Places",
+    "total_seasons": null,
+    "year": 1983,
+    "year_end": null
+  },
   "True Grit (2010)": {
     "genre": [
       "Drama",
