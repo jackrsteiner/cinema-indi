@@ -11,3 +11,4 @@ Up (2009)
 The Goonies
 The Man Who Planted Trees (1987)
 Robot Dreams
+WALL-E 2026-10-25
