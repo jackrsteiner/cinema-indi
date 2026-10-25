@@ -58,6 +58,7 @@ Explorers (1985)
 Fantasia (1940)
 Ferris Bueller's Day Off
 The Fifth Element
+Fight Club
 Fire of Love (2022)
 A Fistful of Dynamite
 Forrest Gump
@@ -111,6 +112,7 @@ Mad Max 2: The Road Warrior
 The Man Who Planted Trees (1987)
 Mary Poppins
 The Matrix
+Memento
 Midnight in Paris
 Muppet Treasure Island
 My Neighbor Totoro
@@ -175,6 +177,7 @@ Twelve Monkeys
 The Twilight Zone (1959 series)
 Under the Sun (2015)
 Up (2009)
+The Usual Suspects
 Waiting... (2005)
 Wake in Fright (1971)
 Walkabout (1971)
