@@ -1602,6 +1602,40 @@
     "title": "Ferris Bueller's Day Off",
     "year": 1986
   },
+  "Fight Club": {
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-10-25T19:47:34Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0137523",
+    "imdb_rating": 8.8,
+    "imdb_votes": 2669989,
+    "kind": "film",
+    "list_title": "Fight Club",
+    "metascore": 67,
+    "omdb_fetched_at": "2026-10-25T19:47:33Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Severe",
+      "profanity": "Severe",
+      "sex": "Moderate",
+      "violence": "Severe"
+    },
+    "parents_guide_votes": {},
+    "plot": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+    "rated": "R",
+    "runtime_min": 139,
+    "title": "Fight Club",
+    "total_seasons": null,
+    "year": 1999,
+    "year_end": null
+  },
   "Fire of Love (2022)": {
     "genre": [
       "Documentary",
@@ -3036,6 +3070,39 @@
     "title": "Mary Poppins",
     "total_seasons": null,
     "year": 1965,
+    "year_end": null
+  },
+  "Memento": {
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ],
+    "guide_fetched_at": "2026-10-25T19:47:34Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0209144",
+    "imdb_rating": 8.4,
+    "imdb_votes": 1462185,
+    "kind": "film",
+    "list_title": "Memento",
+    "metascore": 83,
+    "omdb_fetched_at": "2026-10-25T19:47:34Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMGQ3Y2Q4NjktN2E4Ny00Y2Q2LTliZDUtZTNiNjRhY2I0NGIyXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Severe",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "A former insurance investigator who now suffers from anterograde amnesia uses notes and tattoos to hunt down his wife's murderer.",
+    "rated": "R",
+    "runtime_min": 113,
+    "title": "Memento",
+    "total_seasons": null,
+    "year": 2001,
     "year_end": null
   },
   "Midnight in Paris": {
@@ -5571,6 +5638,40 @@
     "total_seasons": 5,
     "year": 1959,
     "year_end": 1964
+  },
+  "The Usual Suspects": {
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "guide_fetched_at": "2026-10-25T19:47:34Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt0114814",
+    "imdb_rating": 8.5,
+    "imdb_votes": 1257343,
+    "kind": "film",
+    "list_title": "The Usual Suspects",
+    "metascore": 76,
+    "omdb_fetched_at": "2026-10-25T19:47:34Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Severe",
+      "sex": "Mild",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "The sole survivor of a pier shoot-out tells the story of how a notorious criminal influenced the events that began with five criminals meeting in a seemingly random police lineup.",
+    "rated": "R",
+    "runtime_min": 106,
+    "title": "The Usual Suspects",
+    "total_seasons": null,
+    "year": 1995,
+    "year_end": null
   },
   "The Witches (1990)": {
     "genre": [
