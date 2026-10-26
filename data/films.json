@@ -601,31 +601,38 @@
     "year": 2001,
     "year_end": null
   },
-  "Batteries Not Included": {
+  "Batteries Not Included (1987)": {
     "genre": [
-      "Short",
-      "Comedy"
+      "Comedy",
+      "Family",
+      "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-26T14:53:50Z",
+    "guide_fetched_at": "2026-10-26T14:54:49Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
-    "imdb_certificate": null,
-    "imdb_id": "tt39289430",
-    "imdb_rating": null,
-    "imdb_votes": null,
+    "imdb_certificate": "PG",
+    "imdb_id": "tt0092494",
+    "imdb_rating": 6.6,
+    "imdb_votes": 39571,
     "kind": "film",
     "list_title": "Batteries Not Included",
-    "metascore": null,
-    "omdb_fetched_at": "2026-10-26T14:53:50Z",
-    "omdb_poster": null,
+    "metascore": 54,
+    "omdb_fetched_at": "2026-10-26T14:54:49Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BZmJjNTc1ZWItNTEzYS00YTE4LTg0MmItZjExM2ExODRhMDlkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
     "ongoing": false,
-    "parents_guide": {},
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Mild",
+      "profanity": "Mild",
+      "sex": "Mild",
+      "violence": "Mild"
+    },
     "parents_guide_votes": {},
-    "plot": "A neurotic gamer trying to reach a new high score is driven to theft when his Game Boy batteries run low.",
-    "rated": null,
-    "runtime_min": 7,
-    "title": "Batteries Not Included",
+    "plot": "Aliens help a feisty old New York couple in their battle against the ruthless land developer who's out to evict them.",
+    "rated": "PG",
+    "runtime_min": 107,
+    "title": "*batteries not included",
     "total_seasons": null,
-    "year": 2025,
+    "year": 1987,
     "year_end": null
   },
   "Big Trouble in Little China": {
