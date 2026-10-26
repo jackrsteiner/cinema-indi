@@ -17,7 +17,7 @@ Back to the Future Part II
 Back to the Future Part III
 Bad Santa
 Band of Brothers (series)
-Batteries Not Included
+Batteries Not Included (1987)
 The Big Lebowski
 The Big Short
 Big Trouble in Little China
