@@ -601,6 +601,33 @@
     "year": 2001,
     "year_end": null
   },
+  "Batteries Not Included": {
+    "genre": [
+      "Short",
+      "Comedy"
+    ],
+    "guide_fetched_at": "2026-10-26T14:53:50Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": null,
+    "imdb_id": "tt39289430",
+    "imdb_rating": null,
+    "imdb_votes": null,
+    "kind": "film",
+    "list_title": "Batteries Not Included",
+    "metascore": null,
+    "omdb_fetched_at": "2026-10-26T14:53:50Z",
+    "omdb_poster": null,
+    "ongoing": false,
+    "parents_guide": {},
+    "parents_guide_votes": {},
+    "plot": "A neurotic gamer trying to reach a new high score is driven to theft when his Game Boy batteries run low.",
+    "rated": null,
+    "runtime_min": 7,
+    "title": "Batteries Not Included",
+    "total_seasons": null,
+    "year": 2025,
+    "year_end": null
+  },
   "Big Trouble in Little China": {
     "genre": [
       "Action",
