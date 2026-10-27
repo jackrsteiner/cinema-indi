@@ -2534,6 +2534,38 @@
     "year": 1996,
     "year_end": null
   },
+  "Jodorowsky's Dune": {
+    "genre": [
+      "Documentary"
+    ],
+    "guide_fetched_at": "2026-10-27T04:41:18Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "PG-13",
+    "imdb_id": "tt1935156",
+    "imdb_rating": 8.0,
+    "imdb_votes": 29543,
+    "kind": "film",
+    "list_title": "Jodorowsky's Dune",
+    "metascore": 79,
+    "omdb_fetched_at": "2026-10-27T04:41:18Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTU0MzcxMTAxMl5BMl5BanBnXkFtZTgwODMyMTIxMTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Mild",
+      "frightening": "Moderate",
+      "profanity": "Mild",
+      "sex": "Moderate",
+      "violence": "Mild"
+    },
+    "parents_guide_votes": {},
+    "plot": "The story of cult film director Alejandro Jodorowsky's ambitious but ultimately doomed film adaptation of the seminal science fiction novel.",
+    "rated": "PG-13",
+    "runtime_min": 90,
+    "title": "Jodorowsky's Dune",
+    "total_seasons": null,
+    "year": 2016,
+    "year_end": null
+  },
   "Jojo Rabbit": {
     "genre": [
       "Comedy",
