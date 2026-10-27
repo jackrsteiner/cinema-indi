@@ -91,6 +91,7 @@ The Iron Giant
 Iron Monkey (1993)
 It's a Wonderful Life
 James and the Giant Peach
+Jodorowsky's Dune
 Jojo Rabbit
 Josie and the Pussycats (2001)
 Juno (2007)
