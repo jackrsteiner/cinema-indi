@@ -4189,6 +4189,40 @@
     "year": 2016,
     "year_end": null
   },
+  "Sorry to Bother You": {
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "guide_fetched_at": "2026-10-30T20:27:56Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": "R",
+    "imdb_id": "tt5688932",
+    "imdb_rating": 6.9,
+    "imdb_votes": 95881,
+    "kind": "film",
+    "list_title": "Sorry to Bother You",
+    "metascore": 78,
+    "omdb_fetched_at": "2026-10-30T20:27:56Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYjA3ZTYwMzctZTM2ZS00MTllLWE5YzYtOTBjZGRlOTNkODVlXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+    "ongoing": false,
+    "parents_guide": {
+      "drugs": "Moderate",
+      "frightening": "Moderate",
+      "profanity": "Severe",
+      "sex": "Moderate",
+      "violence": "Moderate"
+    },
+    "parents_guide_votes": {},
+    "plot": "In an alternate present-day version of Oakland, telemarketer Cassius Green discovers a magical key to professional success--that propels him into a universe of greed.",
+    "rated": "R",
+    "runtime_min": 112,
+    "title": "Sorry to Bother You",
+    "total_seasons": null,
+    "year": 2018,
+    "year_end": null
+  },
   "Speed (1994)": {
     "genre": [
       "Action",
