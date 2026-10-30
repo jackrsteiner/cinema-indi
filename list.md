@@ -156,6 +156,7 @@ Shaun of the Dead
 Silver Spoon (2013 series)
 Sing Street
 The Social Network
+Sorry to Bother You
 Speed (1994)
 Spider-Man: Into the Spider-Verse
 Spirited Away
