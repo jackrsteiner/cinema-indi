@@ -5,9 +5,9 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:57Z",
+    "guide_fetched_at": "2026-11-21T00:31:17Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
-    "imdb_certificate": "TV-G",
+    "imdb_certificate": "Passed",
     "imdb_id": "tt0059026",
     "imdb_rating": 8.3,
     "imdb_votes": 50353,
@@ -39,7 +39,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:58Z",
+    "guide_fetched_at": "2026-11-21T00:31:18Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Approved",
     "imdb_id": "tt0044008",
@@ -73,7 +73,7 @@
       "War",
       "Western"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:02Z",
+    "guide_fetched_at": "2026-11-21T00:31:26Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": null,
     "imdb_id": "tt0067140",
@@ -107,7 +107,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-15T19:17:27Z",
+    "guide_fetched_at": "2026-11-21T00:31:38Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0113670",
@@ -140,7 +140,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:21Z",
+    "guide_fetched_at": "2026-11-21T00:31:59Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0072417",
@@ -174,7 +174,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:53Z",
+    "guide_fetched_at": "2026-11-21T00:31:10Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt1091722",
@@ -211,7 +211,7 @@
       "Horror",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:53Z",
+    "guide_fetched_at": "2026-11-21T00:31:11Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0078748",
@@ -245,7 +245,7 @@
       "Adventure",
       "Horror"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:53Z",
+    "guide_fetched_at": "2026-11-21T00:31:11Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0090605",
@@ -279,7 +279,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:54Z",
+    "guide_fetched_at": "2026-11-21T00:31:12Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0181875",
@@ -311,7 +311,7 @@
     "genre": [
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:54Z",
+    "guide_fetched_at": "2026-11-21T00:31:12Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0163651",
@@ -344,7 +344,7 @@
       "Comedy",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:54Z",
+    "guide_fetched_at": "2026-11-21T00:31:12Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0211915",
@@ -374,7 +374,7 @@
       "Drama",
       "History"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:54Z",
+    "guide_fetched_at": "2026-11-21T00:31:13Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0112384",
@@ -407,7 +407,7 @@
       "Comedy",
       "Horror"
     ],
-    "guide_fetched_at": "2026-10-07T08:28:16Z",
+    "guide_fetched_at": "2026-11-21T00:31:13Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0106308",
@@ -441,7 +441,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:55Z",
+    "guide_fetched_at": "2026-11-21T00:31:13Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0088763",
@@ -471,7 +471,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:55Z",
+    "guide_fetched_at": "2026-11-21T00:31:13Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0096874",
@@ -505,7 +505,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:55Z",
+    "guide_fetched_at": "2026-11-21T00:31:14Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0099088",
@@ -539,7 +539,7 @@
       "Crime",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:55Z",
+    "guide_fetched_at": "2026-11-21T00:31:14Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0307987",
@@ -573,7 +573,7 @@
       "Drama",
       "History"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:55Z",
+    "guide_fetched_at": "2026-11-21T00:31:14Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-MA",
     "imdb_id": "tt0185906",
@@ -641,7 +641,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:56Z",
+    "guide_fetched_at": "2026-11-21T00:31:15Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0090728",
@@ -675,7 +675,7 @@
       "Drama",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:56Z",
+    "guide_fetched_at": "2026-11-21T00:31:15Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0083658",
@@ -705,7 +705,7 @@
       "Drama",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:56Z",
+    "guide_fetched_at": "2026-11-21T00:31:16Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt1856101",
@@ -739,7 +739,7 @@
       "Drama",
       "Sport"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:56Z",
+    "guide_fetched_at": "2026-11-21T00:31:16Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0078902",
@@ -773,7 +773,7 @@
       "Drama",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:57Z",
+    "guide_fetched_at": "2026-11-21T00:31:16Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0393109",
@@ -807,7 +807,7 @@
       "Romance",
       "War"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:57Z",
+    "guide_fetched_at": "2026-11-21T00:31:17Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0034583",
@@ -840,7 +840,7 @@
       "Documentary",
       "History"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:57Z",
+    "guide_fetched_at": "2026-11-21T00:31:17Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt1664894",
@@ -874,7 +874,7 @@
       "Mystery",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:58Z",
+    "guide_fetched_at": "2026-11-21T00:31:18Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0071315",
@@ -907,7 +907,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-15T19:05:12Z",
+    "guide_fetched_at": "2026-11-21T00:31:18Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0095765",
@@ -940,7 +940,7 @@
       "Drama",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:58Z",
+    "guide_fetched_at": "2026-11-21T00:31:19Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0033467",
@@ -973,7 +973,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-08T06:41:18Z",
+    "guide_fetched_at": "2026-11-21T00:31:19Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-G",
     "imdb_id": "tt0101065",
@@ -1007,7 +1007,7 @@
       "Fantasy",
       "Horror"
     ],
-    "guide_fetched_at": "2026-10-15T19:07:20Z",
+    "guide_fetched_at": "2026-11-21T00:31:19Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0104029",
@@ -1041,7 +1041,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-09T00:25:11Z",
+    "guide_fetched_at": "2026-11-21T00:31:19Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0190332",
@@ -1075,7 +1075,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:59Z",
+    "guide_fetched_at": "2026-11-21T00:31:20Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-Y",
     "imdb_id": "tt0283721",
@@ -1109,7 +1109,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:59Z",
+    "guide_fetched_at": "2026-11-21T00:31:21Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0106697",
@@ -1143,7 +1143,7 @@
       "Comedy",
       "Music"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:59Z",
+    "guide_fetched_at": "2026-11-21T00:31:21Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0165710",
@@ -1176,7 +1176,7 @@
       "Action",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:00Z",
+    "guide_fetched_at": "2026-11-21T00:31:21Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0095016",
@@ -1209,7 +1209,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-09T00:30:07Z",
+    "guide_fetched_at": "2026-11-21T00:31:21Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0097216",
@@ -1243,7 +1243,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T09:07:18Z",
+    "guide_fetched_at": "2026-11-21T00:31:22Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-Y",
     "imdb_id": "tt0101084",
@@ -1277,7 +1277,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-17T20:04:35Z",
+    "guide_fetched_at": "2026-11-21T00:31:22Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt1389072",
@@ -1311,7 +1311,7 @@
       "Family",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:58:54Z",
+    "guide_fetched_at": "2026-11-21T00:31:22Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0083866",
@@ -1344,7 +1344,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:00Z",
+    "guide_fetched_at": "2026-11-21T00:31:23Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0064276",
@@ -1378,7 +1378,7 @@
       "Fantasy",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:00Z",
+    "guide_fetched_at": "2026-11-21T00:31:23Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0099487",
@@ -1412,7 +1412,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T09:07:18Z",
+    "guide_fetched_at": "2026-11-21T00:31:23Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-Y7",
     "imdb_id": "tt0101088",
@@ -1445,7 +1445,7 @@
       "Drama",
       "War"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:00Z",
+    "guide_fetched_at": "2026-11-21T00:31:23Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0092965",
@@ -1479,7 +1479,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:00Z",
+    "guide_fetched_at": "2026-11-21T00:31:24Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0338013",
@@ -1512,7 +1512,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:01Z",
+    "guide_fetched_at": "2026-11-21T00:31:24Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0404030",
@@ -1546,7 +1546,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:01Z",
+    "guide_fetched_at": "2026-11-21T00:31:25Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0089114",
@@ -1580,7 +1580,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:01Z",
+    "guide_fetched_at": "2026-11-21T00:31:25Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0032455",
@@ -1612,7 +1612,7 @@
     "genre": [
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:01Z",
+    "guide_fetched_at": "2026-11-21T00:31:25Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0091042",
@@ -1675,7 +1675,7 @@
       "Documentary",
       "Biography"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:02Z",
+    "guide_fetched_at": "2026-11-21T00:31:26Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt16227014",
@@ -1708,7 +1708,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:02Z",
+    "guide_fetched_at": "2026-11-21T00:31:26Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0109830",
@@ -1742,7 +1742,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-15T19:31:56Z",
+    "guide_fetched_at": "2026-11-21T00:31:26Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt2347569",
@@ -1775,7 +1775,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:02Z",
+    "guide_fetched_at": "2026-11-21T00:31:27Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-14",
     "imdb_id": "tt0193676",
@@ -1809,7 +1809,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:02Z",
+    "guide_fetched_at": "2026-11-21T00:31:27Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt1798188",
@@ -1843,7 +1843,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-15T19:31:56Z",
+    "guide_fetched_at": "2026-11-21T00:31:27Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0327753",
@@ -1877,7 +1877,7 @@
       "Drama",
       "History"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:03Z",
+    "guide_fetched_at": "2026-11-21T00:31:28Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0082432",
@@ -1911,7 +1911,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:03Z",
+    "guide_fetched_at": "2026-11-21T00:31:28Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0333766",
@@ -1945,7 +1945,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:03Z",
+    "guide_fetched_at": "2026-11-21T00:31:28Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0119177",
@@ -1979,7 +1979,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-15T18:52:28Z",
+    "guide_fetched_at": "2026-11-21T00:31:28Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0172495",
@@ -2013,7 +2013,7 @@
       "Drama",
       "History"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:03Z",
+    "guide_fetched_at": "2026-11-21T00:31:29Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0097441",
@@ -2047,7 +2047,7 @@
       "Drama",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-19T06:53:21Z",
+    "guide_fetched_at": "2026-11-21T00:31:30Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0107048",
@@ -2081,7 +2081,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-15T19:30:23Z",
+    "guide_fetched_at": "2026-11-21T00:31:30Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0993842",
@@ -2114,7 +2114,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:04Z",
+    "guide_fetched_at": "2026-11-21T00:31:30Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0366551",
@@ -2148,7 +2148,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:04Z",
+    "guide_fetched_at": "2026-11-21T00:31:31Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0067185",
@@ -2182,7 +2182,7 @@
       "Drama",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:04Z",
+    "guide_fetched_at": "2026-11-21T00:31:31Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Approved",
     "imdb_id": "tt0042546",
@@ -2216,7 +2216,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:04Z",
+    "guide_fetched_at": "2026-11-21T00:31:31Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0097523",
@@ -2250,7 +2250,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:05Z",
+    "guide_fetched_at": "2026-11-21T00:31:31Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0347149",
@@ -2284,7 +2284,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:05Z",
+    "guide_fetched_at": "2026-11-21T00:31:32Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0387808",
@@ -2317,7 +2317,7 @@
       "Action",
       "Adventure"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:05Z",
+    "guide_fetched_at": "2026-11-21T00:31:32Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0097576",
@@ -2346,7 +2346,7 @@
       "Action",
       "Adventure"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:05Z",
+    "guide_fetched_at": "2026-11-21T00:31:32Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0082971",
@@ -2375,7 +2375,7 @@
       "Action",
       "Adventure"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:05Z",
+    "guide_fetched_at": "2026-11-21T00:31:32Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0087469",
@@ -2404,7 +2404,7 @@
       "Horror",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:06Z",
+    "guide_fetched_at": "2026-11-21T00:31:33Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0077745",
@@ -2438,7 +2438,7 @@
       "Crime",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-09T00:26:01Z",
+    "guide_fetched_at": "2026-11-21T00:31:33Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0108148",
@@ -2472,7 +2472,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:06Z",
+    "guide_fetched_at": "2026-11-21T00:31:34Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0038650",
@@ -2506,7 +2506,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:06Z",
+    "guide_fetched_at": "2026-11-21T00:31:34Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0116683",
@@ -2605,7 +2605,7 @@
       "Comedy",
       "Music"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:06Z",
+    "guide_fetched_at": "2026-11-21T00:31:34Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0236348",
@@ -2638,7 +2638,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:07Z",
+    "guide_fetched_at": "2026-11-21T00:31:34Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0467406",
@@ -2672,7 +2672,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:07Z",
+    "guide_fetched_at": "2026-11-21T00:31:35Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0107290",
@@ -2706,7 +2706,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:07Z",
+    "guide_fetched_at": "2026-11-21T00:31:35Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0097814",
@@ -2736,7 +2736,7 @@
       "Crime",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:07Z",
+    "guide_fetched_at": "2026-11-21T00:31:35Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0266697",
@@ -2770,7 +2770,7 @@
       "Crime",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:07Z",
+    "guide_fetched_at": "2026-11-21T00:31:36Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0378194",
@@ -2804,7 +2804,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-09T00:58:17Z",
+    "guide_fetched_at": "2026-11-21T00:31:36Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0056119",
@@ -2817,7 +2817,7 @@
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BYjg2Yzk3M2ItY2NlOS00MzhjLWE2NGUtN2Y1MmYxZWE3MGE1XkEyXkFqcGc@._V1_SX300.jpg",
     "ongoing": false,
     "parents_guide": {
-      "drugs": "Mild",
+      "drugs": "None",
       "frightening": "Mild",
       "profanity": "None",
       "sex": "None",
@@ -2838,7 +2838,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:07Z",
+    "guide_fetched_at": "2026-11-21T00:31:36Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0091369",
@@ -2872,7 +2872,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:08Z",
+    "guide_fetched_at": "2026-11-21T00:31:37Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0107362",
@@ -2906,7 +2906,7 @@
       "Biography",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:08Z",
+    "guide_fetched_at": "2026-11-21T00:31:37Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Approved",
     "imdb_id": "tt0056172",
@@ -2940,7 +2940,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:08Z",
+    "guide_fetched_at": "2026-11-21T00:31:38Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0498380",
@@ -2974,7 +2974,7 @@
       "Horror",
       "Musical"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:09Z",
+    "guide_fetched_at": "2026-11-21T00:31:38Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0091419",
@@ -3008,7 +3008,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:09Z",
+    "guide_fetched_at": "2026-11-21T00:31:38Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0074812",
@@ -3042,7 +3042,7 @@
       "Crime",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:08Z",
+    "guide_fetched_at": "2026-11-21T00:31:37Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0110413",
@@ -3076,7 +3076,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:09Z",
+    "guide_fetched_at": "2026-11-21T00:31:39Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0082694",
@@ -3110,7 +3110,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-15T06:22:05Z",
+    "guide_fetched_at": "2026-11-21T00:31:39Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0058331",
@@ -3177,7 +3177,7 @@
       "Fantasy",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:10Z",
+    "guide_fetched_at": "2026-11-21T00:31:40Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1605783",
@@ -3207,7 +3207,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:10Z",
+    "guide_fetched_at": "2026-11-21T00:31:40Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0117110",
@@ -3237,7 +3237,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:10Z",
+    "guide_fetched_at": "2026-11-21T00:31:40Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0096283",
@@ -3267,7 +3267,7 @@
       "Drama",
       "Music"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:10Z",
+    "guide_fetched_at": "2026-11-21T00:31:40Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0981227",
@@ -3300,7 +3300,7 @@
       "Crime",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:11Z",
+    "guide_fetched_at": "2026-11-21T00:31:41Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0240772",
@@ -3334,7 +3334,7 @@
       "Fantasy",
       "War"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:11Z",
+    "guide_fetched_at": "2026-11-21T00:31:41Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0457430",
@@ -3368,7 +3368,7 @@
       "Family",
       "Musical"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:11Z",
+    "guide_fetched_at": "2026-11-21T00:31:42Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-Y",
     "imdb_id": "tt0090500",
@@ -3401,7 +3401,7 @@
       "Drama",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:12Z",
+    "guide_fetched_at": "2026-11-21T00:31:42Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0073540",
@@ -3435,7 +3435,7 @@
       "Drama",
       "History"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:12Z",
+    "guide_fetched_at": "2026-11-21T00:31:43Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0168122",
@@ -3465,7 +3465,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:12Z",
+    "guide_fetched_at": "2026-11-21T00:31:43Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0325980",
@@ -3498,7 +3498,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:12Z",
+    "guide_fetched_at": "2026-11-21T00:31:43Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0063442",
@@ -3566,7 +3566,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:13Z",
+    "guide_fetched_at": "2026-11-21T00:31:44Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0876563",
@@ -3596,7 +3596,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:13Z",
+    "guide_fetched_at": "2026-11-21T00:31:44Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0390384",
@@ -3630,7 +3630,7 @@
       "Horror",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:13Z",
+    "guide_fetched_at": "2026-11-21T00:31:45Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0054215",
@@ -3664,7 +3664,7 @@
       "Action",
       "Adventure"
     ],
-    "guide_fetched_at": "2026-10-15T06:23:57Z",
+    "guide_fetched_at": "2026-11-21T00:31:45Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt3915174",
@@ -3698,7 +3698,7 @@
       "Romance",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:13Z",
+    "guide_fetched_at": "2026-11-21T00:31:46Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0089886",
@@ -3728,7 +3728,7 @@
       "Musical",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:14Z",
+    "guide_fetched_at": "2026-11-21T00:31:46Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0963194",
@@ -3762,7 +3762,7 @@
       "Horror",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:14Z",
+    "guide_fetched_at": "2026-11-21T00:31:46Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0120804",
@@ -3796,7 +3796,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-15T19:10:34Z",
+    "guide_fetched_at": "2026-11-21T00:31:47Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt13429870",
@@ -3830,7 +3830,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T09:07:19Z",
+    "guide_fetched_at": "2026-11-21T00:31:47Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-Y",
     "imdb_id": "tt0101188",
@@ -3864,7 +3864,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:14Z",
+    "guide_fetched_at": "2026-11-21T00:31:47Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0128445",
@@ -3898,7 +3898,7 @@
       "Family",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-07T09:07:19Z",
+    "guide_fetched_at": "2026-11-21T00:31:48Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-G",
     "imdb_id": "tt0101190",
@@ -3931,7 +3931,7 @@
       "Drama",
       "War"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:14Z",
+    "guide_fetched_at": "2026-11-21T00:31:48Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0120815",
@@ -3965,7 +3965,7 @@
       "Drama",
       "History"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:15Z",
+    "guide_fetched_at": "2026-11-21T00:31:48Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0108052",
@@ -3999,7 +3999,7 @@
       "Comedy",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:15Z",
+    "guide_fetched_at": "2026-11-21T00:31:49Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0446029",
@@ -4028,7 +4028,7 @@
       "Horror",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-10-15T18:52:28Z",
+    "guide_fetched_at": "2026-11-21T00:31:49Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0117571",
@@ -4060,7 +4060,7 @@
     "genre": [
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:15Z",
+    "guide_fetched_at": "2026-11-21T00:31:49Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-PG",
     "imdb_id": "tt0098904",
@@ -4093,7 +4093,7 @@
       "Comedy",
       "Horror"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:15Z",
+    "guide_fetched_at": "2026-11-21T00:31:50Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0365748",
@@ -4127,7 +4127,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:16Z",
+    "guide_fetched_at": "2026-11-21T00:31:50Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-PG",
     "imdb_id": "tt2909912",
@@ -4229,7 +4229,7 @@
       "Adventure",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:16Z",
+    "guide_fetched_at": "2026-11-21T00:31:50Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0111257",
@@ -4263,7 +4263,7 @@
       "Action",
       "Adventure"
     ],
-    "guide_fetched_at": "2026-10-15T06:21:09Z",
+    "guide_fetched_at": "2026-11-21T00:31:51Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt4633694",
@@ -4297,7 +4297,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:16Z",
+    "guide_fetched_at": "2026-11-21T00:31:51Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0245429",
@@ -4331,7 +4331,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:16Z",
+    "guide_fetched_at": "2026-11-21T00:31:52Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0076759",
@@ -4360,7 +4360,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:17Z",
+    "guide_fetched_at": "2026-11-21T00:31:52Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0080684",
@@ -4389,7 +4389,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:17Z",
+    "guide_fetched_at": "2026-11-21T00:31:52Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0086190",
@@ -4452,7 +4452,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:17Z",
+    "guide_fetched_at": "2026-11-21T00:31:53Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0103064",
@@ -4486,7 +4486,7 @@
       "Drama",
       "Mystery"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:52Z",
+    "guide_fetched_at": "2026-11-21T00:31:09Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0096754",
@@ -4520,7 +4520,7 @@
       "Biography",
       "Crime"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:52Z",
+    "guide_fetched_at": "2026-11-21T00:31:10Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt2375605",
@@ -4554,7 +4554,7 @@
       "Drama",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:53Z",
+    "guide_fetched_at": "2026-11-21T00:31:10Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-Y",
     "imdb_id": "tt0105933",
@@ -4588,7 +4588,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:53Z",
+    "guide_fetched_at": "2026-11-21T00:31:10Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0015532",
@@ -4618,7 +4618,7 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:54Z",
+    "guide_fetched_at": "2026-11-21T00:31:12Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0243759",
@@ -4651,7 +4651,7 @@
       "Comedy",
       "Crime"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:56Z",
+    "guide_fetched_at": "2026-11-21T00:31:14Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0118715",
@@ -4685,7 +4685,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:56Z",
+    "guide_fetched_at": "2026-11-21T00:31:15Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt1596363",
@@ -4714,7 +4714,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-13T08:39:34Z",
+    "guide_fetched_at": "2026-11-21T00:31:16Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0088847",
@@ -4748,7 +4748,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:57Z",
+    "guide_fetched_at": "2026-11-21T00:31:17Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0844286",
@@ -4782,7 +4782,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:58Z",
+    "guide_fetched_at": "2026-11-21T00:31:18Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0092752",
@@ -4812,7 +4812,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:59Z",
+    "guide_fetched_at": "2026-11-21T00:31:20Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0838221",
@@ -4846,7 +4846,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:04:59Z",
+    "guide_fetched_at": "2026-11-21T00:31:20Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0083791",
@@ -4879,7 +4879,7 @@
       "Documentary",
       "Sport"
     ],
-    "guide_fetched_at": "2026-10-17T06:24:33Z",
+    "guide_fetched_at": "2026-11-21T00:31:24Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt0060371",
@@ -4913,7 +4913,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:01Z",
+    "guide_fetched_at": "2026-11-21T00:31:25Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0119116",
@@ -4947,7 +4947,7 @@
       "Drama",
       "Western"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:03Z",
+    "guide_fetched_at": "2026-11-21T00:31:29Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0060196",
@@ -4981,7 +4981,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:04Z",
+    "guide_fetched_at": "2026-11-21T00:31:29Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0089218",
@@ -5010,7 +5010,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:04Z",
+    "guide_fetched_at": "2026-11-21T00:31:30Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt2278388",
@@ -5044,7 +5044,7 @@
       "Action",
       "Adventure"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:06Z",
+    "guide_fetched_at": "2026-11-21T00:31:33Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0129167",
@@ -5074,7 +5074,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:08Z",
+    "guide_fetched_at": "2026-11-21T00:31:36Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0095489",
@@ -5104,7 +5104,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:09Z",
+    "guide_fetched_at": "2026-11-21T00:31:38Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0362270",
@@ -5138,7 +5138,7 @@
       "Short",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:09Z",
+    "guide_fetched_at": "2026-11-21T00:31:39Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": null,
     "imdb_id": "tt0093488",
@@ -5161,7 +5161,7 @@
       "Action",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:10Z",
+    "guide_fetched_at": "2026-11-21T00:31:39Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0133093",
@@ -5195,7 +5195,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:11Z",
+    "guide_fetched_at": "2026-11-21T00:31:41Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0107688",
@@ -5228,7 +5228,7 @@
       "Drama",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:11Z",
+    "guide_fetched_at": "2026-11-21T00:31:42Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0073580",
@@ -5241,7 +5241,7 @@
     "omdb_poster": "https://m.media-amazon.com/images/M/MV5BMTgwMWUxYWEtZDA3NC00Y2I4LTgzMGEtMTkwYTE5YzI2ODlmXkEyXkFqcGc@._V1_SX300.jpg",
     "ongoing": false,
     "parents_guide": {
-      "drugs": "None",
+      "drugs": "Mild",
       "frightening": "Mild",
       "profanity": "Mild",
       "sex": "None",
@@ -5262,7 +5262,7 @@
       "Drama",
       "Music"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:11Z",
+    "guide_fetched_at": "2026-11-21T00:31:42Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0253474",
@@ -5296,7 +5296,7 @@
       "Musical",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:12Z",
+    "guide_fetched_at": "2026-11-21T00:31:43Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0086112",
@@ -5310,7 +5310,7 @@
       "drugs": "None",
       "frightening": "None",
       "profanity": "None",
-      "sex": "Mild",
+      "sex": "None",
       "violence": "None"
     },
     "parents_guide_votes": {},
@@ -5326,7 +5326,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:13Z",
+    "guide_fetched_at": "2026-11-21T00:31:44Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0093779",
@@ -5356,7 +5356,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-15T19:29:18Z",
+    "guide_fetched_at": "2026-11-21T00:31:45Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0436689",
@@ -5390,7 +5390,7 @@
       "Drama",
       "Romance"
     ],
-    "guide_fetched_at": "2026-10-09T00:25:11Z",
+    "guide_fetched_at": "2026-11-21T00:31:45Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0114214",
@@ -5423,7 +5423,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:14Z",
+    "guide_fetched_at": "2026-11-21T00:31:47Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0265666",
@@ -5457,7 +5457,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:15Z",
+    "guide_fetched_at": "2026-11-21T00:31:49Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0359950",
@@ -5490,7 +5490,7 @@
       "Biography",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:16Z",
+    "guide_fetched_at": "2026-11-21T00:31:50Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1285016",
@@ -5519,7 +5519,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:16Z",
+    "guide_fetched_at": "2026-11-21T00:31:51Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0367089",
@@ -5553,7 +5553,7 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:17Z",
+    "guide_fetched_at": "2026-11-21T00:31:52Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0088247",
@@ -5583,7 +5583,7 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:17Z",
+    "guide_fetched_at": "2026-11-21T00:31:53Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0084787",
@@ -5617,7 +5617,7 @@
       "Romance",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:18Z",
+    "guide_fetched_at": "2026-11-21T00:31:53Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0155267",
@@ -5650,7 +5650,7 @@
       "Comedy",
       "Talk-Show"
     ],
-    "guide_fetched_at": "2026-10-13T08:56:04Z",
+    "guide_fetched_at": "2026-11-21T00:31:54Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-14",
     "imdb_id": "tt0162118",
@@ -5677,7 +5677,7 @@
       "Comedy",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:18Z",
+    "guide_fetched_at": "2026-11-21T00:31:55Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0120382",
@@ -5711,7 +5711,7 @@
       "Fantasy",
       "Horror"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:19Z",
+    "guide_fetched_at": "2026-11-21T00:31:56Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-PG",
     "imdb_id": "tt0052520",
@@ -5779,7 +5779,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:21Z",
+    "guide_fetched_at": "2026-11-21T00:31:59Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0100944",
@@ -5813,7 +5813,7 @@
       "Family",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:21Z",
+    "guide_fetched_at": "2026-11-21T00:31:59Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0032138",
@@ -5847,7 +5847,7 @@
       "Drama",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:21Z",
+    "guide_fetched_at": "2026-11-21T00:32:00Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "TV-PG",
     "imdb_id": "tt0094582",
@@ -5879,7 +5879,7 @@
     "genre": [
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:18Z",
+    "guide_fetched_at": "2026-11-21T00:31:53Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt0094138",
@@ -5905,6 +5905,33 @@
     "title": "Three O'Clock High",
     "total_seasons": null,
     "year": 1987,
+    "year_end": null
+  },
+  "Totally Minnie": {
+    "genre": [
+      "Family",
+      "Musical"
+    ],
+    "guide_fetched_at": "2026-11-21T00:31:54Z",
+    "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
+    "imdb_certificate": null,
+    "imdb_id": "tt0239147",
+    "imdb_rating": 6.8,
+    "imdb_votes": 128,
+    "kind": "film",
+    "list_title": "Totally Minnie",
+    "metascore": null,
+    "omdb_fetched_at": "2026-11-21T00:31:54Z",
+    "omdb_poster": "https://m.media-amazon.com/images/M/MV5BN2ZmM2U4MWUtMzRiNy00MTM3LWE3ZjgtN2VlNDY4M2ZiZGQ2XkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
+    "ongoing": false,
+    "parents_guide": {},
+    "parents_guide_votes": {},
+    "plot": "This live action film features a Nerd who, in desperation, goes to the \"Minnie Mouse Center for the totally un-hip\". There he learns how to dress, dance, and most importantly - be himself. The film features an original music video...",
+    "rated": null,
+    "runtime_min": null,
+    "title": "Totally Minnie",
+    "total_seasons": null,
+    "year": 1988,
     "year_end": null
   },
   "Trading Places": {
@@ -5944,7 +5971,7 @@
       "Drama",
       "Western"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:18Z",
+    "guide_fetched_at": "2026-11-21T00:31:54Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG-13",
     "imdb_id": "tt1403865",
@@ -5974,7 +6001,7 @@
       "Comedy",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-09T00:28:09Z",
+    "guide_fetched_at": "2026-11-21T00:31:55Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0111503",
@@ -6008,7 +6035,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:18Z",
+    "guide_fetched_at": "2026-11-21T00:31:55Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt3672742",
@@ -6042,7 +6069,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:19Z",
+    "guide_fetched_at": "2026-11-21T00:31:55Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0114746",
@@ -6074,7 +6101,7 @@
     "genre": [
       "Documentary"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:19Z",
+    "guide_fetched_at": "2026-11-21T00:31:56Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Not Rated",
     "imdb_id": "tt5129818",
@@ -6102,7 +6129,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:19Z",
+    "guide_fetched_at": "2026-11-21T00:31:56Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt1049413",
@@ -6132,7 +6159,7 @@
       "Adventure",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:20Z",
+    "guide_fetched_at": "2026-11-21T00:31:57Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0910970",
@@ -6160,7 +6187,7 @@
     "genre": [
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-13T09:38:24Z",
+    "guide_fetched_at": "2026-11-21T00:31:57Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0348333",
@@ -6193,7 +6220,7 @@
       "Drama",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:19Z",
+    "guide_fetched_at": "2026-11-21T00:31:57Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0067541",
@@ -6226,7 +6253,7 @@
       "Adventure",
       "Drama"
     ],
-    "guide_fetched_at": "2026-10-15T18:52:29Z",
+    "guide_fetched_at": "2026-11-21T00:31:57Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "GP",
     "imdb_id": "tt0067959",
@@ -6260,7 +6287,7 @@
       "Drama",
       "Sci-Fi"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:20Z",
+    "guide_fetched_at": "2026-11-21T00:31:58Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0086567",
@@ -6290,7 +6317,7 @@
       "Horror",
       "Thriller"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:20Z",
+    "guide_fetched_at": "2026-11-21T00:31:58Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "Approved",
     "imdb_id": "tt0056687",
@@ -6323,7 +6350,7 @@
       "Comedy",
       "Sport"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:20Z",
+    "guide_fetched_at": "2026-11-21T00:31:58Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0105812",
@@ -6357,7 +6384,7 @@
       "Adventure",
       "Comedy"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:20Z",
+    "guide_fetched_at": "2026-11-21T00:31:58Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "PG",
     "imdb_id": "tt0096438",
@@ -6373,7 +6400,7 @@
       "drugs": "Moderate",
       "frightening": "Moderate",
       "profanity": "Mild",
-      "sex": "Mild",
+      "sex": "Moderate",
       "violence": "Mild"
     },
     "parents_guide_votes": {},
@@ -6391,7 +6418,7 @@
       "Comedy",
       "Family"
     ],
-    "guide_fetched_at": "2026-10-07T08:05:21Z",
+    "guide_fetched_at": "2026-11-21T00:31:59Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "G",
     "imdb_id": "tt0067992",
@@ -6425,7 +6452,7 @@
       "Drama",
       "Fantasy"
     ],
-    "guide_fetched_at": "2026-10-11T04:18:42Z",
+    "guide_fetched_at": "2026-11-21T00:32:00Z",
     "guide_votes_note": "vote breakdown unavailable: schema has no vote field",
     "imdb_certificate": "R",
     "imdb_id": "tt0477139",
